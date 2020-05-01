@@ -22,7 +22,7 @@
 html {
   scroll-behavior: smooth;
   min-height: 100vh;
-  background: #2a3035!important;
+  background: #35322a!important;
 }
 
 .ibb input {
@@ -31,13 +31,13 @@ html {
 
 body {
   margin: 0;
-  background: #2a3035;
-  color: #dce8ea;
+  background: #35322a;
+  color: #e6e6e6;
   font: 16px/1.25 'Roboto';
 }
 
 a {
-  color: #7abdef;
+  color: #efb57a;
   -webkit-text-decoration-skip: ink;
   text-decoration-skip: ink;
 }
@@ -144,7 +144,7 @@ p:last-child {
   max-width: 920px;
   padding: 1.5em;
   margin: 6em 5.5em 1.5em auto;
-  background: #32383e;
+  background: #464036;
   border-radius: 2px;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
               0px 4px 5px 0px rgba(0, 0, 0, 0.14),
@@ -207,13 +207,13 @@ p:last-child {
   padding: .375em 1em;
   margin: .375em auto;
   border-radius: 2px;
-  color: #b3c8d2;
+  color: #d2c3b3;
   font-weight: 500;
   line-height: 1.5;
   text-decoration: none;
 }
 .topbar nav a:hover {
-  background: #303a46;
+  background: #463f35;
 }
 .topbar nav a.active {
   background: rgba(0, 150, 136, 0.16);
@@ -274,7 +274,7 @@ section#nav_preview {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-  color: #5f9ac5;
+  color: #a58352;
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
@@ -471,7 +471,7 @@ input:focus + .md-list .md-list_control::after {
 
 
 .md-list_content-placeholder {
-  color: #96b9c7;
+  color: #c7b396;
   font-size: .875em;
   line-height: 40px;
 }
@@ -561,7 +561,7 @@ input:checked + .md-list + .md-list_hidden {
   align-items: center;
   min-width: 200px;
   margin-right: 2em;
-  color: #b3c8d2;
+  color: #b5ac9c;
 }
 
 .md-panel > .md-list_title .md-icon {
@@ -653,7 +653,7 @@ input:checked + .md-list + .md-list_hidden {
   bottom: 0;
   left: 0;
   height: 1px;
-  background-color: #7f91a27d;
+  background-color: #a2927f7d;
 }
 .md-divider::after {
   content: '';
@@ -697,10 +697,10 @@ input:checked + .md-list + .md-list_hidden {
     margin: 0;
 	font: 1.5em 'Material Icons';
 	transition: 0.2s all;
-	color: #7fc9ff;
+	color: #b5843b;
 }
 .md-input.fullwidth input.clear:hover {
-	color: #35aaff;
+	color: #e6a84b;
 }
 .md-textarea .md-divider,
 .md-input .md-divider {
@@ -714,7 +714,7 @@ input:checked + .md-list + .md-list_hidden {
 .md-input_hint {
   display: block;
   font-size: .75em;
-  color: #6c9bbd;
+  color: #9e845d;
 }
 .md-input_error {
   display: none;
@@ -776,7 +776,7 @@ input:checked + .md-list + .md-list_hidden {
   height: auto;
   padding: 1em;
   margin: 1em;
-  background: #2481c5;
+  background: #c56e24;
   border: 0;
   border-radius: 50%;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -852,7 +852,7 @@ input:checked + .md-list + .md-list_hidden {
 }
 input:checked + .md-checkbox,
 input:checked + .md-radio {
-  color: #28a4ff;
+  color: #e68f23;
   opacity: 1;
 }
 .md-control input:disabled + .md-checkbox,
