@@ -479,7 +479,7 @@ input:focus + .md-list .md-list_control::after {
 .md-list_description {
   clear: both;
   display: block;
-  color: #cc7100;
+  color: #c3b388;
 }
 
 .md-list_hidden {
@@ -920,7 +920,7 @@ input:checked + .md-radio::after {
 }
 
 input:checked + .md-checkbox {
-  color: #007fcc;
+  color: #bd6000;
   background-color: currentColor;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4gICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPiAgICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNOSAxNi4yTDQuOCAxMmwtMS40IDEuNEw5IDE5IDIxIDdsLTEuNC0xLjRMOSAxNi4yeiIvPjwvc3ZnPg==);
   background-size: 100%;
