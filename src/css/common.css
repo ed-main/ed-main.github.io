@@ -992,7 +992,7 @@ input[type=color]:::-moz-color-swatch {
 }
 
 .v-file:not(.disabled):hover {
-  background: #303a46;
+  background: #4a4031;
 }
 
 .v-file.disabled {
