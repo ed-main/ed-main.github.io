@@ -479,7 +479,7 @@ input:focus + .md-list .md-list_control::after {
 .md-list_description {
   clear: both;
   display: block;
-  color: #8ac5e2;
+  color: #cc7100;
 }
 
 .md-list_hidden {
@@ -852,7 +852,7 @@ input:checked + .md-list + .md-list_hidden {
 }
 input:checked + .md-checkbox,
 input:checked + .md-radio {
-  color: #e68f23;
+  color: #bd6000;
   opacity: 1;
 }
 .md-control input:disabled + .md-checkbox,
