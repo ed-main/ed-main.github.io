@@ -1,0 +1,28 @@
+@media screen and (min-width:1200px) {
+#profiles_show .profile-head .c-brief {
+     margin: 50vh auto 0 auto;
+     width: 100%;
+     bottom: 0;
+     text-align: center;
+ }
+ #profiles_show .profile-head .c-brief .avatar {
+     margin: auto auto 7.5rem auto;
+     float: none!important;
+ }
+ #profiles_show .profile-head .c-brief header {
+     margin: -7rem auto 0 auto!important;
+     text-align: center;
+ }
+ #profiles_show .profile-actions {
+     top: 30vh;
+ }
+ #profiles_show .profile-head .c-info .c-additionals {
+     margin: 4.4rem auto auto auto;
+     text-align: center;
+ }
+ #profiles_show .profile-head .c-brief header.head .misc {
+    top: auto;
+    bottom: auto;
+    margin-top: 28vh;
+ }
+ }

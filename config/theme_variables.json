@@ -1,0 +1,219 @@
+{
+  "pallete": {
+    "white_color": {
+      "category": "pallete",
+      "block": "Основные цвета",
+      "name": "Условно белый цвет текста",
+      "description": "ролро лролролролролр олрол ролроооооооо ооооооооо ооооооо ооооооооо ооооооо оооооооо оооооо оооооооооло"
+    },
+    "light_color": {
+      "category": "pallete",
+      "block": "Основные цвета",
+      "name": "Светлый цвет текста",
+      "description": "роооо оооооо ооооооо ооооло ло"
+    },
+    "dark_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Темный цвет текста",
+      "description": "шшшшшшшшшшшшшшшщш гнщщш щшгшщшзщ х хзгш ш щ"
+    },
+    "bright_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Яркий цвет текста и ссылок",
+      "description": ""
+    },
+    "dull_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Тусклый цвет текста",
+      "description": ""
+    },
+        "input_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Фантомные фразы в строках ввода",
+      "description": ""
+    },
+        "hover_buttoms_1": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "При наведении на 'Загрузить еще'",
+      "description": ""
+    },
+        "buttoms_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет больших кнопок в клубе",
+      "description": ""
+    },
+        "hover_buttoms_2": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "При наведении кнопки в клубе",
+      "description": ""
+    },
+        "very_high_rating": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса найвысшего рейтинга",
+      "description": ""
+    },
+        "high_rating": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса высого рейтинга",
+      "description": ""
+    },
+        "average_rating": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса среднего рейтинга",
+      "description": ""
+    },
+        "small_rating": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса низкого рейтинга",
+      "description": ""
+    },
+        "time_filled": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса пройденного времени",
+      "description": ""
+    },
+        "time_empty": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса не пройденного времени",
+      "description": ""
+    },
+        "anime_inprocess": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса запланированного аниме",
+      "description": ""
+    },
+        "anime_complete": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса просмотренного аниме",
+      "description": ""
+    },
+        "manga_inprocess": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса запланирвоанной манги",
+      "description": ""
+    },
+        "manga_complete": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Полоса прочитанной манги",
+      "description": ""
+    },
+        "hover_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Основной цвет при наведении",
+      "description": ""
+    },
+        "shadows_color": {
+      "category": "pallete",
+      "block": "Меню сайта",
+      "name": "Цвет подсказок",
+      "description": ""
+    },
+        "block_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Цвет панелей заголовков",
+      "description": ""
+    },
+        "menu_back": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Основной цвет фона страницы",
+      "description": ""
+    },
+        "nick_cover": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Очертание никнейма",
+      "description": ""
+    },
+        "popup_color": {
+      "category": "pallete",
+      "block": "Цвет ссылок",
+      "name": "Фон всплывающей информации",
+      "description": ""
+    }
+  },
+
+  "calculated": {
+    "color_primary_darker": {
+      "category": "calculated",
+      "name": "Затемненный основной цвет",
+      "description": "Вычисляется как $color_primary + rgba(0,0,0,.12)."
+    },
+    "color_primary_lighter": {
+      "category": "calculated",
+      "name": "Осветленный основной цвет",
+      "description": "Вычисляется как $color_primary + rgba(255,255,255,.12)."
+    },
+    "color_text_on_primary": {
+      "category": "calculated",
+      "name": "Текст на основном цвете",
+      "description": "Цвет текста используемого на элементах, где фоном служит основной цвет."
+    },
+    "color_text_on_accent": {
+      "category": "calculated",
+      "name": "Текст на акцентирующем цвете",
+      "description": "Цвет текста используемого на элементах, где фоном служит акцентирующий цвет."
+    },
+    "color_header_text": {
+      "category": "calculated",
+      "name": "Цвет текста в меню",
+      "description": "Используется как для текста, так и для иконок."
+    },
+    "color_header_background_shade": {
+      "category": "calculated",
+      "name": "Цвет подменю",
+      "description": "Вычисляется как $color_header_background + rgba(0,0,0,.12)."
+    },
+    "color_border_hover": {
+      "category": "calculated",
+      "name": "Цвет границы области при наведении",
+      "description": "Вычисляется как $color_border + rgba(0,0,0,.12)."
+    }
+  },
+  "user": {
+    "id": {
+      "category": "user",
+      "name": "ID пользователя",
+      "description": "Личный идентификатор пользователя указанный в атрибуте data_user_id элемента profile_head."
+    },
+    "image_background": {
+      "category": "user",
+      "name": "Фон сайта",
+      "description": "Пользовательское изображение, используемое в качестве фона сайта."
+    },
+    "image_cover": {
+      "category": "user",
+      "name": "Обложка пользователя",
+      "description": "Пользовательское изображение, используемое в качестве обложки в профиле пользователя."
+    }
+  },
+  "todo": {
+    "color_primary_on_background": {
+      "category": "calculated",
+      "description": "Основной цвет текста на фоновом цвете сайта."
+    },
+    "color_accent_on_background": {
+      "category": "calculated",
+      "description": "Основной цвет текста на фоновом цвете сайта."
+    }
+  }
+}

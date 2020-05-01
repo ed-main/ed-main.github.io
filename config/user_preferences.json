@@ -1,0 +1,21 @@
+{
+  "user_id": 0,
+  "user_cover": "",
+  "user_background": "",
+  "selected_layout": "shikista",
+  "selected_pallete": "lilac_blizzard",
+  "selected_files": {
+    "version.sass": true,
+    "copyright.sass": true,
+    "shikista.sass": false,
+    "sbigshot.sass": false,
+    "over.sass": false,
+    "shikista.sass": false,
+  },
+  "custom_pallete": {},
+  "custom_scheme": {},
+  "custom_file": {
+    "filename": "",
+    "content": ""
+  }
+}

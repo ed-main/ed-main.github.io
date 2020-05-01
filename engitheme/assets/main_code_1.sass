@@ -1,0 +1,9 @@
+
+@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_1.css")
+
+body:after
+  @if $image-background == 'none'
+    background-image: url('https://i.ibb.co/'+$page_img_url+'/back.jpg')
+  @else
+    background-image: $image-background
+	

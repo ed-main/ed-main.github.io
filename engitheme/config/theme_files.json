@@ -1,0 +1,104 @@
+[
+  {
+    "url": "version.sass",
+    "disabled": true,
+    "checked": true,
+    "title": "Информация о версии"
+  },
+  {
+    "url": "main_code_1.sass",
+    "disabled": true,
+    "checked": true,
+    "title": "Главный css темы ч.1"
+  },
+  {
+    "url": "main_code_2.sass",
+    "disabled": true,
+    "checked": true,
+    "title": "Главный css темы ч.2"
+  },
+  {
+    "url": "main_code_3.sass",
+    "disabled": true,
+    "checked": true,
+    "title": "Главный css темы ч.3"
+  },
+  {
+    "url": "main_code_4mob.sass",
+    "disabled": true,
+    "checked": true,
+    "title": "Главный css темы ч.4"
+  },
+    {
+    "url": "prof_form_shikista.sass",
+    "disabled": true,
+    "checked": false,
+    "title": "*Shikista* Формат профиля"
+  },
+    {
+    "url": "prof_form_citrus.sass",
+    "disabled": true,
+    "checked": false,
+    "title": "*Citrus* Формат профиля"
+  },
+    {
+    "url": "prof_form_over.sass",
+    "disabled": true,
+    "checked": false,
+    "title": "*Over* Формат профиля"
+  },
+    {
+    "url": "prof_form_bigshot.sass",
+    "disabled": true,
+    "checked": true,
+    "title": "*BigShot* Формат профиля"
+  },
+  {
+    "url": "colors.sass",
+    "disabled": true,
+    "checked": true,
+    "title": "Информация о версии"
+  },
+  {
+    "url": "q01_alter_menu.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "*Альтернативное расположение элементов меню. Выворачивает наизнанку правое меню профиля."
+  },
+    {
+    "url": "q02_monocolor_citrus_list.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "(*Citrus* ONLY) Однотонные списки аниме и манги"
+  },
+  {
+  "url": "q03_group_achive_per_cent.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Сортировка франшиз по процентам (перестают работать стандартные)"
+  },
+  {
+  "url": "q04_mark_module_for_posters.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Модуль оценок в блоке 'Обо мне'"
+  },
+  {
+  "url": "q05_animated_activity_graph.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Альтернативный анимированный график активности"
+  },
+  {
+  "url": "q06_ava_screen_center.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "(*Over* ONLY) Альтернативное расположения аватарки - по центру экрана."
+  },
+  {
+  "url": "q07_ava_screen_center_addon.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*."
+  }
+]

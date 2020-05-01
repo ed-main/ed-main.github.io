@@ -1,0 +1,407 @@
+.marker {
+    position: absolute;
+    bottom: -8px;
+	left: 50%;
+	margin-right: -50%;
+    background: #32383e;
+    color: #dce8ea;
+    height: 17px;
+	margin: 0 auto;
+	padding: 0px 12px;
+    font-size: 13px;
+    font-weight: 800;
+	text-align: center;
+    border: 1px solid #dce8ea17;
+    z-index: 16;
+    transform: translate(-50%, -50%);
+}
+.w1, .w2, .w3 {
+    display: inline-flex;
+    width: 100%;
+}
+.w1 {
+	height: 3rem;
+}
+.w2 {
+    height: 239px;
+    position: relative;
+}
+.w3 {
+    height: 120px;
+	justify-content: space-around;
+    align-content: space-around;
+}
+.w1 .flexik .hist {
+    width: 30%;
+}
+.histimg.butom {
+	 display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.pagik.fullhd {
+    padding-top: 0.3rem;
+}
+.j1 {
+    width: 20%;
+}
+.j2 {
+    width: 60%;
+}
+.j3 {
+    width: 20%;
+}
+.j1 .flexik, .j3 .flexik {
+	justify-content: unset;
+	padding: 0px 15px;
+}
+.j1 .textdark, .j3 .textdark {
+    margin: 0 27px;
+}
+.j1 .clubz {
+    margin: 7px 11px;
+}
+.j2 .actlines {
+    height: 63px;
+}
+.j2 .acline.normal {
+    margin-top: 35px;
+}
+.j2 .acline.medium {
+    margin-top: 54px;
+}
+.j2 .acline.small {
+    margin-top: 67px;
+}
+.j2 .acline {
+    width: 21.5px;
+}
+.j2 .acttimelent {
+    bottom: -8px;
+}
+.j2 .dotslent .textdark {
+    margin: 0 39px;
+}
+.j2 .timeslent .textdark {
+    margin: 0 31px;
+}
+.j3 .flexik .frend {
+    margin: 4px;
+}
+.j3 .frendik .flexik {
+    padding: 0px 13px;
+}
+
+.k1, .k2 {
+    display: inline-flex;
+    position: relative;
+}
+.k1 {
+    width: 40%;
+    opacity: 0.2;
+    transition: 0.3s all;
+}
+.k1:hover {
+    opacity: 1;
+}
+.k1 > * {
+    position: absolute;
+    display: inline-flex;
+    vertical-align: top;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.k2 {
+    width: 20%;
+    vertical-align: top;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.k2 .ava {
+    height: 135px;
+}
+.k2 .textwhite {
+    width: 100px;
+    height: 23px;
+    border: 3px solid;
+    border-radius: 7px;
+}
+
+.l-list {
+    top: 79px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(58, 65, 72, 0.8);
+}
+.l-same {
+    top: 125px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.l-trash {
+    top: 109px;
+    width: 89px;
+    border-radius: 50%;
+    height: 50px;
+    background: rgba(199, 45, 45, 0.8);
+    border: 3px solid rgba(45, 33, 8, 0.28);
+}
+.l-paused {
+    top: 127px;
+    width: 101px;
+    height: 18px;
+    border-radius: 10px;
+    background: #ab5d0b;
+    border: 3px solid rgba(45, 33, 8, 0.28);
+}
+.l-planned {
+    top: 97px;
+    width: 101px;
+    height: 18px;
+    border-radius: 10px;
+    background: #1948b5;
+    border: 3px solid rgba(40, 49, 105, 0.3);
+}
+.l-inpocess {
+    top: 112px;
+    width: 101px;
+    height: 18px;
+    border-radius: 10px;
+    background: #4c30bd;
+    border: 2px solid rgba(61, 40, 105, 0.28);
+}
+.l-ready {
+    top: 83px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid rgba(24, 53, 22, 0.28);
+}
+.l-list .l-number, .l-same .l-number {
+    width: 10px;
+    height: 10px;
+    background: rgba(234, 232, 232, 0.5);
+    border-radius: 3px;
+}
+.l-ready .l-number {
+    width: 33px;
+    height: 16px;
+    border-radius: 9px;
+}
+
+.l-anime .l-list {
+    right: 4px;
+    border: 2px solid rgba(30, 95, 17, 0.68);
+}
+.l-anime .l-same {
+    right: 4px;
+    background: rgba(59, 177, 1, 0.5);
+    border: 3px solid rgba(30, 95, 17, 0.68);
+}
+.l-anime .l-trash {
+    right: 41px;
+}
+.l-anime .l-paused {
+    right: 77px;
+}
+.l-anime .l-planned {
+    right: 77px;
+}
+.l-anime .l-inpocess {
+    right: 85px;
+}
+.l-anime .l-ready {
+    right: 22px;
+    background: #238022;
+}
+.l-anime .l-ready .l-number {
+    background: #daead991;
+}
+
+.l-manga .l-list {
+    left: 4px;
+    border: 3px solid rgba(123, 22, 89, 0.7);
+}
+.l-manga .l-same {
+    left: 4px;
+    background: rgba(222, 44, 100, 0.5);
+    border: 3px solid rgba(123, 22, 89, 0.7);
+}
+.l-manga .l-trash {
+    left: 41px;
+}
+.l-manga .l-paused {
+    left: 77px;
+}
+.l-manga .l-planned {
+    left: 77px;
+}
+.l-manga .l-inpocess {
+    left: 85px;
+}
+.l-manga .l-ready {
+    left: 22px;
+    background: #a92661;
+}
+.l-manga .l-ready .l-number {
+    background:#daead991;
+}
+.k3, .k4 {
+    position: absolute;
+    bottom: 0;
+}
+.k3 {
+    width: 100%;
+    height: 36px;
+    vertical-align: top;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    display: inline-flex;
+    bottom: 0;
+}
+.k3 .textlight {
+    height: 5px;
+    border: 1px solid;
+}
+.textlight.g1 {
+    width: 30%;
+    margin: 0 35%;
+}
+.textlight.g2 {
+    width: 10%;
+    margin: 0 0 0 25%;
+}
+.textlight.g3 {
+    width: 40%;
+    margin: 0 24% 0 1%;
+}
+.k4 {
+    right: 0;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pre-citrus-2 .w2 {
+    margin: 8px 0 13px;
+}
+.pre-citrus-2 .s2 {
+    width: 52%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 147px;
+    padding-bottom: 4px;
+}
+.pre-citrus-2 .j2 {
+    width: 48%;
+    padding-left: 6px;
+}
+.histblock, .frendblock, .clubblock {
+    position: relative;
+}
+.histblock .hist {
+    margin: 0;
+}
+.histblock .subline {
+    position: absolute;
+    top: 0;
+    left: 3px;
+    width: 20px;
+    padding: 0;
+    height: 96%;
+    margin: 4px 0;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.frendndclubik .subline {
+    position: absolute;
+    justify-content: space-around;
+    top: 0;
+    left: 3px;
+    width: 20px;
+    padding: 0;
+    height: 100%;
+}
+.pre-citrus-2 .subline .textdark {
+    display: inline-flex;
+    width: 5px;
+    height: 85%;
+}
+
+.histblock .hist {
+    margin: 0;
+}
+.pre-citrus-2 .histblock .flexik { 
+    height: 100%;
+    padding-left: 30px;
+}
+.pre-citrus-2 .frendndclubik .flexik {
+    height: 100%;
+    padding-left: 21px;
+}
+.frendblock, .clubblock {
+    height: 45%;
+    margin: 5px 0 2px;
+}
+.frendndclubik .flexik {
+    height: 50%;
+}
+.frendndclubik .flexik {
+    height: 100%;
+}
+.frendblock .flexik .frend {
+    width: 22px;
+    height: 22px;
+}
+
+.pre-citrus-2 .j2 .actlines {
+    height: 77px;
+}
+.pre-citrus-2 .j2 .acline {
+    width: 17px;
+}
+.pre-citrus-2 .j2 .acline.normal {
+    margin-top: 38px;
+}
+.pre-citrus-2 .j2 .acline.medium {
+    margin-top: 62px;
+}
+.pre-citrus-2 .j2 .acline.small {
+    margin-top: 77px;
+}
+.pre-citrus-2 .j2 .timeslent .textdark {
+    margin: 0 22px;
+}
+.pre-citrus-2 .j2 .dotslent .textdark {
+    margin: 0 30px;
+}
+.pre-citrus-2 .le1.textdark {
+    width: 40%;
+    margin-right: 127px;
+}
+.pre-citrus-2 .acttimelent .textdark {
+    width: 16px;
+    margin: 0 26px;
+}
+.pre-citrus-2 .j2 .acttimelent {
+    bottom: 0;
+}

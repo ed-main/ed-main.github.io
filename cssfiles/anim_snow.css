@@ -1,0 +1,20 @@
+body:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.ibb.co/0McvHG5/TpOI4DC.png'), url('https://i.ibb.co/tY6xvxh/92lgmBN.png'), url('https://i.ibb.co/GCfHmrn/ACiIkIG.png');
+    background-size: 250px, 200px, 150px;
+    animation: snow 10s linear infinite;
+  z-index:1;
+}
+@keyframes snow { 
+  0% { 
+    background-position: 0px 0px, 0px 0px, 0px 0px; 
+  } 
+  100% { 
+    background-position: 250px 500px, 200px 600px, 300px 300px; 
+  }
+}

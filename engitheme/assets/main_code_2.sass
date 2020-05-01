@@ -1,0 +1,7 @@
+@import url("https://raw.githubusercontent.com/dragenge/dragenge.github.io/master/cssfiles/main_code_2.css")
+
+.l-footer:after
+  @if $style_names == 'none'
+    content: "*"+$style_name+"*"
+  @else
+    content: "*"+$style_names+"*"

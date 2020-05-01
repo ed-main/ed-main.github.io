@@ -1,0 +1,161 @@
+@media screen and (min-width: 1200px) {
+
+.l-top_menu-v2 .menu-dropdown.profile .submenu {
+    opacity: 1;
+    pointer-events: auto;
+}
+.l-top_menu-v2 .menu-dropdown.profile .submenu>.legend, .l-top_menu-v2 .menu-dropdown.profile .submenu span.text, .l-top_menu-v2 .menu-dropdown.profile span.nickname, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:after {
+    display: none;
+}
+.l-top_menu-v2 .menu-dropdown.profile a.icon-sign_out {
+    font-size: 0;
+}
+
+.l-top_menu-v2 .menu-dropdown.profile > span {
+    width: 500px;
+      min-width: unset;
+    max-width: unset;
+}
+  .l-top_menu-v2 .menu-icon.mail {
+    position: absolute;
+    top: 0;
+    right: 290px;
+    z-index: 1;
+}
+  .l-top_menu-v2 .menu-icon.mail:after {
+    margin: 8px 10px 6px;
+  }
+.l-top_menu-v2 .menu-dropdown.profile .submenu {
+    left: 45px;
+    top: 0;
+    opacity: 1;
+    pointer-events: auto;
+    width: calc(100% - 60px);
+    display: flex!important;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    height: 100%;
+    background: none;
+}
+.l-top_menu-v2 .menu-dropdown.profile .submenu > a {
+    display: inline-flex;
+      justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.l-top_menu-v2 .menu-dropdown.profile .submenu > a:before {
+    width: 45px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+}
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:before, .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:before {
+    font-family: 'FontAwesome';
+    padding-top: 0px;
+}
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:hover:before, .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:hover:before {
+    opacity: 0.6;
+}
+ .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:after, .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:after {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 11px;
+}
+ .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:before {
+    content: '\\_f008';
+    width: 55px;
+    color: rgba(159, 255, 189, 0.2);
+   font-size: 25px;
+   margin-top: -2px;
+    position: relative;
+   
+} 
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:after {
+    content: 'АНИМЕ';
+}
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:before {
+    content: '\\_f02d';
+    width: 55px;
+    color: rgba(255, 142, 191, 0.2);
+    font-size: 27px;
+} 
+  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:after {
+    content: 'МАНГА';
+}
+a.icon-anime_list {
+    order: 1;
+}
+a.icon-manga_list {
+    order: 2;
+}
+a.icon-mail {
+    order: 3;
+}
+a.icon-settings {
+    order: 4;
+}
+a.icon-achievements {
+    order: 5;
+}
+a.icon-clubs {
+    order: 6;
+}
+a.icon-site_rules {
+    order: 7;
+}
+a.icon-faq {
+    order: 8;
+}
+a.icon-sign_out {
+    order: 9;
+}
+    .l-top_menu-v2 .menu-dropdown>span a {
+    width: 60px;
+    flex-grow: unset;
+        border-radius: 50%;
+}
+.l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle img {
+    box-shadow: none!important;
+}
+    .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover img {
+    box-shadow: 0px 0px 0px 2.5px rgba(var(--hover-color), 1)!important;
+}
+.l-top_menu-v2 .menu-dropdown.profile > span, .l-top_menu-v2 .menu-dropdown.profile > span:focus, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile > span:hover, .l-top_menu-v2 .profile .submenu > a:hover, .l-top_menu-v2 .profile .submenu > a.active:hover, .l-top_menu-v2 .menu-dropdown.profile .submenu {
+    background: none!important;
+
+}
+    .l-top_menu-v2 .global-search .search-results {
+    max-width: 800px;
+    min-width: 800px;
+    left: -150px;
+}
+}
+
+    @media only screen and (min-width: 1340px) {
+        .l-top_menu-v2 .global-search .search-results {
+    max-width: 800px;
+    min-width: 800px;
+    left: -190px;
+}
+  
+}
+@media only screen and (min-width: 1824px) {
+       
+        .l-top_menu-v2 .global-search .search-results {
+    max-width: 100%;
+    min-width: 800px;
+    left: 0px;
+}
+  
+}
+  
