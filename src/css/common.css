@@ -177,7 +177,7 @@ p:last-child {
 }
 
 [data-env='beta'] .topbar-title::after {
-  content: ' beta';
+  content: ' expr';
 }
 
 .topbar {
