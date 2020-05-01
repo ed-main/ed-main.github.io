@@ -852,7 +852,7 @@ input:checked + .md-list + .md-list_hidden {
 }
 input:checked + .md-checkbox,
 input:checked + .md-radio {
-  color: #bd6000;
+  color: #de8500;
   opacity: 1;
 }
 .md-control input:disabled + .md-checkbox,
