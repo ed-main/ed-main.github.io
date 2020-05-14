@@ -594,7 +594,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://dragenge.github.io/engitheme'
+        base = 'https://edesign-admin.github.io/engitheme'
       } else {
         base = '' + branch;
       }
@@ -683,7 +683,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://dragenge.github.io/engitheme', function(list) {
+      XHR('https://edesign-admin.github.io/engitheme', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
@@ -758,7 +758,7 @@ var vm = new Vue({
 
     // Загрузка файлов
     switchDisabled(document.getElementById('create_css'));
-    this.switchBranches(window.location.hostname == 'dragenge.github.io/engitheme' ? 'master' : 'main');
+    this.switchBranches(window.location.hostname == 'edesign-admin.github.io/engitheme' ? 'master' : 'main');
   },
 });
 
