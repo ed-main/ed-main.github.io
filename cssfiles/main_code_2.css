@@ -894,6 +894,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
  
   .l-footer {
     position: relative;
+    display: flex;
     margin: 0px 0px;
     bottom: 0px;
     padding: 0;
@@ -926,6 +927,12 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     margin: 5px;
     color: rgba(var(--bright-color), 0.5);
 }
+ .l-footer .copyright {
+    color: rgba(var(--dark-color), 0.6);
+    font: bold 10px 'Comfortaa';
+   order: 4;
+    padding: 0;
+  }
   .b-subposter-action.invite.b-tooltipped, label.b-subposter-action.upload.b-tooltipped {
     color:  rgba(var(--bright-color), var(--hundred));
   }
