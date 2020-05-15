@@ -891,6 +891,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     display: none;
   }
   
+ 
   .l-footer {
     position: relative;
     margin: 0px 0px;
@@ -899,47 +900,32 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     background: none;
   }
   body#profiles_show .l-footer {
-    margin: 15px 15px 0;
-    bottom: 7px;
+    padding: 15px 20px 10px;
+   
   }
-  .l-footer .copyright {
+.l-footer:before {
+    order: 1;
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
-    position: absolute;
-    right: 5px;
-  }
-body.p-achievements.p-profiles .l-footer .copyright {
-color:rgba(214, 144, 16, 0.48);
+ }
+.l-footer:after {
+    order: 2;
+    color: rgba(var(--dark-color), 0.6);
+    font: bold 10px 'Comfortaa';
+    margin-left: 5px;
 }
-  .l-footer .links {
-    clear: both;
+.l-footer .links {
+    order: 3;
+    flex-grow: 1;
     display: inline-block;
-    width: 100%;
     vertical-align: top;
     text-align: center;
     font: bold 10px 'Comfortaa';
-   }
-  .l-footer .links a {
+}
+ .l-footer .links a {
     margin: 5px;
     color: rgba(var(--bright-color), 0.5);
-   }
-body.p-achievements.p-profiles .l-footer .links a {
-    color: rgba(255, 195, 84, 0.48);
 }
-  .l-footer:before {
-    position: absolute;
-    left: 5px;
-    bottom: 0;
-    color: rgba(var(--dark-color), 0.6);
-    font: bold 10px 'Comfortaa';
-  }
-  .l-footer:after {
-    position: absolute;
-    left: 83px;
-    bottom: 0;
-    color: rgba(var(--dark-color), 0.6);
-    font: bold 10px 'Comfortaa';
-  }
   .b-subposter-action.invite.b-tooltipped, label.b-subposter-action.upload.b-tooltipped {
     color:  rgba(var(--bright-color), var(--hundred));
   }
