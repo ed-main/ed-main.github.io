@@ -900,10 +900,11 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     padding: 0;
     background: none;
   }
-  body#profiles_show .l-footer {
-    padding: 15px 20px 10px;
-   
-  }
+
+  /*body#profiles_show .l-footer {
+    padding: 15px 20px 10px; 
+  }*/
+
 .l-footer:before {
     order: 1;
     color: rgba(var(--dark-color), 0.6);
