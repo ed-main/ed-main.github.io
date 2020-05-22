@@ -579,8 +579,6 @@
 @media screen and (min-width: 1290px) {
     .p-profiles-show .cc-9-g15 > .c-column,
     .p-profiles-show .cc-9-g0 > .c-column {
-        width: -webkit-calc(100% / 12 - 0.1 * 0.1em - 1 * 0.8%);
-        width: -o-calc(100% / 12 - 0.1 * 0.1em - 1 * 0.8%);
         width: calc(100% / 12 - 0.1 * 0.1em - 1 * 0.8%);
         max-width: 100%;
         margin: 0 0.4% 20px 0.4% !important;
@@ -588,8 +586,6 @@
     }
     .p-profiles-show .cc-8-g0 > .c-column,
     .p-profiles-show .cc-8-g15 > .c-column {
-        width: -webkit-calc(100% / 11 - 0.1 * 0.1em - 1 * 0.8%);
-        width: -o-calc(100% / 11 - 0.1 * 0.1em - 1 * 0.8%);
         width: calc(100% / 11 - 0.1 * 0.1em - 1 * 0.8%);
         max-width: 100%;
         margin: 0 0.4% 20px 0.4% !important;
@@ -597,8 +593,6 @@
     }
     .p-profiles-show .cc-7-g15 > .c-column,
     .p-profiles-show .cc-7-g0 > .c-column {
-        width: -webkit-calc(100% / 10 - 0.1 * 0.1em - 1 * 0.8%);
-        width: -o-calc(100% / 10 - 0.1 * 0.1em - 1 * 0.8%);
         width: calc(100% / 10 - 0.1 * 0.1em - 1 * 0.8%);
         max-width: 100%;
         margin: 0 0.4% 20px 0.4% !important;
@@ -606,16 +600,12 @@
     }
     .p-profiles-show .cc-6-g15 > .c-column,
     .p-profiles-show .cc-6-g0 > .c-column {
-        width: -webkit-calc(100% / 9 - 0.1 * 0.1em - 1 * 0.8%);
-        width: -o-calc(100% / 9 - 0.1 * 0.1em - 1 * 0.8%);
         width: calc(100% / 9 - 0.1 * 0.1em - 1 * 0.8%);
         max-width: 100%;
         margin: 0 0.4% 20px 0.4% !important;
         clear: right !important;
     }
     .p-profiles-show .cc-5 > .c-column {
-        width: -webkit-calc(100% / 8 - 0.1 * 0.1em - 1 * 0.8%);
-        width: -o-calc(100% / 8 - 0.1 * 0.1em - 1 * 0.8%);
         width: calc(100% / 8 - 0.1 * 0.1em - 1 * 0.8%);
         max-width: 100%;
         margin: 0 0.4% 20px 0.4% !important;
