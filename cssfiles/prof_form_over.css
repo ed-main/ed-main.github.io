@@ -577,7 +577,7 @@
 
 
 
-@media screen and (min-width: 1290px) {
+/*@media screen and (min-width: 1290px) {
 
       #profiles_show .cc-9-g15>.c-column {
         width: 8.65%!important;
@@ -616,7 +616,9 @@
     #profiles_show .cc-8-g15>.c-column:nth-child(9n) {
         margin-right: 0;
     }
-  }
+  }*/
+
+
 @media screen and (min-width: 1290px) and (max-width: 1829px) {
   #profiles_show .profile-head .c-brief .avatar {
     margin: -9vh 0 0 5rem;
