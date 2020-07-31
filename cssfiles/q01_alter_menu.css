@@ -132,6 +132,7 @@ a.icon-sign_out {
 }
 .l-top_menu-v2 .menu-dropdown.profile > span, .l-top_menu-v2 .menu-dropdown.profile > span:focus, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle, .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile.active .submenu-triangle:hover, .l-top_menu-v2 .menu-dropdown.profile > span:hover, .l-top_menu-v2 .profile .submenu > a:hover, .l-top_menu-v2 .profile .submenu > a.active:hover, .l-top_menu-v2 .menu-dropdown.profile .submenu {
     background: none!important;
+    box-shadow: none;
 
 }
     .l-top_menu-v2 .global-search .search-results {
