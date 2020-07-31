@@ -1,6 +1,6 @@
 /*2104*/
 .l-footer:before {
-    content: 'E-design *Experimental*';
+    content: 'E-design v.4.2';
 }
 .b-club .name-logo .name {
     transition: 1s ease;
@@ -891,48 +891,54 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     display: none;
   }
   
- 
   .l-footer {
     position: relative;
-    display: flex;
     margin: 0px 0px;
     bottom: 0px;
     padding: 0;
     background: none;
   }
-
-  /*body#profiles_show .l-footer {
-    padding: 15px 20px 10px; 
-  }*/
-
-.l-footer:before {
-    order: 1;
+  body#profiles_show .l-footer {
+    margin: 15px 15px 0;
+    bottom: 7px;
+  }
+  .l-footer .copyright {
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
- }
-.l-footer:after {
-    order: 2;
-    color: rgba(var(--dark-color), 0.6);
-    font: bold 10px 'Comfortaa';
-    margin-left: 5px;
+    position: absolute;
+    right: 5px;
+  }
+body.p-achievements.p-profiles .l-footer .copyright {
+color:rgba(214, 144, 16, 0.48);
 }
-.l-footer .links {
-    order: 3;
-    flex-grow: 1;
+  .l-footer .links {
+    clear: both;
     display: inline-block;
+    width: 100%;
     vertical-align: top;
     text-align: center;
     font: bold 10px 'Comfortaa';
-}
- .l-footer .links a {
+   }
+  .l-footer .links a {
     margin: 5px;
     color: rgba(var(--bright-color), 0.5);
+   }
+body.p-achievements.p-profiles .l-footer .links a {
+    color: rgba(255, 195, 84, 0.48);
 }
- .l-footer .copyright {
+  .l-footer:before {
+    position: absolute;
+    left: 5px;
+    bottom: 0;
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
-   order: 4;
-    padding: 0;
+  }
+  .l-footer:after {
+    position: absolute;
+    left: 83px;
+    bottom: 0;
+    color: rgba(var(--dark-color), 0.6);
+    font: bold 10px 'Comfortaa';
   }
   .b-subposter-action.invite.b-tooltipped, label.b-subposter-action.upload.b-tooltipped {
     color:  rgba(var(--bright-color), var(--hundred));
@@ -3234,7 +3240,68 @@ body.p-profiles .mass-actions .action a:hover:AFTER {
     color: #f1d1b5;
     background: #ab442d9e;
 }
+.p-dashboards-show .v2 .my-list {
+    background: rgba(var(--block-color), 0.6);
+    border: 0;
+    padding: 4px 13px 11px;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+}
+.b-user_rate-history .title {
     
     
+    font-weight: 700;
+   
+    color: rgba(var(--white-color), var(--hundred));
+}
+.p-dashboards-show .v2 .my-list .label {
+    color: rgba(var(--dark-color), var(--hundred));
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a, .p-dashboards-show .v2 .my-list .label .misc-links a:after {
+    color: rgba(var(--bright-color), var(--hundred));
+}
+.b-user_rate-history .status-counter {
+    color: rgba(var(--dark-color), var(--hundred)); 
+}
+.b-user_rate-history .score-time .stars-container .score {
+    color: rgba(var(--white-color), var(--hundred));
+}
+.b-user_rate-history .score-time .stars-container .background {
+    color: rgba(var(--block-color), 0.4);
+}
+.p-dashboards-show .v2 .fc-user-sections .tag-link {
+        line-height: 24px;
+    margin: 8px 0 0 10px;
+    padding: 0 12px;
+    border: 0!important;
+}
+.p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
+    color: #cae4ff;
+    background: linear-gradient(45deg, #3f6f9ebd 0%, #425571a8 50%, #326098c9);
+    
+    
+}
+    
+.p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag {
+    color: #bef1cd;
+    background: linear-gradient(45deg, #34804dbd 0%, #427153a8 50%, #298451c9);
+    
+   
+}
+
+.p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
+   
+color: #ffcacd;
+    background: linear-gradient(45deg, #a05050bd 0%, #6b3f3fbd 50%, #ad5353bd);
+    
+}
+.b-news_line-topic .status-line, .p-animes-show .c-info-right .watch-online .kind, .p-mangas-show .c-info-right .watch-online .kind, .p-ranobe-show .c-info-right .watch-online .kind {
+    color: rgba(var(--dark-color), var(--hundred));
+}
+.p-animes-show .c-info-right .watch-online .b-link_button, .p-mangas-show .c-info-right .watch-online .b-link_button, .p-ranobe-show .c-info-right .watch-online .b-link_button {
+    max-width: 200px;
+    width: 100%;
+    justify-content: center;
+}
 
 
