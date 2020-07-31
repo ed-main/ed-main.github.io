@@ -199,13 +199,24 @@ body:after {
   line-height: 1.65;
 }
 
-/* цвет вкладок под никнеймом */
-.b-link {
-  color:  rgba(var(--bright-color), var(--hundred)) !important;
-  cursor: pointer;
+
+
+
+
+.b-mention, .b-mention s {
+  bottom: 1px;
+  position: relative;
 }
 
-.b-link:hover {
+/* цвет вкладок под никнеймом */
+.b-link, .b-mention, .b-mention:before, .b-mention s, .b-mention span {
+  color:  rgba(var(--bright-color), var(--hundred)) !important;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.b-link:hover, .b-mention:hover, .b-mention:hover:before, .b-mention:hover span, .b-mention s:hover {
+   text-decoration: none !important;
   color:  rgba(var(--hover-color), var(--hundred)) !important;
 }
 
@@ -917,9 +928,7 @@ a.name:hover {
   font-size: 13px !important;
 }
 
-.b-mention {
-  color:  rgba(var(--white-color), var(--hundred));
-}
+
 
 /* название в новостях */
 .b-message > .inner header .name-date a.name {
@@ -2414,16 +2423,6 @@ body#dashboards_show .l-page {
   margin: 40px auto 15px;
 }
 
-.b-mention:hover span, .b-mention s:hover {
-  text-decoration: none !important;
-  color:  rgba(var(--hover-color), var(--hundred)) !important;
-}
-
-.b-mention, .b-mention s {
-  color:  rgba(var(--bright-color), var(--hundred));
-  bottom: 1px;
-  position: relative;
-}
 
 .p-studios .studio .name {
   color:  rgba(var(--white-color), var(--hundred));
