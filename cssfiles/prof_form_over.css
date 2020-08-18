@@ -191,7 +191,7 @@
     content: 'Друзья и Клубы';
     padding: 0;
     opacity: .6;
-    top: 18.375rem;
+    top: 18.82rem;
     left: 0.25rem;
     line-height: 2;
     font-size: 13px;
@@ -396,7 +396,7 @@
     content: '';
     position: absolute;
     width: 139px;
-    top: -2.5rem;
+    top: -0.2rem;
     transition: 0.8s ease-in-out;
     border-radius: 6px;
     background: transparent;
@@ -440,7 +440,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    margin: -15.44rem 0 0 32.98rem;
+    margin: -15.85rem 0 0 32.98rem;
     padding: 10px 8px;
     width: 320px;
     height: 245px;
