@@ -518,6 +518,7 @@
   }
   #profiles_show .cc-2a > .c-column {
     width: 100%;
+    z-index: 50;
   }
   #profiles_show .cc-favourites .c-column {
     display: inline-block;
@@ -566,6 +567,7 @@
   }
   #profiles_show .cc-friends .b-user {
     margin: 1% .5% 1% .5% !important;
+    z-index: 50;
   }
   #profiles_show .b-clubs {
     min-height: 55px;
