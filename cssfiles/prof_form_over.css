@@ -554,7 +554,8 @@
     padding-left: .5%;
     padding-right: .5%;
   }
-  #profiles_show .b-comment img.b-poster {
+  #profiles_show .b-comment img.b-poster,
+  #profiles_show .b-comment .b-image.b-poster img {
     max-width: 1000px;
     width: 100%;
   }
