@@ -594,7 +594,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://gm-c.github.io/engitheme'
+        base = 'https://edesign-admin.github.io/engitheme'
       } else {
         base = '' + branch;
       }
@@ -683,7 +683,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://gm-c.github.io/engitheme', function(list) {
+      XHR('https://edesign-admin.github.io/engitheme', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
