@@ -594,7 +594,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://edesign-admin.github.io/engitheme'
+        base = 'https://Cosmo-admin.github.io/engitheme'
       } else {
         base = '' + branch;
       }
