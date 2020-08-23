@@ -1,3 +1,4 @@
+
 // Сборщик shiki-builder
 // Инструмент для сборки shiki-theme для сайта shikimori.org
 // https://github.com/grin3671/shiki-theme
