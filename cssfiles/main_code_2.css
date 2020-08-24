@@ -396,10 +396,7 @@
   
 
   
-  h3 {
-    color:  rgba(var(--light-color), var(--hundred));
-    border-bottom: 1px solid  rgba(var(--dull-color), var(--hundred));
-  }
+
   
   .p-animes_collection-index .pagination .link.disabled:hover, .p-mangas_collection-index .pagination .link.disabled:hover, .p-recommendations-index .pagination .link.disabled:hover, .p-userlist_comparer-show .pagination .link.disabled:hover {
     box-shadow: none;
