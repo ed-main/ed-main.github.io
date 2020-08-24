@@ -391,12 +391,12 @@
     pointer-events: none;
   }
   #profiles_show .profile-content > .cc-2 .c-column .cc-2a.m30:after {
-    height: 20.8rem;
+    height: 23rem;
     left: 0;
     content: '';
     position: absolute;
     width: 139px;
-    top: -0.2rem;
+    top: -2rem;
     transition: 0.8s ease-in-out;
     border-radius: 6px;
     background: transparent;
@@ -405,7 +405,7 @@
   }
   #profiles_show .profile-content > .cc-2 .c-column .cc-2a.m30:hover:after {
     z-index: 25;
-    height: 2.4rem;
+    height: 2.25rem;
   }
   #profiles_show .profile-head {
     position: relative;
