@@ -594,7 +594,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = '/engitheme'
+        base = 'https://gm-c.github.io/engitheme'
       } else {
         base = '' + branch;
       }
@@ -683,7 +683,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('/engitheme', function(list) {
+      XHR('https://gm-c.github.io/engitheme', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
@@ -758,7 +758,7 @@ var vm = new Vue({
 
     // Загрузка файлов
     switchDisabled(document.getElementById('create_css'));
-    this.switchBranches(window.location.hostname == '/engitheme' ? 'master' : 'main');
+    this.switchBranches(window.location.hostname == 'https://gm-c.github.io/engitheme' ? 'master' : 'main');
   },
 });
 
