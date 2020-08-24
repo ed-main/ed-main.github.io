@@ -1,0 +1,28 @@
+.b-spoiler_block>div {
+    background-color: rgba(var(--block-color), 0.3);
+    border-left: 0;
+}
+.b-spoiler_block>button {
+    color: rgba(var(--white-color), var(--hundred)) !important;
+    background-color: rgba(var(--block-color), 0.5);
+    color: #fff;
+    display: inline-flex;
+    font-size: 13px;
+    line-height: 26px;
+    border-radius: 10px;
+    padding: 0 10px;
+    transition: 0.2s all;
+}
+.b-spoiler_block.is-opened>button {
+    border-radius: 7px 7px 0 0;
+}
+.b-spoiler_block>button:active {
+    background-color: rgba(var(--hover-buttoms-2), 0.6);
+}
+@media screen and (min-width: 1024px) {
+.b-spoiler_block>button:hover {
+    
+    background-color: rgba(var(--hover-buttoms-2), 0.6);
+    color: #e4e4e4 !important;
+}
+}
