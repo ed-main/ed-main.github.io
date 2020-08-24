@@ -1,6 +1,7 @@
 /*2104*/
 .l-footer:before {
     content: 'E-design v.4.2';
+    content: 'E-design *Experimental*';
 }
 .b-club .name-logo .name {
     transition: 1s ease;
