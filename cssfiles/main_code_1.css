@@ -1786,6 +1786,11 @@ p-userlist_comparer .comparer table a {
     right: 0;
     top: 0;
 }
+code.b-code_inline {
+    background-color: #263238b5;
+    border: 1px solid #263238b5;
+    color: #ff678e;
+}
 .tooltip-inner .close {
   color:  rgba(var(--bright-color), var(--hundred));
   background: none;
