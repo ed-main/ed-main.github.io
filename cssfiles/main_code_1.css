@@ -753,27 +753,27 @@ textarea {
 
 /* цвет кнопки написать */
 .b-form input[type=submit], .b-shiki_editor.previewed footer .unpreview, .b-poll .poll-actions .vote, .b-poll .poll-actions .abstain, a.stop.b-button, .b-button, .b-form .cancel, .b-button.preview, a.start.b-button, .b-form input[type=submit][disabled], .b-form input[type=submit].disabled, .block.edit-page.pages a.cancel, .b-shiki_editor footer .hide {
-  padding: 6px 11px;
+  padding: 7px 12px;
   line-height: 1;
   font-family: 'Comfortaa';
   color:  rgba(var(--light-color), var(--hundred)) !important;
-  background-color: rgba(var(--block-color), 0.4);
-  border-radius: 11px !important;
+  background-color: rgba(var(--block-color), 0.5);
+  border-radius: 10px !important;
   transition: 0.3s ease-out;
   border: none;
-  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
 }
 
 .b-form input[type=submit]:hover, .b-shiki_editor footer .preview:hover, .b-shiki_editor.previewed footer .unpreview:hover, .b-poll .poll-actions .vote:hover, .b-poll .poll-actions .abstain:hover, a.stop.b-button:hover, .b-button:hover, .b-form .cancel:hover, .b-button.preview:hover, a.start.b-button:hover, .b-form input[type=submit][disabled]:hover, .b-form input[type=submit].disabled:hover, .block.edit-page.pages a.cancel:hover, .b-shiki_editor footer .hide:hover {
   background-color: rgba(var(--hover-buttoms-2), 0.6);
   color: #e4e4e4 !important;
-  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
   opacity: 1;
 }
 
 .b-shiki_editor footer input[type=submit], .b-shiki_editor footer .unpreview, .b-shiki_editor footer .preview, .b-shiki_editor footer .hide, .b-shiki_editor footer .cancel {
   margin: 0 20px 10px 0;
-  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1) !important;
 }
 
 .b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover {
@@ -908,7 +908,7 @@ header.head a.misc:hover {
 
 a {
   color:  rgba(var(--white-color), var(--hundred));
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 
 a:hover {
@@ -1017,7 +1017,7 @@ tr.user_rate.selectable.editable:after {
 
 .c-brief header.head .notice, .c-brief header.head .misc, .c-brief header.head a.edit, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles .profile-head .c-brief header .notice a {
   color:  rgba(var(--light-color), var(--hundred)) !important;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 
 .p-profiles .profile-head .c-brief header .notice span:after {
@@ -1038,7 +1038,7 @@ tr.user_rate.selectable.editable:after {
   border: 2px dashed rgba(165, 170, 230, 0.2);
   border-radius: 6px;
   padding: 0px 6px;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 
 .b-spoiler {
@@ -1190,7 +1190,7 @@ input, select, button, textarea {
 }
 
 .c-actions .new_comment:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
@@ -1199,7 +1199,7 @@ input, select, button, textarea {
 }
 
 .c-actions .new_review:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
@@ -1209,7 +1209,7 @@ input, select, button, textarea {
 
 .c-actions .fav-add:before {
   color:  rgba(var(--bright-color), var(--hundred));
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 
 .c-actions .fav-add:hover:before {
@@ -1217,7 +1217,7 @@ input, select, button, textarea {
 }
 
 .c-actions .edit:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
@@ -1401,7 +1401,7 @@ input, select, button, textarea {
   border-bottom: 0;
   border-radius: 6px;
   padding: 0px 6px;
-  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.2);
 }
 
 .b-video_player .cc-player_controls .episode-num .video-link a {
@@ -1572,7 +1572,7 @@ header.head a.misc {
   padding: 5px 50px;
   border-radius: 14px;
   color:  rgba(var(--light-color), var(--hundred));
-  transition: 0.3s ease-out;
+  transition: 0.2s ease-out;
   margin: 8px;
   pointer-events: auto;
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
@@ -1952,7 +1952,7 @@ body.localized_names-ru .name-ru {
 }
 
 body.localized_names-ru .name-ru:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 
 .p-profiles .profile-head .c-history .entry img {
@@ -2029,7 +2029,7 @@ body.localized_names-ru .name-ru:before {
     height: 8px;
     border-radius: 50%;
     font-size: 0;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
 }
 
 .headline > a:hover:before, .midheadline > a:hover:before, .subheadline > a:hover:before {
@@ -2055,13 +2055,13 @@ body.localized_names-ru .name-ru:before {
 
 .profile-actions .mail::before, .profile-actions .talk::before, .profile-actions .fav-remove::before, .profile-actions .ban::before, .profile-actions .fav-add::before, .profile-actions .settings::before, .profile-actions .ignore-add::before, .profile-actions .ignore-remove::before {
   color: rgba(var(--light-color), 0.6) !important;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   font-size: 24px !important;
 }
 
 .profile-actions .ignore-remove::before, .profile-actions .fav-remove::before {
   color: #ffc24eab !important;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   font-size: 24px !important;
 }
 
@@ -2162,7 +2162,7 @@ a:-webkit-any-link {
 }
 
 .b-image img {
-  transition: 0.3s ease !important;
+  transition: 0.2s ease !important;
 }
 
 img {
@@ -2193,7 +2193,7 @@ img {
 }
 
 .profile-actions .mail:before, .profile-actions .talk:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   content: '\\_f0e0';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2207,7 +2207,7 @@ img {
 }
 
 .profile-actions .settings:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   content: '\\_f085';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2221,7 +2221,7 @@ img {
 }
 
 .profile-actions .ban:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   content: '\\_f06a';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2247,7 +2247,7 @@ img {
 }
 
 .profile-actions .fav-add::before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   content: '\\_f234';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2256,7 +2256,7 @@ img {
 }
 
 .profile-actions .fav-remove::before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   content: '\\_f235';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2265,7 +2265,7 @@ img {
 }
 
 .profile-actions .ignore-add:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   content: '\\_f2a8';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2274,7 +2274,7 @@ img {
 }
 
 .profile-actions .ignore-remove:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   content: '\\_f25b';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2367,7 +2367,7 @@ img {
 }
 
 .club-actions .invite:before, .club-actions .upload:before, .club-actions .broadcast:before, .club-actions .edit-club:before, .club-actions .leave:before {
-  transition: 0.3s ease;
+  transition: 0.2s ease;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
@@ -2403,7 +2403,7 @@ img {
 
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
   color:  rgba(var(--white-color), var(--hundred)) !important;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover {
