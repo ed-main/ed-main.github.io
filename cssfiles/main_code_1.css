@@ -1771,17 +1771,21 @@ p-userlist_comparer .comparer table a {
   font-size: 12px !important;
 }
 
-.b-code {
-  background: rgba(103, 103, 103, 0.2);
-  border-radius: 6px;
-  white-space: pre-wrap!important;
-}
 
-.b-code:before {
-  background-color: rgba(var(--bright-color), 0.3);
-  border-radius: 6px;
+.b-code-v2 {
+    background: #263238;
+    color: #fff;
 }
-
+.b-code-v2:before {
+    background-color: #556571;
+    -webkit-border-radius: 0 0 0 10px;
+    border-radius: 0 0 0 10px;
+    content: attr(data-language);
+    padding: 0 9px;
+    line-height: 25px;
+    right: 0;
+    top: 0;
+}
 .tooltip-inner .close {
   color:  rgba(var(--bright-color), var(--hundred));
   background: none;
