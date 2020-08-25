@@ -106,5 +106,11 @@
   "disabled": false,
   "checked": false,
   "description": "Альтернативное расположение элементов меню сайта."
+  },
+  {
+  "url": "q09_goto_menu.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Панель быстрого доступа по ссылкам для профиля"
   }
 ]
