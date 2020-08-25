@@ -1336,7 +1336,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       left: 11px;
       font-size: 10px;
       padding: 2px 4px;
-      color:  rgba(var(--anime-inprocess), var(--hundred));
+      color:  rgba(var(--anime-inprocess), 1);
     }
     .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:before, .x1000 > .l-page div .profile-head .c-info .c-lists-info .b-stats_bar.manga:before {
       content: 'MANGA';
@@ -1345,7 +1345,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       left: 60px;
       font-size: 10px;
       padding: 2px 4px;
-      color: #de2b74;
+      color: rgba(var(--manga-inprocess), 1);
     }
     .userbox img.avatar, .userbox img.avatar {
       margin-top: 12px !important;
