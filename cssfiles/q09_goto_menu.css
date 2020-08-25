@@ -115,12 +115,13 @@
     color: rgba(var(--white-color), var(--hundred));
     border-radius: 19px;
     transform: scale(0);
+    transition: 0.5s ease-in-out;
     
 }
 .pbs:hover:before {
     
     left: 4rem;
-    
+    transition: 0.15s ease-in-out;
     transform: scale(1);
 }
 
