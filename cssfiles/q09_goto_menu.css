@@ -1,11 +1,4 @@
-@keyframes porno {
-    0% {
-        transform: scale(0);
-    }
-    10% {
-        transform: scale(1);
-    }
-} /*Кнопка с лева верху) Ссылки*/
+
 
 .p06 {
     position: fixed;
@@ -97,8 +90,7 @@
     animation: none;
     transition: 0.4s all;
 }
-
-.pbs:hover:before {
+.pbs:before {
     display: inline-flex;
     justify-content: center;
     white-space: nowrap;
@@ -113,10 +105,18 @@
     box-shadow: 0 3px 6px 0px rgb(0 0 0 / 80%);
     text-shadow: 0 1px 2px rgb(0 0 0);
     animation: porno 5s ease 1;
-    left: 4rem;
+    left: 0;
     bottom: 0;
     margin: auto;
     width: auto;
+    transfrom: scale(0);
+    
+}
+.pbs:hover:before {
+    
+    left: 4rem;
+    
+    transfrom: scale(1);
 }
 
 @media screen and (max-width: 1200px) {
@@ -135,12 +135,12 @@
     background: url(//i.ibb.co/NCTdF65/dswg.png) no-repeat 50% 50% / 124%;
 }
 
-.p07:hover:before {
+.p07:before {
     content: "Css Club";
 }
-.p08:hover:before {
+.p08:before {
     content: "Edesign / shikimori";
 }
-.p09:hover:before {
+.p09:before {
     content: "Сборщик";
 }
