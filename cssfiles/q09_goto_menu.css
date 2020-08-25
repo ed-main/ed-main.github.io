@@ -53,6 +53,7 @@
     border: 2px solid rgba(var(--bright-color), 0.1);
     transition: 0.8s all;
     background: rgba(var(--menu-back), 0.9);
+    pointer-events: auto;
 }
 
 .p06:hover:after {
