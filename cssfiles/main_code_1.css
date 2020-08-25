@@ -215,7 +215,7 @@ body:after {
   transition: 0.3s ease;
 }
 
-.b-link:hover, .b-mention:hover, .b-mention:hover:before, .b-mention:hover span, .b-mention s:hover {
+.b-link:hover, .b-mention:hover, .b-mention:hover:before, .b-mention:hover span, .b-mention:hover s, {
    text-decoration: none !important;
   color:  rgba(var(--hover-color), var(--hundred)) !important;
 }
