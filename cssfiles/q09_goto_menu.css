@@ -112,14 +112,14 @@
     transition: 0.1s ease;
     color: rgba(var(--white-color), var(--hundred));
     border-radius: 19px;
-    transfrom: scale(0);
+    transform: scale(0);
     
 }
 .pbs:hover:before {
     
     left: 4rem;
     
-    transfrom: scale(1);
+    transform: scale(1);
 }
 
 
