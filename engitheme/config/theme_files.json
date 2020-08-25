@@ -100,11 +100,5 @@
   "disabled": false,
   "checked": false,
   "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*."
-  },
-  {
-  "url": "q08_alter_sitemenu.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Альтернативное расположение элементов меню сайта."
   }
 ]
