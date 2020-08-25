@@ -63,7 +63,7 @@
     "url": "q01_alter_menu.sass",
     "disabled": false,
     "checked": false,
-    "description": "*Альтернативное расположение элементов меню. Выворачивает наизнанку правое меню профиля."
+    "description": "Альтернативное расположение элементов меню пользователя. Выворачивает наизнанку правое меню."
   },
     {
     "url": "q02_monocolor_citrus_list.sass",
@@ -72,7 +72,7 @@
     "description": "(*Citrus* ONLY) Однотонные списки аниме и манги"
   },
   {
-  "url": "modules/q03_history_bookmarks.sass",
+  "url": "q03_history_bookmarks.sass",
   "disabled": false,
   "checked": false,
   "description": "Отображение типа записи (Аниме/Ранобэ/Манга) в Истории"
@@ -100,5 +100,11 @@
   "disabled": false,
   "checked": false,
   "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*."
+  },
+  {
+  "url": "q08_alter_sitemenu.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Альтернативное расположение элементов меню сайта."
   }
 ]
