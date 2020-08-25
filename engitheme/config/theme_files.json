@@ -72,10 +72,10 @@
     "description": "(*Citrus* ONLY) Однотонные списки аниме и манги"
   },
   {
-  "url": "q03_group_achive_per_cent.sass",
+  "url": "q03_history_bookmarks.sass",
   "disabled": false,
   "checked": false,
-  "description": "Сортировка франшиз по процентам (перестают работать стандартные)"
+  "description": "Отображение типа записи (Аниме/Ранобэ/Манга) в Истории"
   },
   {
   "url": "q04_mark_module_for_posters.sass",
@@ -100,11 +100,5 @@
   "disabled": false,
   "checked": false,
   "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*."
-  },
-  {
-  "url": "q08_history_bookmarks.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Отображение типа записи (Аниме/Ранобэ/Манга) в Истории"
   }
 ]
