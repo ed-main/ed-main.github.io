@@ -170,6 +170,7 @@
     margin: -18.05rem 0 0 25.675rem;
     padding: 5px 10px 25px 10px;
     width: 550px !important;
+    
     float: none;
     z-index: 11;
     -webkit-box-sizing: border-box;
@@ -178,6 +179,9 @@
     background: rgba(var(--menu-back), 0.8);
     transition: 1.2s cubic-bezier(0.82, -0.01, 0.76, 0.98) !important;
     will-change: transform;
+  }
+  body#profiles_show .activity .b-nothing_here {
+    min-height: 140px;
   }
   #profiles_show .profile-content > .cc-2 .c-column .cc-2a.m30::before {
     position: absolute;
@@ -417,19 +421,22 @@
     overflow: hidden !important;
   }
   #profiles_show .profile-head .c-history, #profiles_show .profile-head .c-history.x2, #profiles_show .profile-head .c-history.x3, #profiles_show.x1000 > .l-page div .profile-head .c-history.x2, #profiles_show.x1000 > .l-page div .profile-head .c-history.x3 {
+    float: none !important;
     position: absolute;
     top: 0;
     left: 0;
+    width: 320px;
+    min-height: 250px;
     margin: -17.7rem 0 0 41.38rem !important;
     padding: 10px 7px;
-    width: 320px;
     border-radius: 8px;
-    float: none !important;
+    z-index: 11;
+    
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
     background: rgba(var(--menu-back), 0.8);
     transition: 1.2s cubic-bezier(0.82, -0.01, 0.76, 0.98) !important;
     will-change: transform;
-    z-index: 11;
+    
   }
   #profiles_show .profile-head .c-history:hover, #profiles_show .profile-head .c-history.x2:hover, #profiles_show .profile-head .c-history.x3:hover, #profiles_show.x1000 > .l-page div .profile-head .c-history:hover, #profiles_show.x1000 > .l-page div .profile-head .c-history.x2:hover, #profiles_show.x1000 > .l-page div .profile-head .c-history.x3:hover {
     margin-top: 5rem !important;
