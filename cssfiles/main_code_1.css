@@ -2594,7 +2594,7 @@ body#dashboards_show .l-page {
     background-color: rgba(var(--block-color), 0);
     display: inline-flex;
     font-size: 13px;
-    line-height: 22px;
+    line-height: 23px;
     border-radius: 9px;
     padding: 0 10px;
     transition: 0.2s all;
