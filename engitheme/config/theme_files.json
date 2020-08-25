@@ -29,13 +29,13 @@
     "checked": true,
     "title": "Главный css темы ч.4"
   },
-    {
+  {
     "url": "prof_form_shikista.sass",
     "disabled": true,
     "checked": false,
     "title": "*Shikista* Формат профиля"
   },
-    {
+  {
     "url": "prof_form_citrus.sass",
     "disabled": true,
     "checked": false,
@@ -47,7 +47,7 @@
     "checked": false,
     "title": "*Over* Формат профиля"
   },
-    {
+  {
     "url": "prof_form_bigshot.sass",
     "disabled": true,
     "checked": true,
@@ -70,6 +70,12 @@
     "disabled": false,
     "checked": false,
     "description": "(*Citrus* ONLY) Однотонные списки аниме и манги"
+  },
+  {
+  "url": "q03_history_bookmarks.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Отображение типа записи (Аниме/Ранобэ/Манга) в Истории"
   },
   {
   "url": "q04_mark_module_for_posters.sass",
