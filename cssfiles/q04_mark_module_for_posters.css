@@ -1,0 +1,38 @@
+.profile-content .about .rate-module .d-cutted_covers, .profile-content .about .rate-module .rate-module-value  {
+    display: inline-block;
+}
+.profile-content .about .rate-module .d-cutted_covers .b-catalog_entry  {
+    width: 130px ;
+    height: 180px ;
+}
+.profile-content .about .rate-module .d-cutted_covers + .rate-module-value:after  {
+    content: '/10' ; 
+    font-size: 10px;
+    position: relative ;
+    top: -4px;
+}
+
+.profile-content .about .rate-module .rate-module-value  {
+    display: inline-block ;
+    position: absolute ;
+    z-index: 15 ;
+    margin-left: -41px ;
+    margin-top: 3px ;
+    width: 40px ;
+    height: 39px ;
+    line-height: 38px ;
+    font-size: 15pt ;
+    background: #419541 ;
+    border-radius: 80% ;
+    color: #ffffff !important ;
+    text-align: center ;
+    font-family: "Trebuchet MS", Helvetica, sans-serif ;
+    transform: rotate(-15deg) ;
+}
+.profile-content .about .b-catalog_entry .cover .title  {
+    text-align: center ;
+}
+body#profiles_show .b-catalog_entry:hover  {
+    transform:none ;
+    box-shadow: none;
+}
