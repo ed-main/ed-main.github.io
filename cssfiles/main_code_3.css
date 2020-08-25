@@ -1713,7 +1713,7 @@
  
   
   .b-list_switchers .switcher.popularity::after {
-    content: '\\_f201';
+    content: '\\_f164';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 11px;
     font-weight: bold;
@@ -1735,6 +1735,18 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     
+  }
+  
+  .b-list_switchers .switcher.progress::after {
+    content: '\\_f295';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 11px;
+    font-weight: bold;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+    -moz-osx-font-smoothing: grayscale;
+ 
   }
   
   
