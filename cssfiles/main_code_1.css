@@ -2589,6 +2589,9 @@ body#dashboards_show .l-page {
     background-color: rgba(var(--block-color), 0.3);
     border-left: 4px solid rgba(var(--light-color), 0.3);
 }
+.b-spoiler_block>div {
+    display: flow-root;
+}
 .b-spoiler_block>button {
     color: rgba(var(--light-color), var(--hundred)) !important;
     background-color: rgba(var(--block-color), 0);
@@ -2625,7 +2628,7 @@ p {
     color: rgba(var(--light-color), 1);
 }
 .menubar {
-  background: rgba(var(--block-color), 0.6)!important;
+  background: none!important;
     
     padding: 3px 0;
    
@@ -2633,7 +2636,7 @@ p {
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
 }
 .menu-group {
-    background: rgba(var(--light-color), 0.15)!important;
+    background: rgba(var(--block-color), 0.6)!important;
     margin: 1px 5px;
     border-radius: 9px;
     padding: 0px!important;
@@ -2653,9 +2656,11 @@ p {
 }
 .ProseMirror {
   background-color: rgba(var(--block-color), 0.4);
-    border: 1px solid rgba(var(--block-color), 0.3);
-    border-radius: 0 0 12px 12px;
+    border: none;
+    border-radius: 12px;
     color: rgba(var(--light-color), 0.4);
+    padding: 7px 10px;
+    
 }
 @media screen and (min-width: 1024px) {
 .b-spoiler_block>button:hover {
