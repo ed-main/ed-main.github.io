@@ -214,8 +214,12 @@ body:after {
   cursor: pointer;
   transition: 0.3s ease;
 }
+.b-mention:hover s {
+   text-decoration: none !important;
+  color:  rgba(var(--hover-color), var(--hundred)) !important;
+}
 
-.b-link:hover, .b-mention:hover, .b-mention:hover:before, .b-mention:hover span, .b-mention:hover s, {
+.b-link:hover, .b-mention:hover, .b-mention:hover:before, .b-mention:hover span, .b-mention:hover s {
    text-decoration: none !important;
   color:  rgba(var(--hover-color), var(--hundred)) !important;
 }
