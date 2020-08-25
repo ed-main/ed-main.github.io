@@ -100,5 +100,11 @@
   "disabled": false,
   "checked": false,
   "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*."
+  },
+  {
+  "url": "q08_history_bookmarks.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Отображение типа записи (Аниме/Ранобэ/Манга) в Истории"
   }
 ]
