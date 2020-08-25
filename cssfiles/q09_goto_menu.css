@@ -17,6 +17,7 @@
     border-radius: 3.25rem;
     transition: 0.4s ease;
     background-color: rgba(var(--white-color), 0);
+    pointer-events: none;
     
 }
 
