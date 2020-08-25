@@ -2590,19 +2590,24 @@ body#dashboards_show .l-page {
     border-left: 4px solid rgba(var(--light-color), 0.3);
 }
 .b-spoiler_block>button {
-    color: rgba(var(--white-color), var(--hundred)) !important;
-    background-color: rgba(var(--block-color), 0.5);
-    color: #fff;
+    color: rgba(var(--light-color), var(--hundred)) !important;
+    background-color: rgba(var(--block-color), 0);
     display: inline-flex;
     font-size: 13px;
-    line-height: 26px;
-    border-radius: 10px;
+    line-height: 22px;
+    border-radius: 9px;
     padding: 0 10px;
-    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
     transition: 0.2s all;
+    
+    z-index: 3;
+    position: relative;
+    border: 2px solid rgba(var(--light-color), 0.2)!important;
+    text-transform: lowercase;
 }
 .b-spoiler_block.is-opened>button {
-    border-radius: 7px 7px 0 0;
+    border-radius: 9px 9px 0 0;
+    border-left: 4px solid rgba(var(--light-color), 0.2)!important;
+    border-right: 3px solid rgba(var(--light-color), 0.2)!important;
 }
 .b-spoiler_block>button:active {
     background-color: rgba(var(--hover-buttoms-2), 0.6);
