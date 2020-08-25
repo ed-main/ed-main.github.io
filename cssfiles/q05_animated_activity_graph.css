@@ -1,0 +1,316 @@
+.bar.vertical .line {
+    background: transparent;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+}
+.bar.vertical .line .bar-container .bar {
+    background: transparent;
+}
+.bar.vertical .line:nth-child(1) {
+    -webkit-animation: fluctuations 2.5s 1.6s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.6s infinite linear;
+    -o-animation: fluctuations 2.5s 1.6s infinite linear;
+    animation: fluctuations 2.5s 1.6s infinite linear;
+}
+.bar.vertical .line:nth-child(2) {
+    -webkit-animation: fluctuations 2.5s 1.4s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.4s infinite linear;
+    -o-animation: fluctuations 2.5s 1.4s infinite linear;
+    animation: fluctuations 2.5s 1.4s infinite linear;
+}
+.bar.vertical .line:nth-child(3) {
+    -webkit-animation: fluctuations 2.5s 1.2s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.2s infinite linear;
+    -o-animation: fluctuations 2.5s 1.2s infinite linear;
+    animation: fluctuations 2.5s 1.2s infinite linear;
+}
+.bar.vertical .line:nth-child(4) {
+    -webkit-animation: fluctuations 2.5s 1s infinite linear;
+    -moz-animation: fluctuations 2.5s 1s infinite linear;
+    -o-animation: fluctuations 2.5s 1s infinite linear;
+    animation: fluctuations 2.5s 1s infinite linear;
+}
+.bar.vertical .line:nth-child(5) {
+    -webkit-animation: fluctuations 2.5s 0.8s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.8s infinite linear;
+    -o-animation: fluctuations 2.5s 0.8s infinite linear;
+    animation: fluctuations 2.5s 0.8s infinite linear;
+}
+.bar.vertical .line:nth-child(6) {
+    -webkit-animation: fluctuations 2.5s 0.6s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.6s infinite linear;
+    -o-animation: fluctuations 2.5s 0.6s infinite linear;
+    animation: fluctuations 2.5s 0.6s infinite linear;
+}
+.bar.vertical .line:nth-child(7) {
+    -webkit-animation: fluctuations 2.5s 0.4s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.4s infinite linear;
+    -o-animation: fluctuations 2.5s 0.4s infinite linear;
+    animation: fluctuations 2.5s 0.4s infinite linear;
+}
+.bar.vertical .line:nth-child(8) {
+    -webkit-animation: fluctuations 2.5s 0.2s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.2s infinite linear;
+    -o-animation: fluctuations 2.5s 0.2s infinite linear;
+    animation: fluctuations 2.5s 0.2s infinite linear;
+}
+.bar.vertical .line:nth-child(9) {
+    -webkit-animation: fluctuations 2.5s 0s infinite linear;
+    -moz-animation: fluctuations 2.5s 0s infinite linear;
+    -o-animation: fluctuations 2.5s 0s infinite linear;
+    animation: fluctuations 2.5s 0s infinite linear;
+}
+.bar.vertical .line:nth-child(10) {
+    -webkit-animation: fluctuations 2.5s 0.2s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.2s infinite linear;
+    -o-animation: fluctuations 2.5s 0.2s infinite linear;
+    animation: fluctuations 2.5s 0.2s infinite linear;
+}
+.bar.vertical .line:nth-child(11) {
+    -webkit-animation: fluctuations 2.5s 0.4s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.4s infinite linear;
+    -o-animation: fluctuations 2.5s 0.4s infinite linear;
+    animation: fluctuations 2.5s 0.4s infinite linear;
+}
+.bar.vertical .line:nth-child(12) {
+    -webkit-animation: fluctuations 2.5s 0.6s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.6s infinite linear;
+    -o-animation: fluctuations 2.5s 0.6s infinite linear;
+    animation: fluctuations 2.5s 0.6s infinite linear;
+}
+.bar.vertical .line:nth-child(13) {
+    -webkit-animation: fluctuations 2.5s 0.8s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.8s infinite linear;
+    -o-animation: fluctuations 2.5s 0.8s infinite linear;
+    animation: fluctuations 2.5s 0.8s infinite linear;
+}
+.bar.vertical .line:nth-child(14) {
+    -webkit-animation: fluctuations 2.5s 1s infinite linear;
+    -moz-animation: fluctuations 2.5s 1s infinite linear;
+    -o-animation: fluctuations 2.5s 1s infinite linear;
+    animation: fluctuations 2.5s 1s infinite linear;
+}
+.bar.vertical .line:nth-child(15) {
+    -webkit-animation: fluctuations 2.5s 1.2s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.2s infinite linear;
+    -o-animation: fluctuations 2.5s 1.2s infinite linear;
+    animation: fluctuations 2.5s 1.2s infinite linear;
+}
+.bar.vertical .line:nth-child(16) {
+    -webkit-animation: fluctuations 2.5s 1.4s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.4s infinite linear;
+    -o-animation: fluctuations 2.5s 1.4s infinite linear;
+    animation: fluctuations 2.5s 1.4s infinite linear;
+}
+.bar.vertical .line:nth-child(17) {
+    -webkit-animation: fluctuations 2.5s 1.6s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.6s infinite linear;
+    -o-animation: fluctuations 2.5s 1.6s infinite linear;
+    animation: fluctuations 2.5s 1.6s infinite linear;
+}
+.bar.vertical .line:nth-child(18) {
+    -webkit-animation: fluctuations 2.5s 1.4s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.4s infinite linear;
+    -o-animation: fluctuations 2.5s 1.4s infinite linear;
+    animation: fluctuations 2.5s 1.4s infinite linear;
+}
+.bar.vertical .line:nth-child(19) {
+    -webkit-animation: fluctuations 2.5s 1.2s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.2s infinite linear;
+    -o-animation: fluctuations 2.5s 1.2s infinite linear;
+    animation: fluctuations 2.5s 1.2s infinite linear;
+}
+.bar.vertical .line:nth-child(20) {
+    -webkit-animation: fluctuations 2.5s 1s infinite linear;
+    -moz-animation: fluctuations 2.5s 1s infinite linear;
+    -o-animation: fluctuations 2.5s 1s infinite linear;
+    animation: fluctuations 2.5s 1s infinite linear;
+}
+.bar.vertical .line:nth-child(21) {
+    -webkit-animation: fluctuations 2.5s 0.8s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.8s infinite linear;
+    -o-animation: fluctuations 2.5s 0.8s infinite linear;
+    animation: fluctuations 2.5s 0.8s infinite linear;
+}
+.bar.vertical .line:nth-child(22) {
+    -webkit-animation: fluctuations 2.5s 0.6s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.6s infinite linear;
+    -o-animation: fluctuations 2.5s 0.6s infinite linear;
+    animation: fluctuations 2.5s 0.6s infinite linear;
+}
+.bar.vertical .line:nth-child(23) {
+    -webkit-animation: fluctuations 2.5s 0.4s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.4s infinite linear;
+    -o-animation: fluctuations 2.5s 0.4s infinite linear;
+    animation: fluctuations 2.5s 0.4s infinite linear;
+}
+.bar.vertical .line:nth-child(24) {
+    -webkit-animation: fluctuations 2.5s 0.2s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.2s infinite linear;
+    -o-animation: fluctuations 2.5s 0.2s infinite linear;
+    animation: fluctuations 2.5s 0.2s infinite linear;
+}
+.bar.vertical .line:nth-child(25) {
+    -webkit-animation: fluctuations 2.5s 0s infinite linear;
+    -moz-animation: fluctuations 2.5s 0s infinite linear;
+    -o-animation: fluctuations 2.5s 0s infinite linear;
+    animation: fluctuations 2.5s 0s infinite linear;
+}
+.bar.vertical .line:nth-child(26) {
+    -webkit-animation: fluctuations 2.5s 0.2s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.2s infinite linear;
+    -o-animation: fluctuations 2.5s 0.2s infinite linear;
+    animation: fluctuations 2.5s 0.2s infinite linear;
+}
+.bar.vertical .line:nth-child(27) {
+    -webkit-animation: fluctuations 2.5s 0.4s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.4s infinite linear;
+    -o-animation: fluctuations 2.5s 0.4s infinite linear;
+    animation: fluctuations 2.5s 0.4s infinite linear;
+}
+.bar.vertical .line:nth-child(28) {
+    -webkit-animation: fluctuations 2.5s 0.6s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.6s infinite linear;
+    -o-animation: fluctuations 2.5s 0.6s infinite linear;
+    animation: fluctuations 2.5s 0.6s infinite linear;
+}
+.bar.vertical .line:nth-child(29) {
+    -webkit-animation: fluctuations 2.5s 0.8s infinite linear;
+    -moz-animation: fluctuations 2.5s 0.8s infinite linear;
+    -o-animation: fluctuations 2.5s 0.8s infinite linear;
+    animation: fluctuations 2.5s 0.8s infinite linear;
+}
+.bar.vertical .line:nth-child(30) {
+    -webkit-animation: fluctuations 2.5s 1s infinite linear;
+    -moz-animation: fluctuations 2.5s 1s infinite linear;
+    -o-animation: fluctuations 2.5s 1s infinite linear;
+    animation: fluctuations 2.5s 1s infinite linear;
+}
+.bar.vertical .line:nth-child(31) {
+    -webkit-animation: fluctuations 2.5s 1.2s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.2s infinite linear;
+    -o-animation: fluctuations 2.5s 1.2s infinite linear;
+    animation: fluctuations 2.5s 1.2s infinite linear;
+}
+.bar.vertical .line:nth-child(32) {
+    -webkit-animation: fluctuations 2.5s 1.4s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.4s infinite linear;
+    -o-animation: fluctuations 2.5s 1.4s infinite linear;
+    animation: fluctuations 2.5s 1.4s infinite linear;
+}
+.bar.vertical .line:nth-child(33) {
+    -webkit-animation: fluctuations 2.5s 1.6s infinite linear;
+    -moz-animation: fluctuations 2.5s 1.6s infinite linear;
+    -o-animation: fluctuations 2.5s 1.6s infinite linear;
+    animation: fluctuations 2.5s 1.6s infinite linear;
+}
+.bar.vertical .line:nth-child(34) {
+    -webkit-animation: fluctuations 2.5s 0s infinite linear;
+    -moz-animation: fluctuations 2.5s 0s infinite linear;
+    -o-animation: fluctuations 2.5s 0s infinite linear;
+    animation: fluctuations 2.5s 0s infinite linear;
+}
+.bar.vertical .line:nth-child(-n + 34):hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.bar.vertical .line:nth-child(-n + 34) {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes fluctuations {
+    0% {
+        background-color: $small-rating;
+        margin-top: 35px;
+        margin-bottom: 45px;
+        height: 20px;
+    }
+
+    50% {
+        background-color: $very-high-rating;
+        height: 95px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    100% {
+        background-color: $small-rating;
+        height: 20px;
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+}
+
+@-moz-keyframes fluctuations {
+    0% {
+        background-color: $small-rating;
+        margin-top: 35px;
+        margin-bottom: 45px;
+        height: 20px;
+    }
+
+    50% {
+        background-color: $very-high-rating;
+        height: 95px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    100% {
+        background-color: $small-rating;
+        height: 20px;
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+}
+
+@-o-keyframes fluctuations {
+    0% {
+        background-color: $small-rating;
+        margin-top: 35px;
+        margin-bottom: 45px;
+        height: 20px;
+    }
+    50% {
+        background-color: $very-high-rating;
+        height: 95px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    100% {
+        background-color: $small-rating;
+        height: 20px;
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+}
+
+@keyframes fluctuations {
+    0% {
+        background-color: $small-rating;
+        margin-top: 35px;
+        margin-bottom: 45px;
+        height: 20px;
+    }
+
+    50% {
+        background-color: $very-high-rating;
+        height: 95px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    100% {
+        background-color: $small-rating;
+        height: 20px;
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+}
