@@ -17,6 +17,7 @@
     border-radius: 3.25rem;
     transition: 0.4s ease;
     background-color: rgba(var(--white-color), 0);
+    
 }
 
 .p06:hover {
@@ -67,10 +68,12 @@
     height: 66px;
     transform: scale(0);
     transition: 0.8s all;
+    pointer-events: none;
 }
 .p06:hover .b-link {
     transform: scale(1);
     transition: 0.4s all;
+    pointer-events: auto;
 }
 .pbs {
     width: 45px;
@@ -97,18 +100,18 @@
     top: 0;
     position: absolute;
     height: 20px;
-    font-size: 13px;
-    padding: 2px 6px;
-    border-radius: 4px;
-    background: linear-gradient(rgb(148 143 244 / 95%), rgb(132 92 212 / 95%));
-    color: #fff;
-    box-shadow: 0 3px 6px 0px rgb(0 0 0 / 80%);
-    text-shadow: 0 1px 2px rgb(0 0 0);
-    animation: porno 5s ease 1;
+    
     left: 0;
     bottom: 0;
     margin: auto;
     width: auto;
+    background: rgba(23, 23, 23, 0.6) !important;
+    padding: 8px 13px;
+    font-size: 13px;
+    box-shadow: 0px 0px 5px rgba(var(--shadows-color), 0.1);
+    transition: 0.1s ease;
+    color: rgba(var(--white-color), var(--hundred));
+    border-radius: 19px;
     transfrom: scale(0);
     
 }
@@ -118,6 +121,7 @@
     
     transfrom: scale(1);
 }
+
 
 @media screen and (max-width: 1200px) {
     .p06 {
