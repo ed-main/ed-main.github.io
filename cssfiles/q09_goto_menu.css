@@ -28,7 +28,7 @@
 
     transition: 0.4s ease;
 }
-
+ 
 .p06:hover:before {
     height: 255px;
     opacity: 1;
