@@ -65,17 +65,11 @@
     "checked": false,
     "description": "Альтернативное расположение элементов меню пользователя. Выворачивает наизнанку правое меню."
   },
-    {
+  {
     "url": "q02_monocolor_citrus_list.sass",
     "disabled": false,
     "checked": false,
     "description": "(*Citrus* ONLY) Однотонные списки аниме и манги"
-  },
-  {
-  "url": "q03_history_bookmarks.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Отображение типа записи (Аниме/Ранобэ/Манга) в Истории"
   },
   {
   "url": "q04_mark_module_for_posters.sass",
