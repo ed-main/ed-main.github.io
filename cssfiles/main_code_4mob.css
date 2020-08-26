@@ -1417,7 +1417,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       position: static;
     }
     .b-form .b-summary_marker {
-      top: 25px;
+      top: 0px;
       right: 11px;
     }
     body[data-locale=ru] .b-offtopic_marker:before {
