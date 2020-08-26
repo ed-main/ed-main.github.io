@@ -40,7 +40,7 @@
         clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
         height: 0;
         padding-bottom: 100%;
-
+        background: rgba(var(--light-color), 0.15);
         background-size: contain;
         pointer-events: auto;
     }
