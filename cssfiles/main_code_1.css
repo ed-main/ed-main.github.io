@@ -2674,3 +2674,72 @@ p {
     color: #e4e4e4 !important;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p-animes .c-about .watch-online > div.kind,
+  .p-animes .c-about .watch-online > a.kind > span {
+    display: none;
+  }
+  .p-animes .c-about .watch-online .b-link_button > span {
+    display: none;
+  }
+  .p-animes .c-about .watch-online .b-link_button {
+    display: block;
+  }
+  .p-animes .c-about .watch-online .b-link_button:after {
+    display: block;
+    content: attr(title);
+    margin: 0;
+    font-family: var(--font-alt);
+   color: rgba(var(--light-color), 1);
+    line-height: 1.5;
+  }
+  .p-animes[data-locale='en'] .c-about .watch-online > a.kind:before {display: block; font-size: 15px; font-weight: 600; content: 'Watch Online';}
+  .p-animes[data-locale='ru'] .c-about .watch-online > a.kind:before {display: block; font-size: 15px; font-weight: 600; content: 'Смотреть Онлайн';}
+  .p-animes[data-locale='en'] .c-about .watch-online .b-link_button:before {display: block; font-size: 15px; font-weight: 600; content: 'Смотреть Онлайн';}
+  .p-animes[data-locale='ru'] .c-about .watch-online .b-link_button:before {display: block; font-size: 15px; font-weight: 600; content: 'Смотреть Онлайн';}
+.p-animes .c-about .watch-online > a.kind:before {
+   color: rgb(var(--white-color));
+}
+  .p-animes .c-about .watch-online > a.kind {
+    background-color: rgb(var(--buttoms-color), 0.7);
+    border-radius: 15px;
+    border-color: #3e4d5d;
+    color: rgb(var(--light-color));
+    text-align: center;
+    padding: 8px 20px;
+    min-width: 154px;
+    max-width: 200px;
+    font-size: 13px;
+    font-family: var(--font-alt);
+    line-height: 1.3;
+  }
+  .p-animes .c-about .watch-online > a.kind:hover { 
+    background-color: rgb(var(--hover-buttoms-2));
+    color: #fff !important; 
+  }
+  .p-animes .c-about .watch-online > a.kind + a.kind {
+    margin-top: 3px;
+  }
+.watch-online a {
+    padding: 8px 20px 6px!important;
+}
+
