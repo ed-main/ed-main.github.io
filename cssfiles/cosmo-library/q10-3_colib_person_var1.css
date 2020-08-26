@@ -75,23 +75,11 @@
     #profiles_show .Person-1 .c-column:hover > .cover .title {
         opacity: 1;
     }
-    #profiles_show .Person-1:nth-child(1) .c-column {
-        left: calc(35% - 13.6%);
+    #profiles_show .Person-1:nth-child(odd) .c-column {
+        left: calc(100% / 7 * 0.5);
     }
-    #profiles_show .Person-1:nth-child(2) .c-column {
-        left: calc(15% - 15%);
-    }
-    #profiles_show .Person-1:nth-child(3) .c-column {
-        left: calc(15% - 7.8%);
-    }
-    #profiles_show .Person-1:nth-child(4) .c-column {
-        left: calc(15% - 15%);
-    }
-    #profiles_show .Person-1:nth-child(5) .c-column {
-        left: calc(25% - 17.8%);
-    }
-    #profiles_show .Person-1:nth-child(6) .c-column {
-        left: calc(0% - 0%);
+    #profiles_show .Person-1:nth-child(even) .c-column {
+        left: calc(100% / 7 * 0);
     }
 
    
