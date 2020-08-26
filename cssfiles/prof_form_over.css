@@ -585,6 +585,10 @@
   }
 }
 
+
+
+
+
 @media screen and (min-width: 1290px) and (max-width: 1829px) {
   #profiles_show .profile-head .c-brief .avatar {
     margin: -9vh 0 0 5rem;
@@ -618,6 +622,7 @@
   #profiles_show .profile-actions {
     bottom: 5rem;
   }
+
 }
 
 @media screen and (min-width: 1830px) {
@@ -655,6 +660,32 @@
   }
   #profiles_show .b-achievement.is-badge::before {
     font-size: 10px;
+  }
+}
+
+
+
+/* cosmo-library fix */
+@media screen and (min-width: 1200px) {
+    #profiles_show .Animes_Mangas .c-column {
+        width: -webkit-calc(100% / 5 - 0.1 * 0.1em - 1 * 1%) ;
+        width: calc(100% / 5 - 0.1 * 0.1em - 1 * 1%);
+    }
+}
+@media screen and (min-width: 1480px) {
+    #profiles_show .Animes_Mangas .c-column {
+        width: -webkit-calc(100% / 6 - 0.1 * 0.1em - 1 * 1%);
+        width: calc(100% / 6 - 0.1 * 0.1em - 1 * 1%);
+    }
+}
+@media screen and (min-width: 1500px) {
+  #profiles_show .Person-0 .c-column {
+    width: calc(100% / 9);
+  }
+}
+@media screen and (min-width: 1678px) {
+  #profiles_show .Person-0 .c-column {
+    width: calc(100% / 10);
   }
 }
 
