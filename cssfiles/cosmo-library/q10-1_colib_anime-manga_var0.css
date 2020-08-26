@@ -90,20 +90,7 @@
     #profiles_show .Animes_Mangas .b-catalog_entry:hover {
         transform: none;
     }
-    /*#profiles_show .Animes_Mangas .b-catalog_entry.dropped .image-decor::before,
-    #profiles_show .Animes_Mangas .b-catalog_entry.on_hold .image-decor::before,
-    #profiles_show .Animes_Mangas .b-catalog_entry.planned .image-decor::before,
-    #profiles_show .Animes_Mangas .b-catalog_entry.watching .image-decor::before,
-    #profiles_show .Animes_Mangas .b-catalog_entry.completed .image-decor::before,
-    #profiles_show .Animes_Mangas .b-catalog_entry.rewatching .image-decor::before,
-    #profiles_show .Animes_Mangas .b-catalog_entry.on_hold .image-decor::after,
-    #profiles_show .Animes_Mangas .b-catalog_entry.dropped .image-decor::after,
-    #profiles_show .Animes_Mangas .b-catalog_entry.planned .image-decor::after,
-    #profiles_show .Animes_Mangas .b-catalog_entry.watching .image-decor::after,
-    #profiles_show .Animes_Mangas .b-catalog_entry.completed .image-decor::after,
-    #profiles_show .Animes_Mangas .b-catalog_entry.rewatching .image-decor::after {
-        display: none;
-    }*/
+
 
     #profiles_show .Animes_Mangas .b-catalog_entry.completed .image-decor::before,
     #profiles_show .Animes_Mangas .b-catalog_entry.dropped .image-decor::before,
@@ -228,37 +215,9 @@
 }
 
 
-/*@media screen and (min-width: 1200px) {
-    #profiles_show .Animes_Mangas .c-column {
-        width: -webkit-calc(100% / 5 - 0.1 * 0.1em - 1 * 1%) ;
-        width: calc(100% / 5 - 0.1 * 0.1em - 1 * 1%);
-    }
-}
-@media screen and (min-width: 1480px) {
-    #profiles_show .Animes_Mangas .c-column {
-        width: -webkit-calc(100% / 6 - 0.1 * 0.1em - 1 * 1%);
-        width: calc(100% / 6 - 0.1 * 0.1em - 1 * 1%);
-    }
-}*/
 
 
 
 
-@media screen and (min-width: 425px) {
-    .Animes_Mangas a[href*="/38101-5-"] .image-cutter::after {
-        background-image: url(https://moe.shikimori.one/system/user_images/original/274756/1080982.jpg);
-    }
-    .Animes_Mangas a[href*="/z35790-"] .image-cutter::after {
-        background-image: url(https://desu.shikimori.one/system/user_images/original/274756/1080983.jpg);
-    }
-    .Animes_Mangas a[href*="/38940-"] .image-cutter::after { background-position: center 15% !important; 
-        background-image: url(https://i.ibb.co/VLvBPMf/tenor.gif);      
-    }
-    .Animes_Mangas a[href*="/z38000-"] .image-cutter::after {
-        background-image: url(https://dere.shikimori.one/system/user_images/original/208335/1056514.jpg);
-    }
-    .Animes_Mangas a[href*="/37999-"] .image-cutter::after {
-        background-image: url(https://nyaa.shikimori.one/system/user_images/original/208335/1046760.jpg);
 
-    }
-} 
+
