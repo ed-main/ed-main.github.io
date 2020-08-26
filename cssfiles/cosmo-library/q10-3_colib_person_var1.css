@@ -1,31 +1,31 @@
 @media screen and (min-width: 425px) {
-    #profiles_show .Blok-2 {
+    .Blok-2 {
         display: block;
         padding: 1% 0 3%;
         max-width: 1400px;
         margin: auto;
     }
-    #profiles_show .Person-1 {
+    .Person-1 {
         position: relative;
         pointer-events: none;
         height: 0;
         padding-bottom: 11.88%;
     }
-    body#profiles_show .Person-1 .b-catalog_entry {
+    body .Person-1 .b-catalog_entry {
         box-shadow: none;
         transition: none;
         transform: none;
     }
-    #profiles_show .Person-1 .b-catalog_entry .cover .image-cutter img {
+    .Person-1 .b-catalog_entry .cover .image-cutter img {
         display: none;
         visibility: hidden;
     }
-    #profiles_show .Person-1 .b-catalog_entry .cover .image-decor {
+    .Person-1 .b-catalog_entry .cover .image-decor {
         margin: -3.85%;
         z-index: 1;
         transition: none;
     }
-    #profiles_show .Person-1 .c-column {
+    .Person-1 .c-column {
         display: inline-block;
         margin: 0 !important;
         float: none !important;
@@ -36,18 +36,18 @@
         pointer-events: none;
         width: calc(100% / 7);
     }
-    #profiles_show .Person-1 .b-catalog_entry .cover .image-decor .image-cutter {
+    .Person-1 .b-catalog_entry .cover .image-decor .image-cutter {
         clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
         height: 0;
         padding-bottom: 100%;
-        
+
         background-size: contain;
         pointer-events: auto;
     }
-    #profiles_show .Person-1 .c-column:hover .image-decor .image-cutter {
+    .Person-1 .c-column:hover .image-decor .image-cutter {
         box-shadow: none;
     }
-    #profiles_show .Person-1 .b-catalog_entry .cover .title.two_lined {
+    .Person-1 .b-catalog_entry .cover .title.two_lined {
         position: absolute;
         display: grid;
         align-items: center;
@@ -72,18 +72,17 @@
         transition: opacity 0.2s;
         -webkit-transition: opacity 0.2s;
     }
-    #profiles_show .Person-1 .c-column:hover > .cover .title {
+    .Person-1 .c-column:hover > .cover .title {
         opacity: 1;
     }
-    #profiles_show .Person-1:nth-child(odd) .c-column {
+    .Person-1:nth-child(odd) .c-column {
         left: calc(100% / 7 * 0.5);
     }
-    #profiles_show .Person-1:nth-child(even) .c-column {
+    .Person-1:nth-child(even) .c-column {
         left: calc(100% / 7 * 0);
     }
 
-   
-    #profiles_show .Person-1 .b-catalog_entry a .image-cutter::after {
+    .Person-1 .b-catalog_entry a .image-cutter::after {
         position: absolute;
         display: flex;
         content: "";
@@ -106,44 +105,41 @@
         -webkit-transition: box-shadow 0.45s ease;
         clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
     }
-    #profiles_show .Person-1 .b-catalog_entry:hover > a .image-cutter::after {
+    .Person-1 .b-catalog_entry:hover > a .image-cutter::after {
         box-shadow: none;
         filter: blur(4px);
     }
-    #profiles_show .Person-1 .b-catalog_entry .cover .title.two_lined {
+    .Person-1 .b-catalog_entry .cover .title.two_lined {
         display: none;
     }
 }
 
 @media screen and (min-width: 500px) {
-    #profiles_show .Person-1 .b-catalog_entry a .image-cutter::after {
+    .Person-1 .b-catalog_entry a .image-cutter::after {
         width: calc(100% - 7px);
         height: calc(100% - 7px);
     }
 }
 @media screen and (min-width: 650px) {
-    #profiles_show .Person-1 .b-catalog_entry a .image-cutter::after {
+    .Person-1 .b-catalog_entry a .image-cutter::after {
         width: calc(100% - 9px);
         height: calc(100% - 9px);
     }
 }
 @media screen and (min-width: 800px) {
-    #profiles_show .Person-1 .b-catalog_entry a .image-cutter::after {
+    .Person-1 .b-catalog_entry a .image-cutter::after {
         width: calc(100% - 12px);
         height: calc(100% - 12px);
     }
 
-    #profiles_show .Person-1 .b-catalog_entry .cover .title.two_lined {
+    .Person-1 .b-catalog_entry .cover .title.two_lined {
         display: block;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    #profiles_show .Person-1 .b-catalog_entry a .image-cutter::after {
+    .Person-1 .b-catalog_entry a .image-cutter::after {
         width: calc(100% - 15px);
         height: calc(100% - 15px);
     }
 }
-
-
-
