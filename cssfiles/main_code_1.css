@@ -1146,12 +1146,12 @@ input, select, button, textarea {
 }
 
 .b-user.named_avatar:hover .name {
-  color:  rgba(var(--hover-color), var(--hundred));
+  color:  rgba(var(--hover-color), 1);
   text-decoration: none !important;
 }
 
-.b-user.named_avatar img:hover, .b-user.named_avatar .avatar:hover {
-  border-color:  rgba(var(--hover-color), var(--hundred));
+.b-user.named_avatar:hover img {
+  border-color:  rgba(var(--hover-color), 1);
   border-radius: 50%;
   text-decoration: none !important;
 }
