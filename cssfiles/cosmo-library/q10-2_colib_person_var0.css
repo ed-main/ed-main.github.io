@@ -1,24 +1,24 @@
 @media screen and (min-width: 425px) {
-    #profiles_show .Blok-1 {
+      .Blok-1 {
         display: block;
         padding: 1% 0 0 0;
         white-space: nowrap;
         overflow-y: hidden;
     }
-    #profiles_show .Person-0 {
+      .Person-0 {
         position: relative;
     }
-    body#profiles_show .Person-0 .b-catalog_entry {
+    body  .Person-0 .b-catalog_entry {
         box-shadow: none;
         transition: none;
         transform: none;
     }
-    #profiles_show .Person-0 .b-catalog_entry .cover .image-cutter img {
+      .Person-0 .b-catalog_entry .cover .image-cutter img {
         opacity: 0;
         visibility: hidden;
     }
 
-    #profiles_show .Person-0 .c-column {
+      .Person-0 .c-column {
         display: inline-block;
         margin: 0 !important;
         float: none !important;
@@ -28,7 +28,7 @@
         background: none;
         width: calc(100% / 3);
     }
-    #profiles_show .Person-0 .b-catalog_entry .cover .image-decor .image-cutter {
+      .Person-0 .b-catalog_entry .cover .image-decor .image-cutter {
         max-height: 1px !important;
         max-width: 100% !important;
         padding: 0 0 140% 0;
@@ -38,7 +38,7 @@
         box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 15%);
         border-radius: 0.5rem;
     }
-    #profiles_show .Person-0 .b-catalog_entry .cover .title.two_lined {
+      .Person-0 .b-catalog_entry .cover .title.two_lined {
         position: absolute;
         display: grid;
         max-width: 90px;
@@ -63,11 +63,11 @@
         transition: opacity 0.28s ease;
         -webkit-transition: opacity 0.28s ease;
     }
-    #profiles_show .Person-0 .c-column:hover > .cover .title {
+      .Person-0 .c-column:hover > .cover .title {
         opacity: 0;
     }
 
-    #profiles_show .Person-0 .b-catalog_entry a .image-cutter::after {
+      .Person-0 .b-catalog_entry a .image-cutter::after {
         position: absolute;
         content: "";
         display: flex;
@@ -90,11 +90,11 @@
         transition: box-shadow 0.45s ease;
         -webkit-transition: box-shadow 0.45s ease;
     }
-    #profiles_show .Person-0 .b-catalog_entry:hover > a .image-cutter::after {
+      .Person-0 .b-catalog_entry:hover > a .image-cutter::after {
         box-shadow: none;
     }
 
-    #profiles_show .Person-0 .cover .image-decor::before {
+      .Person-0 .cover .image-decor::before {
         position: absolute;
         display: flex;
         top: 1rem;
@@ -105,12 +105,12 @@
         transition: opacity 0.2s;
         -webkit-transition: opacity 0.2s;
     }
-    #profiles_show .Person-0 .c-column:hover .image-decor::before {
+      .Person-0 .c-column:hover .image-decor::before {
         opacity: 1;
     }
 
-    #profiles_show .Person-0 .image-cutter::before,
-    #profiles_show .Person-0 .cover .image-decor::after {
+      .Person-0 .image-cutter::before,
+      .Person-0 .cover .image-decor::after {
         position: absolute;
         display: grid;
         content: "";
@@ -124,18 +124,18 @@
         transition: opacity 0.2s;
         -webkit-transition: opacity 0.2s;
     }
-    #profiles_show .Person-0 .image-cutter::before {
+      .Person-0 .image-cutter::before {
         font-size: 13px;
         color: #bbb;
         top: 0.5rem;
         left: 0.5rem;
     }
-    #profiles_show .Person-0 .c-column:hover .image-cutter::before {
+      .Person-0 .c-column:hover .image-cutter::before {
         opacity: 1;
     }
 
     
-    #profiles_show .Person-0 .cover .image-decor::after {
+      .Person-0 .cover .image-decor::after {
         top: 0;
         left: 0;
         right: 0;
@@ -149,7 +149,7 @@
         text-align: center;
         color: #bbb;
     }
-    #profiles_show .Person-0 .c-column:hover .image-decor::after {
+      .Person-0 .c-column:hover .image-decor::after {
         opacity: 1;
     }
     
@@ -157,31 +157,31 @@
 }
 
 @media screen and (min-width: 500px) {
-    #profiles_show .Person-0 .c-column {
+      .Person-0 .c-column {
         width: calc(100% / 4);
     }
 }
 @media screen and (min-width: 767px) {
-    #profiles_show .Person-0 .c-column {
+      .Person-0 .c-column {
         width: calc(100% / 5);
     }
-    #profiles_show .Blok-1 {
+      .Blok-1 {
         white-space: normal;
         overflow-y: inherit;
     }
 }
 @media screen and (min-width: 880px) {
-    #profiles_show .Person-0 .c-column {
+      .Person-0 .c-column {
         width: calc(100% / 6);
     }
 }
 @media screen and (min-width: 1024px) {
-    #profiles_show .Person-0 .c-column {
+      .Person-0 .c-column {
         width: calc(100% / 7);
     }
 }
 @media screen and (min-width: 1200px) {
-    #profiles_show .Person-0 .c-column {
+      .Person-0 .c-column {
         width: calc(100% / 8);
     }
 }
