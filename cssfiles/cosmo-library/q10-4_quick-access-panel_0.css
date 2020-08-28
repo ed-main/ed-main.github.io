@@ -25,7 +25,7 @@
     opacity: 1;
     padding-top: 62px;
     padding-bottom: 0%;
-    background-color: rgba(var(--white-color), 1);
+    background-color: rgba(var(--light-color), 0.1);
     pointer-events: auto;
     transition: 0.4s ease;
 }
@@ -89,7 +89,7 @@
 
  .qa-panel:hover .qa-link {
     opacity: 1;
-    box-shadow: 0 0px 6px 2px rgba(0, 0, 0, 0.25);
+    background-color: rgba(var(--light-color), 0.5);
 }
 
 .qa-link:hover {
@@ -140,7 +140,7 @@
     background: url("//desu.shikimori.one/system/clubs/main/1678.png?1557829461") no-repeat 50% 50% / 102%;
 }
 .qa03 {
-    background: url("//i.ibb.co/ZGcbTpy/3d-cube-transparent-png-47035-free-icons-and-png-backgrounds-3d-cube-png-1246-1113.png") no-repeat 50% 50% / 124%;
+    background: url("//i.ibb.co/ZGcbTpy/3d-cube-transparent-png-47035-free-icons-and-png-backgrounds-3d-cube-png-1246-1113.png") no-repeat 50% 50% / 100%;
 }
 
 .qa01:before {
