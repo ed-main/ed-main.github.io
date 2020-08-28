@@ -2155,172 +2155,60 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
 .fullwidth .b-spoiler .content .inner, .fullwidth .b-spoiler .content .inner-prgrph {
     text-shadow: none;
 }
+  /* Табы */
+.tabs { position: relative; background: none; margin: .2rem .2rem .4375rem;
+  border-radius: .375rem; line-height: 1.4;  font-size: 14px; overflow: hidden;
+  box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%);}
+
+/* Контейнер Кнопок */
+.tabs .header { background: rgba(var(--block-color), 0.6); display: flex;
+  flex-wrap: nowrap; line-height: .625rem; padding: 0 .625rem;  user-select: none;
+  overflow-x: auto; overflow-y: hidden; text-shadow: 0 1px 2px #000000;}
+
+/* Кнопка в обычном состоянии */
+.tabs .header div { color: rgba(var(--dark-color), var(--hundred)); cursor: pointer;
+  position: relative; flex-grow: 1; flex-shrink: 0;  padding: .625rem .375rem;
+  margin: 0 4px; overflow: hidden; text-align: center; min-width: 64px;
+  transition: color .15s, flex-grow .05s, font-size .0s;}
+
+/* Активированная Кнопка */
+.tabs .header div.active { color: rgba(var(--dark-color), var(--hundred)); 
+  flex-grow: 1.5; background: rgb(12 24 38 / 55%); border-radius: 5rem;cursor: default;}
+
+/* Невидимая нижняя линия Кнопки */
+.tabs .header div:before { position: absolute; display: block; content: '';
+  bottom: 0; left: 0; width: 100%; border-bottom: 0 solid transparent;}
+
+/* Цвет нижней линии Кнопки при наведении */
+.tabs .header div:hover:before { border-color: transparent;}
+/* Цвет нижней линии активированной Кнопки */
+.tabs .header div.active:before { border-color: transparent;}
+
+/* Появляющаяся «рябь» после активации Кнопки */ /* Цвет фона */
+.tabs .header div:after { position: absolute; display: block; content: '';
+  width: 60%; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  padding-top: 60%; opacity: 0; background: rgb(12 24 38 / 65%);
+  border-radius: 50%; pointer-events: none;}
+
+/* Анимация ряби */
+@keyframes ripple-unbound { 0% {opacity: 0;} 30% {opacity: .32;} 100% {opacity: 0; padding-top: 200%; width: 200%;}}
   
+/* Активация ряби */
+.tabs .header div.active:after { animation: ripple-unbound .25s cubic-bezier(.4, 0, 1, 1);}
 
-.id-0 {
-    position: relative;
-    max-width: 1000px;
-    width: 100%;
-    margin: 0.5rem auto;
-    overflow: hidden;
-    border-radius: 0.45rem;
-    border: none;
-    box-shadow: 0 3px 9px rgba(61, 195, 210, 0.2);
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-}
+/* Контейнер Содержимого */ /* Цвет и размер линии разделяющая Кнопки и Содержимое */
+.tabs .container { border-top: 0 solid #1a153f; min-height: 50px; padding: 10px 10px;}  /* Внутренние отступы */ 
 
-.id-0_control-block {
-    display: block;
-    position: relative;
-    padding-bottom: 56%;
-    pointer-events: none;
-    font-size: 0;
-}
-.id-0_control-block::after {
-    position: absolute;
-    display: block;
-    content: "☠";
-    right: 2%;
-    bottom: 2%;
-    line-height: 1;
-    font-size: 3rem;
-    opacity: 0.8;
-}
+/* Содержимое */
+.tabs .container > div { display: block!important; position: relative; width: 0; height: 0;  opacity: 0;
+  overflow: hidden; visibility: hidden; transition: opacity .02s, visibility .02s; transition-delay: 0s, 0s;}
 
-.id-0::before,
-.id-0::after {
-    content: "";
-    position: absolute;
-    width: 4.0625rem;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    opacity: 0;
-    z-index: 1;
-    background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
-    transition: 0.25s ease;
-}
-.id-0__buttons-4 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0.25rem 0;
-    z-index: 2;
-    pointer-events: none;
-}
-.id-0__button {
-    width: 0.75rem;
-    height: 0.75rem;
-    margin: 0.25rem;
-    background: rgba(35, 35, 35, 0.55);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
-    border-radius: 50%;
-    pointer-events: auto;
-    cursor: pointer;
-}
-.id-0__button::before,
-.id-0__button::after {
-    display: flex;
-    position: absolute;
-    content: "";
-    top: 0;
-    bottom: 0;
-    width: 4.0625rem;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    font-size: 2.8125rem;
-    color: rgb(28, 28, 28);
-    text-indent: 0.625rem;
-    font-weight: normal;
-    font-family: "shikimori";
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-feature-settings: "liga";
-    font-feature-settings: "liga";
-    transition: 0.25s ease;
-}
-.id-0 .b-image {
-    vertical-align: unset;
-    width: 100%;
-    height: 100%;
-}
+.tabs .container > div:not(.hidden) { display: none; height: auto; overflow: initial; visibility: visible;
+  width: auto; opacity: 1; transition: opacity .02s, visibility .02s; transition-delay: .02s, .02s;}
 
-.id-0 img.b-poster,
-.id-0 .b-image.b-poster img {
-    max-width: 100%;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    transform: none;
-    filter: none;
-}
-.id-0__slide {
-    position: absolute;
-    width: 100.3%;
-    height: 100%;
-    transition: 0.65s ease-in-out;
-    will-change: transform;
-}
-.id-0__button.active {
-    background: #a01f22;
-}
-
-.id-0__slide.hidden {
-    display: block !important;
-    transform: translate(12px, 50%);
-    opacity: 0;
-}
-.id-0__slide:not(.hidden) ~ .id-0__slide.hidden {
-    transform: translateX(100%);
-    opacity: 1;
-}
-
-.id-0:hover::before,
-.id-0:hover::after,
-.id-0:hover .id-0__button::before,
-.id-0:hover .id-0__button::after {
-    opacity: 0.8;
-}
-
-.id-0__button::before,
-.id-0::before {
-    left: 0;
-    transform: scale(-1, 1);
-}
-
-.id-0::after,
-.id-0__button::after {
-    right: 0;
-}
-
-.id-0__button::before {
-    z-index: 7;
-}
-
-.id-0__button.active::before,
-.id-0__button.active ~ .id-0__button::before,
-.id-0__button.active + .id-0__button::after,
-.id-0__button:first-child::after {
-    z-index: 4;
-}
-
-.id-0__button.active:first-child::after {
-    z-index: 0;
-}
+.tabs .b-image img { max-width: none !important;}
+/* Фикс для постеров */
+/*.tabs .b-catalog_entry .cover .image-decor .image-cutter { max-height: none !important;}*/
 
 
   .b-shiki_editor.previewed .b-spoiler label:hover, .p-profiles .about.block .b-spoiler label:hover {
