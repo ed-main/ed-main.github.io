@@ -108,7 +108,7 @@
   "description": "Альтернативное расположение элементов меню сайта."
   },
   {
-  "url": "q09_goto_panel.sass",
+  "url": "q10_cosmo_library.sass",
   "disabled": false,
   "checked": false,
   "description": "Панель быстрого доступа по ссылкам для профиля"
