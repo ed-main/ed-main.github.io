@@ -28,7 +28,10 @@ html {
 .ibb input {
     color: #dce8ea;
 }
-
+.copyright {
+  z-index: 20;
+}	
+	
 body {
   margin: 0;
   background: rgb(38 38 49)!important;
