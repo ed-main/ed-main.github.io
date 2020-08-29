@@ -29,6 +29,7 @@ html {
     color: #dce8ea;
 }
 .copyright {
+	position: relative;
   z-index: 20;
 }	
 	
