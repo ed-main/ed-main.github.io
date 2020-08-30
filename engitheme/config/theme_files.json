@@ -93,19 +93,25 @@
   "url": "q06_ava_screen_center.sass",
   "disabled": false,
   "checked": false,
-  "description": "(*Over* ONLY) Альтернативное расположения аватарки - по центру экрана."
+  "description": "(*Over* ONLY) Альтернативное расположения аватарки - по центру экрана"
   },
   {
   "url": "q07_ava_screen_center_addon.sass",
   "disabled": false,
   "checked": false,
-  "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*."
+  "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*"
   },
   {
   "url": "q08_alter_sitemenu.sass",
   "disabled": false,
   "checked": false,
   "description": "Альтернативное расположение элементов меню сайта."
+  },
+   {
+  "url": "q09_favourite-anime-manga.sass",
+  "disabled": false,
+  "checked": false,
+  "description": "Видоизмененное избранное"
   },
   {
   "url": "q10_cosmo_library.sass",
