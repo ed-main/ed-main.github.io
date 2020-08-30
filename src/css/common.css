@@ -1496,8 +1496,8 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
     display: none;
 }
 bodik {
-    background-color: rgba(0, 0, 0, 0.14);
+    background-color: rgba(0, 0, 0, 0.14)!important;
 }
 .shiki-preview {
-	width: 100.1%;
+	width: 100.1%!important;
 }
