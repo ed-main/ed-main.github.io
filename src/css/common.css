@@ -1495,8 +1495,8 @@ label.v-file.md-list.md-control.disabled:nth-child(9),
 span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot off*/
     display: none;
 }
-bodik {
-    background-color: rgba(0, 0, 0, 0.14)!important;
+.bodik {
+    background-color: rgba(0, 0, 0, 0.14);
 }
 .shiki-preview {
 	width: 100.1%!important;
