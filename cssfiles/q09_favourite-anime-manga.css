@@ -1,0 +1,256 @@
+@media screen and (min-width: 1200px) {
+    #profiles_show .cc-favourites .c-column {
+        width: calc(100% / 6 - 1 * 1.1%);
+        transform: none;
+        filter: contrast(102%);
+        overflow: visible;
+    }
+
+    #profiles_show .cc-favourites .image-cutter {
+        height: 1px;
+        padding-bottom: 59%;
+        box-shadow: inset 0 0 15px 5px rgb(0 0 0 / 50%);
+        background-color: #333;
+        transition: box-shadow 0.45s ease;
+        -webkit-transition: box-shadow 0.45s ease;
+    }
+    #profiles_show .cc-favourites .c-column:hover .image-cutter {
+        box-shadow: none;
+    }
+    /*------------------*/
+    .p-profiles-favorites .cc-favourites > .c-character,
+    .p-profiles-favorites .cc-favourites > .c-anime,
+    .p-profiles-favorites .cc-favourites > .c-manga {
+        width: calc(100% / 5 - 1 * 1.1%);
+        height: 100%;
+        filter: contrast(102%);
+        margin: 0rem 0.5% 0.5rem 0.5% !important;
+        background: none;
+        transform: none;
+    }
+    .p-profiles-favorites .cc-favourites > .c-character .image-cutter,
+    .p-profiles-favorites .cc-favourites > .c-anime .image-cutter,
+    .p-profiles-favorites .cc-favourites > .c-manga .image-cutter {
+        height: 1px;
+        padding-bottom: 59%;
+        background-color: #333;
+        box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, 0.5);
+        transition: box-shadow 0.45s ease;
+        -webkit-transition: box-shadow 0.45s ease;
+    }
+    .p-profiles-favorites .cc-favourites .c-column:hover .image-cutter {
+        box-shadow: none;
+    }
+
+    .p-profiles-favorites .cc-favourites > .c-character .title.two_lined,
+    .p-profiles-favorites .cc-favourites > .c-anime .title.two_lined,
+    .p-profiles-favorites .cc-favourites > .c-manga .title.two_lined {
+        text-align: center;
+        display: none;
+        /*------------------*/
+    }
+    .b-catalog_entry-tooltip::after {
+        visibility: hidden;
+    }
+    .b-catalog_entry-tooltip > a {
+        display: block;
+        width: 10rem;
+        height: 0;
+    }
+    .b-catalog_entry-tooltip > a::after {
+        content: "";
+        display: block;
+        padding-bottom: 155%;
+        border-radius: 0.125rem;
+    }
+    .cc-favourites .c-character .image-cutter::after {
+        position: absolute;
+        display: flex;
+        content: "";
+        line-height: 1.45;
+        font-size: 13px;
+        font-weight: bold;
+        color: #bbb;
+        top: 0.5rem;
+        left: 0.5rem;
+        pointer-events: none;
+        z-index: 20;
+        opacity: 0;
+        text-shadow: 1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%),
+            1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%);
+        transition: opacity 0.2s;
+        -webkit-transition: opacity 0.2s;
+    }
+    .cc-favourites .c-column:hover .image-cutter::after {
+        opacity: 1;
+    }
+    .cc-favourites .c-character .image-cutter::before {
+        position: absolute;
+        display: grid;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        padding: 0.38rem;
+        font-size: 14px;
+        line-height: 1.45;
+        overflow: hidden;
+        align-items: flex-end;
+        justify-content: center;
+        white-space: normal;
+        text-align: center;
+        font-weight: bold;
+        pointer-events: none;
+        color: #bbb;
+        text-shadow: 1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%),
+            1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%);
+        opacity: 0;
+        transition: opacity 0.2s;
+        -webkit-transition: opacity 0.2s;
+    }
+    .cc-favourites .c-column:hover .image-cutter::before {
+        opacity: 1;
+    }
+    .cc-favourites .c-character .cover .image-decor::before {
+        position: absolute;
+        display: grid;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        padding: 0.38rem;
+        font-size: 14px;
+        line-height: 1.45;
+        overflow: hidden;
+        justify-content: center;
+        align-items: flex-end;
+        white-space: normal;
+        text-align: center;
+        font-weight: bold;
+        pointer-events: none;
+        color: #bbb;
+        text-shadow: 1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%),
+            1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%);
+        opacity: 1;
+        transition: opacity 0.2s;
+        -webkit-transition: opacity 0.2s;
+    }
+    .cc-favourites .c-column:hover .image-decor::before {
+        opacity: 0;
+    }
+
+    #profiles_show .cc-favourites .c-column.c-person {
+        display: none !important;
+    } /*убрать только Людей*/
+
+ 
+
+    .cc-favourites .c-anime .cover .image-decor::before,
+    .cc-favourites .c-manga .cover .image-decor::before {
+        content: "";
+        display: flex;
+        position: absolute;
+        bottom: auto;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        opacity: 1;
+        color: aliceblue;
+        white-space: nowrap;
+        background: transparent;
+        height: 24px;
+        width: 90px;
+        padding: 2px 10px;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(2px);
+        border-radius: 0.4rem 0 0.3rem 0;
+        text-align: center;
+        opacity: 0;
+        text-shadow: 1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%),
+            1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%);
+        transition: 0.2s;
+    }
+    .cc-favourites > .c-anime:hover .cover .image-decor::before,
+    .cc-favourites > .c-manga:hover .cover .image-decor::before {
+        opacity: 1;
+        background: rgb(20 38 61 / 77%);
+    }
+    .cc-favourites > .c-anime .cover .image-cutter::before,
+    .cc-favourites > .c-manga .cover .image-cutter::before {
+        position: absolute;
+        display: grid;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        padding: 0.38rem;
+        font-size: 14px;
+        line-height: 1.45;
+        overflow: hidden;
+        align-items: flex-end;
+        justify-content: center;
+        white-space: normal;
+        text-align: center;
+        font-weight: bold;
+        pointer-events: none;
+        color: #bbb;
+        text-shadow: 1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%),
+            1px 0 2px rgb(0 0 0 / 75%), -1px 0 2px rgb(0 0 0 / 75%), 0 1px 2px rgb(0 0 0 / 75%), 0 -1px 2px rgb(0 0 0 / 75%);
+        opacity: 1;
+        transition: opacity 0.2s;
+        -webkit-transition: opacity 0.2s;
+    }
+    .p-profiles-show .user_rates-minified .b-catalog_entry.planned .image-decor::after,
+    .p-profiles-show .user_rates-minified .b-catalog_entry.watching .image-decor::after,
+    .p-profiles-show .user_rates-minified .b-catalog_entry.completed .image-decor::after,
+    .p-profiles-show .user_rates-minified .b-catalog_entry.rewatching .image-decor::after,
+    .p-profiles-show .user_rates-minified .b-catalog_entry.on_hold .image-decor::after,
+    .p-profiles-show .user_rates-minified .b-catalog_entry.dropped .image-decor::after {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        line-height: 24px;
+        right: 0.7rem;
+        bottom: auto;
+        top: 0.5rem;
+        z-index: 12;
+        font-size: 18px;
+        border-radius: 3rem;
+    }
+    .p-profiles-favorites .b-catalog_entry.planned .image-decor::after,
+    .p-profiles-favorites .b-catalog_entry.watching .image-decor::after,
+    .p-profiles-favorites .b-catalog_entry.completed .image-decor::after,
+    .p-profiles-favorites .b-catalog_entry.rewatching .image-decor::after,
+    .p-profiles-favorites .b-catalog_entry.on_hold .image-decor::after,
+    .p-profiles-favorites .b-catalog_entry.dropped .image-decor::after {
+        /*Браузер ( edge ) фикс*/
+        display: none;
+    }
+    .p-profiles-show .user_rates-minified .b-catalog_entry.watching .image-decor::after {
+        background-color: rgb(76 48 189 / 90%);
+    }
+    .p-profiles-show .user_rates-minified .b-catalog_entry.completed .image-decor::after {
+        background-color: rgb(65 149 65 / 90%);
+    }
+    .p-profiles-show .user_rates-minified .b-catalog_entry.dropped .image-decor::after {
+        background-color: rgb(202 73 41 / 90%);
+    }
+    .p-profiles-show .user_rates-minified .b-catalog_entry.on_hold .image-decor::after {
+        background-color: rgb(197 131 61 / 90%);
+    }
+    .p-profiles-show .user_rates-minified .b-catalog_entry.planned .image-decor::after {
+        background-color: rgb(253 253 253 / 90%);
+    }
+    .p-profiles-show .user_rates-minified .b-catalog_entry.rewatching .image-decor::after {
+        background-color: rgb(31 111 106 / 90%);
+    }
+}
