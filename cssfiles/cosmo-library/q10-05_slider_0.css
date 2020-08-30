@@ -51,8 +51,7 @@
     width: 0.75rem;
     height: 0.75rem;
     margin: 0.25rem;
-    background: rgba(35, 35, 35, 0.55);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    background: rgba(var(--dark-color), 0.3);
     border-radius: 50%;
     pointer-events: auto;
     cursor: pointer;
@@ -107,7 +106,7 @@
     will-change: transform;
 }
 .id-01__button.active {
-    background: #a01f22;
+    background: rgba(var(--bright-color), 0.8);
 }
 
 .id-01__slide.hidden {
