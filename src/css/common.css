@@ -1504,3 +1504,24 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 .bodik {
     background-color: rgba(0, 0, 0, 0.14)!important;
 }
+
+
+
+
+
+
+
+
+.md-control.Lilac.Blizzard,
+.md-control.Gray.Silence,
+ md-control.Green.Grooves {
+margin: 0rem .32%;
+    background-color: #bbaacc0f;
+    width: calc(100% / 5 - 1 * 1.0%);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: .4rem;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 6%), 0px 4px 5px 0px rgb(0 0 0 / 8%), 0px 1px 10px 0px rgb(0 0 0 / 7%);
+}
+
