@@ -144,9 +144,9 @@ p:last-child {
 
 .content {
   position: relative;
-  max-width: 920px;
+  max-width: 955px;
   padding: 1.5em;
-  margin: 6em 5.5em 1.5em auto;
+  margin: 1rem auto 1rem auto;
   background-color: rgb(41 44 56 / 85%);
   backdrop-filter: blur(5px);
   border-radius: 2px;
@@ -189,7 +189,8 @@ p:last-child {
   top: 0;
   right: 0;
   left: 0;
-  max-width: inherit;
+  /*max-width: inherit;*/
+	max-width: 1350px;
   margin: auto;
   color: #fff;
 }
@@ -241,10 +242,10 @@ p:last-child {
 }
 
 section#nav_settings {
-  margin-top: 30rem;
+  margin-top: auto;
 }
 section#nav_code {
-  margin-top: -0.2rem;
+  margin-top: auto;
 }
 a[href="#nav_code"] {
   background-color: rgb(255 255 255 / 5%);
