@@ -1512,7 +1512,7 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 
 .color-settings .md-control {
   overflow: hidden;
-  margin: 0 .5em 0 0;
+  margin: 0 0.5em 0 0;
   padding: 0.3em 1em 0.3em 0.5em;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1520,7 +1520,7 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
   box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 6%), 0px 4px 5px 0px rgb(0 0 0 / 8%), 0px 1px 10px 0px rgb(0 0 0 / 7%);
 }
 .color-settings .md-control .md-radio {
-    margin: .375em;
+  margin: 0.375em;
 }
 .color-settings .md-control.Lilac.Blizzard {
   background: #46489885;
@@ -1529,11 +1529,17 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
   background: #2c5a359c;
 }
 .color-settings .md-control.Gray.Silence {
-  background: #393f48bf;	
+  background: #393f48bf;
 }
 .color-settings .md-control.Bronze.Sunset {
-background: #543d29d6;
+  background: #543d29d6;
 }
 .color-settings .md-control.Amaranth.Unniverse {
-background: #4a1e26e6;
+  background: #4a1e26e6;
+}
+.color-settings .md-control.Red.Mountians {
+  background: #5a2926e6;
+}
+.color-settings .md-control.Blue.Way {
+  background: #0f1f30e6;
 }
