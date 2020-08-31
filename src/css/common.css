@@ -1529,8 +1529,7 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 .md-control.K.On,
 .md-control.Calidum,
 .md-control.Space.Stuff,
-.md-control.Lignum,
-.md-control.Yin.&.Yang {
+.md-control.Lignum {
     margin: 0 0.32%;
     background-color: #bbaacc0f;
     width: calc(100% / 5 - 1 * 1%);
