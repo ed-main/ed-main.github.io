@@ -144,9 +144,9 @@ p:last-child {
 
 .content {
   position: relative;
-  max-width: 955px;
+  max-width: 920px;
   padding: 1.5em;
-  margin: 1rem auto 1rem auto;
+  margin: 1rem 5.5rem 1rem auto;
   background-color: rgb(41 44 56 / 85%);
   backdrop-filter: blur(5px);
   border-radius: 2px;
@@ -189,8 +189,8 @@ p:last-child {
   top: 0;
   right: 0;
   left: 0;
-  /*max-width: inherit;*/
-	max-width: 1350px;
+  max-width: inherit;
+	
   margin: auto;
   color: #fff;
 }
@@ -786,7 +786,7 @@ input:checked + .md-list + .md-list_hidden {
   height: auto;
   padding: 1em;
   margin: 1em;
-  background: rgb(58 119 94 / 80%);
+  background: rgb(193 116 0);
   border: 0;
   border-radius: 50%;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -1513,7 +1513,7 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 .color-settings .md-control {
   overflow: hidden;
   margin: 0 .5em 0 0;
-  padding: 0.25em 1em 0.25em 0.5em;
+  padding: 0.3em 1em 0.3em 0.5em;
   white-space: nowrap;
   text-overflow: ellipsis;
   border-radius: 0.4rem;
