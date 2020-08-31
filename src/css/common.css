@@ -245,6 +245,10 @@ p:last-child {
 section#nav_settings {
   margin-top: 30rem;
 }
+section#nav_code {
+  margin-top: -2rem; 
+}
+
 section#nav_preview {
     position: absolute!important;  /*position: fixed!important;*/
     top: -6rem;
