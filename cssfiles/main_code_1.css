@@ -390,7 +390,7 @@ textarea {
   padding: 1px 12px !important;
   margin: 2px !important;
   color:  rgba(var(--bright-color), var(--hundred)) !important;
-  background: rgba(var(--block-color), 0.6) !important;
+  background: rgba(var(--bright-color), 0.15) !important;
   transition: 0.3s ease !important;
   border: none !important;
   border-radius: 10px;
