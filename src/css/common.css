@@ -240,15 +240,15 @@ p:last-child {
   opacity: 0;
 }
 
-
-
 section#nav_settings {
   margin-top: 30rem;
 }
 section#nav_code {
-  margin-top: -2rem; 
+  margin-top: -0.2rem;
 }
-
+section#nav_code a {
+  background: rgb(255 255 255 / 5%);
+}
 section#nav_preview {
     position: absolute!important;  /*position: fixed!important;*/
     top: -6rem;
@@ -760,6 +760,7 @@ input:checked + .md-list + .md-list_hidden {
 
 .md-textarea textarea {
   width: 100%;
+  min-height: 500px;	
   padding: .25em 0;
   background: transparent;
   border: 0;
