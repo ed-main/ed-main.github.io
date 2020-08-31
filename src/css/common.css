@@ -1528,3 +1528,12 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 .color-settings .md-control.Green.Grooves {
   background: #2c5a359c;
 }
+.color-settings .md-control.Gray.Silence {
+  background: #393f48bf;	
+}
+.color-settings .md-control.Bronze.Sunset {
+background: #543d29d6;
+}
+.color-settings .md-control.Amaranth.Unniverse {
+background: #4a1e26e6;
+}
