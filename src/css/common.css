@@ -1508,29 +1508,10 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 
 
 
-
-
-
-
-.md-control.Lilac.Blizzard,
-.md-control.Gray.Silence,
-.md-control.Green.Grooves,
-.md-control.Bronze.Sunset,
-.md-control.Amaranth.Unniverse,
-.md-control.Red.Mountians,
-.md-control.Blue.Way,
-.md-control.Alien.Earth,
-.md-control.Bright.Away,
-.md-control.Dark.Forest,
-.md-control.Endless.Horizon,
-.md-control.On.Battle,
-.md-control.Under.Night,
-.md-control.The.Wasteland,
-.md-control.K.On,
-.md-control.Calidum,
-.md-control.Space.Stuff,
-.md-control.Lignum,
-.md-control.Yin.Yang {
+div.md-control_group {
+    margin: 0 -2em 0 -1em;
+}
+div.md-control_group .md-control {
     margin: 0 0.32%;
     background-color: #bbaacc0f;
     width: calc(100% / 5 - 1 * 1%);
