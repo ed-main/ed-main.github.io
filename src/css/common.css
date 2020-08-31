@@ -250,16 +250,12 @@ section#nav_code {
 a[href="#nav_code"] {
   background-color: rgb(255 255 255 / 5%);
 }
+/*position: fixed!important;*/
 section#nav_preview {
-    position: absolute!important;  /*position: fixed!important;*/
-    top: -6rem;
     width: 100%;
-    margin-left: 12rem;
     z-index: 2;
     padding: 6px;
 }
-
-
 
 
 /**
