@@ -246,7 +246,7 @@ section#nav_settings {
 section#nav_code {
   margin-top: -0.2rem;
 }
-section#nav_code .topbar nav a {
+section#nav_code nav a {
   background: rgb(255 255 255 / 5%);
 }
 section#nav_preview {
