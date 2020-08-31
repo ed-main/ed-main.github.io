@@ -76,7 +76,8 @@
     transform: scale(1);
     transition: 0.4s all;
     pointer-events: auto;
-    height: 66px;
+    height: 45px;
+    margin: 7px 0;
 }
 .qa-link {
     width: 45px;
