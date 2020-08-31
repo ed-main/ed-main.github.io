@@ -837,7 +837,9 @@ input:checked + .md-list + .md-list_hidden {
 }
 
 .md-control:not(.v-file):last-child {
-  margin: 0;
+ position: relative;
+ right: .1rem;    
+ margin: 0;
 }
 
 .md-control input {
@@ -1521,5 +1523,9 @@ div.md-control_group .md-control {
     border-radius: 0.4rem;
     box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 6%), 0px 4px 5px 0px rgb(0 0 0 / 8%), 0px 1px 10px 0px rgb(0 0 0 / 7%);
 }
-
-
+div.md-control_group .md-radio {
+	margin: .375em;
+}
+div.md-control_group .md-radio + span {
+    padding: 0;
+}
