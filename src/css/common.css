@@ -246,8 +246,8 @@ section#nav_settings {
 section#nav_code {
   margin-top: -0.2rem;
 }
-section#nav_code nav a {
-  background: rgb(255 255 255 / 5%);
+a[href="#nav_code"] {
+  background: rgb(255 255 255 / 5%)!important;
 }
 section#nav_preview {
     position: absolute!important;  /*position: fixed!important;*/
