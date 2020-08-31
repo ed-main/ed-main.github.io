@@ -247,7 +247,7 @@ section#nav_code {
   margin-top: -0.2rem;
 }
 a[href="#nav_code"] {
-  background: rgb(255 255 255 / 5%)!important;
+  background-color: rgb(255 255 255 / 5%);
 }
 section#nav_preview {
     position: absolute!important;  /*position: fixed!important;*/
