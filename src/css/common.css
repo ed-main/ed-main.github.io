@@ -1510,6 +1510,7 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 
 
 
+
 .color-settings .md-control {
   overflow: hidden;
   margin: 0 0.5em 0 0;
@@ -1523,23 +1524,39 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
   margin: 0.375em;
 }
 .color-settings .md-control.Lilac.Blizzard {
-  background: #46489885;
+  background-color: #46489885;
 }
 .color-settings .md-control.Green.Grooves {
-  background: #2c5a359c;
+  background-color: #2c5a359c;
 }
 .color-settings .md-control.Gray.Silence {
-  background: #393f48bf;
+  background-color: #393f48bf;
 }
 .color-settings .md-control.Bronze.Sunset {
-  background: #543d29d6;
+  background-color: #543d29d6;
 }
 .color-settings .md-control.Amaranth.Unniverse {
-  background: #4a1e26e6;
+  background-color: #4a1e26e6;
 }
 .color-settings .md-control.Red.Mountians {
-  background: #5a2926e6;
+  background-color: #5a2926e6;
 }
 .color-settings .md-control.Blue.Way {
-  background: #0f1f30e6;
+  background-color: #0f1f30e6;
 }
+.color-settings .md-control.Alien.Earth {
+  background-color: #2d2d78c2;
+}
+.color-settings .md-control.Bright.Away {
+  background-color: #583324cc;
+}
+.color-settings .md-control.Dark.Forest {
+  background-color: #191817d9;
+}
+.color-settings .md-control.Endless.Horizon {
+  background-color: #1367a09c;
+}
+.color-settings .md-control.On.Battle {
+  background-color: #253c8ab3;
+}
+
