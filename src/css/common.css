@@ -1559,4 +1559,26 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 .color-settings .md-control.On.Battle {
   background-color: #253c8ab3;
 }
+.color-settings .md-control.Under.Night {
+  background-color: #4e34a9db;
+}
+.color-settings .md-control.The.Wasteland {
+  background-color: #4b5356cc;
+}
+.color-settings md-control.K.On {
+  background-color: #4a2727ed;
+}
+.color-settings .md-control.Calidum {
+  background-color: #3d2c14d4;
+}
+.color-settings .md-control.Space.Stuff {
+  background-color: #060c1899;
+}
+.color-settings .md-control.Lignum {
+  background-color: #14483fcc;
+}
+.color-settings .md-control.Yin.Yang {
+  background-color: #454545cc;
+}
+
 
