@@ -1565,7 +1565,7 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 .color-settings .md-control.The.Wasteland {
   background-color: #4b5356cc;
 }
-.color-settings md-control.K.On {
+.color-settings .md-control.K.On {
   background-color: #4a2727ed;
 }
 .color-settings .md-control.Calidum {
