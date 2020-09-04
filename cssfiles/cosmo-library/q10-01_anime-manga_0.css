@@ -216,24 +216,24 @@
     }
 }
 @media screen and (min-width: 400px) {
-    #profiles_show .Animes_Mangas .c-column {
+    .Animes_Mangas .c-column {
       width: calc(100% / 2 - 1 * 1.01%);
       float: left;
       margin-bottom: .65rem!important;
     }
-    #profiles_show .Blok-0 {
+    .Blok-0 {
         white-space: normal;
         overflow-y: inherit;
     }
 }
 @media screen and (min-width: 600px) {
-    #profiles_show .Animes_Mangas .c-column {
+    .Animes_Mangas .c-column {
      width: calc(100% / 3 - 1 * 1.01%);
     }
 }
 
 @media screen and (min-width: 900px) {
-    #profiles_show .Animes_Mangas .c-column {
+    .Animes_Mangas .c-column {
      width: calc(100% / 4 - 1 * 1.01%);
     }
 }
