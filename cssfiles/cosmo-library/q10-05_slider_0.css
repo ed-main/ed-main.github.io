@@ -152,22 +152,22 @@
     z-index: 0;
 }
 @media screen and (min-width: 340px) {
-    id-01 {
+    .id-01 {
      width: calc(100% / 2 - 1 * 1%);
   }
 }
 @media screen and (min-width: 465px) {
-    id-01 {
+    .id-01 {
      width: calc(100% / 3 - 1 * 1%);
   }
 }
 @media screen and (min-width: 665px) {
-    id-01 {
+    .id-01 {
      width: calc(100% / 4 - 1 * 1%);
   }
 }
 @media screen and (min-width: 900px) {
-    id-01 {
+    .id-01 {
      width: calc(100% / 5 - 1 * 1%);
   }
 }
