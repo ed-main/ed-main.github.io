@@ -1,7 +1,7 @@
 .id-01 {
     display: inline-block;
     position: relative;
-    width: calc(100% / 5 - 1 * 1%);
+    width: calc(100% / 1 - 1 * 1%);
     margin: 0.5rem 0.5%;
     max-width: 1000px;
     border-radius: 0.45rem;
@@ -150,4 +150,24 @@
 
 .id-01__button.active:first-child::after {
     z-index: 0;
+}
+@media screen and (min-width: 340px) {
+    id-01 {
+     width: calc(100% / 2 - 1 * 1%);
+  }
+}
+@media screen and (min-width: 465px) {
+    id-01 {
+     width: calc(100% / 3 - 1 * 1%);
+  }
+}
+@media screen and (min-width: 665px) {
+    id-01 {
+     width: calc(100% / 4 - 1 * 1%);
+  }
+}
+@media screen and (min-width: 900px) {
+    id-01 {
+     width: calc(100% / 5 - 1 * 1%);
+  }
 }
