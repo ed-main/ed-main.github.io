@@ -1,4 +1,4 @@
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 180px) {
     .Blok-2 {
         display: block;
         padding: 1% 0 3%;
@@ -136,7 +136,6 @@
         display: block;
     }
 }
-
 @media screen and (min-width: 1024px) {
     .Person-1 .b-catalog_entry a .image-cutter::after {
         width: calc(100% - 15px);
