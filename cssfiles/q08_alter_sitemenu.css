@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-.l-top_menu-v2 .submenu {
+.l-top_menu-v2 .menu-dropdown.main .submenu {
   width: 135%;
 }
 .l-top_menu-v2 .menu-dropdown.main .submenu>a {
