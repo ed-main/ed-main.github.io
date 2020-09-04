@@ -1,4 +1,4 @@
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 180px) {
       .Blok-1 {
         display: block;
         padding: 1% 0 0 0;
@@ -26,7 +26,7 @@
         padding: 0.35rem;
         max-width: none;
         background: none;
-        width: calc(100% / 3);
+        width: calc(100% / 1);
     }
       .Person-0 .b-catalog_entry .cover .image-decor .image-cutter {
         max-height: 1px !important;
@@ -155,35 +155,44 @@
     
     
 }
-
+@media screen and (min-width: 240px) {
+  .Person-0 .c-column {
+    width: calc(100% / 2);
+  }
+}
+@media screen and (min-width: 380px) {
+   .Person-0 .c-column {
+    width: calc(100% / 3);
+  }
+  #profiles_show .Blok-1 {
+    white-space: normal;
+    overflow-y: inherit;
+  }
+}
 @media screen and (min-width: 500px) {
-      .Person-0 .c-column {
-        width: calc(100% / 4);
-    }
+   .Person-0 .c-column {
+    width: calc(100% / 4);
+  }
 }
-@media screen and (min-width: 767px) {
-      .Person-0 .c-column {
-        width: calc(100% / 5);
-    }
-      .Blok-1 {
-        white-space: normal;
-        overflow-y: inherit;
-    }
+@media screen and (min-width: 768px) {
+   .Person-0 .c-column {
+    width: calc(100% / 5);
+  }
 }
-@media screen and (min-width: 880px) {
-      .Person-0 .c-column {
-        width: calc(100% / 6);
-    }
+@media screen and (min-width: 900px) {
+   .Person-0 .c-column {
+    width: calc(100% / 6);
+  }
 }
 @media screen and (min-width: 1024px) {
-      .Person-0 .c-column {
-        width: calc(100% / 7);
-    }
+   .Person-0 .c-column {
+    width: calc(100% / 7);
+  }
 }
 @media screen and (min-width: 1200px) {
-      .Person-0 .c-column {
-        width: calc(100% / 8);
-    }
+   .Person-0 .c-column {
+    width: calc(100% / 8);
+  }
 }
 
 
