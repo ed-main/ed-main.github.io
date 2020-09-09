@@ -419,9 +419,22 @@
     height: 102vh;
     z-index: 2;
     padding: 15px 15px 0 15px;
-    background-size: cover;
-    background-attachment: fixed;
     overflow: hidden !important;
+  }
+   #profiles_show .profile-head::after {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    pointer-events: none; 
   }
   #profiles_show .profile-head .c-history, #profiles_show .profile-head .c-history.x2, #profiles_show .profile-head .c-history.x3, #profiles_show.x1000 > .l-page div .profile-head .c-history.x2, #profiles_show.x1000 > .l-page div .profile-head .c-history.x3 {
     float: none !important;
