@@ -905,17 +905,21 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     font: bold 10px 'Comfortaa';
     position: absolute;
     right: 5px;
+    z-index: 10;  
   }
 body.p-achievements.p-profiles .l-footer .copyright {
 color:rgba(214, 144, 16, 0.48);
 }
   .l-footer .links {
     clear: both;
+    position: relative;    
     display: inline-block;
     width: 100%;
     vertical-align: top;
     text-align: center;
     font: bold 10px 'Comfortaa';
+    z-index: 10;
+    
    }
   .l-footer .links a {
     margin: 5px;
@@ -928,6 +932,7 @@ body.p-achievements.p-profiles .l-footer .links a {
     position: absolute;
     left: 5px;
     bottom: 0;
+    z-index: 10;  
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
   }
