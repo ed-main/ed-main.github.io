@@ -419,6 +419,7 @@
     height: 102vh;
     z-index: 2;
     padding: 15px 15px 0 15px;
+    background-color: rgba(var(--menu-back), 0.8);
     overflow: hidden !important;
   }
    #profiles_show .profile-head::after {
