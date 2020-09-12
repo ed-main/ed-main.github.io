@@ -11,7 +11,7 @@
         height: 0;
         padding-bottom: 11.88%;
     }
-    body .Person-1 .b-catalog_entry {
+    body#profiles_show .Person-1 .b-catalog_entry {
         box-shadow: none;
         transition: none;
         transform: none;
