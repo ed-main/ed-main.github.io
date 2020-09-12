@@ -8,7 +8,7 @@
       .Person-0 {
         position: relative;
     }
-    body  .Person-0 .b-catalog_entry {
+    body#profiles_show .Person-0 .b-catalog_entry {
         box-shadow: none;
         transition: none;
         transform: none;
