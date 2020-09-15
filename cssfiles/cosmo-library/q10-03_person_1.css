@@ -47,7 +47,7 @@
     .Person-1 .c-column:hover .image-decor .image-cutter {
         box-shadow: none;
     }
-    .Person-1 .b-catalog_entry .cover .title.two_lined {
+    #profiles_show .Person-1 .b-catalog_entry .cover .title.two_lined {
         position: absolute;
         display: grid;
         align-items: center;
@@ -61,7 +61,7 @@
         right: 0;
         left: 0;
         max-width: 90px;
-        height: 23px;
+        height: 23px!important;
         font-size: 16px;
         color: #f58ebb;
         text-shadow: 1px 0 2px rgb(0 0 0 / 78%), -1px 0 2px rgb(0 0 0 / 78%), 0 1px 2px rgb(0 0 0 / 78%), 0 -1px 2px rgb(0 0 0 / 78%),
