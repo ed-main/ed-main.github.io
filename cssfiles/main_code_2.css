@@ -458,7 +458,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
   .b-ajax:after {
     width: 30px;
     height: 31px;
-    content: '\\_f1ce';
+    content: '\f1ce';
     color:  rgba(var(--light-color), var(--hundred));
     font-size: 30px !important;
     font: normal normal normal 18px/1 FontAwesome;
@@ -470,7 +470,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
   }
   
   .ajax-loading:after {
-    content: '\\_f1ce';
+    content: '\f1ce';
     width: 16.5px;
     height: 16.7px;
     font-size: 16px !important;
@@ -583,11 +583,11 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
   }
   
   div.compatibility > a:before {
-    content: '\\_f0ec';
+    content: '\f0ec';
   }
   
   .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before {
-    content: '\\_f2be';
+    content: '\f2be';
   }
   
   /* задаем параемтры стандарта для всех значков совместимости*/
@@ -679,7 +679,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
   }
   
   .b-breadcrumbs > span:after {
-    content: '\\_f101';
+    content: '\f101';
     color:  rgba(var(--dark-color), var(--hundred));
   }
   
@@ -1800,7 +1800,7 @@ body.p-achievements.p-profiles .l-footer .links a {
   }
   
   .b-comments .comments-collapser:after {
-    content: '\\_f139';
+    content: '\f139';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
@@ -1882,7 +1882,7 @@ body.p-achievements.p-profiles .l-footer .links a {
   }
   
   .p-profiles-show .lifetime .cuts .cut:after {
-    content: '\\_f10c';
+    content: '\f10c';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
@@ -1997,7 +1997,7 @@ body.p-achievements.p-profiles .l-footer .links a {
   }
   
   .b-height_shortener .expand:before {
-    content: '\\_f078\\_f078';
+    content: '\f078\f078';
     text-rendering: auto;
     font: normal normal normal 14px/1 FontAwesome;
     -webkit-font-smoothing: antialiased;
@@ -2039,7 +2039,7 @@ body.p-achievements.p-profiles .l-footer .links a {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    content: '\\_f0d9';
+    content: '\f0d9';
     position: relative;
     font-size: 66px;
     color: rgba(var(--popup-color), 0.5);
@@ -2056,7 +2056,7 @@ body.p-achievements.p-profiles .l-footer .links a {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    content: '\\_f0da';
+    content: '\f0da';
     position: relative;
     font-size: 66px;
     color: rgba(var(--popup-color), 0.5);
@@ -2509,7 +2509,7 @@ body.p-achievements.p-profiles .l-footer .links a {
   }
   
   .b-dialog .to_dialog:before {
-    content: '\\_f0e6';
+    content: '\f0e6';
     font: normal normal normal 15px FontAwesome;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -2836,7 +2836,7 @@ body.p-profiles .subheadline .misc-links > a:before {
     transition: 0.2s all;
 }
 body.p-profiles .subheadline .misc-links > a:after {
-    content: '\\_f2b6';
+    content: '\f2b6';
     display: inline-flex!important;
         background: rgba(var(--block-color), 1);
     color: rgba(var(--white-color), 0.7);
@@ -2896,7 +2896,7 @@ body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-
 }
 
 body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-options-floated a:after, body#clubs_edit .b-options-floated a:after {
-  content: '\\_f128';
+  content: '\f128';
   position: Absolute;
   top: 0;
   display: -webkit-inline-box !important;
@@ -2975,43 +2975,43 @@ body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-
 }
 
 .b-options-floated a[href*="/dialog"]:after {
-    content: '\\_f0e0'!important;
+    content: '\f0e0'!important;
 }
 .b-options-floated a[href*="/news"]:after {
-    content: '\\_f1ea'!important;
+    content: '\f1ea'!important;
 }
 .b-options-floated a[href*="/notifi"]:after {
-    content: '\\_f05a'!important;
+    content: '\f05a'!important;
 }
 .b-options-floated a[href*="/acc"]:after {
-    content: '\\_f007'!important;
+    content: '\f007'!important;
 }
 .b-options-floated a[href*="/profi"]:after {
-    content: '\\_f2bb'!important;
+    content: '\f2bb'!important;
 }
 .b-options-floated a[href*="/styl"]:after {
-    content: '\\_f1fc'!important;
+    content: '\f1fc'!important;
 }
 .b-options-floated a[href*="/lis"]:after {
-    content: '\\_f114'!important;
+    content: '\f114'!important;
 }
  .b-options-floated a[href*="/misc"]:after {
-    content: '\\_f141'!important;
+    content: '\f141'!important;
 }
 .b-options-floated a[href*="/main"]:after {
-    content: '\\_f1ad'!important;
+    content: '\f1ad'!important;
 }
 .b-options-floated a[href*="/descrip"]:after {
-    content: '\\_f15c'!important;
+    content: '\f15c'!important;
 }
 .b-options-floated a[href*="/page"]:after {
-    content: '\\_f0c5'!important;
+    content: '\f0c5'!important;
 }
 .b-options-floated a[href*="/link"]:after {
-    content: '\\_f0c1'!important;
+    content: '\f0c1'!important;
 }
 .b-options-floated a[href*="/memb"]:after {
-    content: '\\_f0c0'!important;
+    content: '\f0c0'!important;
 }
 
 .b-radio input[type="radio"]+.radio-label {
@@ -3023,7 +3023,7 @@ body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-
 }
 .b-radio input[type="radio"]+.radio-label:before {
     font-family: 'FontAwesome';
-    content: '\\_f1db';
+    content: '\f1db';
     bordeR: none;
     margin: 0px 14px 0 0;
     display: inline-flex;
@@ -3034,7 +3034,7 @@ body.p-profiles:not(.p-achievements):not(.p-user_history):not(.p-user_rates) .b-
 .b-radio input[type="radio"]:checked+.radio-label:before {
     width: auto;
     height: auto;
-    content: '\\_f058';
+    content: '\f058';
 }
 .abstain, .vote.hidden {
     padding: 6px 26px!important;
@@ -3096,7 +3096,7 @@ body.p-profiles .mass-actions .action a:after {
 }
 body.p-profiles .mass-actions .action a:before {
     font-family: 'FontAwesome';
-    content: '\\_f00c''\\_f00c';
+    content: '\f00c\f00c';
     position: absolute;
     bottom: 5px;
     right: 2px;
@@ -3109,11 +3109,11 @@ body.p-profiles .mass-actions .action a:before {
     color: rgba(var(--bright-color), 1); 
 }
 body.p-profiles .mass-actions .action a[href*='/read']:after {
-     content: '\\_f2b6';
+     content: '\f2b6';
     font-size: 15px;
 }
 body.p-profiles .mass-actions .action a[href*='/dele']:after {
-     content: '\\_f014';
+     content: '\f014';
     font-size: 18px;
 }
 body.p-profiles .mass-actions .action a:hover:before {
