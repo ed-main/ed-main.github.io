@@ -33,7 +33,7 @@
   .p-statistics-index .forum-nav .sections a.selected {
     color:  rgba(var(--hover-color), var(--hundred)) !important;
     text-decoration: none !important;
-  }
+  } 
   
   .b-contest_match .vs .invitation, .b-contest_match .vs .vote-voted, .b-contest_match .vs .vote-abstained, .b-contest_match .vs .thanks, .b-contest_match .vs .hint, .b-contest_match .vs .action {
     color:  rgba(var(--dark-color), var(--hundred)) !important;
