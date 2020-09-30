@@ -73,7 +73,7 @@
         -webkit-transition: opacity 0.2s;
     }
    
-    .Person-1 .about a:hover .title.two_lined {
+    #profiles_show .Person-1 .b-catalog_entry:hover .cover .title.two_lined {
         opacity: 1;
     }
     .Person-1:nth-child(odd) .c-column {
