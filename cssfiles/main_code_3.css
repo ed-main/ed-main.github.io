@@ -201,7 +201,7 @@
 }
   
   .b-collection-filters .block-list li:before, .b-collection-filters .b-block_list li:before {
-    content: '\\_f10c';
+    content: '\f10c';
     color:  rgba(var(--dark-color), var(--hundred));
     display: inline-block;
     vertical-align: top;
@@ -238,7 +238,7 @@
   }
   
   .b-collection-filters .b-block_list li.selected:before {
-    content: '\\_f05d';
+    content: '\f05d';
     color:  rgba(var(--light-color), var(--hundred));
     font-size: 19px;
     margin: 0px 18px 2px 1px;
@@ -310,7 +310,7 @@
   }
   
   .b-question:before {
-    content: '\\_f059';
+    content: '\f059';
     font: normal normal normal 14px/1 FontAwesome;
     direction: ltr;
     line-height: 1;
@@ -366,7 +366,7 @@
   
   .b-input input[type=checkbox]:before, input[type=checkbox]:before {
     display: inline-block;
-    content: '\\_f10c';
+    content: '\f10c';
     color:  rgba(var(--dark-color), var(--hundred));
     display: inline-block;
     vertical-align: top;
@@ -383,7 +383,7 @@
   }
   
   input[type=checkbox]:checked:before, .b-input input[type=checkbox]:checked:before {
-    content: '\\_f05d';
+    content: '\f05d';
     color:  rgba(var(--light-color), var(--hundred));
     font-size: 17px;
     margin: -1px 18px 2px 2px;
@@ -1532,7 +1532,7 @@
   
   .css .b-link[href*="/edit/styles"]:before {
     margin-right: -554px;
-    content: '\\_f15c';
+    content: '\f15c';
   }
   
   .css .b-link[href*="/edit/styles"]:hover:before {
@@ -1713,7 +1713,7 @@
  
   
   .b-list_switchers .switcher.popularity::after {
-    content: '\\_f164';
+    content: '\f164';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 11px;
     font-weight: bold;
@@ -1727,7 +1727,7 @@
 
   
   .b-list_switchers .switcher.alphabet::after {
-    content: '\\_f1c2';
+    content: '\f1c2';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 14px;
     font-weight: bold;
@@ -1738,7 +1738,7 @@
   }
   
   .b-list_switchers .switcher.progress::after {
-    content: '\\_f295';
+    content: '\f295';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 11px;
     font-weight: bold;
@@ -1965,7 +1965,7 @@ body.p-achievements.p-profiles .b-options-floated a {
   }
   
   body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after, body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
-    content: '\\_f091';
+    content: '\f091';
     font: normal normal normal 14px/1 FontAwesome;
     line-height: 28px;
     font-size: 20px;
