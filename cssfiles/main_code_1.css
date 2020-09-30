@@ -2207,7 +2207,7 @@ img {
 
 .profile-actions .mail:before, .profile-actions .talk:before {
   transition: 0.2s ease;
-  content: '\\_f0e0';
+  content: '\f0e0';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2221,7 +2221,7 @@ img {
 
 .profile-actions .settings:before {
   transition: 0.2s ease;
-  content: '\\_f085';
+  content: '\f085';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2235,7 +2235,7 @@ img {
 
 .profile-actions .ban:before {
   transition: 0.2s ease;
-  content: '\\_f06a';
+  content: '\f06a';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2261,7 +2261,7 @@ img {
 
 .profile-actions .fav-add::before {
   transition: 0.2s ease;
-  content: '\\_f234';
+  content: '\f234';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2270,7 +2270,7 @@ img {
 
 .profile-actions .fav-remove::before {
   transition: 0.2s ease;
-  content: '\\_f235';
+  content: '\f235';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2279,7 +2279,7 @@ img {
 
 .profile-actions .ignore-add:before {
   transition: 0.2s ease;
-  content: '\\_f2a8';
+  content: '\f2a8';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2288,7 +2288,7 @@ img {
 
 .profile-actions .ignore-remove:before {
   transition: 0.2s ease;
-  content: '\\_f25b';
+  content: '\f25b';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2296,7 +2296,7 @@ img {
 }
 
 .buttons .item-delete:before {
-  content: '\\_f1f8';
+  content: '\f1f8';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2304,7 +2304,7 @@ img {
 }
 
 .buttons .item-edit:before {
-  content: '\\_f040';
+  content: '\f040';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2312,7 +2312,7 @@ img {
 }
 
 .buttons .item-reply:before {
-  content: '\\_f27a';
+  content: '\f27a';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -2320,7 +2320,7 @@ img {
 }
 
 .b-quote .quoteable:before {
-  content: '\\_f10d';
+  content: '\f10d';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
