@@ -9,9 +9,9 @@
         position: relative;
     }
     body#profiles_show .Person-0 .b-catalog_entry {
-        box-shadow: none;
-        transition: none;
-        transform: none;
+        box-shadow: none!important;
+        transition: none!important;
+        transform: none!important;
     }
       .Person-0 .b-catalog_entry .cover .image-cutter img {
         opacity: 0;
