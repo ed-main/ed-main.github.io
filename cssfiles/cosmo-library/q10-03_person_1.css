@@ -12,9 +12,9 @@
         padding-bottom: 11.88%;
     }
     body#profiles_show .Person-1 .b-catalog_entry {
-        box-shadow: none;
-        transition: none;
-        transform: none;
+        box-shadow: none!important;
+        transition: none!important;
+        transform: none!important;
     }
     .Person-1 .b-catalog_entry .cover .image-cutter img {
         display: none;
