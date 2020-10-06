@@ -531,13 +531,13 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       display: none;
     }
     .l-page .menu-toggler .toggler:after, .l-page.menu-expanded .menu-toggler .toggler:after {
-      content: '\\_f039';
+      content: '\_f039';
       font-size: 26px;
       color:  rgba(var(--light-color), var(--hundred));
       font-family: FontAwesome;
     }
     .l-page.menu-expanded .menu-toggler .toggler:after {
-      content: '\\_f054';
+      content: '\_f054';
       font-size: 26px;
       color:  rgba(var(--light-color), var(--hundred));
       font-family: FontAwesome;
@@ -1269,7 +1269,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       position: absolute;
     }
     div.compatibility > a:before {
-      content: '\\_f0ec';
+      content: '\f0ec';
     }
     /* SOVMEST */
     .b-stats_bar.anime .compatibility a:before {
@@ -1431,7 +1431,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
     body[data-locale=ru] .b-new_marker:before {
       margin-top: 20px;
       right: 9px;
-      content: '\\_f111';
+      content: '\f111';
       width: 20px;
       color:  rgba(var(--hover-color), var(--hundred));
       background: none !important;
@@ -1520,7 +1520,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       max-width: 500px;
     }
     .b-hot_topics .topic.subject:after {
-      content: '\\_f07d';
+      content: '\f07d';
       font: normal normal normal 14px/1 FontAwesome;
       font-size: 22px;
       text-rendering: auto;
@@ -1530,7 +1530,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       top: 12px;
     }
     .b-hot_topics .topic.subject:before {
-      content: '\\_f0a6';
+      content: '\f0a6';
       font: normal normal normal 14px/1 FontAwesome;
       font-size: 22px;
       text-rendering: auto;
