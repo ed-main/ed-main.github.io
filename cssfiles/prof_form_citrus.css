@@ -415,7 +415,7 @@
       display: inline-block !important;
     }
     .b-stats_bar.anime .stat_name[data-type="completed"]:after {
-      content: "\\_f058" !important;
+      content: "\f058" !important;
       font-size: 22px !important;
       padding: 0 0 0 3px !important;
       opacity: 0.3;
@@ -426,7 +426,7 @@
       color: #daead9;
     }
     .b-stats_bar.anime .stat_name[data-type="watching,rewatching"]:after {
-      content: "\\_f04b" !important;
+      content: "\f04b" !important;
       font-size: 14px;
       padding: 0 0 0 9px !important;
       opacity: 0.3;
@@ -434,7 +434,7 @@
       color: #ded2f3;
     }
     .b-stats_bar.anime .stat_name[data-type="planned"]:after {
-      content: "\\_f133" !important;
+      content: "\f133" !important;
       font-size: 14px;
       padding: 0 0 0 6px !important;
       opacity: 0.3;
@@ -442,7 +442,7 @@
       color: #ded2f3;
     }
     .b-stats_bar.anime .stat_name[data-type="on_hold"]:after {
-      content: "\\_f04c" !important;
+      content: "\f04c" !important;
       font-size: 13px;
       padding: 0 0 0 7px !important;
       opacity: 0.3;
@@ -450,7 +450,7 @@
       color: #f3e9d2;
     }
     .b-stats_bar.anime .stat_name[data-type="dropped"]:after {
-      content: "\\_f1f8" !important;
+      content: "\f1f8" !important;
       font-size: 15px;
       opacity: 0.3;
       transition: 0.2s ease;
@@ -460,7 +460,7 @@
       font-size: 0px;
     }
     .b-stats_bar.anime a.title:before {
-      content: "\\_f008" !important;
+      content: "\f008" !important;
       font-size: 20px !important;
       border: 3px solid rgba(30, 95, 17, 0.68);
       border-radius: 50%;
@@ -723,7 +723,7 @@
       display: inline-block !important;
     }
     .b-stats_bar.manga .stat_name[data-type="completed"]:after {
-      content: "\\_f058" !important;
+      content: "\f058" !important;
       font-size: 22px !important;
       padding: 0 0 0 1px !important;
       opacity: 0.3;
@@ -733,7 +733,7 @@
       color: #daead9;
     }
     .b-stats_bar.manga .stat_name[data-type="watching,rewatching"]:before {
-      content: "\\_f02d" !important;
+      content: "\f02d" !important;
       font-size: 14px;
       padding: 0 9px 0 0 !important;
       opacity: 0.3;
@@ -741,7 +741,7 @@
       color: #ded2f3;
     }
     .b-stats_bar.manga .stat_name[data-type="planned"]:before {
-      content: "\\_f02e" !important;
+      content: "\f02e" !important;
       font-size: 14px;
       padding: 0 6px 0 0 !important;
       opacity: 0.3;
@@ -749,7 +749,7 @@
       color: #ded2f3;
     }
     .b-stats_bar.manga .stat_name[data-type="on_hold"]:before {
-      content: "\\_f017" !important;
+      content: "\f017" !important;
       font-size: 13px;
       padding: 0 7px 0 0 !important;
       opacity: 0.3;
@@ -757,7 +757,7 @@
       color: #f3e9d2;
     }
     .b-stats_bar.manga .stat_name[data-type="dropped"]:before {
-      content: "\\_f1f8" !important;
+      content: "\f1f8" !important;
       font-size: 15px;
       opacity: 0.3;
       transition: 0.2s ease;
@@ -767,7 +767,7 @@
       font-size: 0px;
     }
     .b-stats_bar.manga a.title:before {
-      content: '\\_f187';
+      content: '\f187';
       font-size: 20px !important;
       border: 3px solid rgba(123, 22, 89, 0.7);
       border-radius: 50%;
@@ -892,7 +892,7 @@
       -moz-osx-font-smoothing: grayscale;
     }
     .b-stats_bar.anime .title:before {
-      content: '\\_f008';
+      content: '\f008';
       font-size: 20px !important;
       border: 3px solid rgba(82, 82, 82, 0.7);
       border-radius: 50%;
@@ -906,7 +906,7 @@
       z-index: -5;
     }
     .b-stats_bar.manga .title:before {
-      content: '\\_f187';
+      content: '\f187';
       font-size: 20px;
       border: 3px solid rgba(82, 82, 82, 0.7);
       border-radius: 50%;
@@ -1299,7 +1299,7 @@ position: absolute;
       display: none;
     }
     #profiles_show .subheadline.m13 > a:after {
-      content: '\\_f187';
+      content: '\f187';
       font: normal normal normal 14px/1 FontAwesome;
       font-size: 24px;
       text-rendering: auto;
@@ -1310,7 +1310,7 @@ position: absolute;
       
     }
 	  #profiles_show .subheadline.m13:after {
-    content: '\\_f187';
+    content: '\f187';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 24px;
     text-rendering: auto;
@@ -1581,7 +1581,7 @@ position: absolute;
       display: none;
     }
     #profiles_show .subheadline.m13 > a:after {
-      content: '\\_f187';
+      content: '\f187';
       font: normal normal normal 14px/1 FontAwesome;
       font-size: 24px;
       text-rendering: auto;
@@ -1592,7 +1592,7 @@ position: absolute;
       
     }
 	  #profiles_show .subheadline.m13:after {
-    content: '\\_f187';
+    content: '\f187';
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 24px;
     text-rendering: auto;
