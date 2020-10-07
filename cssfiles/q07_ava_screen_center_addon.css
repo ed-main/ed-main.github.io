@@ -1,9 +1,10 @@
 @media screen and (min-width: 1200px) {
     #profiles_show .profile-head {
-       background-image: none!important;
-   }
-    #profiles_show .profile-head::before {
        background: none!important;
+   }
+    #profiles_show .profile-head::before,
+    #profiles_show .profile-head::after {
+       background-image: none!important;
    }
     body#profiles_show.x1200 .l-page,
     body#profiles_show .l-page {
