@@ -8,12 +8,6 @@
        .Person-0 {
         position: relative;
     }
-        body.Person-0 .b-catalog_entry {
-        box-shadow: none!important;
-        transition: none!important;
-        transform: none!important;
-        background: none!important;  
-    }
        .Person-0 .b-catalog_entry .cover .image-cutter img {
         opacity: 0;
         visibility: hidden;
@@ -27,6 +21,9 @@
         padding: 0.35rem;
         max-width: none;
         background: none;
+        box-shadow: none;
+        transition: none!important;
+        transform: none!important;      
         width: calc(100% / 1);
     }
        .Person-0 .b-catalog_entry .cover .image-decor .image-cutter {
