@@ -6,8 +6,7 @@
         overflow-y: hidden;
     }
       #profiles_show .Person-0 {
-        position: relative;
-        margin-bottom: -1.35rem;    
+        position: relative; 
     }
     body#profiles_show .Person-0 .b-catalog_entry {
         box-shadow: none!important;
