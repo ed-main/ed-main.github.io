@@ -7,6 +7,7 @@
     }
       #profiles_show .Person-0 {
         position: relative;
+        margin-bottom: -1.35rem;    
     }
     body#profiles_show .Person-0 .b-catalog_entry {
         box-shadow: none!important;
