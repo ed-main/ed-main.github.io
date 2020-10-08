@@ -685,14 +685,13 @@
   /* cosmo-library fix */
   @media screen and (min-width: 1200px) {
       #profiles_show .Animes_Mangas .c-column {
-          width: -webkit-calc(100% / 5 - 0.1 * 0.1em - 1 * 1%) ;
-          width: calc(100% / 5 - 0.1 * 0.1em - 1 * 1%);
+          width: calc(100% / 5 - 1 * 1.01%);
+
       }
   }
   @media screen and (min-width: 1480px) {
       #profiles_show .Animes_Mangas .c-column {
-          width: -webkit-calc(100% / 6 - 0.1 * 0.1em - 1 * 1%);
-          width: calc(100% / 6 - 0.1 * 0.1em - 1 * 1%);
+          width: calc(100% / 6 - 1 * 1.01%);
       }
   }
   @media screen and (min-width: 1500px) {
