@@ -12,6 +12,7 @@
         box-shadow: none!important;
         transition: none!important;
         transform: none!important;
+        background: none!important;  
     }
       .Person-0 .b-catalog_entry .cover .image-cutter img {
         opacity: 0;
