@@ -686,7 +686,6 @@
   @media screen and (min-width: 1200px) {
       #profiles_show .Animes_Mangas .c-column {
           width: calc(100% / 5 - 1 * 1.01%)!important;
-
       }
   }
   @media screen and (min-width: 1480px) {
@@ -694,14 +693,15 @@
           width: calc(100% / 6 - 1 * 1.01%)!important;
       }
   }
+
   @media screen and (min-width: 1500px) {
     #profiles_show .Person-0 .c-column {
-      width: calc(100% / 9);
+      width: calc(100% / 9)!important;
     }
   }
   @media screen and (min-width: 1678px) {
     #profiles_show .Person-0 .c-column {
-      width: calc(100% / 10);
+      width: calc(100% / 10)!important;
     }
   }
   
