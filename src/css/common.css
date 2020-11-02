@@ -720,7 +720,7 @@ input:checked + .md-list + .md-list_hidden {
 .md-input_hint {
   display: block;
   font-size: .75em;
-  color: #6c9bbd;
+  color: #96a5b1;
 }
 .md-input_error {
   display: none;
