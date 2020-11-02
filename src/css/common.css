@@ -225,7 +225,7 @@ position: absolute;
 }
 a[href="#nav_code"] {
   background-color: rgb(44 86 113 / 34%);
-	
+}	
 .shade {
   position: fixed;
   top: 0;
@@ -1040,7 +1040,7 @@ input[type=color]:::-moz-color-swatch {
   line-height: 1.25em;
 }
 
-
+}
 
 
 
@@ -1056,7 +1056,7 @@ input[type=color]:::-moz-color-swatch {
   text-transform: lowercase;
   color: #e6e6e6;
 }
-}
+
 
 .md-list_control.fullwidth {
   width: calc(100% - 200px - 1em);
@@ -1489,4 +1489,7 @@ a.control_next {
 .style_switch.active:hover:after {
     opacity: 1;
 }
-
+label.v-file.md-list.md-control.disabled:nth-child(9),
+span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot off*/
+    display: none;
+}
