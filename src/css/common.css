@@ -223,7 +223,9 @@ position: absolute;
   background: rgba(0, 150, 136, 0.16);
   color: rgba(0, 150, 136, 1);
 }
-
+a[href="#nav_code"] {
+  background-color: rgb(44 86 113 / 34%);
+	
 .shade {
   position: fixed;
   top: 0;
@@ -996,7 +998,8 @@ input[type=color]:::-moz-color-swatch {
 }
 
 .v-file:not(.disabled):hover {
-  background: #303a46;
+  background: rgb(44 86 113 / 50%);
+  backdrop-filter: blur(2px);
 }
 
 .v-file.disabled {
