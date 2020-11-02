@@ -754,6 +754,7 @@ input:checked + .md-list + .md-list_hidden {
 
 .md-textarea textarea {
   width: 100%;
+  min-height: 500px;	
   padding: .25em 0;
   background: transparent;
   border: 0;
@@ -766,7 +767,7 @@ input:checked + .md-list + .md-list_hidden {
 .md-textarea.code textarea {
   font-family: monospace;
   color: #cceaff;
-  background-color: #2c343a;
+  background-color: rgb(44 52 58 / 65%);
 }
 
 
