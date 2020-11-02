@@ -1494,3 +1494,7 @@ label.v-file.md-list.md-control.disabled:nth-child(9),
 span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot off*/
     display: none;
 }
+.copyright {  /*Блок v.2.4.1-exprmental MOD E*/
+    position: relative;
+    z-index: 20;
+}
