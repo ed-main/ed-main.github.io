@@ -34,6 +34,7 @@
         background-image: none;
         background-size: contain;
         box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 15%);
+        background: linear-gradient(transparent 0%, rgba(var(--menu-back), 0.35) 100%);      
         border-radius: 0.5rem;
     }
        .Person-0 .b-catalog_entry .cover .title.two_lined {
