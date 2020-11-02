@@ -42,7 +42,7 @@
       #profiles_show .Person-0 .b-catalog_entry .cover .title.two_lined {
         position: absolute;
         display: grid;
-        max-width: 121px;
+        max-width: 90px;
         height: 17px;
         margin: 0 auto;
         padding: 0 1rem;
