@@ -138,11 +138,11 @@ p:last-child {
   box-shadow: inset 0 -10px 10px -10px #000000;
 }
 
-.content {
+.content {  /*margin: 6em 5.5em 1.5em auto;*/
   position: relative;
   max-width: 920px;
   padding: 1.5em;
-  margin: 6em 5.5em 1.5em auto;
+  margin: 0 5.5rem 1rem auto;
   background: rgb(32 49 60 / 64%);
   border-radius: 2px;
   backdrop-filter: blur(5px);	
@@ -243,9 +243,9 @@ a[href="#nav_code"] {
 section#nav_settings {
   margin-top: 30rem;
 }
-section#nav_preview {
+section#nav_preview { /*top: -6rem;*/
     position: fixed!important;
-    top: -6rem;
+    top: 0;
 	width: 100%;
     margin-left: 12rem;
     z-index: 2;
