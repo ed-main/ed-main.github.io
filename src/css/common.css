@@ -1489,6 +1489,4 @@ a.control_next {
 .style_switch.active:hover:after {
     opacity: 1;
 }
-label.v-file.md-list.md-control.disabled:nth-child(9), span.md-list_content.md-control_group label.md-control:nth-child(3) {
-    display: none;
-}
+
