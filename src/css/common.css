@@ -754,7 +754,7 @@ input:checked + .md-list + .md-list_hidden {
 
 .md-textarea textarea {
   width: 100%;
-  min-height: 500px;	
+  min-height: 400px;	
   padding: .25em 0;
   background: transparent;
   border: 0;
