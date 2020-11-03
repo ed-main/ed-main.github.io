@@ -30,6 +30,9 @@ html {
 }
 
 body {
+  width: 100vw;
+  overflow: auto;
+  overflow: overlay;	
   margin: 0;
   background: #2a3035;
   color: #dce8ea;
@@ -130,7 +133,7 @@ p:last-child {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: rgb(38 38 49) url(//i.imgur.com/wTRgtL0.jpg) no-repeat 50% 50% / cover;
   -moz-box-shadow: inset 0 -10px 10px -10px #000000;
@@ -1497,12 +1500,6 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
 .copyright {  /*Блок v.2.4.1-exprmental MOD E*/
     position: relative;
     z-index: 20;
-}
-
-body {
-    width: 100vw;
-    overflow: auto;
-    overflow: overlay;
 }
 ::-webkit-scrollbar {
     width: 8px;
