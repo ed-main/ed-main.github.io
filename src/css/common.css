@@ -1498,3 +1498,22 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
     position: relative;
     z-index: 20;
 }
+
+body {
+    width: 100vw;
+    overflow: auto;
+    overflow: overlay;
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #4a4a4a63;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+    display: none;
+    width: 6px;
+    background: transparent;
+}
