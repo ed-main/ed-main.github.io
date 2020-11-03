@@ -72,7 +72,7 @@
     font-size: 11px;
 }
  .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-anime_list:before {
-    content: '\\_f008';
+    content: '\f008';
     width: 55px;
     color: rgba(159, 255, 189, 0.2);
    font-size: 25px;
@@ -84,7 +84,7 @@
     content: 'АНИМЕ';
 }
   .l-top_menu-v2 .menu-dropdown.profile .submenu > .icon-manga_list:before {
-    content: '\\_f02d';
+    content: '\f02d';
     width: 55px;
     color: rgba(255, 142, 191, 0.2);
     font-size: 27px;
