@@ -1503,7 +1503,7 @@ body {
     width: 100vw;
     overflow: auto;
     overflow: overlay;
-
+}
 ::-webkit-scrollbar {
     width: 8px;
     background-color: transparent;
