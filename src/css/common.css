@@ -627,7 +627,8 @@ input:checked + .md-list + .md-list_hidden {
   color: #fff;
 }
 .md-btn.raised.primary {
-  background: #1873a0;
+  background: rgb(54 61 66 / 45%);
+  border-radius: .3rem;
 }
 .md-btn:disabled {
   background-color: #BDBDBD;
