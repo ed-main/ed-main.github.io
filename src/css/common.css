@@ -202,6 +202,7 @@ position: absolute;
     top: 11em;
     width: calc(1000px - 720px - 6.5em);
     min-width: 174px;
+    text-align: center;
     background-color: rgb(32 49 60 / 64%);
     backdrop-filter: blur(2.5px);
     border-radius: .3rem;
