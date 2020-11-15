@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
     .menu-dropdown *, .menu-dropdown *:before, .menu-dropdown *:after, .global-search input *, .global-search input, 
     .global-search inpot *:after, .global-search input *:before {
-    transition: 0.2s all;
+    transition: 0.2s all, width 0s, margin 0s, padding 0s;
 }
     .menu-dropdown.profile .text {
     transition: none;
