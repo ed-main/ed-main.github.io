@@ -913,7 +913,7 @@ header.head a.misc:hover {
 
 a {
   color:  rgba(var(--white-color), var(--hundred));
-  transition: 0.2s ease;
+  transition: 0.2s ease, width 0s, margin 0s, padding 0s;
 }
 
 a:hover {
