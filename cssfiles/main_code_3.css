@@ -2279,7 +2279,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
     overflow: initial;
     transition: .2s, opacity .2s, margin 0s, visibility .2s, font-size 0s, -webkit- .2s;
 }
-.tabs .b-image img { max-width: 250xp !important;}
+.tabs .b-image img { max-width: 250px !important;}
 
 /* Фикс для постеров */
 /*.tabs .b-catalog_entry .cover .image-decor .image-cutter { max-height: none !important;}*/
