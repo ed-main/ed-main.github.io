@@ -1,6 +1,6 @@
 /*2104*/
 .l-footer:before {
-    content: 'E-design v.4.3';
+    content: 'E-design v.4.2';
 }
 .b-club .name-logo .name {
     transition: 1s ease;
@@ -1911,7 +1911,7 @@ body.p-achievements.p-profiles .l-footer .links a {
   }
   
   body#profiles_show .profile-content .cc-2.block {
-    margin-bottom: 25px;
+    margin-bottom: 0.5rem;
   }
   
   html.turbolinks-progress-bar::before {
