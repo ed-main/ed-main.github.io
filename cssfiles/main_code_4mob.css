@@ -133,7 +133,7 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
        .l-top_menu-v2 .global-search input {
     padding: 5px 46px 3px;
     border-radius: 19px;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
       }
       .l-top_menu-v2:hover .global-search input {
           background: rgba(var(--light-color), 0.07);
