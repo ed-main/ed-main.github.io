@@ -1195,6 +1195,10 @@ position: absolute;
   }
   
   @media screen and (min-width: 1830px) {
+	  body#profiles_show .profile-content .cc-2.block {
+    margin-bottom: 30px;
+    transition: margin 0s, padding 0s, width 0s, height 0s;
+}
 	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
     justify-content: center;
 }
