@@ -2604,7 +2604,7 @@ body#dashboards_show .l-page {
     line-height: 23px;
     border-radius: 9px;
     padding: 0 10px;
-    transition: 0.2s all, -webkit-0.2s all, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.2s all, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
     
     z-index: 3;
     position: relative;
