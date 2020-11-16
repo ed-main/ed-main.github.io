@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
     .menu-dropdown *, .menu-dropdown *:before, .menu-dropdown *:after, .global-search input *, .global-search input, 
     .global-search inpot *:after, .global-search input *:before {
-    transition: 0.2s all, width 0s, margin 0s, padding 0s;
+     transition: 0.2s all, width 0s, margin 0s, padding 0s;   
 }
     .menu-dropdown.profile .text {
     transition: none;
@@ -739,8 +739,10 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       padding: 0px 5px 0px;
       position: absolute;
       right: 0px !important;
-      top: 0px !important;
-      z-index: 2;
+      top: auto!important;
+      transition: none!important;
+      transform: translateY(-4.2rem);
+      z-index: auto;
       width: 100%;
       margin: 0px 0;
     }
@@ -934,17 +936,20 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       right: 0%;
       width: 100%;
     }
-    .p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left {
+    /*.p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left {
       width: 100%;
       margin: 28% auto 13.25rem auto;
       top: 14.45rem;
-    }
+    }*/
     .p-profiles .cc-2a > .c-column {
       width: 48% !important;
       margin: 0 1% !important;
     }
     .c-column.c-left {
-      margin-top: 336px;
+       transition: none;
+       margin-top: 28%;
+       margin-bottom: 13.25rem;
+       bottom: -14.45rem;
     }
     .p-profiles-show .lifetime {
       margin-top: 0px !important;
@@ -1572,7 +1577,10 @@ background: linear-gradient(to right, rgba(53, 22, 0, 0.6) 0%, rgba(115, 67, 6, 
       transform: none;
     }
     .p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3, .x1000 > .l-page div .profile-head .c-history.x2, .x1000 > .l-page div .profile-head .c-history.x3 {
-      top: 0px !important;
+      top: auto !important;
+      z-index: auto;
+      transition: none!important;  
+      transform: translateY(-1.2rem);
     }
     body#profiles_show .profile-content {
       margin-top: -320px;
