@@ -2053,7 +2053,7 @@ body.localized_names-ru .name-ru:before {
   .headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic {
    
     color:  rgba(var(--dark-color), var(--hundred));
-    transition: 0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, color .2s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s, border 0s, border-radius 0s, left 0s, right 0s;
   }
   
   .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover {
