@@ -134,7 +134,7 @@ p:last-child {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgb(38 38 49) url(//i.imgur.com/wTRgtL0.jpg) no-repeat 50% 50% / cover;
+  background: rgb(38 38 49) url("//i.imgur.com/56Ckk6t.jpg") no-repeat 50% 50% / cover;
   -moz-box-shadow: inset 0 -10px 10px -10px #000000;
   -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
   box-shadow: inset 0 -10px 10px -10px #000000;
