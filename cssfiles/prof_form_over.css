@@ -11,11 +11,11 @@
       position: sticky;
       z-index: 25;
       opacity: 0.5;
-      transition: 1s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
+      transition: 1s all, -webkit-1s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
    }
    #profiles_show .l-top_menu-v2:hover {
       opacity: 1;
-      transition: 0.5s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
+      transition: 0.5s all, -webkit-0.5s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
    }
 
    body#profiles_show .l-page > div {
@@ -134,7 +134,7 @@
       font-size: 13px;
       color: #fff;
       z-index: 15;
-      transition: 0.4s ease-in-out, margin 0s, -webkit-0.4s ease-in-out;
+      transition: 0.4s ease-in-out, margin 0s, padding 0s, -webkit-0.4s ease-in-out;
    }
    #profiles_show .c-column.c-left::before {
       width: 110px;
@@ -179,7 +179,7 @@
    #profiles_show .c-history:hover::after,
    #profiles_show .c-info .c-lists-info:hover::after {
       height: 2.3rem;
-      transition: 1s ease-in-out, margin 0s, -webkit-1s ease-in-out;
+      transition: 1s ease-in-out, margin 0s, padding 0s, -webkit-1s ease-in-out;
       z-index: 16;
    }
    #profiles_show .c-column.c-left::after {
@@ -429,7 +429,7 @@
    .profile-actions .ignore-add::before,
    .profile-actions .ignore-remove::before {
       font-size: 36px !important;
-      transition: 0s ease, transform 0.2s, ease color.2s;
+      transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
       will-change: transform;
       width: 50px;
    }
@@ -498,7 +498,7 @@
    }
    #profiles_show .b-clubs.one-line .b-club {
       width: 17%;
-      transition: 0.2s ease-out, margin 0s, padding 0s, width 0s, height 0s;
+      transition: 0.2s ease-out, -webkit-0.2s ease-out, margin 0s, padding 0s, width 0s, height 0s;
    }
 }
 
