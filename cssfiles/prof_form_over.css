@@ -11,11 +11,11 @@
       position: sticky;
       z-index: 25;
       opacity: 0.5;
-      transition: 1s all, -webkit-1s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
+      transition: 1s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
    }
    #profiles_show .l-top_menu-v2:hover {
       opacity: 1;
-      transition: 0.5s all, -webkit-0.5s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
+      transition: 0.5s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
    }
 
    body#profiles_show .l-page > div {
