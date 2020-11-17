@@ -212,7 +212,7 @@ body:after {
 .b-link, .b-mention, .b-mention:before, .b-mention s, .b-mention span {
   color:  rgba(var(--bright-color), var(--hundred)) !important;
   cursor: pointer;
-  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;  
+  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;  
 }
 .b-mention:hover s {
    text-decoration: none !important;
@@ -261,7 +261,7 @@ header.head h2, header.head h1 {
 .b-link_button.dark {
   background-color: rgba(var(--buttoms-color), 0.7);
   color:  rgba(var(--white-color), var(--hundred));
-  transition: 0.2s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;    
+  transition: 0.2s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;    
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
   border-radius: 14px;
   border: none;
@@ -391,7 +391,7 @@ textarea {
   margin: 2px !important;
   color:  rgba(var(--bright-color), var(--hundred)) !important;
   background: rgba(var(--bright-color), 0.15) !important;
-  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s!important;    
+  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s!important;    
   border: none !important;
   border-radius: 10px;
 }
@@ -408,7 +408,7 @@ textarea {
   padding: 2px 0px !important;
   color:  rgba(var(--bright-color), var(--hundred)) !important;
   background: rgba(var(--block-color), 0.6) !important;
-  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s!important; 
+  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s!important; 
   border: none !important;
   border-radius: 10px;
   display: inline-block;
@@ -432,7 +432,7 @@ textarea {
   padding: 4px 18px !important;
   color:  rgba(var(--bright-color), var(--hundred)) !important;
   background: rgba(var(--block-color), 0.6) !important;
-  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s!important; 
+  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s!important; 
   border: none !important;
   border-radius: 10px;
   text-align: center;
@@ -478,22 +478,22 @@ textarea {
 /* Цвета шкал от темного до светлого - сверху вниз */
 .bar.simple .bar.s3 {
   background:  rgba(var(--small-rating), var(--hundred));
-    transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s; 
+    transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s; 
 }
 
 .bar.simple .bar.s2 {
   background:  rgba(var(--average-rating), var(--hundred));
-  transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s; 
+  transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s; 
 }
 
 .bar.simple .bar.s1 {
   background:  rgba(var(--high-rating), var(--hundred));
- transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s; 
+ transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s; 
 }
 
 .bar.simple .bar.s0 {
   background:  rgba(var(--very-high-rating), var(--hundred));
-  transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s; 
+  transition: 0.2s ease-out, -webkit-0.8s 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s; 
 }
 
 .bar.simple .bar {
@@ -531,7 +531,7 @@ textarea {
   color:  rgba(var(--bright-color), var(--hundred));
   border: none !important;
   margin-top: 0px;
-  transition: 0.1s ease, -webkit-0.8s 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s!important;
+  transition: 0.1s ease, -webkit-0.8s 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s!important;
 }
 
 .p-animes-show .other-names.click-loader:hover, .p-mangas-show .other-names.click-loader:hover, .p-ranobe-show .other-names.click-loader:hover {
@@ -547,7 +547,7 @@ textarea {
   background: rgba(var(--block-color), 0.6);
   border-radius: 10px;
   padding: 2px 11px;
-  transition: 0.1s ease, -webkit-0.8s 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s!important;
+  transition: 0.1s ease, -webkit-0.8s 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s!important;
 }
 
 .p-animes-show .other-names.click-loader:hover:before, .p-mangas-show .other-names.click-loader:hover:before, .p-ranobe-show .other-names.click-loader:hover:before {
@@ -559,7 +559,7 @@ textarea {
   background: rgba(var(--block-color), 0.4);
   color:  rgba(var(--dark-color), var(--hundred));
   border: none;
-  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.3s ease, -webkit-0.8s 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   border-radius: 14px;
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.05) !important;
 }
@@ -676,7 +676,7 @@ textarea {
 }
 
 .p-user_rates-index .list-lines tr.editable {
-    transition: 0.1s ease-out, -webkit-0.1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.1s ease-out, -webkit-0.1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, min-height 0s;
 }
 
 /* оценки справа в аниме */
@@ -764,7 +764,7 @@ textarea {
   color:  rgba(var(--light-color), var(--hundred)) !important;
   background-color: rgba(var(--block-color), 0.5);
   border-radius: 10px !important;
-  transition: 0.3s ease-out, -webkit-0.3s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.3s ease-out, -webkit-0.3s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   border: none;
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
 }
@@ -849,7 +849,7 @@ input {
   line-height: normal !important;
   margin: 0 0 0 2px;
   padding: 0px 7px;
-     transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+     transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .p-user_rates-index .stat-categories .category:hover {
@@ -866,7 +866,7 @@ input {
 /* справа выборы фильтров в списке аниме */
 .b-block_list li {
   color:  rgba(var(--light-color), var(--hundred));
-   transition: 0.1s ease-out, -webkit-0.1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+   transition: 0.1s ease-out, -webkit-0.1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   font-family: 'Comfortaa';
 }
 
@@ -913,7 +913,7 @@ header.head a.misc:hover {
 
 a {
   color:  rgba(var(--white-color), var(--hundred));
-    transition: 0.3s ease, -webkit-0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.3s ease, -webkit-0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 a:hover {
@@ -971,7 +971,7 @@ tr.user_rate.selectable.editable:after {
 }
 
 .p-user_rates-index .list-lines .selectable, .p-userlist_comparer .comparer table .selectable {
-    transition: 0.15s ease, -webkit-0.15s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.15s ease, -webkit-0.15s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .p-userlist_comparer .comparer table .exact-same, .p-userlist_comparer .legend .exact-same {
@@ -1008,7 +1008,7 @@ tr.user_rate.selectable.editable:after {
   color:  rgba(var(--bright-color), var(--hundred));
   border: none;
   padding: 0 8px 0 8px;
-    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .b-js-link:hover {
@@ -1022,7 +1022,7 @@ tr.user_rate.selectable.editable:after {
 
 .c-brief header.head .notice, .c-brief header.head .misc, .c-brief header.head a.edit, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles .profile-head .c-brief header .notice a {
   color:  rgba(var(--light-color), var(--hundred)) !important;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .p-profiles .profile-head .c-brief header .notice span:after {
@@ -1043,11 +1043,11 @@ tr.user_rate.selectable.editable:after {
   border: 2px dashed rgba(165, 170, 230, 0.2);
   border-radius: 6px;
   padding: 0px 6px;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .b-spoiler {
-  transition: 0.5s ease, -webkit-0.5s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.5s ease, -webkit-0.5s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .b-spoiler label:hover {
@@ -1141,7 +1141,7 @@ input, select, button, textarea {
 
 .b-user.named_avatar .name {
   color:  rgba(var(--white-color), var(--hundred));
-    transition: 1s ease-out, -webkit-1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 1s ease-out, -webkit-1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   text-decoration: none !important;
   margin: auto;
 }
@@ -1158,7 +1158,7 @@ input, select, button, textarea {
 }
 
 .b-clubs-menu .admin .b-user {
-   transition: 1s ease-out, -webkit-1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+   transition: 1s ease-out, -webkit-1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   text-decoration: none !important;
 }
 
@@ -1195,7 +1195,7 @@ input, select, button, textarea {
 }
 
 .c-actions .new_comment:before {
-    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
@@ -1204,7 +1204,7 @@ input, select, button, textarea {
 }
 
 .c-actions .new_review:before {
-   transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+   transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
@@ -1214,7 +1214,7 @@ input, select, button, textarea {
 
 .c-actions .fav-add:before {
   color:  rgba(var(--bright-color), var(--hundred));
-   transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+   transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .c-actions .fav-add:hover:before {
@@ -1222,7 +1222,7 @@ input, select, button, textarea {
 }
 
 .c-actions .edit:before {
-   transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+   transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
@@ -1577,7 +1577,7 @@ header.head a.misc {
   padding: 5px 50px;
   border-radius: 14px;
   color:  rgba(var(--light-color), var(--hundred));
-  transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   margin: 8px;
   pointer-events: auto;
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
@@ -1947,6 +1947,7 @@ code.b-code_inline {
   background: rgba(var(--shadows-color), 0.15);
   border-radius: 10px;
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s, background 0.2s;  
 }
 
 body.localized_names-ru .name-ru {
@@ -1960,13 +1961,13 @@ body.localized_names-ru .name-ru {
   padding-top: 0px;
   margin-bottom: 0px;
   padding: 0px 3px 0px;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s, background 0s;
   border-top: none;
   text-decoration: none !important;
 }
 
 body.localized_names-ru .name-ru:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .p-profiles .profile-head .c-history .entry img {
@@ -1999,7 +2000,7 @@ body.localized_names-ru .name-ru:before {
   border-radius: 13px;
   box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
   background: rgba(var(--block-color), 0.6);
-  transition: 0.3s ease, -webkit-0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.3s ease, -webkit-0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   font-size: 14px;
   color:  rgba(var(--dark-color), var(--hundred));
     height: 28px;
@@ -2043,7 +2044,7 @@ body.localized_names-ru .name-ru:before {
     height: 8px;
     border-radius: 50%;
     font-size: 0;
-    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .headline > a:hover:before, .midheadline > a:hover:before, .subheadline > a:hover:before {
@@ -2052,7 +2053,7 @@ body.localized_names-ru .name-ru:before {
 }
   .headline > a, .midheadline > a, .subheadline > a, .p-topics .l-menu .sticky-topics .topic {
     color:  rgba(var(--dark-color), var(--hundred));
-    transition: 0.2s ease, -webkit-0.2s ease, margin 0s, padding 0s, opacity 0s, color .2s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s, border 0s, border-radius 0s, left 0s, right 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, margin 0s, padding 0s, opacity 0s, color .2s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s, border 0s, border-radius 0s, left 0s, right 0s,line-height 0s, min-height 0s;
   }
   
   .headline > a:hover, .midheadline > a:hover, .subheadline > a:hover {
@@ -2068,13 +2069,13 @@ body.localized_names-ru .name-ru:before {
 
 .profile-actions .mail::before, .profile-actions .talk::before, .profile-actions .fav-remove::before, .profile-actions .ban::before, .profile-actions .fav-add::before, .profile-actions .settings::before, .profile-actions .ignore-add::before, .profile-actions .ignore-remove::before {
   color: rgba(var(--light-color), 0.6) !important;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   font-size: 24px !important;
 }
 
 .profile-actions .ignore-remove::before, .profile-actions .fav-remove::before {
   color: #ffc24eab !important;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   font-size: 24px !important;
 }
 
@@ -2094,7 +2095,7 @@ a.name {
 }
 
 .b-clubs.one-line .b-club {
-    transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .bar.vertical {
@@ -2175,7 +2176,7 @@ a:-webkit-any-link {
 }
 
 .b-image img {
-    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 img {
@@ -2206,7 +2207,7 @@ img {
 }
 
 .profile-actions .mail:before, .profile-actions .talk:before {
- transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+ transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   content: '\f0e0';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2220,7 +2221,7 @@ img {
 }
 
 .profile-actions .settings:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   content: '\f085';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2234,7 +2235,7 @@ img {
 }
 
 .profile-actions .ban:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   content: '\f06a';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2260,7 +2261,7 @@ img {
 }
 
 .profile-actions .fav-add::before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   content: '\f234';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2269,7 +2270,7 @@ img {
 }
 
 .profile-actions .fav-remove::before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   content: '\f235';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2278,7 +2279,7 @@ img {
 }
 
 .profile-actions .ignore-add:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   content: '\f2a8';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2287,7 +2288,7 @@ img {
 }
 
 .profile-actions .ignore-remove:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   content: '\f25b';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -2361,7 +2362,7 @@ img {
     padding: 9px 17px;
     font-size: 11px;
     box-shadow: 0px 0px 5px rgba(var(--shadows-color), 0.1);
-    transition: 0.1s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.1s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
     color: rgba(var(--white-color), var(--hundred));
     border-radius: 19px;
 }
@@ -2380,7 +2381,7 @@ img {
 }
 
 .club-actions .invite:before, .club-actions .upload:before, .club-actions .broadcast:before, .club-actions .edit-club:before, .club-actions .leave:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   color:  rgba(var(--bright-color), var(--hundred));
 }
 
@@ -2398,7 +2399,7 @@ img {
   background:  rgba(var(--hover-color), var(--hundred));
   color: #f9f9f9;
   line-height: 41px;
-  transition: 0.5s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.5s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
   font-size: 19px;
   font-weight: bold;
   width: 37px;
@@ -2416,7 +2417,7 @@ img {
 
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
   color:  rgba(var(--white-color), var(--hundred)) !important;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover {
@@ -2460,7 +2461,7 @@ body#dashboards_show .l-page {
   color:  rgba(var(--dark-color), var(--hundred));
   text-decoration: none !important;
   border-bottom: none;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
 }
 
 
@@ -2604,7 +2605,7 @@ body#dashboards_show .l-page {
     line-height: 23px;
     border-radius: 9px;
     padding: 0 10px;
-    transition: 0.2s all, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s;
+    transition: 0.2s all, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
     
     z-index: 3;
     position: relative;
