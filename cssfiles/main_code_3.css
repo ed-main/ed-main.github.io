@@ -1195,6 +1195,7 @@
   
   .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, header.head .misc {
     font-size: 12px;
+    transition: 0.3s ease-out, -webkit-0.3s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s;  
   }
   
   .bar.vertical .line .x_label {
@@ -1208,6 +1209,7 @@
   .b-stats_bar a.title, .b-stats_bar .title {
     font-size: 15px;
     margin-bottom: 2px;
+    transition: width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, min-height 0s;  
   }
   
   .b-forums .forum .topics {
@@ -2912,4 +2914,3 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode, .b-anime_status_tag.
       opacity: 1;
     }
   }
-  
