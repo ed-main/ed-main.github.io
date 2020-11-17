@@ -2,7 +2,7 @@
    #profiles_show .b-clubs {
       flex-wrap: unset;
       min-height: 70px;
-      transition: margin 0s, padding 0s, width 0s, height 0s;
+      transition: margin 0s, padding 0s, width 0s, height 0s,line-height 0s, min-height 0s,min-width 0s, max-width 0s;
    }
    #profiles_show .c-history .entry {
       margin-bottom: 0.5rem !important;
@@ -11,11 +11,11 @@
       position: sticky;
       z-index: 25;
       opacity: 0.5;
-      transition: 1s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
+      transition: 1s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s,line-height 0s, min-height 0s,min-width 0s, max-width 0s;
    }
    #profiles_show .l-top_menu-v2:hover {
       opacity: 1;
-      transition: 0.5s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
+      transition: 0.5s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s,line-height 0s, min-height 0s,min-width 0s, max-width 0s;
    }
 
    body#profiles_show .l-page > div {
@@ -57,7 +57,7 @@
       z-index: 11;
       top: 0;
       left: 0;
-      transition: 0.8s ease-in-out, margin 0s, padding 0s, width 0s, transform 0s, height 0s, background 0s, border 0s, border-radius 0s, box-shadow 0s, font-size 0s, left 0s, right 0s, bottom 0s, -webkit-0.8s ease-in-out;
+      transition: 0.8s ease-in-out, margin 0s, padding 0s, width 0s, transform 0s, height 0s, background 0s, border 0s, border-radius 0s, box-shadow 0s, font-size 0s, left 0s, right 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s, max-width 0s, -webkit-0.8s ease-in-out;
       margin: 0 0 0 0 !important;
       float: none !important;
       border-radius: 16px;
@@ -133,7 +133,7 @@
       font-size: 13px;
       color: #fff;
       z-index: 15;
-      transition: 0.4s ease-in-out, margin 0s, padding 0s, -webkit-0.4s ease-in-out;
+      transition: 0.4s ease-in-out, margin 0s, padding 0s,line-height 0s, -webkit-0.4s ease-in-out;
    }
    #profiles_show .c-column.c-left::before {
       width: 110px;
@@ -171,14 +171,14 @@
       background: none;
       top: -2rem;
       z-index: 15;
-      transition: 0.8s ease-in-out, margin 0s, -webkit-0.8s ease-in-out;
+      transition: 0.8s ease-in-out, margin 0s, padding 0s, line-height 0s, -webkit-0.8s ease-in-out;
    }
    #profiles_show .c-column.c-left:hover::after,
    #profiles_show .cc-2 .c-column .cc-2a.m30:hover::after,
    #profiles_show .c-history:hover::after,
    #profiles_show .c-info .c-lists-info:hover::after {
       height: 2.3rem;
-      transition: 1s ease-in-out, margin 0s, padding 0s, -webkit-1s ease-in-out;
+      transition: 1s ease-in-out, margin 0s, padding 0s, line-height 0s, -webkit-1s ease-in-out;
       z-index: 16;
    }
    #profiles_show .c-column.c-left::after {
