@@ -1,6 +1,7 @@
 /*2104*/
 .l-footer:before {
-    content: 'E-design v.4.31';
+    content: 'E-design v.4.32';
+    content: 'E-design *Experimental*';
 }
 .b-club .name-logo .name {
     transition: 1s ease;
@@ -570,7 +571,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     line-height: 0;
     margin-top: 0;
     display: block;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   div.compatibility > a:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before, .b-breadcrumbs > span:after, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before {
@@ -598,12 +599,12 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
   
   .b-stats_bar.manga .compatibility a:before {
     color:  rgba(var(--manga-inprocess), var(--hundred));
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   .b-stats_bar.anime .compatibility a:before {
     color:  rgba(var(--anime-inprocess), var(--hundred));
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* Красим совместимость*/
@@ -611,35 +612,35 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
   .b-stats_bar .compatibility span.link-replacement .text.zero:before, .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.zero:hover:before {
     color:  rgba(var(--dark-color), var(--hundred));
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* низкая */
   .b-stats_bar .compatibility span.link-replacement .text.weak:before, .b-stats_bar .compatibility .text.weak:before, .b-stats_bar .compatibility .text.weak:hover:before {
     color: #c3a87e;
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* средняя */
   .b-stats_bar .compatibility span.link-replacement .text.modarate:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.moderate:hover:before {
     color: #c5c23e;
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* высокая */
   .b-stats_bar .compatibility span.link-replacement .text.high:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.high:hover:before {
     color: #96c53e;
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   /* полная */
   .b-stats_bar .compatibility span.link-replacement .text.full:before, .b-stats_bar .compatibility .text.full:before, .b-stats_bar .compatibility .text.full:hover:before {
     color: #3ec557;
     background: transparent !important;
-    transition: 0.3s ease-out;
+    transition: 0.3s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s;
   }
   
   .text.full:hover, .text.moderate:hover, .text.high:hover, .text.weak:hover, .text.zero:hover, .b-stats_bar.manga .compatibility a:hover, .b-stats_bar.anime .compatibility a:hover {
@@ -1239,20 +1240,22 @@ body.p-achievements.p-profiles .l-footer .links a {
   .b-catalog_entry-tooltip .image {
     border-radius: 4px;
   }
-  
-  .b-catalog_entry .cover .image-decor img {
-    transition: 0.2s ease-out;
-  }
-  
+
+
+/*test*/
+.b-catalog_entry,
+.b-catalog_entry .cover .image-decor,
+.b-catalog_entry .cover .image-decor img,
+.b-catalog_entry .cover .image-cutter,
+.b-catalog_entry .cover .image-cutter img {
+ transition: 0s ease-out, -webkit-0s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, color .2s, border 0s, border-radius 0s, background-image 0s, visibility 0s, box-shadow .2s ease-out, transform .2s ease-out, width 0s, height 0s, left 0s, top 0s, bottom 0s, right 0s, min-height 0s;
+}
   .b-catalog_entry .cover:hover {
     border-radius: 4px;
     background: none;
     box-shadow: none;
   }
   
-  .b-catalog_entry {
-    transition: 0.2s ease-out;
-  }
   
   .b-catalog_entry:hover {
     transform: scale(1.02);
@@ -1267,9 +1270,6 @@ body.p-achievements.p-profiles .l-footer .links a {
     transform: scale(1);
   }
   
-  .b-catalog_entry .cover .image-decor {
-    transition: 0.2s ease-out;
-  }
   
   .b-catalog_entry .cover .image-decor .image-cutter {
     display: block;
@@ -3305,5 +3305,3 @@ color: #ffcacd;
     width: 100%;
     justify-content: center;
 }
-
-
