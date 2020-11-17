@@ -6,7 +6,7 @@
    .global-search input,
    .global-search inpot *:after,
    .global-search input *:before {
-      transition: 0.2s all, width 0s, margin 0s, padding 0s;
+      transition: 0.2s all, width 0s, margin 0s, padding 0s ,line-height 0s, min-height 0s;
    }
    .menu-dropdown.profile .text {
       transition: none;
@@ -140,7 +140,7 @@
    .l-top_menu-v2 .global-search input {
       padding: 5px 46px 3px;
       border-radius: 19px;
-      transition: 0.3s ease-in-out, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s;
+      transition: 0.3s ease-in-out, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s,line-height 0s, min-height 0s;
    }
    .l-top_menu-v2:hover .global-search input {
       background: rgba(var(--light-color), 0.07);
@@ -1253,6 +1253,7 @@
       line-height: 38px;
       font-size: 16px;
       opacity: 0.2;
+      transition: width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, min-height 0s;
    }
    .b-stats_bar .bar {
       height: 16px;
@@ -1263,6 +1264,7 @@
       overflow: hidden !important;
       height: 38px !important;
       line-height: 38px !important;
+      transition: width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, min-height 0s;
    }
    .b-stats_bar {
       line-height: 8px;
@@ -1331,7 +1333,7 @@
       overflow-y: hidden;
       bottom: -3.9rem;
       margin: 0;
-      transition: margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
+      transition: margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s;
    }
    .p-profiles .profile-head .c-info .c-additionals div {
       display: inline-block;
@@ -1462,7 +1464,7 @@
       align-items: center;
       text-align: center;
       padding: 0.15rem 0 0 0;
-      transition: margin 0s,padding 0s, width 0s, border 0s, border-radius 0s;
+      transition: margin 0s,padding 0s, width 0s, border 0s, border-radius 0s,line-height 0s, min-height 0s;
    }
    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility span.link-replacement {
@@ -1524,7 +1526,7 @@
       left: 30px;
    }
    .b-stats_bar.manga .compatibility .rate {
-      top: 120px;
+      top: -5.91rem !important;
       left: 79px;
    }
    .p-profiles .profile-head .c-brief header.head .misc {
@@ -1804,7 +1806,7 @@
    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime,
    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
       background: none !important;
-      transition: 0.5s ease, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
+      transition: 0.5s ease, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s;
    }
    .p-profiles .profile-head .c-brief header .notice {
       font-size: 12px !important;
@@ -2536,7 +2538,7 @@
       padding: 0;
       opacity: 0;
       visibility: visible;
-      transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
+      transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s;
    }
    .c-history .subheadline > a:before {
       display: none;
@@ -2569,7 +2571,7 @@
    }
    .c-history .subheadline:hover::before {
       color: rgba(var(--hover-color), var(--hundred));
-      transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, color 0.2s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s;
+      transition: 0.2s ease, margin 0s, padding 0s, opacity 0s, color 0.2s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,line-height 0s, min-height 0s;
    }
 
    .p-profiles .profile-head .c-history .image-name .title {
