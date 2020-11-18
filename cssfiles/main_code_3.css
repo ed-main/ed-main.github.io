@@ -2180,6 +2180,8 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
     border-radius: 1rem;
     box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%);
 }
+.tabs .header::-webkit-scrollbar { height: 8px;
+}
 /* Кнопка в обычном состоянии */
 .tabs .header div {
     color: rgba(var(--dark-color), var(--hundred));
