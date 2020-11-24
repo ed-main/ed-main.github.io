@@ -198,7 +198,7 @@
       left: 1rem;
    }
    body#profiles_show .b-catalog_entry {
-      background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.24) 100%);
+      background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.34));
    }
    body#profiles_show .b-catalog_entry:hover {
       box-shadow: -20px 20px 0 -17px rgba(62, 62, 62, 0.85), 20px -20px 0 -17px #383838, 20px 20px 0 -20px rgba(0, 0, 0, 0.8), 0 0 0 2px rgba(0, 0, 0, 0.8);
