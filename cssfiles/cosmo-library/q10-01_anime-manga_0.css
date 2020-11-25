@@ -8,12 +8,13 @@
         padding: 0.5rem 0 0.2rem 0;
     }
     #profiles_show .Animes_Mangas .b-catalog_entry .cover .image-decor .image-cutter {
-        max-height: 1px !important;
+        max-height: 0px !important;
         max-width: 100% !important;
-        padding: 0 0 55%;
+        padding: 0 0 55.5%;
         display: flex;
         z-index: auto;
         margin: 0;
+        overflow: visible;
         border-radius: 0.5rem;
         background-image: none;
         background: linear-gradient(transparent 0%, rgba(var(--menu-back), 0.32) 100%);
@@ -204,6 +205,7 @@
         left: 0;
         right: 0;
         top: 0;
+        padding-bottom: 0;
         bottom: 0;
         opacity: 0;
     }
