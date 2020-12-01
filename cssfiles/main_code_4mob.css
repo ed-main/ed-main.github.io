@@ -6,7 +6,7 @@
    .global-search input,
    .global-search inpot *:after,
    .global-search input *:before {
-      transition: 0.2s all, width 0s, margin 0s, padding 0s ,line-height 0s, min-height 0s;
+      transition: 0s all, background 0.2s, color 0.2s;
    }
    .menu-dropdown.profile .text {
       transition: none;
@@ -140,7 +140,7 @@
    .l-top_menu-v2 .global-search input {
       padding: 5px 46px 3px;
       border-radius: 19px;
-      transition: 0.3s ease-in-out, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s,line-height 0s, min-height 0s;
+      transition: 0s ease-in-out, background 0.3s ease-in-out , color 0.3s ease-in-out;
    }
    .l-top_menu-v2:hover .global-search input {
       background: rgba(var(--light-color), 0.07);
