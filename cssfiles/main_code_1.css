@@ -913,7 +913,7 @@ header.head a.misc:hover {
 
 a {
   color:  rgba(var(--white-color), var(--hundred));
-    transition: 0.3s ease, -webkit-0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
+    transition: 0s ease, transform 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
@@ -2176,7 +2176,7 @@ a:-webkit-any-link {
 }
 
 .b-image img {
-    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
+    transition: 0s ease, transform .3s, opacity 0.25s ease, filter 0.25s ease;
 }
 
 img {
