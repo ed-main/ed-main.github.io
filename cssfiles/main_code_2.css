@@ -1,6 +1,6 @@
 /*2104*/
 .l-footer:before {
-    content: 'E-design v.4.32';
+    content: 'E-design v.4.33';
 }
 .b-club .name-logo .name {
     transition: 1s ease;
@@ -2365,13 +2365,13 @@ body.p-achievements.p-profiles .l-footer .links a {
   }
   
   #profiles_show .b-achievement .c-image .inner {
-    transition: .4s ease-out;
+    transition: 0s ease-out, transform .4s ease-out;
     will-change: transform;
   }
   
   #profiles_show .b-achievement .c-image .inner:hover {
     transform: scale(1.1);
-    transition: .4s ease-out;
+    transition: 0s ease-out, transform .4s ease-out;
   }
   
   #profiles_show .b-achievement.is-badge::before {
@@ -2390,7 +2390,7 @@ body.p-achievements.p-profiles .l-footer .links a {
     pointer-events: none;
     opacity: 0;
     line-height: 10px;
-    transition: .4s;
+    transition: 0s, padding 0.4s, opacity 0.4s, filter 0.4s;
     will-change: transform;
     text-overflow: clip;
     white-space: normal;
@@ -2414,14 +2414,11 @@ body.p-achievements.p-profiles .l-footer .links a {
       border-radius: 15px;
   }
   
-  #profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement {
-    width: 23%;
-  }
-  
+  #profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement,
   #profiles_show .achievements .c-column:nth-child(2) .cc-achievements .b-achievement {
     width: 23%;
   }
-  
+
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
     width: 7.5%;
     padding: 0;
