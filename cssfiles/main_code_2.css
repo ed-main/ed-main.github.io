@@ -2390,7 +2390,7 @@ body.p-achievements.p-profiles .l-footer .links a {
     pointer-events: none;
     opacity: 0;
     line-height: 10px;
-    transition: 0s, padding 0.4s, opacity 0.4s, filter 0.4s;
+    transition: 0s, padding 0.4s, opacity 0.4s, filter 0.4s,height 0.4s;
     will-change: transform;
     text-overflow: clip;
     white-space: normal;
