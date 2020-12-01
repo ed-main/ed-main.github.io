@@ -1247,7 +1247,7 @@ body.p-achievements.p-profiles .l-footer .links a {
 .b-catalog_entry .cover .image-decor img,
 .b-catalog_entry .cover .image-cutter,
 .b-catalog_entry .cover .image-cutter img {
- transition: 0s ease-out, -webkit-0s ease-out, margin 0s, padding 0s, opacity 0s, font-size 0s, color .2s, border 0s, border-radius 0s, background-image 0s, visibility 0s, box-shadow .2s ease-out, transform .2s ease-out, width 0s, height 0s, left 0s, top 0s, bottom 0s, right 0s, min-height 0s;
+ transition: 0s ease-out,  box-shadow .2s ease-out, transform .2s ease-out;
 }
   .b-catalog_entry .cover:hover {
     border-radius: 4px;
@@ -1539,7 +1539,7 @@ body.p-achievements.p-profiles .l-footer .links a {
   
   .b-image img {
     -webkit-filter: brightness(0.9);
-    transition: 0.3s ease !important;
+    transition: 0s ease, transform .3s, opacity 0.25s ease, filter 0.25s ease!important;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
   }
   
@@ -2465,22 +2465,19 @@ body.p-achievements.p-profiles .l-footer .links a {
   .b-catalog_entry .cover .image-cutter::before {
     content: '';
     display: block;
-    padding-bottom: 155.5%;
+    padding-bottom: 155.5555%;
   }
   
-  .b-catalog_entry .cover .image-cutter img {
+.b-catalog_entry .cover .image-cutter img {
     position: absolute;
     top: 0;
-    right: -100%;
-    left: -100%;
-    width: auto;
-    min-width: 100%;
-    max-width: none;
+    left: 0;
+    width: 100%;
     height: 100%;
-    min-height: 100%;
-    margin: auto;
-    border-radius: 5px;
-  }
+    border-radius: 0.3125rem;
+    object-fit: cover;
+    object-position: center;
+}
   
   .cc-favourites {
     display: flex;
