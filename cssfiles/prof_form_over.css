@@ -2,7 +2,7 @@
    #profiles_show .b-clubs {
       flex-wrap: unset;
       min-height: 70px;
-      transition: margin 0s, padding 0s, width 0s, height 0s,line-height 0s, min-height 0s,min-width 0s, max-width 0s;
+      transition: none;
    }
    #profiles_show .c-history .entry {
       margin-bottom: 0.5rem !important;
@@ -11,11 +11,11 @@
       position: sticky;
       z-index: 25;
       opacity: 0.5;
-      transition: 1s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s,line-height 0s, min-height 0s,min-width 0s, max-width 0s;
+      transition: 0s all, background 1s, opacity 1s, box-shadow 1s;
    }
    #profiles_show .l-top_menu-v2:hover {
       opacity: 1;
-      transition: 0.5s all, width 0s, height 0s, margin 0s, padding 0s, top 0s, left 0s, right 0s,line-height 0s, min-height 0s,min-width 0s, max-width 0s;
+      transition: 0s all, background 0.5s, opacity 0.5s, box-shadow 0.5s;
    }
 
    body#profiles_show .l-page > div {
@@ -25,11 +25,10 @@
    }
    body#profiles_show.x1200 .l-page,
    body#profiles_show .l-page {
+      min-width: 100%;
       margin: -2.875rem auto 0 auto !important;
       padding: 0 !important;
       max-width: 100%;
-      transition: none;
-      animation: none;
       box-shadow: inset 0px 0px 20px 2px rgba(var(--menu-back), 0.8) !important;
       border-radius: 0px;
    }
@@ -57,7 +56,7 @@
       z-index: 11;
       top: 0;
       left: 0;
-      transition: 0.8s ease-in-out, margin 0s, padding 0s, width 0s, transform 0s, height 0s, background 0s, border 0s, border-radius 0s, box-shadow 0s, font-size 0s, left 0s, right 0s, bottom 0s,line-height 0s, min-height 0s,min-width 0s, max-width 0s, -webkit-0.8s ease-in-out;
+      transition: 0s ease-in-out, top 0.8s ease-in-out;
       margin: 0 0 0 0 !important;
       float: none !important;
       border-radius: 16px;
@@ -113,7 +112,7 @@
    #profiles_show .c-column.c-left::before,
    #profiles_show .cc-2 .c-column .cc-2a.m30::before,
    #profiles_show .c-history::before,
-   #profiles_show .c-info .c-lists-info::before {
+   #profiles_show .c-info .c-lists-info::before { 
       position: absolute;
       display: grid;
       justify-content: center;
@@ -171,14 +170,14 @@
       background: none;
       top: -2rem;
       z-index: 15;
-      transition: 0.8s ease-in-out, margin 0s, padding 0s, line-height 0s, -webkit-0.8s ease-in-out;
+      transition: 0.8s ease-in-out, margin 0s, padding 0s, line-height 0s;
    }
    #profiles_show .c-column.c-left:hover::after,
    #profiles_show .cc-2 .c-column .cc-2a.m30:hover::after,
    #profiles_show .c-history:hover::after,
    #profiles_show .c-info .c-lists-info:hover::after {
       height: 2.3rem;
-      transition: 1s ease-in-out, margin 0s, padding 0s, line-height 0s, -webkit-1s ease-in-out;
+      transition: 1s ease-in-out, margin 0s, padding 0s, line-height 0s;
       z-index: 16;
    }
    #profiles_show .c-column.c-left::after {
@@ -497,7 +496,7 @@
    }
    #profiles_show .b-clubs.one-line .b-club {
       width: 17%;
-      transition: 0.2s ease-out, -webkit-0.2s ease-out, margin 0s, padding 0s, width 0s, height 0s;
+      transition: none;
    }
 }
 
