@@ -36,12 +36,12 @@
 
 /* cosmo-library fix */
   @media screen and (min-width: 1200px) {
-      #profiles_show .Animes_Mangas .c-column {
+      #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
           width: calc(100% / 4 - 1 * 1.01%)!important;
       }
   }
   @media screen and (min-width: 1480px) {
-      #profiles_show .Animes_Mangas .c-column {
+      #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
           width: calc(100% / 4 - 1 * 1.01%)!important;
       }
   }
