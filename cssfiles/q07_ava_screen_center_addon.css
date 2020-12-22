@@ -31,6 +31,9 @@
     }
     body#profiles_show .b-shiki_editor footer {
         padding: 0 0 1.25rem 0 !important;
+    }
+    #profiles_show .profile-head .c-brief .avatar img { /* test */
+        pointer-events: none;
     } 
 }
 
