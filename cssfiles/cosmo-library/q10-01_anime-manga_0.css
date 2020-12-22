@@ -1,6 +1,8 @@
 @media screen and (min-width: 180px) {
     #profiles_show .Blok-0 {
         display: block;
+    }
+    #profiles_show .Blok-0 .Razmer-v2-row-1 {
         white-space: nowrap;
         overflow-y: hidden;
     }
@@ -20,9 +22,11 @@
         background: linear-gradient(transparent 0%, rgba(var(--menu-back), 0.32) 100%);
         box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
     }
+    #profiles_show .Razmer-v2-row-1 > .Animes_Mangas .b-catalog_entry .cover .image-decor .image-cutter {
+       padding: 0 0 55.5%;
+    }
     #profiles_show .Animes_Mangas .c-column {
         display: inline-block;
-        width: calc(100% / 1 - 1 * 1.01%);
         margin: 0 .5% .25rem .5% !important;
         max-width: none;
         clear: none !important;
@@ -34,6 +38,9 @@
         border-radius: 0.5rem;
         vertical-align: top;
     }
+    #profiles_show .Razmer-v2-row-1 > .Animes_Mangas .c-column {
+       width: calc(100% / 1 - 1 * 1.01%);
+}
     #profiles_show .Animes_Mangas .b-catalog_entry .cover .title {
         position: absolute;
         bottom: 0.7rem;
@@ -218,24 +225,24 @@
     }
 }
 @media screen and (min-width: 400px) {
-    #profiles_show .Animes_Mangas .c-column {
+    #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
       width: calc(100% / 2 - 1 * 1.01%);
       float: left;
       margin-bottom: .65rem!important;
     }
-    #profiles_show .Blok-0 {
-        white-space: normal;
-        overflow-y: inherit;
+    #profiles_show .Blok-0 .Razmer-v2-row-1 {
+      white-space: normal;
+      overflow-y: inherit;
     }
 }
 @media screen and (min-width: 600px) {
-    #profiles_show .Animes_Mangas .c-column {
+    #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
      width: calc(100% / 3 - 1 * 1.01%);
     }
 }
 
 @media screen and (min-width: 900px) {
-    #profiles_show .Animes_Mangas .c-column {
+    #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
      width: calc(100% / 4 - 1 * 1.01%);
     }
 }
