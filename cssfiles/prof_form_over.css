@@ -586,12 +586,12 @@
 }
 
 @media screen and (min-width: 1500px) {
-   #profiles_show .Person-0 .c-column {
+   #profiles_show .Razmer-row-1 .Person-0 .c-column {
       width: calc(100% / 9) !important;
    }
 }
 @media screen and (min-width: 1678px) {
-   #profiles_show .Person-0 .c-column {
+   #profiles_show .Razmer-row-1 .Person-0 .c-column {
       width: calc(100% / 10) !important;
    }
 }
