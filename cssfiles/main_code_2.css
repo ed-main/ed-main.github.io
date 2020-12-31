@@ -662,7 +662,7 @@ body.p-achievements.p-profiles .b-ajax:before, body.p-achievements.p-profiles .b
     font-size: 9px;
     opacity: 0.7;
     line-height: 14px;
-    margin-left: -26px;
+    margin-left: -32px;
     position: absolute;
     background:  rgba(var(--block-color), var(--hundred));
     height: 12px;
@@ -2373,7 +2373,6 @@ body.p-achievements.p-profiles .l-footer .links a {
     transform: scale(1.1);
     transition: 0s ease-out, transform .4s ease-out;
   }
-  
   #profiles_show .b-achievement.is-badge::before {
     display: inline-flex;
     justify-content: space-around;
@@ -2390,13 +2389,12 @@ body.p-achievements.p-profiles .l-footer .links a {
     pointer-events: none;
     opacity: 0;
     line-height: 10px;
-    transition: 0s, padding 0.4s, opacity 0.4s, filter 0.4s,height 0.4s;
+    transition: 0s, padding 0.4s, opacity 0.4s, filter 0.4s, height 0.4s;
     will-change: transform;
     text-overflow: clip;
     white-space: normal;
     word-break: break-word;
-  }
-  
+  }  
   #profiles_show .b-achievement.is-badge:hover:before {
     height: 100%;
     border-radius: 14.5px;
