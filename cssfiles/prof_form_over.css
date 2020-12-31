@@ -399,6 +399,9 @@
       clip-path: none;
       transform: none;
    }
+   #profiles_show .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate {
+      margin-left: -2.555rem;
+   }
    #profiles_show .profile-actions {
       position: absolute;
       display: flex;
@@ -595,4 +598,3 @@
       width: calc(100% / 10) !important;
    }
 }
-@import url("https://raw.githubusercontent.com/GM-apostal/GM-apostal.github.io/master/Css-sh/Over_Off_panel.css");
