@@ -2588,7 +2588,7 @@ body#dashboards_show .l-page {
 }
 
 
-
+.b-achievement .c-image .inner a img,.b-achievement .c-image .inner a .no-image,.cc-franchises .b-badge img,.cc-franchises .b-badge .no-image,body.p-achievements.p-profiles.p-profiles .b-achievement img,body.p-achievements.p-profiles.p-profiles .b-badge img { image-rendering: -webkit-optimize-contrast !important; }
 
 .b-spoiler_block>div, .b-quote-v2 {
     background-color: rgba(var(--block-color), 0.3);
