@@ -1248,6 +1248,7 @@ body.p-achievements.p-profiles .l-footer .links a {
 .b-catalog_entry .cover .image-cutter,
 .b-catalog_entry .cover .image-cutter img {
  transition: 0s ease-out,  box-shadow .2s ease-out, transform .2s ease-out;
+     image-rendering: -webkit-optimize-contrast!important;
 }
   .b-catalog_entry .cover:hover {
     border-radius: 4px;
