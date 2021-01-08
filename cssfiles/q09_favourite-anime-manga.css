@@ -2,6 +2,7 @@
  #profiles_show .cc-favourites .c-column {
   width: calc(100% / 6 - 1 * 1.1%);
   transform: none;
+  background: none;
   filter: contrast(102%);
   overflow: visible;
  }
