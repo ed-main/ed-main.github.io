@@ -2176,6 +2176,7 @@ a:-webkit-any-link {
 }
 
 .b-image img {
+    vertical-align: top;
     transition: 0s ease, transform .3s, opacity 0.25s ease, filter 0.25s ease;
 }
 
@@ -2206,48 +2207,44 @@ img {
   transform: scale(1.3);
 }
 
-.profile-actions .mail:before, .profile-actions .talk:before {
- transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
-  content: '\f0e0';
+.profile-actions .mail:before,
+.profile-actions .talk:before,
+.profile-actions .settings:before,
+.profile-actions .ban:before,
+.profile-actions .fav-add::before,
+.profile-actions .fav-remove::before,
+.profile-actions .ignore-add:before,
+.profile-actions .ignore-remove:before {
+  transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-
-.profile-actions .mail:hover:before {
-  color:  rgba(var(--hover-color), var(--hundred)) !important;
-  transform: scale(1.3);
+.profile-actions .mail:before,
+.profile-actions .talk:before {
+  content: "\f0e0";
 }
-
 .profile-actions .settings:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
-  content: '\f085';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+  content: "\f085";
 }
-
-.profile-actions .settings:hover:before {
-  color:  rgba(var(--hover-color), var(--hundred)) !important;
-  transform: scale(1.3);
-}
-
 .profile-actions .ban:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
-  content: '\f06a';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  line-height: 38px !important;
+  content: "\f06a";
+  line-height: 38px !important;  
+}
+.profile-actions .fav-add::before {
+  content: "\f234";
+}
+.profile-actions .fav-remove::before {
+  content: "\f235";
+}
+.profile-actions .ignore-add:before {
+  content: "\f2a8";
+}
+.profile-actions .ignore-remove:before {
+  content: "\f25b";
 }
 
-.profile-actions .ban:hover:before {
-  color:  rgba(var(--hover-color), var(--hundred)) !important;
-  transform: scale(1.3);
-}
 
 .activity .graph.vertical .line .bar {
   box-sizing: content-box;
@@ -2260,65 +2257,24 @@ img {
   animation-name: activity;
 }
 
-.profile-actions .fav-add::before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
-  content: '\f234';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.profile-actions .fav-remove::before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
-  content: '\f235';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.profile-actions .ignore-add:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
-  content: '\f2a8';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.profile-actions .ignore-remove:before {
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
-  content: '\f25b';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.buttons .item-delete:before {
-  content: '\f1f8';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.buttons .item-edit:before {
-  content: '\f040';
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
+.buttons .item-delete:before,
+.buttons .item-edit:before,
 .buttons .item-reply:before {
-  content: '\f27a';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
+.buttons .item-delete:before {
+  content: "\f1f8";
+}
+.buttons .item-edit:before {
+  content: "\f040";
+}
+.buttons .item-reply:before {
+  content: "\f27a";
+}
+
 
 .b-quote .quoteable:before {
   content: '\f10d';
@@ -2587,8 +2543,8 @@ body#dashboards_show .l-page {
   }
 }
 
-
 .b-achievement .c-image .inner a img,.b-achievement .c-image .inner a .no-image,.cc-franchises .b-badge img,.cc-franchises .b-badge .no-image,body.p-achievements.p-profiles.p-profiles .b-achievement img,body.p-achievements.p-profiles.p-profiles .b-badge img { image-rendering: -webkit-optimize-contrast !important; }
+
 
 .b-spoiler_block>div, .b-quote-v2 {
     background-color: rgba(var(--block-color), 0.3);
