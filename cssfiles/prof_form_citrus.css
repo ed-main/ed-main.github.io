@@ -1179,6 +1179,7 @@ position: absolute;
     }
     .p-profiles .profile-head .c-brief .avatar img {
       width: 166px;
+	    height: auto;
     }
     .p-profiles .profile-head .c-info .c-additionals {
       margin-bottom: 62px !important;
@@ -1412,6 +1413,8 @@ position: absolute;
     }
     .p-profiles .profile-head .c-brief .avatar img {
       width: 180px;
+	  height: auto;
+	    
     }
     .p-profiles .profile-head .c-brief .avatar {
       margin-top: -236px !important;
@@ -1690,6 +1693,7 @@ position: absolute;
     }
     .p-profiles .profile-head .c-brief .avatar img {
       width: 180px;
+	    height: auto;
     }
     .p-profiles .profile-head .c-brief .avatar {
       margin-top: -258px !important;
@@ -1743,4 +1747,4 @@ position: absolute;
       border-radius: 10px;
     }
   }
-  
+ 
