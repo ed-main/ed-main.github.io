@@ -3297,3 +3297,6 @@ color: #ffcacd;
     width: 100%;
     justify-content: center;
 }
+.b-comment>.inner .name-date a.name {
+   color: inherit;
+}
