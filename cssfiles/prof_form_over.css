@@ -23,8 +23,8 @@
     width: 100%;
     overflow: hidden;
   }
-  body#profiles_show.x1200 .l-page,
-  body#profiles_show .l-page {
+  #profiles_show.x1200 .l-page,
+  #profiles_show .l-page {
     min-width: 100%;
     margin: auto;
     padding: 0 !important;
