@@ -954,7 +954,7 @@ tr.user_rate.selectable.editable:after {
 
 .c-brief header.head .notice, .c-brief header.head .misc, .c-brief header.head a.edit, .p-profiles .profile-head .c-info .c-additionals b, .p-profiles .profile-head .c-brief header h1.aliases::after, .p-profiles .profile-head .c-brief header .notice a {
   color:  rgba(var(--light-color), var(--hundred)) !important;
-  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s;
+  transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s,line-height 0s, min-height 0s, text-shadow 0s;
 }
 
 .p-profiles .profile-head .c-brief header .notice span:after {
