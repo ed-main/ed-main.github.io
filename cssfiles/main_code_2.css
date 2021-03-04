@@ -1,6 +1,6 @@
 /*2104*/
 .l-footer:before {
-    content: 'E-design v.4.33';
+    content: 'E-design v.4.34';
 }
 .b-club .name-logo .name {
     transition: 1s ease;
@@ -1024,17 +1024,17 @@ body.p-achievements.p-profiles .l-footer .links a {
     top: auto;
   }
   
-  body#profiles_show .b-to-top .slide:before {
-    background: #f0f0f0;
-    content: '';
-    height: 20px;
-    left: 0;
-    opacity: 0;
+body#profiles_show .b-to-top .slide:before {
     position: fixed;
-    bottom: 0;
-    width: 60px;
     top: auto;
-  }
+    left: 0;
+    bottom: 0;
+    width: 50px!important;
+    height: 50px;  
+    background: transparent;
+    opacity: 0;
+  
+}
   
   body#profiles_show .b-to-top .arrow {
     top: auto;
