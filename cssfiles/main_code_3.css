@@ -2288,8 +2288,14 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
 
 /* Фикс для постеров */
 /*.tabs .b-catalog_entry .cover .image-decor .image-cutter { max-height: none !important;}*/
-@media screen and (max-width: 1280px) { .tabs .header { border-radius: 0.4rem 0.4rem 0.2rem 0.2rem;}}
-
+@media screen and (max-width: 1280px) {
+    .tabs .header {
+        border-radius: 0.4rem 0.4rem 0.2rem 0.2rem;
+    }
+    .tabs .header div.active {
+        border-radius: 0.3rem;
+    }
+}
   .b-shiki_editor.previewed .b-spoiler label:hover, .p-profiles .about.block .b-spoiler label:hover {
     animation: none !important;
   }
