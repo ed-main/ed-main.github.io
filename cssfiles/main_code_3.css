@@ -1267,7 +1267,7 @@
   .b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-user16 img, .b-club .logo, .b-comment > .inner header img, .p-profiles-edit .account .avatar-edit img, .b-user.detailed .info .image-name .image, .b-message > .inner header img, .b-hot_topics .topic a.with-author img, .b-dialog > .inner header img, .p-topics .l-menu .clubs .entry img, .name-logo .logo {
     border-radius: 50%;
     border: 2px solid rgba(var(--block-color), 0.6);
-    transition: 1s ease;
+    transition: 0s ease, transform 1s ease, border-color 1s ease;
   }
   
   .b-user16 img {
@@ -2180,7 +2180,8 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
     border-radius: 1rem;
     box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%);
 }
-.tabs .header::-webkit-scrollbar { height: 8px;
+.tabs .header::-webkit-scrollbar {
+    height: 8px;
 }
 /* Кнопка в обычном состоянии */
 .tabs .header div {
