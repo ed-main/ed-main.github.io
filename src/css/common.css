@@ -1512,7 +1512,7 @@ span.md-list_content.md-control_group label.md-control:nth-child(3) { /*Bigshot 
     background: transparent;
 }
 
-.md-control:not(.v-file):last-child {
+.color-settings .md-control:not(.v-file):last-child {
       display: none;
 }
 .color-settings .md-control {
