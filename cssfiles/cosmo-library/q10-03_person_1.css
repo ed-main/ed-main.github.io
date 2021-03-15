@@ -127,20 +127,20 @@
 }
 @media screen and (min-width: 500px) {
     #profiles_show  .Person-1 .b-catalog_entry a .image-cutter::after {
-        width: calc(100% - 7px)!important;
-        height: calc(100% - 7px)!important;
+        width: calc(100% - 7px);
+        height: calc(100% - 7px);
     }
 }
 @media screen and (min-width: 650px) {
     #profiles_show  .Person-1 .b-catalog_entry a .image-cutter::after {
-        width: calc(100% - 9px)!important;
-        height: calc(100% - 9px)!important;
+        width: calc(100% - 9px);
+        height: calc(100% - 9px);
     }
 }
 @media screen and (min-width: 800px) {
     #profiles_show  .Person-1 .b-catalog_entry a .image-cutter::after {
-        width: calc(100% - 12px)!important;
-        height: calc(100% - 12px)!important;
+        width: calc(100% - 12px);
+        height: calc(100% - 12px);
     }
 
     #profiles_show  .Person-1 .b-catalog_entry .cover .title.two_lined {
@@ -149,7 +149,7 @@
 }
 @media screen and (min-width: 1024px) {
     #profiles_show  .Person-1 .b-catalog_entry a .image-cutter::after {
-        width: calc(100% - 15px)!important;
-        height: calc(100% - 15px)!important;
+        width: calc(100% - 15px);
+        height: calc(100% - 15px);
     }
 }
