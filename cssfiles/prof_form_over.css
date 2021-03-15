@@ -530,6 +530,35 @@
   }
 }
 
+/*Over*/
+@media screen and (min-width: 1200px) {
+  .about .c-column,
+  .about .c-column:last-child {
+    width: calc(100% / 9) !important;
+  }
+  .about .cover:hover {
+    box-shadow: -20px 20px 0 -17px #3e3e3ed9, 20px -20px 0 -17px #383838, 20px 20px 0 -20px #000000cc, 0 0 0 2px #000000cc !important;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .about .c-column,
+  .about .c-column:last-child {
+    width: calc(100% / 10) !important;
+  }
+}
+@media screen and (min-width: 1650px) {
+  .about .c-column,
+  .about .c-column:last-child {
+    width: calc(100% / 11) !important;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .about .c-column,
+  .about .c-column:last-child {
+    width: calc(100% / 12) !important;
+  }
+}
+
 /* cosmo-library fix */
 @media screen and (min-width: 1200px) {
   #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
