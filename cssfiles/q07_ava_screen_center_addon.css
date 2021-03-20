@@ -37,25 +37,96 @@
     } 
 }
 
-/* cosmo-library fix */
-  @media screen and (min-width: 1200px) {
-      #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
-          width: calc(100% / 4 - 1 * 1.01%)!important;
-      }
+/*Over*/
+@media screen and (min-width: 1200px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 8) !important;
   }
-  @media screen and (min-width: 1480px) {
-      #profiles_show .Razmer-v2-row-1 .Animes_Mangas .c-column {
-          width: calc(100% / 4 - 1 * 1.01%)!important;
-      }
+}
+@media screen and (min-width: 1200px) {
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
+    width: calc(100% / 7) !important;
   }
+}
+@media screen and (min-width: 1300px) {
+  .Ssylki-anime-v-1-standard {
+    width: calc(100% / 7 - 1 * 1%);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .Ssylki-anime-v-1 {
+    width: calc(100% / 4 - 1 * 1%);
+  }
+}
 
-  @media screen and (min-width: 1500px) {
-    #profiles_show .Razmer-row-1 .Person-0 .c-column {
-      width: calc(100% / 8)!important;
-    }
+@media screen and (min-width: 1450px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 8) !important;
   }
-  @media screen and (min-width: 1678px) {
-    #profiles_show .Razmer-row-1 .Person-0 .c-column {
-      width: calc(100% / 8)!important;
-    }
+}
+@media screen and (min-width: 1450px) {
+  .Ssylki-anime-v-1-standard {
+    width: calc(100% / 7 - 1 * 1%);
   }
+}
+
+/*------*/
+@media screen and (min-width: 1500px) {
+  .about .Razmer-v2-row-0 .Animes_Mangas .b-catalog_entry,
+  .about .Razmer-v2-row-0 .Animes_Mangas .b-catalog_entry:last-child {
+    width: calc(100% / 4) !important;
+  }
+}
+/*------*/
+
+@media screen and (min-width: 1500px) {
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
+    width: calc(100% / 7) !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .Ssylki-anime-v-1-standard {
+    width: calc(100% / 7 - 1 * 1%);
+    margin: 5px 0.37% 3.5rem 0.37%;
+  }
+}
+/*------*/
+
+@media screen and (min-width: 1600px) {
+  .Ssylki-anime-v-1 {
+    margin: 5px 0.37% 3.5rem 0.37%;
+  }
+}
+/*------*/
+
+@media screen and (min-width: 1600px) {
+  .Ssylki-anime {
+    width: calc(100% / 4);
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 8) !important;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {
+    width: calc(100% / 8) !important;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
+  .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
+    width: calc(100% / 7) !important;
+  }
+}
+/*------*/
