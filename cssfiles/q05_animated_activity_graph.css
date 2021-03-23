@@ -225,19 +225,19 @@
 }
 @-webkit-keyframes fluctuations {
   0% {
-    background-color: rgba(var(--block-color), 0.4);
+    background-color: rgba(var(--very-high-rating), var(--hundred));
     margin-top: 35px;
     margin-bottom: 45px;
     height: 20px;
   }
   50% {
-    background-color: rgba(var(--block-color), 0.7);
+    background-color: rgba(var(--average-rating), var(--hundred));
     height: 95px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   100% {
-    background-color: rgba(var(--block-color), 1);
+    background-color: rgba(var(--small-rating), var(--hundred));
     height: 20px;
     margin-top: 35px;
     margin-bottom: 45px;
@@ -245,59 +245,59 @@
 }
 @-moz-keyframes fluctuations {
   0% {
-    background-color: rgba(var(--block-color), 0.4);
+    background-color: rgba(var(--very-high-rating), var(--hundred));
     margin-top: 35px;
     margin-bottom: 45px;
     height: 20px;
   }
   50% {
-    background-color: rgba(var(--block-color), 0.7);
+    background-color: rgba(var(--average-rating), var(--hundred));
     height: 95px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   100% {
-    background-color: rgba(var(--block-color), 1);
+    background-color: rgba(var(--small-rating), var(--hundred));
     height: 20px;
     margin-top: 35px;
     margin-bottom: 45px;
   }
 }
 @-o-keyframes fluctuations {
-  0% {
-    background-color: rgba(var(--block-color), 0.4);
+   0% {
+    background-color: rgba(var(--very-high-rating), var(--hundred));
     margin-top: 35px;
     margin-bottom: 45px;
     height: 20px;
   }
   50% {
-    background-color: rgba(var(--block-color), 0.7);
+    background-color: rgba(var(--average-rating), var(--hundred));
     height: 95px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   100% {
-    background-color: rgba(var(--block-color), 1);
+    background-color: rgba(var(--small-rating), var(--hundred));
     height: 20px;
     margin-top: 35px;
     margin-bottom: 45px;
   }
 }
 @keyframes fluctuations {
-  0% {
-    background-color: rgba(var(--block-color), 0.4);
+    0% {
+    background-color: rgba(var(--very-high-rating), var(--hundred));
     margin-top: 35px;
     margin-bottom: 45px;
     height: 20px;
   }
   50% {
-    background-color: rgba(var(--block-color), 0.7);
+    background-color: rgba(var(--average-rating), var(--hundred));
     height: 95px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   100% {
-    background-color: rgba(var(--block-color), 1);
+    background-color: rgba(var(--small-rating), var(--hundred));
     height: 20px;
     margin-top: 35px;
     margin-bottom: 45px;
