@@ -225,19 +225,19 @@
 }
 @-webkit-keyframes fluctuations {
   0% {
-    background-color: #292b75;
+    background-color: rgba(var(--block-color), 0.4);
     margin-top: 35px;
     margin-bottom: 45px;
     height: 20px;
   }
   50% {
-    background-color: #7e7be4;
+    background-color: rgba(var(--block-color), 0.7);
     height: 95px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   100% {
-    background-color: #292b75;
+    background-color: rgba(var(--block-color), 1);
     height: 20px;
     margin-top: 35px;
     margin-bottom: 45px;
@@ -245,19 +245,19 @@
 }
 @-moz-keyframes fluctuations {
   0% {
-    background-color: #292b75;
+    background-color: rgba(var(--block-color), 0.4);
     margin-top: 35px;
     margin-bottom: 45px;
     height: 20px;
   }
   50% {
-    background-color: #7e7be4;
+    background-color: rgba(var(--block-color), 0.7);
     height: 95px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   100% {
-    background-color: #292b75;
+    background-color: rgba(var(--block-color), 1);
     height: 20px;
     margin-top: 35px;
     margin-bottom: 45px;
@@ -265,19 +265,19 @@
 }
 @-o-keyframes fluctuations {
   0% {
-    background-color: #292b75;
+    background-color: rgba(var(--block-color), 0.4);
     margin-top: 35px;
     margin-bottom: 45px;
     height: 20px;
   }
   50% {
-    background-color: #7e7be4;
+    background-color: rgba(var(--block-color), 0.7);
     height: 95px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   100% {
-    background-color: #292b75;
+    background-color: rgba(var(--block-color), 1);
     height: 20px;
     margin-top: 35px;
     margin-bottom: 45px;
@@ -285,19 +285,19 @@
 }
 @keyframes fluctuations {
   0% {
-    background-color: #292b75;
+    background-color: rgba(var(--block-color), 0.4);
     margin-top: 35px;
     margin-bottom: 45px;
     height: 20px;
   }
   50% {
-    background-color: #7e7be4;
+    background-color: rgba(var(--block-color), 0.7);
     height: 95px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   100% {
-    background-color: #292b75;
+    background-color: rgba(var(--block-color), 1);
     height: 20px;
     margin-top: 35px;
     margin-bottom: 45px;
