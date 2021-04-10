@@ -1026,11 +1026,11 @@ input, select, button, textarea {
 }
 
 .p-dashboards-show .v2 .db-update .name:hover, .b-comment>.inner .name-date .name:hover, .b-comments .comments-collapser:hover, .b-topic > .inner header .name-date a.name:hover, .p-user_rates-index .list-lines tr td .episodes_total {
-  color:  rgba(var(--hover-color), var(--hundred));
+  color:  rgba(var(--hover-color), var(--hundred))!important;
 }
 
 .p-dashboards-show .v2 .db-update .name, .b-comment>.inner .name-date .name, .b-topic > .inner header .name-date a.name, .b-dialog > .inner header .name-date a.name, .b-message > .inner header .name-date a.name {
-  color:  rgba(var(--white-color), var(--hundred));
+  color:  rgba(var(--white-color), var(--hundred))!important;
   top: 2px;
   position: relative;
   padding-top: 2px;
