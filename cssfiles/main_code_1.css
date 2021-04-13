@@ -84,6 +84,7 @@ body:after {
   -o-background-size: cover;
   background-size: cover;
   background-color: rgba(var(--menu-back), 0.5);
+  image-rendering: -webkit-optimize-contrast; 
 
 }
 
