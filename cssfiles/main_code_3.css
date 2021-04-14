@@ -2697,6 +2697,34 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode, .b-anime_status_tag.
   }
   
 
+ /*Загрузка!> убирает баг постеров в клубах и на страничках с постерами*/
+.p-clubs-images .ajax-loading,
+.p-clubs-images .ajax-loading.vk-like,
+.p-clubs-images .b-appear_marker.active,
+.p-db_entries-art .ajax-loading,
+.p-db_entries-art .ajax-loading.vk-like,
+.p-db_entries-art .b-appear_marker.active {
+   display: flex;
+   position: fixed !important;
+   top: 3rem;
+   right: 1rem;
+   width: 50px;
+   height: 50px;
+}
+.p-clubs-images .b-image img,
+.p-clubs-images .b-image:not(.no-zoom),
+.p-clubs-images .b-image,
+.p-clubs-images .grid_sizer,
+.p-db_entries-art .b-image img,
+.p-db_entries-art .b-image:not(.no-zoom),
+.p-db_entries-art .b-image,
+.p-db_entries-art .grid_sizer {
+   transition: none !important;
+   animation: none !important;
+   overflow: visible;
+}
+ /*- - -*/
+
 
   @keyframes spoile {
     0% {
