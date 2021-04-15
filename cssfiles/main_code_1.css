@@ -97,7 +97,30 @@ body:after {
   max-height: calc(100vh - 46px);
   overflow: auto;
 }
-
+.l-top_menu-v2 .global-search .search-results::before {
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(var(--menu-back), 0.65) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(var(--menu-back), 0.65) 100%
+  );
+}
+.l-top_menu-v2 .global-search .search-results::after {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(var(--menu-back), 0.65) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(var(--menu-back), 0.65) 100%
+  );
+}
 ::-webkit-scrollbar {
     width: 8px;
     background-color: transparent;
