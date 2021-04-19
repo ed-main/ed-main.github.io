@@ -539,6 +539,10 @@
     background-image: url(//clipart-db.ru/file_content/rastr/cucumber-003.png)!important;
     background-repeat: repeat!important;
     background-size: 100px 100px!important;
+  font-size: 2em;
+    text-align: center;
+    padding-top: 32vh;
+    content: "Огурчик";
   }
 }
 
