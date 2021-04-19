@@ -528,22 +528,6 @@
     width: 17%;
     transition: none;
   }
-  
-  
-  
-  
-  /*------*/
-#profiles_show .profile-head[data-user-id="749217"]::after {
-    background-color: #232927;   
-    animation-name: none!important;
-    background-image: url(//clipart-db.ru/file_content/rastr/cucumber-003.png)!important;
-    background-repeat: repeat!important;
-    background-size: 100px 100px!important;
-  font-size: 2em;
-    text-align: center;
-    padding-top: 32vh;
-    content: "Огурчик";
-  }
 }
 
 
