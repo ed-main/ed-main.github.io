@@ -122,7 +122,7 @@ body:after {
   );
 }
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
     background-color: transparent;
 }
 ::-webkit-scrollbar-track {
@@ -132,17 +132,18 @@ body:after {
 }
 ::-webkit-scrollbar-thumb {
 
-    background-color: rgba(var(--light-color), 0.2);
+    background-color: rgba(var(--light-color), 0.5);
     border-radius:8px;
    transition: 0.2s;
 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(var(--light-color), 0.4);
+    background-color: rgba(var(--light-color), 0.7);
 }
 ::-webkit-scrollbar-thumb:active {
-    background-color: rgba(var(--light-color), 0.3);
+    background-color: rgba(var(--light-color), 0.6);
 }
+
   
 
 .b-shiki_editor footer .about-bb_codes:hover:before {
