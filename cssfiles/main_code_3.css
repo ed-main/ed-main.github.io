@@ -2360,12 +2360,14 @@ body.p-achievements.p-profiles .l-top_menu-v2.is-search-focus .global-search .se
    
     max-width: calc(100% - 20px);
     left: 10px;
-    background-color: rgba(var(--menu-back), 0.6);
+    background-color: rgba(var(--menu-back), 0.95);
     border-radius: 0 0 20px 20px;
     padding: 3px;
   }
-.l-top_menu-v2 .global-search .search-results {
-background-color: rgba(var(--menu-back), 0.6);
+.l-top_menu-v2 .global-search .search-results .inner {
+    
+    height: 100%;
+    max-height: 100%!important;
 }
 body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results {
     background: linear-gradient(135deg, rgba(45, 38, 38, 0.9) 0%, rgba(39, 31, 28, 0.9) 70%, rgba(82, 49, 12, 0.9) 100%);
