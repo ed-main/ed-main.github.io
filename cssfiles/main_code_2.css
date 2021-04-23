@@ -2713,17 +2713,22 @@ body#tests_reset_styles_cache input[type="submit"] {
 }
 
 .subheadline-buttons {
-    margin-top: 0;
+    margin: 3px 0;
+    padding-top: 0px;
     right: 5px;
-    height: 28px;
-    z-index:1;
-    
+    height: 23px;
+    z-index: 3;
 }
 .subheadline-buttons a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 20px;
+    font-size: 9px!important;
+    background: #cccccc14!important;
+}
+.subheadline-buttons a span {
+    line-height: 1.4;
 }
   .p-profiles-show .about .item-edit:before, .p-profiles-show .about .item-edit:after {
     margin:0;
