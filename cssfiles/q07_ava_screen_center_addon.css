@@ -130,3 +130,27 @@
   }
 }
 /*------*/
+
+
+/*------*/
+@media screen and (min-width: 1300px) {
+    .Anime-v-0-1 {
+        width: calc(100% / 8 - 1 * 1%);
+    }
+}
+@media screen and (min-width: 1450px) {
+    .Anime-v-0-1 {
+        width: calc(100% / 8 - 1 * 1%);
+    }
+}
+@media screen and (min-width: 1600px) {
+    .Anime-v-0-1 {
+        width: calc(100% / 8 - 1 * 1%);
+    }
+}
+@media screen and (min-width: 1900px) {
+    .Anime-v-0-1 {
+        width: calc(100% / 8 - 1 * 1%);
+    }
+}
+/*------*/
