@@ -629,3 +629,33 @@
     width: calc(100% / 5);
   }
 }
+
+
+
+
+
+
+/*------*/
+@media screen and (min-width: 1300px) {
+    .Anime-v-0-1 {
+        width: calc(100% / 9 - 1 * 1%);
+    }
+}
+@media screen and (min-width: 1450px) {
+    .Anime-v-0-1 {
+        width: calc(100% / 10 - 1 * 1%);
+    }
+}
+@media screen and (min-width: 1600px) {
+    .Anime-v-0-1 {
+        width: calc(100% / 11 - 1 * 1%);
+        margin: 5px 0.37% 3.5rem 0.37%;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .Anime-v-0-1 {
+        width: calc(100% / 12 - 1 * 1%);
+        margin: 5px 0.37% 3.5rem 0.37%;
+    }
+}
+/*------*/
