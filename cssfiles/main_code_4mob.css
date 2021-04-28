@@ -4155,7 +4155,7 @@ div.Ssylki-anime:hover .Text-2 {
 .k-0-1 .b-catalog_entry .cover:hover {
     transform: none !important;
     box-shadow: none !important;
-    background: none !important;
+    background: none;
 }
 .k-0-1 .Anime-v-0-1 {
     transition: 0s ease-out, box-shadow 0.2s ease-out, transform 0.2s ease-out;
