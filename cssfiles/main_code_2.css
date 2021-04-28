@@ -2719,7 +2719,7 @@ body#tests_reset_styles_cache input[type="submit"] {
     height: 23px;
     z-index: 3;
 }
-.subheadline-buttons a {
+.p-dashboards-show .subheadline-buttons a {
     display: flex;
     justify-content: center;
     align-items: center;
