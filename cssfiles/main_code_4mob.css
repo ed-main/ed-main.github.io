@@ -2747,6 +2747,8 @@
 #profiles_show .tooltip-inner {
   width: 340px;
 }
+#profiles_show .b-catalog_entry-tooltip>a,
+#profiles_show .entry-tooltip_container>.image-link,
 #profiles_show  .b-catalog_entry-tooltip .image,
 #profiles_show  .b-catalog_entry-tooltip > a {
   display: none;
