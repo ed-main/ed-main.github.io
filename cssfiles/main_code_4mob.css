@@ -2654,6 +2654,11 @@
 
 
 
+
+
+
+
+
 /* Код Cosmo */
 @media screen and (min-width: 50px) {
   .about .b-catalog_entry,
@@ -2755,6 +2760,14 @@
 }
 #profiles_show  .b-catalog_entry-tooltip .inner.offset {
   margin-left: 0;
+}
+/*--------*/
+
+.Ssylki-anime span,
+.Ssylki-anime-v-1 span,
+.Ssylki-anime-v-1-standard span,
+.Ssylki-Characters span {
+     display: none;
 }
 /*--------*/
 /*1*/
@@ -2970,13 +2983,8 @@ display: none;
 /*-------------------------------*/
 
 
-.Ssylki-anime span,
-.Ssylki-anime-v-1 span,
-.Ssylki-anime-v-1-standard span,
-.Ssylki-Characters span {
-     display: none;
-}
-/*--------*/
+
+
 
  /*Стандарт*/
 .about .Blok-1 {
@@ -3365,7 +3373,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: bold;
-  padding: 129% 1rem 0;
+  padding: 129% 0.15rem 0;
   border-radius: 0.25rem;
 }
 .Ssylki-anime-v-1-standard .Fon-standard {
@@ -3626,7 +3634,7 @@ div.Ssylki-anime-v-1:hover::before {
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: bold;
-  padding: 59% 1rem 0;
+  padding: 59% 0.15rem 0;
   border-radius: 0.25rem;
 }
 .Ssylki-anime-v-1 .Fon {
@@ -4095,7 +4103,7 @@ div.Ssylki-anime:hover .Text-2 {
     right: 0;
     z-index: 4;
     margin: auto;
-    height: calc(100% + 2.35rem);
+    height: calc(100% + 2.5rem);
     border: solid 0px transparent;
     text-align: center;
     display: grid;
@@ -4112,7 +4120,7 @@ div.Ssylki-anime:hover .Text-2 {
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: bold;
-    padding: 150% 1rem 0;
+    padding: 150% 0.15rem 0;
     border-radius: 0.65rem;
 }
 .Anime-v-0-1 .Text-g1 .b-link {
