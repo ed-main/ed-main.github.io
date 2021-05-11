@@ -2662,3 +2662,8 @@ p {
 .p-dashboards-show .v2 .db-updates {
     overflow: hidden;
 }
+/*на Телефоне_контент вылизал фикс > Test*/
+.p-dashboards-show .v2 .db-updates .inner,
+.p-dashboards-show .v2 .db-updates .inner>.db-update {
+    margin-bottom: 0;
+}
