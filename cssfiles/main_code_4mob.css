@@ -6,7 +6,7 @@
    .global-search input,
    .global-search inpot *:after,
    .global-search input *:before {
-      transition: 0s all, background 0.2s, color 0.2s;
+      transition: 0s all, background 0.2s, color 0.2s; 
    }
    .menu-dropdown.profile .text {
       transition: none;
@@ -2768,6 +2768,12 @@
 .Ssylki-anime-v-1-standard span,
 .Ssylki-Characters span {
      display: none;
+}
+.Ssylki-anime .b-link,
+.Ssylki-anime-v-1 .b-link,
+.Ssylki-anime-v-1-standard .b-link,
+.Ssylki-Characters .b-link {
+  font-size: 0;
 }
 /*--------*/
 /*1*/
