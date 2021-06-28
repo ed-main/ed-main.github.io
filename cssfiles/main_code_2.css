@@ -3304,3 +3304,8 @@ color: #ffcacd;
 .b-comment>.inner .name-date a.name {
    color: inherit;
 }
+/*Боле затемнённый фон. при клики на картинки*/
+.mfp-container {
+    backdrop-filter: blur(4px);
+    background-color: #191717f2;
+}
