@@ -3335,6 +3335,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   opacity: 0;
   border-radius: 0.2rem;
   margin: auto;
+  display: none;
 }
 
 .Ssylki-anime-v-1-standard > strong > a::before {
@@ -3364,7 +3365,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   z-index: 4;
   margin: auto;
   height: calc(100% + 3rem);
-  border: solid 2px #373737;
+  border: solid 2px transparent;
   text-align: center;
   display: grid;
   align-items: center;
@@ -3372,7 +3373,7 @@ div.Ssylki-anime-v-1-standard:hover::before {
   white-space: normal;
   text-shadow: 1px 0 2px #000000cc, -1px 0 2px #000000cc, 0 1px 2px #000000cc, 0 -1px 2px #000000cc;
   box-shadow: 0 2px 6px 0px #00000040;
-  background: #171616 !important;
+  background: rgba(var(--block-color), 0.15);
   line-height: 1.5;
   font-size: 15px;
   color: #cce0d1;
@@ -3595,6 +3596,7 @@ div.Ssylki-anime-v-1:hover::before {
   opacity: 0;
   border-radius: 0.2rem;
   margin: auto;
+   display: none;
 }
 
 .Ssylki-anime-v-1 > strong > a::before {
@@ -3633,7 +3635,7 @@ div.Ssylki-anime-v-1:hover::before {
   white-space: normal;
   text-shadow: 1px 0 2px #000000cc, -1px 0 2px #000000cc, 0 1px 2px #000000cc, 0 -1px 2px #000000cc;
   box-shadow: 0 2px 6px 0px #00000040;
-  background: #171616 !important;
+  background: rgba(var(--block-color), 0.15);
   line-height: 1.5;
   font-size: 15px;
   color: #cce0d1;
