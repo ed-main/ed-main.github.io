@@ -3627,7 +3627,7 @@ div.Ssylki-anime-v-1:hover::before {
   z-index: 4;
   margin: auto;
   height: calc(100% + 3rem);
-  border: solid 2px #373737;
+  border: solid 2px transparent;
   text-align: center;
   display: grid;
   align-items: center;
