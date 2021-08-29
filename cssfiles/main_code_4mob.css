@@ -3831,7 +3831,7 @@ div.Ssylki-Characters:hover .Text-1 {
 }
 .Ssylki-Characters .Text-1:after {
   position: absolute;
-  content: url("//i.ibb.co/tD9K2Lq/Dno-fon.jpg");
+  content: url("/\x/i.ibb.co/tD9K2Lq/Dno-fon.jpg");
   top: 0;
   left: 0;
   right: 0;
