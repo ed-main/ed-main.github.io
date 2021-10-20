@@ -255,3 +255,13 @@
   background-color: rgb(31 111 106 / 90%);
  }
 }
+@media screen and (max-width: 1200px) {
+  .p-profiles .cc-favourites .c-anime a .image-decor::before,
+  .p-profiles .cc-favourites .c-anime a .image-cutter::before,
+  .p-profiles .cc-favourites .c-manga a .image-decor::before,
+  .p-profiles .cc-favourites .c-manga a .image-cutter::before,
+  .p-profiles .cc-favourites .c-character a .image-cutter::before,
+  .p-profiles .cc-favourites .c-character a .image-decor::before {
+    visibility: hidden;
+  }
+}
