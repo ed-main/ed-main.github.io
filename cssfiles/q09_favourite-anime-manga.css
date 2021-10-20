@@ -262,6 +262,6 @@
   .p-profiles .cc-favourites .c-manga a .image-cutter::before,
   .p-profiles .cc-favourites .c-character a .image-cutter::before,
   .p-profiles .cc-favourites .c-character a .image-decor::before {
-    visibility: hidden;
+    font-size: 0;
   }
 }
