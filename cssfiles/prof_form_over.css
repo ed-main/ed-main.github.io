@@ -537,13 +537,14 @@ body.p-achievements.p-profiles.p-profiles .b-badge img {
   image-rendering: -webkit-optimize-contrast;
   }
 }
-
+/*.about .b-catalog_entry,
+  .about .b-catalog_entry:last-child {*/
 
 
 /*Over*/
 @media screen and (min-width: 1200px) {
-  .about .b-catalog_entry,
-  .about .b-catalog_entry:last-child {
+   .b-catalog_entry,
+   .b-catalog_entry:last-child {
     width: calc(100% / 9) !important;
   }
   .about .cover:hover {
@@ -551,20 +552,20 @@ body.p-achievements.p-profiles.p-profiles .b-badge img {
   }
 }
 @media screen and (min-width: 1450px) {
-  .about .b-catalog_entry,
-  .about .b-catalog_entry:last-child {
+   .b-catalog_entry,
+   .b-catalog_entry:last-child {
     width: calc(100% / 10) !important;
   }
 }
 @media screen and (min-width: 1650px) {
-  .about .b-catalog_entry,
+   .b-catalog_entry,
   .about .b-catalog_entry:last-child {
     width: calc(100% / 11) !important;
   }
 }
 @media screen and (min-width: 1900px) {
-  .about .b-catalog_entry,
-  .about .b-catalog_entry:last-child {
+   .b-catalog_entry,
+   .b-catalog_entry:last-child {
     width: calc(100% / 12) !important;
   }
 }
