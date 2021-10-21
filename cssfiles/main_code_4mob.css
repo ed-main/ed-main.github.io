@@ -4084,14 +4084,14 @@ div.Ssylki-anime:hover .Text-2 {
     padding: 0;
 }*/
 
- .k-0-1 .c-column,
- .k-0-1 .c-column:last-child,
- .k-0-1 .b-catalog_entry,
- .k-0-1 .b-catalog_entry:last-child,
- .k-0-1 .c-column,
- .k-0-1 .c-column:last-child,
- .k-0-1 .b-catalog_entry,
- .k-0-1 .b-catalog_entry:last-child {
+ .about .k-0-1 .c-column,
+.about .k-0-1 .c-column:last-child,
+.about .k-0-1 .b-catalog_entry,
+.about .k-0-1 .b-catalog_entry:last-child,
+.p-profiles-edit .k-0-1 .c-column,
+.p-profiles-edit .k-0-1 .c-column:last-child,
+.p-profiles-edit .k-0-1 .b-catalog_entry,
+.p-profiles-edit .k-0-1 .b-catalog_entry:last-child {
     width: 100% !important;
     max-width: none !important;
     max-height: none !important;
