@@ -1,6 +1,7 @@
 /*2104*/
 .l-footer:before {
     content: 'E-design v.4.35 ';
+    content: 'E-design *Experimental*';
 }
 .b-club .name-logo .name {
     transition: 1s ease;
@@ -2714,10 +2715,10 @@ body#tests_reset_styles_cache input[type="submit"] {
 .vue-tags-input {
     background: rgba(var(--block-color), 0.4) !important
 }
-.vue-tags-input .b-input .ti-input {
+.vue-tags-input .ti-input {
     background: rgba(var(--block-color), 0.4) !important
 }
-.vue-tags-input .b-input .ti-new-tag-input-wrapper .ti-new-tag-input {
+.vue-tags-input .ti-new-tag-input-wrapper .ti-new-tag-input {
     color: rgba(var(--light-color), 1);
 }
 .ti-tags .ti-tag {
