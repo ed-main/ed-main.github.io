@@ -3024,7 +3024,7 @@ body#messages_index .block.is-own-profile > .mass-actions {
 body#messages_index .block.is-own-profile > .subheadline {
     order: 3;
     position: relative;
-    margin-top: auto;
+    margin-top: -28px;
 }
 body#messages_index .block.is-own-profile > .block {
      order: 4;
