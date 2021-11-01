@@ -3089,7 +3089,7 @@ body.p-profiles .mass-actions .action a:after, body.p-profiles .subheadline .mis
     border-radius: 50%;
     box-shadow: 0 1px 3px 3px rgba(0, 0, 0, 0.1);
     transition: 0.2s all;
-    z-index: 1;
+    z-index: 2;
 }
 body.p-profiles .mass-actions .action a:before, .headline .misc-links>a:before, .midheadline .misc-links>a:before, .subheadline .misc-links>a:before {
     content:'';
