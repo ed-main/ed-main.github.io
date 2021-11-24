@@ -28,7 +28,7 @@
     min-width: 100%;
     margin: auto;
     padding: 0 !important;
-    box-shadow: inset 0px 0px 20px 2px rgba(var(--menu-back), 0.8) !important;
+    box-shadow: inset 0px 0px 20px 2px rgba(var(--menu-back), 0.8);
     border-radius: 0;
   }
   #profiles_show .lifetime {
