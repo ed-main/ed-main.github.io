@@ -2691,10 +2691,14 @@ body#tests_reset_styles_cache input[type="submit"] {
 }
 
 .subheadline-buttons {
+    margin: -0.1rem 0 0 0;
     padding-top: 0px;
     right: 5px;
     height: 28px;
     z-index: 3;
+}
+#profiles_show .subheadline-buttons {
+    margin-top: 3px;
 }
 .p-dashboards-show .subheadline-buttons a {
     display: flex;
