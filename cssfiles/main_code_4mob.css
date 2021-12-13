@@ -2651,6 +2651,121 @@
 
 
 
+/*Блок Отзывы > в разработке*/
+.b-reviews_navigation .navigation-container {
+  height: 28px;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  background: rgba(var(--block-color), 0.6);
+  border-radius: 3rem;
+  overflow: hidden;
+}
+.b-reviews_navigation .navigation-node {
+  align-items: center;
+}
+.b-reviews_navigation .navigation-node-all {
+  background: none;
+  border: none;
+  text-transform: capitalize !important;
+  color: inherit;
+}
+
+
+.b-reviews_navigation .navigation-node-positive,
+.b-reviews_navigation .navigation-node-neutral,
+.b-reviews_navigation .navigation-node-negative {
+  color: rgba(var(--bright-color), 1);
+  background: none;
+  border: none;
+  text-transform: capitalize !important;
+}
+.b-reviews_navigation .navigation-node.is-active {
+  font-size: 16px;
+  font-weight: normal;
+}
+.b-reviews_navigation .navigation-node-positive .label,
+.b-reviews_navigation .navigation-node-neutral .label,
+.b-reviews_navigation .navigation-node-negative .label {
+   padding-top: 0.12rem;
+}
+.b-reviews_navigation .navigation-node-positive .count,
+.b-reviews_navigation .navigation-node-neutral .count,
+.b-reviews_navigation .navigation-node-negative .count {
+  /*Положительные,Нейтральные,Отрицательные...Размер текста в скобках*/
+  padding-top: 0.2rem;
+  font-size: 13px;
+}
+.b-reviews_navigation .navigation-node {
+  /*Отзывы > Размер текста*/
+  font-size: 13px;
+}
+.b-reviews_navigation .navigation-node:not(.is-active):not(.is-empty) {
+  padding-top: 0px;
+}
+
+.b-reviews_navigation
+  .navigation-node-positive:not(.is-active):not(.is-empty):active,
+.b-reviews_navigation
+  .navigation-node-positive:not(.is-active):not(.is-empty):hover,
+.b-reviews_navigation
+  .navigation-node-neutral:not(.is-active):not(.is-empty):active,
+.b-reviews_navigation
+  .navigation-node-neutral:not(.is-active):not(.is-empty):hover,
+.b-reviews_navigation
+  .navigation-node-negative:not(.is-active):not(.is-empty):active,
+.b-reviews_navigation
+  .navigation-node-negative:not(.is-active):not(.is-empty):hover,
+.b-reviews_navigation
+  .navigation-node-all:not(.is-active):not(.is-empty):active,
+.b-reviews_navigation
+  .navigation-node-all:not(.is-active):not(.is-empty):hover {
+  color: rgba(var(--hover-color), var(--hundred)) !important;
+  background: none;
+  border: none;
+}
+
+.b-reviews_navigation a.navigation-node.is-active:hover .label span,
+.b-reviews_navigation a.navigation-node.is-active .label span {
+  /*Все Отзывы >чёрточка off*/
+  text-decoration: none;
+}
+.b-reviews_navigation .navigation-node-positive .label:before,
+.b-reviews_navigation .navigation-node-neutral .label:before,
+.b-reviews_navigation .navigation-node-negative .label:before {
+  /*Иконки > off*/
+  display: none;
+}
+.b-reviews_navigation .navigation-node .count:before,
+.b-reviews_navigation .navigation-node .count:after {
+  /*Скобки*/
+  display: none;
+}
+.b-footer_vote {
+  border-radius: 13px;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  background: rgba(var(--block-color), 0.5);
+  border: none;
+  color: rgba(var(--light-color), var(--hundred));
+}
+
+.b-review > .inner .review-details .name-url .to-review {
+  color: rgba(var(--bright-color), var(--hundred));
+}
+.b-review > .inner .review-info .user-rate-label {
+  color: rgba(var(--light-color), var(--hundred));
+}
+.b-footer_vote .vote-group .vote span {
+  color: rgba(var(--light-color), var(--hundred));
+  border: none;
+}
+.b-footer_vote .vote-group .vote {
+  color: rgba(var(--light-color), var(--hundred));
+}
+.b-review {
+  border-top: none;
+}
+/*-----------------*/
+
+
 
 
 
