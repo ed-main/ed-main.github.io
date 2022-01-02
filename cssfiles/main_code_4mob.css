@@ -435,6 +435,9 @@
       border-radius: 14.5px;
       opacity: 1;
    }
+   #profiles_show .b-achievement.is-badge:hover:after {
+      visibility: hidden;
+   }
    .b-dialog > .inner header img {
       margin: 1px 10px 7px 0 !important;
       width: 48px !important;
