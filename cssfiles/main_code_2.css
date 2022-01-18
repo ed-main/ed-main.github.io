@@ -1618,7 +1618,7 @@ body#profiles_show .b-to-top .slide:before {
   }
   
   body#profiles_show .profile-content {
-    padding: 0px 15px 0px 15px;
+    padding: 0px 15px 15px 15px;
   }
   
   .l-page {
