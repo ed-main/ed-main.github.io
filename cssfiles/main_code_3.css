@@ -2562,14 +2562,11 @@ body.p-achievements.p-profiles a.b-db_entry-variant-list_item span.b-link {
   
   .l-top_menu-v2 {
     background: rgba(var(--menu-back), 0.4);
-    box-shadow: 0 1px 20px 10px rgba(var(--menu-back), 0.5);
+    box-shadow: 0 1px 29px 10px rgba(var(--menu-back), 0.5);
     transition: 0.3s ease-in-out;
     border-bottom: unset;
   }
 
-
-
-  
   
   
   .l-top_menu-v2 .menu-dropdown > span {
