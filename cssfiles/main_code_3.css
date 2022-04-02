@@ -1751,10 +1751,10 @@
  
   }
   
-  
-  body.p-achievements.p-profiles .tipsy.tipsy-large.tipsy-s, body.p-achievements.p-profiles .tipsy, body.p-achievements.p-profiles .tipsy-s {
-    display: none !important;
+  body.p-achievements-index .tipsy.tipsy-s { 
+      display: none!important;    
   }
+
   
   body.p-achievements.p-profiles .cc-achievements {
     margin: 16px 0 9px !important;
