@@ -3146,6 +3146,18 @@ body.p-profiles .mass-actions .action a:hover:AFTER, .headline .misc-links>a:hov
     color: rgba(var(--hover-color), 1);
 }
 
+  /*УЧАСТИЕ В ПРОЕКТАХ Ico off*/
+body.p-db_entries-works .p-profiles .mass-actions .action a:after,
+body.p-db_entries-works .p-profiles .subheadline .misc-links > a:after,
+.p-db_entries-works .headline .misc-links>a:after,
+.p-db_entries-works .midheadline .misc-links>a:after,
+.p-db_entries-works .subheadline .misc-links>a:after,
+body.p-db_entries-works .p-profiles .mass-actions .action a:before,
+.p-db_entries-works .headline .misc-links>a:before,
+.p-db_entries-works .midheadline .misc-links>a:before,
+.p-db_entries-works .subheadline .misc-links>a:before {
+  display: none!important;
+}
 
 .l-top_menu-v2 .submenu > a.icon-mail span.unread {
         position: absolute;
