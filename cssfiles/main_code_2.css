@@ -3077,6 +3077,28 @@ body.p-profiles .mass-actions .action a, body .headline .misc-links a, body .mid
     padding: 0 0px 0 13px;
 }
 
+body.p-db_entries-works .headline .misc-links,
+body.p-db_entries-works .midheadline .misc-links,
+body.p-db_entries-works .subheadline .misc-links {
+  width: 25%;
+}
+body.p-db_entries-works .p-profiles .mass-actions .action a,
+body.p-db_entries-works .headline .misc-links a,
+body.p-db_entries-works .midheadline .misc-links a,
+body.p-db_entries-works .subheadline .misc-links a {
+  font-size: inherit!important;
+  right: -3rem;
+}
+@media screen and (max-width: 768px) {
+body.p-db_entries-works .p-profiles .mass-actions .action a,
+body.p-db_entries-works .headline .misc-links a,
+body.p-db_entries-works .midheadline .misc-links a,
+body.p-db_entries-works .subheadline .misc-links a {
+  font-size: 0 !important;
+  right: -3rem;
+  } 
+}
+
 body.p-profiles .mass-actions .action a:after, body.p-profiles .subheadline .misc-links > a:after, .headline .misc-links>a:after, .midheadline .misc-links>a:after, .subheadline .misc-links>a:after {
     content:'';
     display: inline-flex!important;
