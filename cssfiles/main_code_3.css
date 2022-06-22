@@ -1549,7 +1549,7 @@
     color: #d6c2a9;
   }
   
-  .b-badge:before {
+  .b-badge:before, .b-achievement.is-badge:before {
     background: none;
     transition: 0.3s all;
   }
@@ -1573,6 +1573,10 @@
     margin: 0 12px 15px !important;
     min-height: 338px;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .cc-authors {
+    padding: 10px;
   }
   
   .b-achievement .c-image, .b-achievement .c-about {
@@ -1628,7 +1632,8 @@
     margin-bottom: 8px;
   }
   
-  .p-achievements.p-profiles-index .c-franchises .b-badge::after, .p-achievements.p-profiles-index .c-franchises .b-badge::before {
+  .p-achievements.p-profiles-index .c-franchises .b-badge::after, .p-achievements.p-profiles-index .c-franchises .b-badge::before,
+  .b-achievement.is-badge:after, .b-achievement.is-badge:before {
     height: auto;
     position: absolute;
     top: auto;
@@ -1643,6 +1648,11 @@
     text-shadow: 0 0 60px black, 0 60px 30px rgba(0, 0, 0, 0.1);
     backface-visibility: hidden;
     opacity: 1;
+  }
+
+  .b-achievement.is-badge:after{
+    display: block;
+    background: none;
   }
   
   .p-achievements.p-profiles-index .c-franchises .b-badge[original-title]::before {
@@ -1661,7 +1671,7 @@
     left: 0;
   }
   
-  .p-achievements.p-profiles-index .c-franchises .b-badge::after {
+  .p-achievements.p-profiles-index .c-franchises .b-badge::after, .b-achievement.is-badge:after {
     content: attr(data-progress) "%";
     text-align: right;
     width: 55px;
@@ -1672,7 +1682,8 @@
     z-index: 1;
   }
   
-  body.p-achievements.p-profiles.p-profiles .b-badge img {
+  body.p-achievements.p-profiles.p-profiles .b-badge img,
+  body.p-achievements.p-profiles.p-profiles .b-achievement img {
     width: 100%;
     height: 100%;
     padding: 0px;
@@ -1681,6 +1692,10 @@
     position: relative;
     border-radius: 11px;
     transition: 0.3s all;
+  }
+
+  .block2 .b-achievement img {
+    box-shadow: none
   }
   
   .p-achievements.p-profiles-index .c-franchises .b-badge[data-progress='100']::after {
@@ -1696,7 +1711,8 @@
     box-shadow: 0 0 2px 3px #cfbe9ccc inset;
   }
   
-  .p-achievements.p-profiles-index .c-franchises .b-badge[data-progress='100']::before, .p-achievements.p-profiles-index .c-franchises .b-badge:hover:before {
+  .p-achievements.p-profiles-index .c-franchises .b-badge[data-progress='100']::before, .p-achievements.p-profiles-index .c-franchises .b-badge:hover:before,
+  .b-achievement.is-badge:hover::before {
     background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.72) 85%);
   }
   
