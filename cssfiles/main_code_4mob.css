@@ -2443,7 +2443,8 @@
    }
    .p-achievements-index .cc-achievements,
    .p-achievements-index .cc-franchises-genres .c-genres .cc-achievements,
-   .c-franchises .cc {
+   .c-franchises .cc,
+   .cc-authors {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -2459,6 +2460,9 @@
    .p-achievements-index .c-franchises .b-badge {
       width: 280px;
       margin-right: 1% !important;
+   }
+   .p-achievements-index .cc-authors .b-achievement{
+      margin: 0px 1.25% 1.25% 0;
    }
 
    .p-profiles-show .cc-favourites .c-column:nth-child(n + 9) {
@@ -2643,7 +2647,8 @@
       font: bold 20px "Comfortaa" !important;
       width: 50px;
    }
-   .p-achievements-index .c-franchises .b-badge {
+   .p-achievements-index .c-franchises .b-badge, 
+   .p-achievements-index .cc-authors .b-achievement {
       margin: 6px !important;
    }
    .p-achievements-index .c-franchises .b-badge[data-progress="100"]:after {
