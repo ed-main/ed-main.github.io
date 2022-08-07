@@ -224,7 +224,7 @@ var vm = new Vue({
   },
   watch: {
     "scheme.color_primary": function () {
-      
+
       if (this.scheme.color_primary.length === 7) {
         this.scheme.color_text_on_primary = isLight(hexToRgb(this.scheme.color_primary)) ? '#212121' : '#FAFAFA';
         this.scheme.color_primary_darker = additionColor(this.scheme.color_primary, '#000000', 12);
@@ -488,7 +488,7 @@ var vm = new Vue({
     saveLocal: function (key, value) {
       localStorage.setItem(key, value);
     },
-    
+
     // Скачивание своих настроек
     // NOTE: возможно, потребуется дать разрешение на скачивание в браузере
     getMySettings: function () {
@@ -597,7 +597,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://gm-c.github.io/engitheme'
+        base = 'https://ed-main.github.io/engitheme'
       } else {
         base = '' + branch;
       }
@@ -686,7 +686,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://gm-c.github.io/engitheme', function(list) {
+      XHR('https://ed-main.github.io/engitheme', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
@@ -746,7 +746,7 @@ var vm = new Vue({
 
     // Подготовка сборщика
     Sass.setWorkerUrl('./vendor/sass.js/sass.worker.min.js');
-      
+
     // Загрузка списка цветовых палитр
     XHR('./config/theme_palletes.json', function(config) {
       vm.color_pallete = JSON.parse(config);
@@ -761,7 +761,7 @@ var vm = new Vue({
 
     // Загрузка файлов
     switchDisabled(document.getElementById('create_css'));
-    this.switchBranches(window.location.hostname == 'https://gm-c.github.io/engitheme' ? 'master' : 'main');
+    this.switchBranches(window.location.hostname == 'https://ed-main.github.io/engitheme' ? 'master' : 'main');
   },
 });
 
@@ -806,7 +806,7 @@ function XHR (url, callback, error) {
 
 
 document.addEventListener('click', function () {
-  
+
   if (event.clientX === 0 && event.clientY === 0 && event.screenX === 0) {
     return false;
   }
@@ -1017,7 +1017,7 @@ function Slider_num(sliders){
       document.querySelectorAll('#nav_preview .slider')[4].style.display = 'block';
       $(".style_switch").css("display","none");
       break;
-      
+
   };
 };
 Slider_num(0);
@@ -1040,7 +1040,7 @@ function ShowSliderOver(){
     $(".pre-over").css("display","none");
     $(".pre-over-2").css("display","block");
   }
-} 
+}
 function ShowSliderCitrus(){
   if($(".style_switch.active")[0]){
     $(".style_switch.active").removeClass("active");
@@ -1052,4 +1052,4 @@ function ShowSliderCitrus(){
     $(".pre-citrus-fullhd").css("display","none");
     $(".pre-citrus-2").css("display","block");
   }
-} 
+}
