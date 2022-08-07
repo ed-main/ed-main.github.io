@@ -6,7 +6,7 @@
    .global-search input,
    .global-search inpot *:after,
    .global-search input *:before {
-      transition: 0s all, background 0.2s, color 0.2s; 
+      transition: 0s all, background 0.2s, color 0.2s;
    }
    .menu-dropdown.profile .text {
       transition: none;
@@ -133,6 +133,9 @@
 }
 
 @media only screen and (min-width: 1025px) {
+   .p-dashboards-show .v2 .fc-user-sections .tags {
+      margin: 0
+   }
    .p-profiles .profile-head .c-brief header.head .misc {
       top: 236px;
    }
@@ -1408,7 +1411,8 @@
       height: 60px;
       vertical-align: middle;
       box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
-   }  
+   }
+
    .p-profiles .profile-head .c-info .c-additionals div a[href$="/reviews"] {
       width: 85px;
       padding: 1.3rem 10px 10px 10px;
@@ -2783,6 +2787,7 @@
 
 
 
+
 /* Код Cosmo */
 @media screen and (min-width: 50px) {
   .about .b-catalog_entry,
@@ -2808,7 +2813,7 @@
   }
   .about .b-catalog_entry .cover:hover {
     border-radius: 0.6rem;
-    background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.35))!important;  
+    background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.35))!important;
   }
   .about .cc-9-g0 > .c-column .cover,
   .about .cc-8-g0 > .c-column .cover,
@@ -4232,6 +4237,7 @@ div.Ssylki-anime:hover .Text-2 {
     margin: 0 !important;
     padding: 0;
 }
+
 .k-0-1 {
     position: relative;
     margin: 0;

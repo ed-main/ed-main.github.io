@@ -192,10 +192,7 @@
     width: 132px;
     left: 1rem;
   }
-  body#profiles_show .b-catalog_entry {
-    background: linear-gradient(transparent 0%, rgba(var(--block-color), 0.34));
-  }
-  body#profiles_show .b-catalog_entry:hover {
+  body#profiles_show .cc-favourites .b-catalog_entry:hover {
     box-shadow: -20px 20px 0 -17px rgba(62, 62, 62, 0.85), 20px -20px 0 -17px #383838, 20px 20px 0 -20px rgba(0, 0, 0, 0.8), 0 0 0 2px rgba(0, 0, 0, 0.8);
   }
   #profiles_show .profile-content .about.block {
@@ -534,16 +531,15 @@
 .cc-franchises .b-badge .no-image,
 body.p-achievements.p-profiles.p-profiles .b-achievement img,
 body.p-achievements.p-profiles.p-profiles .b-badge img {
-  image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-optimize-contrast;
   }
 }
 /*.about .b-catalog_entry,
   .about .b-catalog_entry:last-child {*/
 
-
 /*Over*/
 @media screen and (min-width: 1200px) {
-   .about .b-catalog_entry,
+  .about .b-catalog_entry,
   .about .b-catalog_entry:last-child {
     width: calc(100% / 9) !important;
   }
@@ -638,9 +634,6 @@ body.p-achievements.p-profiles.p-profiles .b-badge img {
     width: calc(100% / 5);
   }
 }
-
-
-
 
 
 

@@ -140,8 +140,8 @@
  }
  #profiles_show .cc-favourites .c-column.c-person {
   display: none !important;
-    
  } /*убрать только Людей*/
+
  .p-profiles .cc-favourites .c-anime .cover .image-decor::before,
  .p-profiles .cc-favourites .c-manga .cover .image-decor::before {
   content: "";

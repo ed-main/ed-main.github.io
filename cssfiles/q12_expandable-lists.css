@@ -1,0 +1,23 @@
+
+@media screen and (min-width: 1200px) {
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    background: rgba(var(--menu-back), 0);
+    box-shadow: none;
+    transition: 0.5s ease;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    clip-path: inset(5px 60% 70px 0px);
+    transform: translate(4%, 70px);
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
+    clip-path: inset(5px 60% 70px 0px);
+    transform: translate(60%, 70px);
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime:hover,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga:hover {
+    background: rgba(var(--menu-back), 0.25);
+    clip-path: inset(0px 0px 0px 0px);
+    transform: translate(0px, 0px);
+}
+}

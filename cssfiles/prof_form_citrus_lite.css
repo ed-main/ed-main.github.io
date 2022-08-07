@@ -1,0 +1,252 @@
+@media screen and (min-width: 1200px) {
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+    margin-bottom: 15px;
+    background: transparent;
+    border-radius: 0%;
+    padding: 0px 10px 10px;
+    vertical-align: middle;
+    display: inline-block;
+    transition: 0.5s ease;
+    background: rgba(var(--menu-back), 0.25);
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.manga {
+    margin-right: 7%;
+    width: 33%;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar.anime {
+    margin-left: 7%;
+    width: 33%;
+    margin-right: 20%;
+}
+
+.cc-2a > .c-column {
+    border-radius: 0%;
+    padding: 0px 5px 5px;
+}
+.p-profiles .profile-head .c-history,
+.p-profiles .profile-head .c-history.x2,
+.p-profiles .profile-head .c-history.x3 {
+    background: none;
+    border-radius: 0%;
+    padding: 0px 5px 0px;
+    position: absolute;
+    right: 20px;
+    top: 330px;
+    z-index: 2;
+}
+body#profiles_show .subheadline {
+    margin-bottom: 10px;
+}
+.m3 {
+    margin-top: 10px;
+}
+.b-db_entry > .c-image img {
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+}
+header.head p.notice span {
+    background: transparent !important;
+}
+body#profiles_show .l-page {
+    margin-top: 400px;
+    padding: 0 !important;
+    border-radius: 0px 0px 8px 8px;
+}
+body#profiles_show .profile-head {
+    top: -320px;
+}
+body#profiles_show .profile-content {
+    margin-top: -320px;
+    padding: 0px 15px 0px 15px;
+}
+.l-page {
+    padding: 10px 15px !important;
+    overflow: hidden;
+}
+body#profiles_edit .l-page {
+    overflow: visible;
+}
+.p-profiles-show .lifetime {
+    margin-top: 0px;
+    *margin-top: 80px;
+    *margin-top: 0;
+    border-radius: 0%;
+    padding: 0px 10px 10px;
+}
+.profile-actions .ignore-add {
+    *display: none;
+}
+.p-profiles .profile-head {
+    overflow: visible;
+    margin: -15px 0px 10px;
+    position: relative;
+    height: 320px;
+}
+.x1000 > .l-page div .profile-head {
+    height: 320px;
+}
+.p-profiles .profile-head .c-brief {
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    padding: 0 15px;
+}
+.p-profiles .profile-head .c-brief .avatar {
+    margin: -30px 30px 30px 0;
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+    position: absolute;
+    bottom: 2px;
+    right: 15px;
+    z-index: 2;
+}
+.p-profiles .profile-head .c-brief .avatar {
+    margin: auto;
+    margin-top: -170px !important;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    float: none !important;
+}
+.p-profiles .profile-head .c-brief header {
+    text-align: center;
+    margin-top: -15px !important;
+}
+.p-profiles .profile-head .c-brief header.head .misc {
+    position: absolute;
+    right: 25px;
+    width: auto;
+    z-index: 1;
+}
+.p-profiles .profile-head .c-info .c-additionals {
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 29px !important;
+    text-align: center;
+    font-size: 12px;
+}
+.p-profiles .profile-head .c-info .c-additionals div a {
+    font-size: 12px !important;
+}
+.p-profiles-show.x1200 .profile-content .c-left,
+.p-profiles-show.x1000 .profile-content .c-left {
+    width: 49%;
+}
+.p-profiles-show.x1200 .profile-content .c-right .cc-2a > .c-column,
+.p-profiles-show.x1000 .profile-content .c-right .cc-2a > .c-column {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+.p-profiles-show.x1200 .profile-content .c-right,
+.p-profiles-show.x1000 .profile-content .c-right {
+    width: 100% !important;
+}
+
+.profile-content .cc-2 > .c-column {
+    margin-bottom: 30px;
+    line-height: 1.65;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 2%;
+    position: relative;
+    width: 49%;
+}
+.profile-content .cc-2.block {
+    display: inline-block;
+    width: 100%;
+}
+.profile-content .c-column.c-left {
+    width: 49%;
+}
+.profile-content .b-stats_bar a.title, .profile-content .b-stats_bar .title {
+margin-top: 3px;
+}
+.profile-content .cc-2 > .c-column {
+    margin-bottom: 30px;
+    line-height: 1.65;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 2%;
+    position: relative;
+}
+.profile-content > .cc-2 .c-column .cc-2a.m30 {
+    min-height: 230px;
+    position: absolute;
+    top: 0;
+    right: 25%;
+    width: 24%;
+    margin-top: -273px;
+}
+.profile-content .c-column.c-right {
+    width: 100%;
+}
+.profile-content .cc-2a > .c-column {
+}
+.profile-content .c-column.m0 {
+    width: 100%;
+}
+.p-profiles .profile-head .c-brief header.head .misc {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    bottom: 9px;
+    padding: 0px;
+    font-size: 10px !important;
+    margin: 0;
+    top: auto;
+    
+}
+.p-profiles .profile-head .c-brief header {
+    padding: 27px 0 0;
+}
+.p-profiles .profile-head .c-info .c-lists-info,
+.x1000 > .l-page div .profile-head .c-info .c-lists-info {
+    margin-top: 42px !important;
+    z-index: 2;
+    width: 95%;
+    margin: auto;
+    transition: 1s ease-out;
+    transform: scale(0.1);
+    opacity: 0.1;
+    height: 200px;
+    line-height: 200px;
+}
+.p-profiles .profile-head .c-info .c-lists-info {
+    transition: none!important;
+    transform: scale(1)!important;
+    opacity: 1!important;
+}
+.profile-head .b-stats_bar a.title, .profile-head .b-stats_bar .title {
+  margin-top: 4px !important;
+}
+.p-profiles .profile-head .c-brief header.head .misc {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    bottom: 15px;
+    padding: 0px;
+    font-size: 10px!important;
+    margin: 0;
+    
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+    right: 0 !important;
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+    position: absolute;
+    bottom: 2px;
+    z-index: 2;
+}
+.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove {
+    margin-left: 0;
+    padding: 10px 10px 5px;
+    border-radius: 0px;
+    transition: 0,3s ease;
+}
+    
+}

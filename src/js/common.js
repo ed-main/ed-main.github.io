@@ -258,6 +258,9 @@ var vm = new Vue({
         if (this.file_list[i]['url'] == 'prof_form_citrus.sass') {
           this.file_list[i].checked = this.user.selected_layout == 'citrus' ? true : false;
         }
+        if (this.file_list[i]['url'] == 'prof_form_citrus_lite.sass') {
+          this.file_list[i].checked = this.user.selected_layout == 'citruslite' ? true : false;
+        }
         if (this.file_list[i]['url'] == 'prof_form_over.sass') {
           this.file_list[i].checked = this.user.selected_layout == 'over' ? true : false;
         }
@@ -594,7 +597,7 @@ var vm = new Vue({
       // Определение пути загрузки файлов
       var base;
       if (branch == 'main') {
-        base = 'https://ed-main.github.io/engitheme'
+        base = 'https://gm-c.github.io/engitheme'
       } else {
         base = '' + branch;
       }
@@ -683,7 +686,7 @@ var vm = new Vue({
       event.target.setAttribute('disabled', 'disabled');
 
       // Загрузка списка веток
-      XHR('https://ed-main.github.io/engitheme', function(list) {
+      XHR('https://gm-c.github.io/engitheme', function(list) {
         var branches = JSON.parse(list);
 
         vm.status.isBranchLoaded = true;
@@ -758,7 +761,7 @@ var vm = new Vue({
 
     // Загрузка файлов
     switchDisabled(document.getElementById('create_css'));
-    this.switchBranches(window.location.hostname == 'https://ed-main.github.io/engitheme' ? 'master' : 'main');
+    this.switchBranches(window.location.hostname == 'https://gm-c.github.io/engitheme' ? 'master' : 'main');
   },
 });
 

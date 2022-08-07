@@ -1,0 +1,13 @@
+.b-form input[type=submit], .b-shiki_editor.previewed footer .unpreview, .b-poll .poll-actions .vote, .b-poll .poll-actions .abstain, a.stop.b-button, .b-button, .b-form .cancel, .b-button.preview, a.start.b-button, .b-form input[type=submit][disabled], .b-form input[type=submit].disabled, .block.edit-page.pages a.cancel, .b-shiki_editor footer .hide, .headline, .midheadline, .subheadline, .fullwidth > .b-spoiler > label {
+    border-radius: 5px !important;
+}
+
+*:not(.stat_name, .b-options-floated a, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth),
+*:not(.stat_name, .b-options-floated a, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth):before,
+*:not(.stat_name, .b-options-floated a, img, .qa-link, .qa-panel, .headline, .midheadline, .subheadline, .b-link_button, .first, .second, .third, .fourth):after, input {
+    border-radius: 5px !important;
+}
+
+body .headline, body .midheadline, body .subheadline, .b-link_button.dark-2 {
+    border-radius: 10% !important;
+}
