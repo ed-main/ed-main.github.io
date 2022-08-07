@@ -32,7 +32,7 @@
   {
     "url": "prof_form_shikista.sass",
     "disabled": true,
-    "checked": false,
+    "checked": true,
     "title": "*Shikista* Формат профиля"
   },
   {
@@ -41,7 +41,13 @@
     "checked": false,
     "title": "*Citrus* Формат профиля"
   },
-    {
+  {
+    "url": "prof_form_citrus_lite.sass",
+    "disabled": true,
+    "checked": false,
+    "title": "*Citrus Lite* Формат профиля"
+  },
+  {
     "url": "prof_form_over.sass",
     "disabled": true,
     "checked": false,
@@ -50,7 +56,7 @@
   {
     "url": "prof_form_bigshot.sass",
     "disabled": true,
-    "checked": true,
+    "checked": false,
     "title": "*BigShot* Формат профиля"
   },
   {
@@ -72,51 +78,63 @@
     "description": "(*Citrus* ONLY) Однотонные списки аниме и манги"
   },
   {
-  "url": "q03_history_bookmarks.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Отображение типа записи (Аниме/Ранобэ/Манга) в Истории"
+    "url": "q03_history_bookmarks.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Отображение типа записи (Аниме/Ранобэ/Манга) в Истории"
   },
   {
-  "url": "q04_mark_module_for_posters.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Модуль оценок в блоке 'Обо мне'"
+    "url": "q04_mark_module_for_posters.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Модуль оценок в блоке 'Обо мне'"
   },
   {
-  "url": "q05_animated_activity_graph.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Альтернативный анимированный график активности"
+    "url": "q05_animated_activity_graph.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Альтернативный анимированный график активности"
   },
   {
-  "url": "q06_ava_screen_center.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "(*Over* ONLY) Альтернативное расположения аватарки - по центру экрана"
+    "url": "q06_ava_screen_center.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "(*Over* ONLY) Альтернативное расположения аватарки - по центру экрана"
   },
   {
-  "url": "q07_ava_screen_center_addon.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*"
+    "url": "q07_ava_screen_center_addon.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "(*Over* ONLY) Нормальная ширина контента в проффиле. Опциальное дополнение к *q06*"
   },
   {
-  "url": "q08_alter_sitemenu.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Альтернативное расположение элементов меню сайта."
-  },
-   {
-  "url": "q09_favourite-anime-manga.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Видоизмененное избранное"
+    "url": "q08_alter_sitemenu.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Альтернативное расположение элементов меню сайта."
   },
   {
-  "url": "q10_cosmo_library.sass",
-  "disabled": false,
-  "checked": false,
-  "description": "Библиотека дополнений для вашего космически-эпического *Обо мне*"
+    "url": "q09_favourite-anime-manga.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Видоизмененное избранное"
+  },
+  {
+    "url": "q10_cosmo_library.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Библиотека дополнений для вашего космически-эпического *Обо мне*"
+  },
+  {
+    "url": "q11_cubik-corners.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "Почти острые уголки на всех элементах"
+  },
+  {
+    "url": "q12_expandable-lists.sass",
+    "disabled": false,
+    "checked": false,
+    "description": "(*Citrus Lite* ONLY) Раскрывающиеся списки аниме и манги"
   }
 ]
