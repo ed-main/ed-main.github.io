@@ -1,7 +1,6 @@
 @import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/main_code_2.css")
 .l-footer:after
   @if $style_name == 'none'
-    content: "*"+$style_name+"*"
+    display: none !important
   @else
     content: "*"+$style_name+"*"
-  display: none !important
