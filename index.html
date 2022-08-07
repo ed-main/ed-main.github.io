@@ -464,7 +464,7 @@
             </div>
           </div>
         </div>
-    
+
         <div v-if="user.selected_layout == 'citrus'" class="pre-citrus-2" onclick="ShowSliderCitrus()">
             <div class="marker shik">PC w1368 & w1600</div>
           <div class="bodik" :class="{ scheme_dark: user.selected_scheme == 'dark' }"
@@ -658,7 +658,7 @@
                         </div>
                       </div>
                 </div>
-               
+
 
 
 
@@ -679,8 +679,429 @@
 
 
             </div>
-          </div>  
+          </div>
         </div>
+
+ <div v-if="user.selected_layout == 'citruslite'" class="pre-citrus-fullhd">
+          <div class="marker shik">PC w1024 & w1920</div>
+          <div class="bodik" :class="{ scheme_dark: user.selected_scheme == 'dark' }"
+            :style="{ backgroundColor: scheme.color_background, backgroundImage: 'url(' + '//i.ibb.co/' + scheme.page_img_url + '/back.jpg' + ')' }">
+            <div class="menik" :style="{ backgroundColor: scheme.menu_back+'80' }">
+              <div class="logotik"></div>
+              <div class="menusm-icon" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
+              <div class="menusm" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
+              <div class="searchik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+              <div class="iconik" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
+              <div class="unreadik" :style="{ backgroundColor: scheme.hover_color }">
+                <div class="hownumb"></div>
+              </div>
+              <div class="menusm-ava"></div>
+              <div class="menusm" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
+            </div>
+            <div class="pagik fullhd">
+              <div class="w1">
+                <div class="hist blick p100" :style="{ backgroundColor: scheme.menu_back+'4d' }">
+                  <div class="flexik">
+                    <div class="hist">
+                      <div class="histimg col6"></div>
+                      <div class="histabout">
+                        <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
+                        <div class="textbright" :style="{ backgroundColor: scheme.bright_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      </div>
+                    </div>
+                    <div class="hist">
+                      <div class="histimg col4"></div>
+                      <div class="histabout">
+                        <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
+                        <div class="textbright" :style="{ backgroundColor: scheme.bright_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      </div>
+                    </div>
+                    <div class="hist">
+                      <div class="histimg col5"></div>
+                      <div class="histabout">
+                        <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
+                        <div class="textbright" :style="{ backgroundColor: scheme.bright_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      </div>
+                    </div>
+                    <div class="histbut">
+                      <div class="histimg butom" :style="{ backgroundColor: scheme.bright_color+'26' }">
+                        <div class="actik" :style="{ backgroundColor: scheme.bright_color+'66' }"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w2">
+                <div class="k1 l-anime">
+                    <div class="l-list">
+                        <div class="l-number"></div>
+                    </div>
+                    <div class="l-same">
+                       <div class="l-number"></div>
+                    </div>
+                    <div class="l-trash"></div>
+                    <div class="l-paused"></div>
+                    <div class="l-planned"></div>
+                    <div class="l-inpocess"></div>
+                    <div class="l-ready">
+                        <div class="l-number"></div>
+                    </div>
+                </div>
+                <div class="k2">
+                  <div class="ava">
+                    <div class="avaimg"></div>
+                  </div>
+                  <div class="textwhite"
+                    :style="{ backgroundColor: scheme.white_color+'b3', borderColor: scheme.nick_cover }"></div>
+                </div>
+                <div class="k1 l-manga">
+                    <div class="l-list">
+                        <div class="l-number"></div>
+                    </div>
+                    <div class="l-same">
+                        <div class="l-number"></div>
+                    </div>
+                    <div class="l-trash"></div>
+                    <div class="l-paused"></div>
+                    <div class="l-planned"></div>
+                    <div class="l-inpocess"></div>
+                    <div class="l-ready">
+                        <div class="l-number"></div>
+                    </div>
+                </div>
+                <div class="k3">
+                    <div class="textlight g1" :style="{ backgroundColor: scheme.light_color+'a8', borderColor: scheme.nick_cover }"></div>
+                    <div class="textlight g2" :style="{ backgroundColor: scheme.light_color+'a8', borderColor: scheme.nick_cover }"></div>
+                    <div class="textlight g3" :style="{ backgroundColor: scheme.light_color+'a8', borderColor: scheme.nick_cover }"></div>
+                    <div class="texthover" :style="{ backgroundColor: scheme.hover_color+'b3' }"></div>
+                </div>
+                <div class="k4">
+                    <div class="flexik">
+                        <div class="actik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="actik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="actik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="actik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                    </div>
+                </div>
+
+              </div>
+              <div class="w3" :style="{ backgroundColor: scheme.menu_back+'cc' }">
+                <div class="j1">
+                  <div class="clubik blick p100">
+                    <div class="subline" :style="{ backgroundColor: scheme.block_color+'66' }">
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                    </div>
+                    <div class="flexik">
+                      <div class="clubz col1" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="clubz col3" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="clubz col5" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="clubz col2" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="j2">
+                  <div class="activ blick p100">
+                    <div class="actlent">
+                      <div class="le1 textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="le2 textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="filledlent">
+                        <div class="filllent" :style="{ backgroundColor: scheme.time_filled }"></div>
+                        <div class="emptlent" :style="{ backgroundColor: scheme.time_empty }"></div>
+                      </div>
+                      <div class="dotslent">
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                      </div>
+                      <div class="timeslent">
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      </div>
+                    </div>
+                    <div class="actlines">
+                      <div class="acline big" :style="{ backgroundColor: scheme.very_high_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline big" :style="{ backgroundColor: scheme.very_high_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                    </div>
+                    <div class="acttimelent">
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="j3">
+                  <div class="frendik blick p100">
+                    <div class="subline" :style="{ backgroundColor: scheme.block_color+'66' }">
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                    </div>
+                    <div class="flexik">
+                      <div class="frend col1" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col2" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col3" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col4" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col5" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col6" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col5" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col6" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col3" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col4" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col1" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                      <div class="frend col2" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div v-if="user.selected_layout == 'citruslite'" class="pre-citrus-2" onclick="ShowSliderCitrus()">
+            <div class="marker shik">PC w1368 & w1600</div>
+          <div class="bodik" :class="{ scheme_dark: user.selected_scheme == 'dark' }"
+            :style="{ backgroundColor: scheme.color_background, backgroundImage: 'url(' + '//i.ibb.co/' + scheme.page_img_url + '/back.jpg' + ')' }">
+            <div class="menik" :style="{ backgroundColor: scheme.menu_back+'80' }">
+              <div class="logotik"></div>
+              <div class="menusm-icon" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
+              <div class="menusm" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
+              <div class="searchik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+              <div class="iconik" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
+              <div class="unreadik" :style="{ backgroundColor: scheme.hover_color }">
+                <div class="hownumb"></div>
+              </div>
+              <div class="menusm-ava"></div>
+              <div class="menusm" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
+            </div>
+            <div class="pagik fullhd">
+            <div class="w2">
+                <div class="k1 l-anime">
+                    <div class="l-list">
+                        <div class="l-number"></div>
+                    </div>
+                    <div class="l-same">
+                       <div class="l-number"></div>
+                    </div>
+                    <div class="l-trash"></div>
+                    <div class="l-paused"></div>
+                    <div class="l-planned"></div>
+                    <div class="l-inpocess"></div>
+                    <div class="l-ready">
+                        <div class="l-number"></div>
+                    </div>
+                </div>
+                <div class="k2">
+                  <div class="ava">
+                    <div class="avaimg"></div>
+                  </div>
+                  <div class="textwhite"
+                    :style="{ backgroundColor: scheme.white_color+'b3', borderColor: scheme.nick_cover }"></div>
+                </div>
+                <div class="k1 l-manga">
+                    <div class="l-list">
+                        <div class="l-number"></div>
+                    </div>
+                    <div class="l-same">
+                        <div class="l-number"></div>
+                    </div>
+                    <div class="l-trash"></div>
+                    <div class="l-paused"></div>
+                    <div class="l-planned"></div>
+                    <div class="l-inpocess"></div>
+                    <div class="l-ready">
+                        <div class="l-number"></div>
+                    </div>
+                </div>
+                <div class="k3">
+                    <div class="textlight g1" :style="{ backgroundColor: scheme.light_color+'a8', borderColor: scheme.nick_cover }"></div>
+                    <div class="textlight g2" :style="{ backgroundColor: scheme.light_color+'a8', borderColor: scheme.nick_cover }"></div>
+                    <div class="textlight g3" :style="{ backgroundColor: scheme.light_color+'a8', borderColor: scheme.nick_cover }"></div>
+                    <div class="texthover" :style="{ backgroundColor: scheme.hover_color+'b3' }"></div>
+                </div>
+                <div class="k4">
+                    <div class="flexik">
+                        <div class="actik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="actik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="actik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="actik" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                    </div>
+                </div>
+
+              </div>
+               <div class="j2" :style="{ backgroundColor: scheme.menu_back+'cc' }">
+                  <div class="activ blick p100">
+                    <div class="actlent">
+                      <div class="le1 textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="le2 textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="filledlent">
+                        <div class="filllent" :style="{ backgroundColor: scheme.time_filled }"></div>
+                        <div class="emptlent" :style="{ backgroundColor: scheme.time_empty }"></div>
+                      </div>
+                      <div class="dotslent">
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.very_high_rating+'e8' }"></div>
+                      </div>
+                      <div class="timeslent">
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                        <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      </div>
+                    </div>
+                    <div class="actlines">
+                      <div class="acline big" :style="{ backgroundColor: scheme.very_high_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline big" :style="{ backgroundColor: scheme.very_high_rating }"></div>
+                      <div class="acline normal" :style="{ backgroundColor: scheme.high_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                      <div class="acline small" :style="{ backgroundColor: scheme.small_rating }"></div>
+                      <div class="acline medium" :style="{ backgroundColor: scheme.average_rating }"></div>
+                    </div>
+                    <div class="acttimelent">
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                      <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                    </div>
+                  </div>
+               </div>
+                <div class="s2" :style="{ backgroundColor: scheme.menu_back+'cc' }">
+                <div class="frendndclubik p50">
+                    <div class="frendblock blick p100">
+                  <div class="subline" :style="{ backgroundColor: scheme.block_color+'66' }">
+                    <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                  </div>
+                  <div class="flexik">
+                    <div class="frend col1" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col2" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col3" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col4" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col5" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col6" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col5" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col6" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col3" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col4" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col1" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="frend col2" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                  </div>
+                </div>
+                <div class="clubblock blick p100">
+                  <div class="subline" :style="{ backgroundColor: scheme.block_color+'66' }">
+                    <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                  </div>
+                  <div class="flexik">
+                    <div class="clubz col1" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="clubz col3" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="clubz col5" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                    <div class="clubz col2" :style="{ borderColor: scheme.menu_back+'99' }"></div>
+                  </div>
+                </div>
+                 </div>
+                    <div class="histblock p50">
+                        <div class="hist blick p100">
+                          <div class="subline" :style="{ backgroundColor: scheme.block_color+'66' }">
+                            <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                          </div>
+                          <div class="flexik">
+                            <div class="hist">
+                              <div class="histimg col6"></div>
+                              <div class="histabout">
+                                <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
+                                <div class="textbright" :style="{ backgroundColor: scheme.bright_color+'66' }"></div>
+                                <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                              </div>
+                            </div>
+                            <div class="hist">
+                              <div class="histimg col1"></div>
+                              <div class="histabout">
+                                <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
+                                <div class="textbright" :style="{ backgroundColor: scheme.bright_color+'66' }"></div>
+                                <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                              </div>
+                            </div>
+                            <div class="hist">
+                              <div class="histimg col3"></div>
+                              <div class="histabout">
+                                <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
+                                <div class="textbright" :style="{ backgroundColor: scheme.bright_color+'66' }"></div>
+                                <div class="textdark" :style="{ backgroundColor: scheme.dark_color+'66' }"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+
 
 
 
@@ -737,7 +1158,7 @@
                 <div class="marker shik">PC all</div>
                 <div class="bodik" :class="{ scheme_dark: user.selected_scheme == 'dark' }"
                   :style="{ backgroundColor: scheme.color_background, backgroundImage: 'url(' + '//i.ibb.co/' + scheme.page_img_url + '/back.jpg' + ')' }">
-        
+
                   <div class="menik">
                     <div class="logotik"></div>
                     <div class="menusm-icon" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
@@ -750,7 +1171,7 @@
                     <div class="menusm-ava"></div>
                     <div class="menusm" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
                   </div>
-        
+
                   <div class="over over-panels">
                     <div class="paneli">
                       <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
@@ -765,7 +1186,7 @@
                       <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
                     </div>
                   </div>
-        
+
                   <div class="over over-main">
                       <div class="over avaimg"></div>
                       <div class="over textwhite s1":style="{ backgroundColor: scheme.white_color+'b3', borderColor: scheme.nick_cover }"></div>
@@ -828,7 +1249,7 @@
                     <div class="menusm-ava"></div>
                     <div class="menusm" :style="{ backgroundColor: scheme.white_color+'8c' }"></div>
                   </div>
-        
+
                   <div class="over over-panels">
                     <div class="paneli">
                       <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
@@ -843,7 +1264,7 @@
                       <div class="textwhite" :style="{ backgroundColor: scheme.white_color+'b3' }"></div>
                     </div>
                   </div>
-        
+
                   <div class="over over-main">
                       <div class="over avaimg"></div>
                       <div class="over textwhite s1":style="{ backgroundColor: scheme.white_color+'b3', borderColor: scheme.nick_cover }"></div>
@@ -863,7 +1284,7 @@
                 </div>
             </div>
       </div>
-      
+
 
 
 
@@ -1186,7 +1607,7 @@
                         </div>
                         <div class="genremarker p25" :style="{ backgroundColor: scheme.block_color+'99' }">
                             <div class="textbright" :style="{ backgroundColor: scheme.bright_color+'66' }"></div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="trigerchose p100">
                         <div class="textwhite"></div>
@@ -1330,20 +1751,20 @@
             </div>
             <div class="v3">
                 <div class="listik manga">
-           
+
                     <div class="oks" :style="{ backgroundColor: scheme.anime_complete+'b3' }"></div>
                     <div class="watchg" :style="{ backgroundColor: scheme.anime_inprocess+'b3' }"></div>
                     <div class="plans" :style="{ backgroundColor: scheme.anime_inprocess+'b3' }"></div>
                     <div class="dropt" :style="{ backgroundColor: scheme.time_empty+'b3' }"></div>
-              
+
                   </div>
                   <div class="listik anime">
-            
+
                     <div class="oks" :style="{ backgroundColor: scheme.manga_complete+'b3' }"></div>
                     <div class="watchg" :style="{ backgroundColor: scheme.manga_inprocess+'b3' }"></div>
                     <div class="plans" :style="{ backgroundColor: scheme.manga_inprocess+'b3' }"></div>
                     <div class="dropt" :style="{ backgroundColor: scheme.time_empty+'b3' }"></div>
-               
+
                   </div>
             </div>
             <div class="v4">
@@ -1351,7 +1772,7 @@
                 <div class="buttomactiv" :style="{ backgroundColor: scheme.block_color+'66' }"></div>
                 <div class="buttomactiv" :style="{ backgroundColor: scheme.block_color+'66' }"></div>
             </div>
-            
+
           </div>
         </div>
         </div>
@@ -1427,7 +1848,7 @@
                         <div class="normaltext" :style="{ color: scheme.input_color}">Текст комментария</div>
                     </div>
               </div>
-            
+
               <div class="chain horizont num09" :style="{ backgroundColor: scheme.menu_back+'cc' }">
                   <div class="chaincontent">
                     <div class="cheader">Кнопки-подрузки</div>
@@ -1504,6 +1925,11 @@
               <span class="md-radio"></span>
               <span>Citrus</span>
             </label>
+            <label class="md-control">
+              <input type="radio" name="type" value="citruslite" v-model="user.selected_layout" onclick="User_background()">
+              <span class="md-radio"></span>
+              <span>Citrus Lite</span>
+            </label>
             <label class="md-control pallete-color">
               <input type="radio" name="type" value="bigshot" v-model="user.selected_layout" onclick="User_background()">
               <span class="md-radio"></span>
@@ -1527,7 +1953,7 @@
               <div class="ibb">
                 <input class="linkin" type="text" id="user_background" name="background" @change="checkImage"
                   v-model="user.user_background" placeholder="https://image.ibb.co/gT5kZJ/bd8W6VB.jpg" oninput="User_background()">
-                
+
                 <input class="md-icon clear" type="button"  name="reset" value="clear"  onclick="onepunchman()">
                 <div class="md-divider"></div>
               </div>
@@ -1667,7 +2093,7 @@
             <color-variable v-if="variables.pallete" :variable="variables.pallete.popup_color" :index="'popup_color'">
             </color-variable>
           </div>
-          <p class="text-hint">Если вы решились создать свою уникальную расцветку, рекомендуеться, 
+          <p class="text-hint">Если вы решились создать свою уникальную расцветку, рекомендуеться,
               сначало выбрать фон сайта, затем изменять цвета опираясь на стандартные оттенки.</p>
           <hr class="md-divider pallete-color">
         </div>
@@ -1685,7 +2111,7 @@
         </div>
         <div class="md-list_hidden theme-files">
           <p class="text-hint">Здесь вы можете видеть список доступных файлов для данного стиля. Все что начинаеться с
-            "q" являеться опциальным приложением. Более подробно о каждом читайте <a href="https://shikimori.org/clubs/1678-e-club-podderzhka-stilya-edesign-dlya-shikimori/topics/267891-adaptirovannye-shablony-fichi-i-ne-tolko">здесь.</a> 
+            "q" являеться опциальным приложением. Более подробно о каждом читайте <a href="https://shikimori.org/clubs/1678-e-club-podderzhka-stilya-edesign-dlya-shikimori/topics/267891-adaptirovannye-shablony-fichi-i-ne-tolko">здесь.</a>
             Будьте внимательно, некоторые из них работают только с определенный
             форматом профиля.</p>
 
