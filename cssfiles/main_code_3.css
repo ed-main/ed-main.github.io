@@ -1671,17 +1671,17 @@ header.head .notice {
     position: relative;
 }
 .b-list li:before {
-    height: 100%;
+    content: "\f111";
     display: inline-flex;
     align-content: center;
     align-items: center;
-    margin: 0 0px 0 -13px !important;
-
-    transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
+    height: 100%;
+    margin: 0 !important;
+    padding-top: 2px;
     font: normal normal normal 7px/1 FontAwesome;
-    content: "\f111";
-    background: none;
     color: rgba(var(--bright-color), 1);
+    background: none;
+    transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
 }
 
 .b-list li {
