@@ -2872,26 +2872,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span .nickname {
     line-height: 13px;
 }
 
-.b-offtopic_marker,
-.b-summary_marker,
-.b-new_marker,
-.b-anime_status_tag.news,
-.b-anime_status_tag.anons,
-.b-anime_status_tag.ongoing,
-.b-anime_status_tag.released,
-.b-anime_status_tag.review,
-.b-anime_status_tag.episode,
-.b-anime_status_tag.collection,
-.b-abuse_marker,
-.b-broadcast_marker,
-.b-anime_status_tag.offtopic,
-.b-anime_status_tag.news,
-.b-anime_status_tag.broadcast,
-.b-anime_status_tag.ignored {
-    background-color: unset;
-    border: unset;
-}
-
 .b-db_entry-variant-list_item {
     border-top: unset;
 }

@@ -302,9 +302,9 @@ body * [class*="_status_tag"], body * [class*="_marker"] {
     box-sizing: border-box;
     margin: 1px !important;
     color: #e7e7e7 !important;
-    background: none;
-    box-shadow: none;
-    border: none;
+    background: unset!important;
+    box-shadow: none!important;
+    border: none!important;
     border-radius: 8px;
 }
 
@@ -312,7 +312,7 @@ body * [class*="_status_tag"]:not([data-text]), body * [class*="_marker"]:not([d
     transition: 0.1s ease !important;
     font-size: 12px !important;
     line-height: 16px !important;
-    background: #373c3e;
+    background: #373c3e !important;
 }
 
 body * [class*="_marker"]:not([data-text]) {
