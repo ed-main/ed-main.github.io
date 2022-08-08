@@ -509,6 +509,11 @@ body[data-locale=ru] .b-abuse_marker:before {
     margin-top: 4px;
 }
 
+body .l-page * .inner:hover aside.markers [class*="new_marker"].off {
+    display: inline-flex;
+    width: 75px !important;
+}
+
 [class*="new_marker"].off {
     width: 0 !important;
 }
