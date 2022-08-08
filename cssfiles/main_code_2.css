@@ -335,6 +335,7 @@ body * [class*="_status_tag"]:not([data-text]) {
     left: 0;
     height: 100%;
     z-index: -1;
+    border-radius: 10px;
 }
 
 .line [class*="_status_tag"].other::before {
