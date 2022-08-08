@@ -353,7 +353,7 @@ body * [class*="_status_tag"]:not([data-text]) {
 
 body * .b-anime_status_tag.other::before, body * .b-anime_status_tag.other {
     color: #d6d6d6;
-    background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d);
+    background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d)!important;
 }
 
 /* надпись коллекция на зеленом */
