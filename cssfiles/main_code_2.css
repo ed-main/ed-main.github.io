@@ -289,6 +289,7 @@ body .l-page [class*="_status_tag"]:not([data-text]):before, body .l-page [class
 }
 
 body .l-page [class*="_marker"]::before, body .l-page [class*="_status_tag"]::before {
+    content: '';
     padding: 2px 9px;
 }
 
