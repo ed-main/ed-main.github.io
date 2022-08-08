@@ -509,7 +509,7 @@ body[data-locale=ru] .b-abuse_marker:before {
     margin-top: 4px;
 }
 
-[class*="_marker"].off {
+[class*="new_marker"].off {
     width: 0 !important;
 }
 
