@@ -422,6 +422,12 @@ textarea {
     padding: 2px 12px !important;
 }
 
+.p-animes-show .other-names,
+.p-mangas-show .other-names,
+.p-ranobe-show .other-names {
+    background: rgba(var(--block-color), 0.6) !important;
+}
+
 .tags .b-anime_status_tag:hover,
 .tags .b-tag:hover,
 .line .b-tag:hover,
