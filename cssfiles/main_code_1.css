@@ -419,7 +419,7 @@ textarea {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 1px 12px !important;
+    padding: 2px 12px !important;
 }
 
 .tags .b-anime_status_tag:hover,
