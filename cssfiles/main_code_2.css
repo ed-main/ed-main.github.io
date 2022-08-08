@@ -300,7 +300,7 @@ body * [class*="_status_tag"], body * [class*="_marker"] {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    margin: 1px !important;
+    margin: 2px !important;
     color: #e7e7e7 !important;
     background: unset!important;
     box-shadow: none!important;
@@ -351,7 +351,7 @@ body * [class*="_status_tag"]:not([data-text]) {
     padding: 2px 9px !important;
 }
 
-body * .b-anime_status_tag.other::before, body * .b-anime_status_tag.other {
+body * .b-anime_status_tag.other:not([data-text]), body * .b-anime_status_tag.other:before {
     color: #d6d6d6;
     background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d)!important;
 }
