@@ -1674,9 +1674,8 @@ header.head .notice {
     content: "\f111";
     display: inline-flex;
     align-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
-    margin: 0 !important;
     padding-top: 2px;
     font: normal normal normal 7px/1 FontAwesome;
     color: rgba(var(--bright-color), 1);
