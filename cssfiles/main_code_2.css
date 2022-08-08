@@ -270,7 +270,7 @@ input[type="submit"], input[type="text"], input[type="email"], input[type="numbe
     border-radius: 2px;
 }
 
-body .l-page [class*="_marker"]:before, body .l-page [class*="_status_tag"]:before {
+body * [class*="_marker"]:before, body * [class*="_status_tag"]:before {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -284,11 +284,11 @@ body .l-page [class*="_marker"]:before, body .l-page [class*="_status_tag"]:befo
     box-shadow: none;
 }
 
-body .l-page [class*="_status_tag"]:not([data-text]):before, body .l-page [class*="_marker"]:not([data-text]):before {
+body * [class*="_status_tag"]:not([data-text]):before, body * [class*="_marker"]:not([data-text]):before {
     content: none;
 }
 
-body .l-page [class*="_marker"]::before, body .l-page [class*="_status_tag"]::before {
+body * [class*="_marker"]::before, body * [class*="_status_tag"]::before {
     content: '';
     padding: 2px 9px;
 }
@@ -297,7 +297,7 @@ body .l-page [class*="_marker"]::before, body .l-page [class*="_status_tag"]::be
     border: none !important;
 }
 
-body .l-page [class*="_status_tag"], body .l-page [class*="_marker"] {
+body * [class*="_status_tag"], body * [class*="_marker"] {
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -311,18 +311,18 @@ body .l-page [class*="_status_tag"], body .l-page [class*="_marker"] {
     border-radius: 8px;
 }
 
-body .l-page [class*="_status_tag"]:not([data-text]), body .l-page [class*="_marker"]:not([data-text]) {
+body * [class*="_status_tag"]:not([data-text]), body * [class*="_marker"]:not([data-text]) {
     transition: 0.1s ease !important;
     font-size: 12px !important;
     line-height: 16px !important;
     background: #373c3e;
 }
 
-body .l-page [class*="_marker"]:not([data-text]) {
+body * [class*="_marker"]:not([data-text]) {
     padding: 0 5px;
 }
 
-body .l-page [class*="_status_tag"]:not([data-text]) {
+body * [class*="_status_tag"]:not([data-text]) {
     padding: 2px 9px;
 }
 
@@ -353,87 +353,87 @@ body .l-page [class*="_status_tag"]:not([data-text]) {
     padding: 2px 9px !important;
 }
 
-body .l-page .b-anime_status_tag.other::before, body .l-page .b-anime_status_tag.other {
+body * .b-anime_status_tag.other::before, body * .b-anime_status_tag.other {
     color: #d6d6d6;
     background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d);
 }
 
 /* надпись коллекция на зеленом */
-body .l-page .b-anime_status_tag.collection:before {
+body * .b-anime_status_tag.collection:before {
     background: linear-gradient(45deg, #2b684e, #1f5430, #476024) !important;
 }
 
 /* статус "релиз" */
-body .l-page .b-anime_status_tag.released:before {
+body * .b-anime_status_tag.released:before {
     background-color: #1A421D;
     color: #C4E9ED;
 }
 
 /* статус"эпизод" */
-body .l-page .b-anime_status_tag.episode:before {
+body * .b-anime_status_tag.episode:before {
     background: #392589;
     color: #d5d4ff;
 }
 
 /* статус"новость" */
-body .l-page .b-anime_status_tag.news:before {
+body * .b-anime_status_tag.news:before {
     background: #984915;
     color: #f3e5d3;
 }
 
-body .l-page .b-anime_status_tag.contest:before {
+body * .b-anime_status_tag.contest:before {
     content: '🏆︎ турнир' !important;
     background: linear-gradient(45deg, #632f86, #662a7d, #471fa7);
 }
 
-body .l-page .b-anime_status_tag.article:before {
+body * .b-anime_status_tag.article:before {
     background: linear-gradient(45deg, #86412f, #7d2a2a, #a7491f);
 }
 
 /* статус "отзыв" */
-body .l-page .b-anime_status_tag.review:before {
+body * .b-anime_status_tag.review:before {
     content: '★ отзыв' !important;
     background: linear-gradient(45deg, #417942, #444444, #883737);
 }
 
 /* статус "негативный" */
-body .l-page .b-anime_status_tag.review-negative:before {
+body * .b-anime_status_tag.review-negative:before {
     background: #933131;
     content: '👎' !important;
 }
 
 /* статус "негативный" */
-body .l-page .b-anime_status_tag.review-positive:before {
+body * .b-anime_status_tag.review-positive:before {
     background: #28662e;
     content: '👍' !important;
 }
 
 /* статус "рецензия" */
-body .l-page .b-anime_status_tag.critique:before {
+body * .b-anime_status_tag.critique:before {
     color: #fae5ee;
     background: #7c1946;
 }
 
 /* статус "рассылка" */
-body .l-page .b-anime_status_tag.broadcast:before {
+body * .b-anime_status_tag.broadcast:before {
     background-color: #6d0b37;
     color: #ffe0ee;
 }
 
 /* статус "онгоин" */
-body .l-page .b-anime_status_tag.ongoing:before {
+body * .b-anime_status_tag.ongoing:before {
     background: #014493;
     color: #d7e6f8;
 }
 
 /* статус "игнор" */
-body .l-page .b-anime_status_tag.ignored:before {
+body * .b-anime_status_tag.ignored:before {
     background: #96120b;
     color: #fbdede;
 }
 
 /* статус "анонс" */
-body .l-page .b-anime_status_tag.anons:before {
+body * .b-anime_status_tag.anons:before {
     background: #9c3417;
     color: #fbe5de;
 }
@@ -510,7 +510,7 @@ body[data-locale=ru] .b-abuse_marker:before {
     margin-top: 4px;
 }
 
-body .l-page * .inner:hover aside.markers [class*="new_marker"].off {
+body * .inner:hover aside.markers [class*="new_marker"].off {
     display: inline-flex;
     width: 75px !important;
 }
@@ -519,12 +519,12 @@ body .l-page * .inner:hover aside.markers [class*="new_marker"].off {
     width: 0 !important;
 }
 
-body .l-page [class*="new_marker"] {
+body * [class*="new_marker"] {
     display: none;
     width: 0;
 }
 
-body .l-page [class*="new_marker"].active, .b-message > .inner:hover aside.markers .b-new_marker.off {
+body * [class*="new_marker"].active, .b-message > .inner:hover aside.markers .b-new_marker.off {
     display: inline-flex;
     width: 75px;
 }
