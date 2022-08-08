@@ -255,13 +255,10 @@ body[data-locale=ru] .b-summary_marker.active:before {
 
 body[data-locale=ru] .b-summary_marker {
     position: relative;
-    line-height: 20px !important;
 }
 
 body[data-locale=ru] .b-new_marker::before, body[data-locale=ru] .b-summary_marker::before, body[data-locale=ru] .b-offtopic_marker::before, body[data-locale=ru] .b-abuse_marker:before {
     font-size: 12px !important;
-    line-height: 20px !important;
-    /*margin-top:-3px  */
 }
 
 input[type="submit"], input[type="text"], input[type="email"], input[type="number"],
