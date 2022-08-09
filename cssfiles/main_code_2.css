@@ -3360,7 +3360,7 @@ body.p-profiles .mass-actions .action a[href*='/dele']:after {
     font-size: 15px;
 }
 a[href*="/content?order"]:after {
-    content: '\f0dc';
+    content: '\f0dc'!important;
     font-size: 15px;
 }
 
