@@ -406,7 +406,7 @@ textarea {
 }
 
 .p-dashboards-show .v2 .db-update .tags {
-    height: auto;
+    height: 50px;
 }
 
 .tags > .tag-link,
