@@ -385,6 +385,9 @@
 }
 
 @media screen and (max-width: 1023px) {
+   .p-dashboards-show .v2 .db-updates .inner {
+      height: 236px
+   }
    .l-top_menu-v2 .menu-icon.trigger:before {
       height: 27px;
     width: 27px;
@@ -2186,7 +2189,7 @@
 
 @media screen and (max-width: 480px) {
    .p-dashboards-show .v2 .db-updates .inner .db-update {
-      max-height: 87px;
+      max-height: 130px;
    }
    .b-catalog_entry-tooltip .trigger {
       left: -20px;
