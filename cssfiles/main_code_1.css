@@ -596,7 +596,7 @@ a:hover .title span {
 .b-topic > .inner header .name-date a.name,
 .b-dialog > .inner header .name-date a.name,
 .b-message > .inner header .name-date a.name {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .p-dashboards-show .v2 .db-update .name:hover,
@@ -3077,15 +3077,21 @@ p {
 }
 
 .menu_group:not(.menu_group-controls) {
-    background: rgba(var(--block-color), 0.6);
-    margin: 1px 10px 1px 0;
-    padding: 0 !important;
-    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 10%);
-    height: 36px;
+    overflow: hidden;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    height: 36px;
+    margin: 1px 10px 1px 0;
+    padding: 0 !important;
     border-radius: 10px;
+    background: rgba(var(--block-color), 0.6);
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 10%);
+}
+
+.menu_group:not(.menu_group-controls) > button:hover {
+    background: rgba(var(--hover-buttoms-2), 0.6);
+    height: 100%;
 }
 
 .menu_group:not(.menu_group-controls):before {
@@ -3116,6 +3122,18 @@ p {
 .menu_group.menu_group-controls .icon.is-button.is-active {
     color: rgba(var(--hover-color), 1)!important;
     background: none;
+}
+
+.shade {
+    background: rgba(var(--menu-back), 0.4)!important;
+}
+.popup-content {
+    border-radius: 12px;
+    background: rgba(var(--menu-back), 1)!important;
+    box-shadow:0 2px 6px 2px rgb(0 0 0 / 30%)
+}
+.b-tip>[data-popper-arrow]:before {
+    background: rgba(var(--menu-back), 1)!important;
 }
 
 .ProseMirror {

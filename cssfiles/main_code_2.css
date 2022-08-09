@@ -3237,10 +3237,9 @@ body#messages_index .block.is-own-profile > .block {
 body .headline .misc-links, body .midheadline .misc-links, body .subheadline .misc-links {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 100%;
     height: 100%;
-
 }
 
 body.p-profiles .subheadline .misc-links > a {
@@ -3333,41 +3332,38 @@ body.p-profiles .mass-actions .action a:before, .headline .misc-links > a:before
 body.p-profiles .mass-actions .action a:before {
     content: '\f00c\f00c';
 }
-
 .misc-links a[href*="/reviews"]:before {
     content: '\f005';
 }
-
 body.p-profiles .subheadline .misc-links > a:after {
     content: '\f2b6';
     font-size: 15px;
 }
-
 body.p-profiles .mass-actions .action a[href*='/read']:after {
     content: '\f2b6';
     font-size: 15px;
 }
-
 body.p-profiles .mass-actions .action a[href*='/dele']:after {
     content: '\f014';
     font-size: 18px;
 }
-
 .misc-links a[href*="/collections"]:after {
     content: '\f279';
     font-size: 15px;
-
 }
-
 .misc-links a[href*="/critiques"]:after {
     content: '\f27a';
     font-size: 15px;
 }
-
 .misc-links a[href*="/articles"]:after {
     content: '\f1ea';
     font-size: 15px;
 }
+a[href*="/content?order"]:after {
+    content: '\f0dc';
+    font-size: 15px;
+}
+
 
 body.p-profiles .mass-actions .action a:hover:before {
     color: rgba(var(--light-color), 1);
@@ -3571,23 +3567,28 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
     margin: 8px 0 0 10px;
     padding: 0 12px;
     border: 0 !important;
+    border-radius: 12px;
+}
+.p-dashboards-show .v2 .fc-user-sections .tag-link:hover {
+    background-color: rgba(var(--hover-buttoms-2), 1) !important;
+    color: white !important;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%) !important;
+    border: none !important;
 }
 
 .p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
     color: #d7b2e0;
     background: linear-gradient(45deg, rgb(95 33 81 / 80%) 0%, #824c76a8 50%, rgb(95 33 81 / 80%));
 }
-
 .p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag {
     color: #a7d8b5;
     background: linear-gradient(45deg, #2c6b41bd 0%, #427153a8 50%, #1e653dc9);
 }
-
 .p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
     color: #97c9e0;
     background: linear-gradient(45deg, rgb(32 63 93 / 80%) 0%, #3d6175bd 50%, rgb(32 64 93 / 80%));
-
 }
+
 
 .p-dashboards-show .v2 .my-list .label span {
     color: rgba(var(--white-color), 1);
@@ -3627,14 +3628,17 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
 
 .p-dashboards-show .v2 .my-list .label .misc-links a[href*="/anime"]:before {
     content: '\f008';
+    background: rgba(159, 255, 189, 0.1);
 }
 
 .p-dashboards-show .v2 .my-list .label .misc-links a[href*="/manga"]:before {
     content: '\f02d';
+    background: rgba(255, 142, 191, 0.1);
 }
 
 .p-dashboards-show .v2 .my-list .label .misc-links a[href*="/history"]:before {
     content: '\f187';
+    background: rgb(132 193 220 / 10%);
 }
 
 .fc-user-sections .progress {
@@ -3733,6 +3737,68 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
 
 .b-collection-topic > .inner .collection-row.is-spoilers .cover .image-cutter {
     border: none;
+}
+
+.pika-single {
+    background: rgba(var(--menu-back), 0.8);
+    border: none!important;
+    border-radius: 11px;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%);
+}
+.is-disabled .pika-button {
+    background: rgba(var(--light-color), 0.2);
+    color: rgba(var(--light-color), 1);
+}
+.pika-button {
+    color: rgba(var(--light-color), 1);
+    background: rgba(var(--light-color), 0.4);
+    transition: 0.2s ease;
+}
+.pika-button:hover, .pika-row.pick-whole-week:hover .pika-button {
+    background: rgba(var(--hover-color), 1);
+}
+.pika-next, .pika-prev {
+    background: none !important;
+}
+.pika-next:after, .pika-prev:after {
+    content: '\f054';
+    font-family: 'FontAwesome';
+    color: rgba(var(--bright-color), 1)!important;
+    font-size: 19px;
+    z-index: 8;
+    text-rendering: auto;
+    font: normal normal normal 20px/1 FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pika-next:after {
+    content: '\f054';
+}
+.pika-prev:after {
+    content: '\f053';
+}
+.pika-label {
+    background: rgba(var(--light-color), 0.1);
+    border-radius: 4px;
+}
+.pika-table abbr {
+    border: none;
+    text-decoration: none;
+    color: rgba(var(--light-color), 1);
+    font-family: 'Comfortaa';
+    font-size: 8px;
+    text-transform: uppercase;
+    background: rgba(var(--hover-buttoms-2), 0.2);
+    padding: 4px 4px 2px;
+    display: inline-flex;
+    height: 15px;
+    align-items: center;
 }
 
 
