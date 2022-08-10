@@ -2254,8 +2254,8 @@ code.b-code_inline {
     color: rgba(var(--hover-color), 1);
 }
 
-.b-quote .quoteable:before {
-    color: rgba(var(--bright-color), 1);
+.quoteable:before {
+    color: rgba(var(--bright-color), 1)!important;
 }
 
 .b-bb_codes-examples .example span {
