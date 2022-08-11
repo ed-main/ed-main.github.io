@@ -1053,7 +1053,7 @@ body.p-achievements.p-profiles .l-footer .links a {
 
 .l-footer:after {
     position: absolute;
-    left: 83px;
+    left: 96px;
     bottom: 0;
     color: rgba(var(--dark-color), 0.6);
     font: bold 10px 'Comfortaa';
