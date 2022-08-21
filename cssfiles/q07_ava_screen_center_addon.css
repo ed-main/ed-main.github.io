@@ -1,4 +1,8 @@
 @media screen and (min-width: 1200px) {
+    body#profiles_show .l-page {
+        padding: 0 !important;
+        border-radius: 15px;
+    }
     #profiles_show .profile-head {
        background: none!important;
    }
@@ -42,7 +46,7 @@
   body#profiles_show.p-achievements.p-profiles.p-profiles .b-achievement img,
   body#profiles_show.p-achievements.p-profiles.p-profiles .b-badge img {
     image-rendering: initial!important;
-    } 
+    }
 }
 
 

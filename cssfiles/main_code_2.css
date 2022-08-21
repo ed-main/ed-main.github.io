@@ -351,6 +351,7 @@ body * [class*="_status_tag"]:not([data-text]) {
     padding: 2px 9px !important;
 }
 
+
 body * .b-anime_status_tag.other:not([data-text]), body * .b-anime_status_tag.other:before {
     color: #d6d6d6;
     background: linear-gradient(45deg, #feda754d, #fa7e1e4d, #d629764d, #962fbf4d, #4f5bd54d)!important;
@@ -359,6 +360,18 @@ body * .b-anime_status_tag.other:not([data-text]), body * .b-anime_status_tag.ot
 /* надпись коллекция на зеленом */
 body * .b-anime_status_tag.collection:before {
     background: linear-gradient(45deg, #2b684e, #1f5430, #476024) !important;
+}
+
+body * .b-abuse_marker:before {
+    content: 'жалоба' !important;
+    background-color: #7b0d0d;
+    color: #e4c6c6;
+}
+
+body * [class*="broadcast_marker"]:before {
+    content: '📢 рассылка' !important;
+    background-color: #772448;
+    color: #eadddd;
 }
 
 /* статус "релиз" */
@@ -447,13 +460,19 @@ body * .b-anime_status_tag.anons:before {
     color: #b9533a;
 }
 
-body[data-locale=ru] .b-offtopic_marker {
+body * .b-offtopic_marker {
     width: 84px;
     border: none;
 }
-
-body[data-locale=ru] .b-offtopic_marker:before {
+body * .b-offtopic_marker:before {
     width: 65px;
+}
+
+body * [class*="broadcast_marker"] {
+    width: 118px;
+}
+body * [class*="broadcast_marker"]:before {
+    width: 84px !important;
 }
 
 body[data-locale=ru] .b-offtopic_marker.off:before {
@@ -463,7 +482,7 @@ body[data-locale=ru] .b-offtopic_marker.off:before {
 }
 
 .inner aside.markers {
-    top: 5px;
+    top: 8px;
     position: relative;
 }
 
@@ -477,21 +496,6 @@ body[data-locale=ru] .b-offtopic_marker:before, .b-anime_status_tag.offtopic:bef
     background-color: #671339;
     border: none;
 }
-
-body[data-locale=ru] .b-abuse_marker:before {
-    background-color: #7b0d0d;
-    border: none;
-    color: #e4c6c6;
-    padding: 0 5px !important;
-}
-
-.b-broadcast_marker:before {
-    background-color: #772448;
-    color: #eadddd;
-    padding: 1px 6px !important;
-    right: 5px;
-}
-
 
 .p-animes_collection-index .pagination .link.disabled:hover, .p-mangas_collection-index .pagination .link.disabled:hover, .p-recommendations-index .pagination .link.disabled:hover, .p-userlist_comparer-show .pagination .link.disabled:hover {
     box-shadow: none;
@@ -3767,7 +3771,6 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
 }
 .pika-next:after, .pika-prev:after {
     content: '';
-    font-family: 'FontAwesome';
     color: rgba(var(--bright-color), 1)!important;
     z-index: 8;
     text-rendering: auto;
