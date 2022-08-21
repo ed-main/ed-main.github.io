@@ -7,8 +7,7 @@
 .subheadline a[title="EngiNier"]::after,
 .name-date a.name[title="Cosmo+%E2%98%AD"]:after,
 .name-date a.name[href*="/Cosmo+%E2%98%AD"]:after,
-.subheadline a[title="Cosmo+%E2%98%AD"]:after
-{
+.subheadline a[title="Cosmo+%E2%98%AD"]:after {
     position: absolute;
     font-size: 11px;
     width: 50px;
@@ -21,7 +20,7 @@
     border-radius: 9px;
     box-shadow: 0 0 5px rgba(var(--shadows-color), 0.2);
     z-index: 2;
-    opacity:0;
+    opacity: 0;
     transition: 0.2s;
 }
 .name-date a.name[title="morr"]:hover:after,
@@ -32,11 +31,10 @@
 .subheadline a[title="EngiNier"]:hover:after,
 .name-date a.name[title="Cosmo+%E2%98%AD"]:hover:after,
 .name-date a.name[href*="/Cosmo+%E2%98%AD"]:hover:after,
-.subheadline a[title="Cosmo+%E2%98%AD"]:hover:after
-{
-    width: 120px;
+.subheadline a[title="Cosmo+%E2%98%AD"]:hover:after {
+    width: 129px;
     margin-left: 10px;
-opacity: 1;
+    opacity: 1;
 }
 .subheadline a[title="morr"]:hover:after, .subheadline a[title="morr"]:hover:after {
     line-height: 20px;
@@ -52,37 +50,37 @@ opacity: 1;
 
 img[alt='morr'] {
     border: 2px solid #ffad007a !important;
-  }
-  .name-date a.name[title="morr"], a.name[href*="/morr"] {
+}
+.name-date a.name[title="morr"], a.name[href*="/morr"] {
     color: #fdc47a !important;
     font-size: 19px !important;
     line-height: 15px !important;
-  }
-  .subheadline a[title="morr"] {
+}
+.subheadline a[title="morr"] {
     color: #fdc47a !important;
-  }
+}
 
-  .b-topic > .inner header img[alt="morr"] {
-        border: 2px solid rgba(183, 139, 82, 0.9)!important;
+.b-topic > .inner header img[alt="morr"] {
+    border: 2px solid rgba(183, 139, 82, 0.9) !important;
 
-  }
+}
 .b-comment > .inner header a[href*="/EngiNier"] img {
     border: 2px solid #a7843d75;
 }
 .b-comment > .inner header a[href*="/Cosmo+%E2%98%AD"] img {
     border: 2px solid #3ba2bd75;
 }
-.name-date a.name[title="EngiNier"], .b-comment>.inner a.name[href*="/EngiNier"], .subheadline a[title="EngiNier"] {
-    color: #e2e2e2!important;
+.name-date a.name[title="EngiNier"], .b-comment > .inner a.name[href*="/EngiNier"], .subheadline a[title="EngiNier"] {
+    color: #e2e2e2 !important;
 }
-.name-date a.name[title="Cosmo+%E2%98%AD"], .b-comment>.inner a.name[href*="/Cosmo+%E2%98%AD"], .subheadline a[title="Cosmo+%E2%98%AD"] {
-    color: #9ee0f1!important;
+.name-date a.name[title="Cosmo+%E2%98%AD"], .b-comment > .inner a.name[href*="/Cosmo+%E2%98%AD"], .subheadline a[title="Cosmo+%E2%98%AD"] {
+    color: #9ee0f1 !important;
 }
 
-  .b-user16 a[title="morr"] {
+.b-user16 a[title="morr"] {
     color: #fdc47a !important;
     font-weight: bold;
-  }
+}
 
 
 .name-date a.name[title="EngiNier"]:hover:after,
@@ -90,12 +88,9 @@ img[alt='morr'] {
 .subheadline a[title="EngiNier"]:hover:after,
 .name-date a.name[title="Cosmo+%E2%98%AD"]:hover:after,
 .name-date a.name[href*="/Cosmo+%E2%98%AD"]:hover:after,
-.subheadline a[title="Cosmo+%E2%98%AD"]:hover:after
-{
-    content:"Edesign Admin";
+.subheadline a[title="Cosmo+%E2%98%AD"]:hover:after {
+    content: "Edesign Support";
 }
-
-
 
 
 body#profiles_edit .b-to-top .slide:before {
@@ -1409,7 +1404,7 @@ header.head a.edit,
 .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
 header.head .misc {
     font-size: 12px;
-    transition: 0.3s ease-out, -webkit-0.3s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s;
+    transition: 0.3s ease-out, -webkit-0 .3s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s;
 }
 
 .bar.vertical .line .x_label {
@@ -1676,7 +1671,7 @@ header.head .notice {
     font: normal normal normal 7px/1 FontAwesome;
     color: rgba(var(--bright-color), 1);
     background: none;
-    transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
+    transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color .2s;
 }
 
 .b-list li {
@@ -1981,7 +1976,6 @@ body.p-achievements.p-profiles.p-profiles .b-badge img {
 .b-list_switchers .switcher.alphabet::after {
     content: "\f1c2";
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: 14px;
     font-weight: bold;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -2000,7 +1994,7 @@ body.p-achievements.p-profiles.p-profiles .b-badge img {
 }
 
 body.p-achievements-index .tipsy.tipsy-s {
-  display: none!important;
+    display: none !important;
 }
 
 
@@ -2143,7 +2137,8 @@ body.p-achievements.p-profiles .b-to-top .slide:before {
 
 body.p-achievements.p-profiles:after {
     background-image: url(https://i.ibb.co/QX6hgbQ/image.png);
-    animation: none; filter: none;
+    animation: none;
+    filter: none;
 }
 body.p-achievements.p-profiles .l-page {
     background: transparent;
@@ -2527,7 +2522,8 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     padding: 10px 10px;
     margin: 0 0.5rem;
     border-radius: 0 0 0.5rem 0.5rem;
-} /* Внутренние отступы */
+}
+/* Внутренние отступы */
 /* Содержимое */
 .tabs .container > div {
     display: none !important;
@@ -2556,6 +2552,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     .tabs .header {
         border-radius: 0.4rem 0.4rem 0.2rem 0.2rem;
     }
+
     .tabs .header div.active {
         border-radius: 0.3rem;
     }
@@ -2681,31 +2678,31 @@ body.p-achievements.p-profiles input.has-value {
 .l-top_menu-v2 .global-search .search-results .search-mode:before {
     width: 32px;
     background: linear-gradient(
-        to right,
-        rgba(var(--light-color), 0.5) 0%,
-        rgba(var(--light-color), 0.5) 30%,
-        rgba(var(--light-color), 0) 75%,
-        rgba(var(--light-color), 0) 100%
+            to right,
+            rgba(var(--light-color), 0.5) 0%,
+            rgba(var(--light-color), 0.5) 30%,
+            rgba(var(--light-color), 0) 75%,
+            rgba(var(--light-color), 0) 100%
     );
     border-radius: 50% 0 0 50%;
 }
 .l-top_menu-v2 .global-search .search-results .search-mode:hover:before {
     background: linear-gradient(
-        to right,
-        rgba(var(--hover-color), 0.7) 0%,
-        rgba(var(--hover-color), 0.7) 30%,
-        rgba(var(--light-color), 0) 75%,
-        rgba(var(--light-color), 0) 100%
+            to right,
+            rgba(var(--hover-color), 0.7) 0%,
+            rgba(var(--hover-color), 0.7) 30%,
+            rgba(var(--light-color), 0) 75%,
+            rgba(var(--light-color), 0) 100%
     );
     border-top-color: rgb(var(--bright-color), 0.03);
 }
 .l-top_menu-v2 .global-search .search-results .search-mode.active:before {
     background: linear-gradient(
-        to right,
-        rgba(var(--light-color), 0.7) 0%,
-        rgba(var(--light-color), 0.7) 30%,
-        rgba(var(--light-color), 0) 75%,
-        rgba(var(--light-color), 0) 100%
+            to right,
+            rgba(var(--light-color), 0.7) 0%,
+            rgba(var(--light-color), 0.7) 30%,
+            rgba(var(--light-color), 0) 75%,
+            rgba(var(--light-color), 0) 100%
     );
 }
 .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item,
@@ -2732,10 +2729,10 @@ body.p-achievements.p-profiles input.has-value {
 .l-top_menu-v2 .global-search .search-results .nothing_found:hover:before,
 .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover:before {
     background: linear-gradient(
-        to right,
-        rgba(var(--hover-color), 0.5) 0%,
-        rgba(var(--hover-color), 0.5) 50%,
-        rgba(var(--hover-color), 0) 100%
+            to right,
+            rgba(var(--hover-color), 0.5) 0%,
+            rgba(var(--hover-color), 0.5) 50%,
+            rgba(var(--hover-color), 0) 100%
     ) !important;
 }
 .l-top_menu-v2 .global-search .search-results .nothing_found {
@@ -2755,20 +2752,20 @@ body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .se
 }
 body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:before {
     background: linear-gradient(
-        to right,
-        rgba(255, 225, 167, 0.4) 0%,
-        rgba(255, 225, 167, 0.4) 30%,
-        rgba(255, 225, 167, 0) 75%,
-        rgba(255, 225, 167, 0) 100%
+            to right,
+            rgba(255, 225, 167, 0.4) 0%,
+            rgba(255, 225, 167, 0.4) 30%,
+            rgba(255, 225, 167, 0) 75%,
+            rgba(255, 225, 167, 0) 100%
     );
 }
 body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active:before {
     background: linear-gradient(
-        to right,
-        rgba(255, 225, 167, 0.55) 0%,
-        rgba(255, 225, 167, 0.55) 30%,
-        rgba(255, 225, 167, 0) 75%,
-        rgba(255, 225, 167, 0) 100%
+            to right,
+            rgba(255, 225, 167, 0.55) 0%,
+            rgba(255, 225, 167, 0.55) 30%,
+            rgba(255, 225, 167, 0) 75%,
+            rgba(255, 225, 167, 0) 100%
     );
 }
 
@@ -2822,7 +2819,7 @@ a.b-db_entry-variant-list_item .b-link:hover {
     padding: 0;
     margin: 8px 10px 6px;
     font-size: 18px;
-    font-family: "Comfortaa";
+    font-family: "Comfortaa", sans-serif;
     color: #ffffff;
     background: rgba(var(--hover-color), 1);
     border-radius: 6px;
@@ -2955,7 +2952,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active {
 }
 
 span.submenu-triangle.icon-profile {
-    background: transaprent;
+    background: #00000000;
 }
 
 .l-top_menu-v2 .menu-dropdown .submenu {
@@ -3051,7 +3048,7 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
         text-indent: 25em;
     }
     50% {
-        text-indent: 0em;
+        text-indent: 0;
     }
 }
 
@@ -3238,13 +3235,13 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
         background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
 }
 
 @keyframes prev {
     0% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
     100% {
         background-position: 100% 50%;
