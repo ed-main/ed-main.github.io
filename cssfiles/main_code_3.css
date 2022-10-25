@@ -2545,7 +2545,12 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 .use-tabs > .active:nth-child(17) ~ div > div:nth-child(17),
 .use-tabs > .active:nth-child(18) ~ div > div:nth-child(18),
 .use-tabs > .active:nth-child(19) ~ div > div:nth-child(19),
-.use-tabs > .active:nth-child(20) ~ div > div:nth-child(20) {
+.use-tabs > .active:nth-child(20) ~ div > div:nth-child(20),
+.use-tabs > .active:nth-child(21) ~ div > div:nth-child(21),
+.use-tabs > .active:nth-child(22) ~ div > div:nth-child(22),
+.use-tabs > .active:nth-child(23) ~ div > div:nth-child(23),
+.use-tabs > .active:nth-child(24) ~ div > div:nth-child(24),
+.use-tabs > .active:nth-child(25) ~ div > div:nth-child(25) {
   display: block;
 }
 .use-tabs > [data-dynamic] {
@@ -2829,7 +2834,12 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 .custom-panel > .active:nth-child(17) ~ div > div:nth-child(17),
 .custom-panel > .active:nth-child(18) ~ div > div:nth-child(18),
 .custom-panel > .active:nth-child(19) ~ div > div:nth-child(19),
-.custom-panel > .active:nth-child(20) ~ div > div:nth-child(20) {
+.custom-panel > .active:nth-child(20) ~ div > div:nth-child(20),
+.custom-panel > .active:nth-child(21) ~ div > div:nth-child(21),
+.custom-panel > .active:nth-child(22) ~ div > div:nth-child(22),
+.custom-panel > .active:nth-child(23) ~ div > div:nth-child(23),
+.custom-panel > .active:nth-child(24) ~ div > div:nth-child(24),
+.custom-panel > .active:nth-child(25) ~ div > div:nth-child(25) {
   display: block;
 }
 .custom-panel > [data-dynamic] {
