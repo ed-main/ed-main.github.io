@@ -2847,7 +2847,7 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     padding: 4.51px 18px;
     margin: 4px;
     border: 0px solid;
-    border-radius: 10px;
+    border-radius: 100px;
     color: rgba(var(--dark-color), 0.8);
     background: rgba(var(--block-color), 0.4);
     font-weight: normal;
