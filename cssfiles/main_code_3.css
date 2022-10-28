@@ -2855,11 +2855,14 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
     line-height: 24px;
     text-align: center;
     cursor: pointer;
-    transition: .24s ease;
+    transition: color 0.15s, flex-grow 0.05s, font-size 0s;
     user-select: none;
     flex-grow: 1;
     justify-content: center;
     box-shadow: 0 2px 6px 2px #00000026;
+    position: relative;
+    overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .use-tabs.--On .custom-panel [data-icon]::before {
    position: relative;
@@ -2935,26 +2938,28 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
   overflow: hidden;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-.custom-panel.--ripple > [data-dynamic]::after {
+.custom-panel > [data-dynamic]::after {
   content: '';
   position: absolute;
   top: 50%;
   left: 50%;
   width: 72%;
   padding-top: 72%;
-  background: inherit;
+  background: #b1cdde1a;
   border-radius: 50%;
   opacity: 0;
   transform: translate3d(-50%, -50%, 0);
   pointer-events: none;
 }
-.custom-panel.--ripple > [data-dynamic]:not(.active):hover::after {
+.custom-panel > [data-dynamic]:not(.active):hover::after {
   animation: 1s switch-focus--vertical ease infinite;
 }
-.custom-panel.--ripple > [data-dynamic].active::after {
-  animation: switch-tap--vertical 0.24s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+.custom-panel > [data-dynamic].active::after {
+    animation: switch-tap--vertical 0s cubic-bezier(0.55, 0.06, 0.68, 0.19);
 }
-
+.custom-panel > [data-dynamic]:hover::after {
+    animation: switch-tap--vertical 0.24s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
 /* Tabline */
 .custom-panel.--tabline {
   justify-content: flex-start;
@@ -3516,7 +3521,6 @@ body.p-achievements.p-profiles .b-anime_status_tag.episode,
     box-shadow: 0 1px 20px 10px rgba(var(--menu-back), 0.4) !important;
     /* Код EngiNier */
 }
-
 /*Загрузка!> убирает баг постеров в клубах и на страничках с постерами*/
 .p-clubs-images .ajax-loading,
 .p-clubs-images .ajax-loading.vk-like,
