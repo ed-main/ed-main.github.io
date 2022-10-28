@@ -4777,40 +4777,24 @@ div.Ssylki-anime:hover .Text-2 {
     padding: 0;
 }
 
-/*.about .k-0-1 .c-column,
-.about .k-0-1 .c-column:last-child,
-.about .k-0-1 .b-catalog_entry,
-.about .k-0-1 .b-catalog_entry:last-child,
-.p-profiles-edit .k-0-1 .c-column,
-.p-profiles-edit .k-0-1 .c-column:last-child,
-.p-profiles-edit .k-0-1 .b-catalog_entry,
-.p-profiles-edit .k-0-1 .b-catalog_entry:last-child {
-    width: 100% !important;
-    max-width: none !important;
-    max-height: none !important;
-    margin: 0 !important;
-    padding: 0;
-}*/
-
-.about .k-0-1 .c-column,
-.about .k-0-1 .c-column:last-child,
-.about .k-0-1 .b-catalog_entry,
-.about .k-0-1 .b-catalog_entry:last-child,
-.p-profiles-edit .k-0-1 .c-column,
-.p-profiles-edit .k-0-1 .c-column:last-child,
-.p-profiles-edit .k-0-1 .b-catalog_entry,
-.p-profiles-edit .k-0-1 .b-catalog_entry:last-child {
-    width: 100% !important;
-    max-width: none !important;
-    max-height: none !important;
-    margin: 0 !important;
-    padding: 0;
-}
-
-.b-comments .k-0-1 .c-column,
-.b-comments .k-0-1 .c-column:last-child,
-.b-comments .k-0-1 .b-catalog_entry,
-.b-comments .k-0-1 .b-catalog_entry:last-child {
+* .about .k-0-1 .c-column,
+* .about .k-0-1 .c-column:last-child,
+* .about .k-0-1 .b-catalog_entry,
+* .about .k-0-1 .b-catalog_entry:last-child,
+* .p-profiles-edit .k-0-1 .c-column,
+* .p-profiles-edit .k-0-1 .c-column:last-child,
+* .p-profiles-edit .k-0-1 .b-catalog_entry,
+* .p-profiles-edit .k-0-1 .b-catalog_entry:last-child,
+* .k-0-1 .cc-4>.c-column,
+* .k-0-1 .cc-6-g0>.c-column,
+* .k-0-1 .cc-6-g0>.c-column:last-child,
+* .b-comments .k-0-1 .c-column,
+* .b-comments .k-0-1 .c-column:last-child,
+* .b-comments .k-0-1 .b-catalog_entry,
+* .b-comments .k-0-1 .b-catalog_entry:last-child,
+* .b-comments .k-0-1 .cc-4>.c-column,
+* .b-comments .k-0-1 .cc-6-g0>.c-column,
+* .b-comments .k-0-1 .cc-6-g0>.c-column:last-child {
     width: 100% !important;
     max-width: none !important;
     max-height: none !important;
