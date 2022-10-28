@@ -2691,12 +2691,10 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
   justify-content: center;
 }
 
-
 /* Stretch */
 .use-tabs.--stretched > [data-dynamic] {
   flex-grow: 1;
 }
-
 .use-tabs.--On.--centered {
    display: flex;
    padding: 0;
@@ -2758,7 +2756,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
    flex-grow: 1.5;
    font-weight: bold;
 }
-
 .use-tabs.--On.--ripple > [data-dynamic]::after {
    content: "";
    position: absolute;
@@ -2783,16 +2780,21 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
    }
    .use-tabs.--On > [data-dynamic] {
       margin: 0 2px 8px;
+      padding: 5px 16px;
+      line-height: 24px; 
       border: none;
       box-shadow: 0 2px 6px 2px #00000033;
       background: rgba(var(--block-color), 0.6);
+   }
+    .use-tabs.--On [data-icon]::before {
+      position: relative;
+      margin-left: 0;
    }
    .use-tabs.--On > [data-dynamic]:hover,
    .use-tabs.--On > [data-dynamic]:active {
       background: rgba(var(--block-color), 0.4);
    }
 }
-
 
 .custom-panel {
   position: relative;
@@ -2802,7 +2804,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
   justify-content: center;
 
   --c-border: var(--color-border, #444444);
-
 }
 .custom-panel.--dark {
   --is-theme-dark: 1;
@@ -2882,7 +2883,6 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 .custom-panel > .active.--green {
   --c-tab: 120deg 100%;
 }
-
 
 /* Vertical */
 @media (min-width: 960px) {
@@ -3039,33 +3039,25 @@ body.p-achievements.p-profiles .l-top_menu-v2 {
 
 @media screen and (max-width: 960px) {
    .use-tabs.--Fat > [data-dynamic] {
-      margin: 0 2px 8px;
-      border: none;
-      box-shadow: 0 2px 6px 2px #00000033;
-      background: rgba(var(--block-color), 0.6);
+    margin: 0 2px 8px;
+    padding: 5px 16px;
+    line-height: 24px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: center;
+    color: rgba(var(--dark-color), 0.9);
+    font-weight: normal;
+    transition: color 0.15s, flex-grow 0.05s, font-size 0s;
    }
    .use-tabs.--Fat > [data-dynamic].active {
       background: rgba(var(--block-color), 0.8);
       flex-grow: 1.5;
       font-weight: bold;
    }
-   .use-tabs.--Fat > [data-dynamic] {
-      flex-grow: 1;
-      flex-shrink: 0;
-      padding: 6.35px 16px;
-      margin: 0 2px 8px;
-      text-align: center;
-      color: rgba(var(--dark-color), 0.9);
-      font-weight: normal;
-      line-height: 1.45;
-      transition: color 0.15s, flex-grow 0.05s, font-size 0s;
-   }
    .use-tabs.--Fat [data-icon]::before {
       display: inline-flex;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      margin-left: -30px;
+      position: relative;
+      margin-left: 0;
       align-items: center;
    }
    .use-tabs.--Fat > [data-dynamic]:hover,
