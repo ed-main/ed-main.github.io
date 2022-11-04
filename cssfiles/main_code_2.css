@@ -2577,6 +2577,7 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
    }
    .p-profiles-show .achievements .cc-authors .b-achievement > .c-image {
       padding-top: 50%;
+      border-radius: 8px!important;
    }
    .p-profiles-show .achievements .cc-authors .b-achievement > .c-image img {
       object-fit: cover;
