@@ -2567,6 +2567,69 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
     background: rgba(var(--menu-back), 0.5);
 }
 
+/*Авторы*/
+@media screen and (min-width: 768px) {
+   .p-profiles-show .achievements .cc-authors .b-achievement {
+      width: 15.67%;
+      box-shadow: 0 0 0 2px rgba(var(--block-color), 0.6);
+      padding: 2px;
+      margin: 15px 0.32% 15px 0.32%;
+      border-radius: 0.5rem;
+   }
+   .p-profiles-show .achievements .cc-authors .b-achievement > .c-image {
+      padding-top: 50%;
+   }
+   .p-profiles-show .achievements .cc-authors .b-achievement > .c-image img {
+      object-fit: cover;
+      object-position: center;
+   }
+   .p-profiles-show .authors > .cc-authors {
+      display: flex;
+      justify-content: center;
+   }
+}
+@media screen and (max-width: 1200px) {
+   .p-profiles-show .achievements .cc-authors .b-achievement {
+      width: 17.67%;
+      margin: 15px 0.7% 0px 0.7%;
+   }
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  .p-profiles-show .achievements .cc-authors .b-achievement {
+     margin: 15px 0.5% 15px 0.5%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1925px) {
+   .p-profiles-show .achievements .cc-authors .b-achievement {
+      width: 18%;
+      margin: 15px 0.5% 15px 0.5%;
+   }
+}
+@media screen and (max-width: 767px) {
+   .p-profiles-show .achievements .cc-authors .b-achievement:nth-child(5n) {
+      display: flex;
+   }
+   .p-profiles-show .achievements .cc-authors .b-achievement:last-child {
+      margin-right: inherit;
+   }
+   .p-profiles-show .cc-authors {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+   .p-profiles-show .achievements .cc-authors .b-achievement {
+      width: 30%;
+      margin: 10px 0.6% 0px !important;
+   }
+}
+@media screen and (max-width: 480px) {
+   .p-profiles-show .achievements .cc-authors .b-achievement {
+      width: 46%;
+   }
+}
+/*-------*/
+
+
 .b-catalog_entry .cover .image-cutter::before {
     content: '';
     display: block;
