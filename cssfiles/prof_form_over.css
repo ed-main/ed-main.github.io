@@ -477,17 +477,14 @@
     padding: 2px;
     border: 2px solid rgba(var(--block-color), 0.6);
   }
-  #profiles_show .achievements .cc-achievements .b-achievement {
+  #profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement,
+  #profiles_show .achievements .c-column:nth-child(2) .cc-achievements .b-achievement {
     width: 31.8%;
     margin-right: 1.5%;
     z-index: 3;
-    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.24) 100%);
-    padding: 5px;
     left: 0.3rem;
-    border-radius: 20px;
   }
-  #profiles_show .cc-3 > .c-column {
+  #profiles_show .cc-2 > .c-column {
     width: 50%;
     height: 100%;
     margin-right: 0;
