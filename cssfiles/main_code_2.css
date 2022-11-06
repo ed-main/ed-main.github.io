@@ -2,7 +2,6 @@
 .l-footer:before {
     content: 'E-design v.4.37.2';
 }
-
 .b-club .name-logo .name {
     transition: 1s ease;
 }
@@ -2459,7 +2458,7 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
     right: 17px;
 }
 
-#profiles_show .block.achievements .cc-3 {
+#profiles_show .block.achievements .cc-2 {
     padding: 5px 10px;
 }
 
@@ -2546,19 +2545,19 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
     width: 100%;
 }
 
-#profiles_show .achievements .cc-3 > .c-column:first-child {
+#profiles_show .achievements .cc-2 > .c-column:first-child {
     width: 49.5%;
     margin-left: 0;
     margin-right: 0;
 }
 
-#profiles_show .achievements .cc-3 > .c-column:nth-child(2) {
+#profiles_show .achievements .cc-2 > .c-column:nth-child(2) {
     width: 49.5%;
     margin-left: 1%;
     margin-right: 0;
 }
 
-#profiles_show .achievements .cc-3 > .c-column:nth-child(3) {
+#profiles_show .achievements .cc-2 > .c-column:nth-child(3) {
     width: 100%;
 }
 
@@ -3870,5 +3869,3 @@ body.p-achievements.p-profiles .b-list_switchers > *:hover:after {
     height: 15px;
     align-items: center;
 }
-
-
