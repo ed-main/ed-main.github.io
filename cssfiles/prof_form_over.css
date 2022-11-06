@@ -485,13 +485,13 @@
     z-index: 3;
     left: 0.3rem;
   }
-  #profiles_show .cc-2 > .c-column {
+ /*#profiles_show .cc-2 > .c-column {
     width: 50%;
     height: 100%;
     margin-right: 0;
     margin-bottom: 10px;
     float: left;
-  }
+  }*/
   #profiles_show .b-topic {
     padding-left: 1%;
     padding-right: 1%;
