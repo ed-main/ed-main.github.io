@@ -3291,6 +3291,7 @@
    #profiles_show .achievements .cc-2 > .c-column:nth-child(4) {
       width: 49.5%;
       margin-right: 0;
+      margin-bottom: -1.6%; 
    }
    #profiles_show .achievements .cc-2 > .c-column:nth-child(4) {
       margin-left: 1%;
@@ -3356,7 +3357,6 @@
    }
    #profiles_show .block.achievements {
       display: inline-block;
-      margin-bottom: -2%!important;
       width: 100%; 
    }
    #profiles_show .b-achievement .c-image .inner {
