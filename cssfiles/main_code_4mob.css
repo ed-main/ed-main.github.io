@@ -3404,6 +3404,9 @@
          20px -20px 0 -17px #383838, 20px 20px 0 -20px rgb(0 0 0 / 80%),
          0 0 0 2px rgb(0 0 0 / 80%);
    }
+    #profiles_show .achievements .cc-franchises .b-badge::before {
+         visibility: hidden;
+   }
 }
 /*---------*/
 
