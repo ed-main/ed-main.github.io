@@ -3334,11 +3334,12 @@
       display: none;
    }
    #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
-      width: 18.75%;
-   }
-   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
       width: 22%;
       margin: 3px 2% 0 0;
+      transition: filter 0.25s ease-in-out; 
+   }
+   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:hover {
+      filter: brightness(80%) contrast(102%) grayscale(80%);
    }
    body#profiles_show .cc-franchises .b-badge img {
       box-shadow: 0 0 0 2px rgba(var(--block-color), 0.6);
