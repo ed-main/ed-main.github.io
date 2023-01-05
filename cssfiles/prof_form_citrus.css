@@ -1199,7 +1199,10 @@ position: absolute;
     margin-bottom: 30px;
     transition: margin 0s, padding 0s, width 0s, height 0s;
 }
-	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
+   .cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child {
+	 margin-top: -10px;  
+}
+   .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
     justify-content: center;
 }
     body#profiles_show .profile-head {
@@ -1480,7 +1483,11 @@ position: absolute;
   @media screen and (min-width: 1200px) and (max-width: 1289px) {
 	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
     justify-content: center;
-}
+	  }
+	.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child {
+		margin-top: -10px; 
+	  }
+
     .p-profiles-show .lifetime {
       margin-bottom: 0px;
     }
