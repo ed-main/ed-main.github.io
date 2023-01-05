@@ -1477,7 +1477,7 @@ position: absolute;
     }
   }
 
-  @media screen and (min-width: 1200px) and (max-width: 1290px) {
+  @media screen and (min-width: 1200px) and (max-width: 1289px) {
 	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
     justify-content: center;
 }
