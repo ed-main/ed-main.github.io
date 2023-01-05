@@ -1669,7 +1669,7 @@ position: absolute;
     }
     .p-profiles-show.x1200 .profile-content .c-right, .p-profiles-show.x1000 .profile-content .c-right {
       z-index: 1;
-      top: 18px;
+      margin-top: 18px;
     }
     .profile-content > .cc-2 .c-column .cc-2a.m30 .cc-friends {
       display: inline-flex;
@@ -1746,4 +1746,3 @@ position: absolute;
       border-radius: 10px;
     }
   }
-
