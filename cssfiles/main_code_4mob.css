@@ -2075,7 +2075,7 @@
     .p-animes-show .c-image .b-user_rate,
     .p-mangas-show .c-image .b-user_rate,
     .p-ranobe-show .c-image .b-user_rate {
-        max-width: 100%;
+       /*max-width: 100%;*/
         width: 100%;
     }
 
