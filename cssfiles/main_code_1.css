@@ -3,37 +3,33 @@
     font-style: normal;
     font-weight: 400;
     src: local("Comfortaa Regular"), local("Comfortaa-Regular"),
-    url(https://fonts.gstatic.com/s/comfortaa/v10/-DackuIFgo7Hfy3rR14C3xJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
+        url(https://fonts.gstatic.com/s/comfortaa/v10/-DackuIFgo7Hfy3rR14C3xJtnKITppOI_IvcXXDNrsc.woff2) format("woff2");
     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
-
 @font-face {
     font-family: "Comfortaa";
     font-style: normal;
     font-weight: 400;
     src: local("Comfortaa Regular"), local("Comfortaa-Regular"),
-    url(https://fonts.gstatic.com/s/comfortaa/v10/qLBu5CQmSMt1H43OiWJ77VtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+        url(https://fonts.gstatic.com/s/comfortaa/v10/qLBu5CQmSMt1H43OiWJ77VtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-
 @font-face {
     font-family: "Comfortaa";
     font-style: normal;
     font-weight: 700;
     src: local("Comfortaa Bold"), local("Comfortaa-Bold"),
-    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI5X5f-9o1vgP2EXwfjgl7AY.woff2) format("woff2");
+        url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI5X5f-9o1vgP2EXwfjgl7AY.woff2) format("woff2");
     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
-
 @font-face {
     font-family: "Comfortaa";
     font-style: normal;
     font-weight: 700;
     src: local("Comfortaa Bold"), local("Comfortaa-Bold"),
-    url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+        url(https://fonts.gstatic.com/s/comfortaa/v10/fND5XPYKrF2tQDwwfWZJI-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-
 :root {
     --font-family: "Comfortaa", sans-serif !important;
     --font-main: "Comfortaa", sans-serif !important;
@@ -49,24 +45,21 @@ body {
     font-family: "FontAwesome";
     src: url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0");
     src: url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),
-    url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
-    url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
-    url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
-    url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+        url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+        url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+        url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+        url("/\x/maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
-
 .css {
     color: #010101cc;
 }
-
 html {
     height: 100%;
     min-height: 100%;
     background-color: #151515;
 }
-
 body {
     min-height: 100%;
     width: 100vw;
@@ -80,7 +73,6 @@ body {
     background-position: center center !important;
     background-attachment: fixed;
 }
-
 body:after {
     content: "";
     width: 100vw;
@@ -96,6 +88,7 @@ body:after {
     -o-background-size: cover;
     background-size: cover;
     background-color: rgba(var(--menu-back), 0.5);
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .l-top_menu-v2 {
@@ -107,38 +100,31 @@ body:after {
     max-height: calc(100vh - 46px);
     overflow: auto;
 }
-
 .l-top_menu-v2 .global-search .search-results::before {
     background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(var(--menu-back), 0.65) 100%);
     background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(var(--menu-back), 0.65) 100%);
 }
-
 .l-top_menu-v2 .global-search .search-results::after {
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(var(--menu-back), 0.65) 100%);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(var(--menu-back), 0.65) 100%);
 }
-
 ::-webkit-scrollbar {
     width: 10px;
     background-color: transparent;
 }
-
 ::-webkit-scrollbar-track {
     display: none;
     width: 6px;
     background: transparent;
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: rgba(var(--light-color), 0.5);
     border-radius: 8px;
     transition: 0.2s;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgba(var(--light-color), 0.7);
 }
-
 ::-webkit-scrollbar-thumb:active {
     background-color: rgba(var(--light-color), 0.6);
 }
@@ -169,9 +155,8 @@ body:after {
     color: rgba(var(--bright-color), 1) !important;
     cursor: pointer;
     transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
 }
-
 .b-mention:hover s {
     text-decoration: none !important;
     color: rgba(var(--hover-color), 1) !important;
@@ -196,9 +181,9 @@ header.head .misc {
     color: rgba(var(--white-color), 1) !important;
     font-family: Comfortaa, sans-serif;
     text-shadow: 2px -2px 0 rgba(var(--nick-cover), 1), -2px 2px 0 rgba(var(--nick-cover), 1),
-    -2px -2px 0 rgba(var(--nick-cover), 1), 2px 2px 0 rgba(var(--nick-cover), 1),
-    0 -2px 0 rgba(var(--nick-cover), 1), 0 2px 0 rgba(var(--nick-cover), 1),
-    2px 0 0 rgba(var(--nick-cover), 1), -2px 0 0 rgba(var(--nick-cover), 1);
+        -2px -2px 0 rgba(var(--nick-cover), 1), 2px 2px 0 rgba(var(--nick-cover), 1),
+        0 -2px 0 rgba(var(--nick-cover), 1), 0 2px 0 rgba(var(--nick-cover), 1),
+        2px 0 0 rgba(var(--nick-cover), 1), -2px 0 0 rgba(var(--nick-cover), 1);
     font-size: 34px;
     line-height: 38px;
     pointer-events: none;
@@ -230,13 +215,13 @@ header.head h1 {
     background-color: rgba(var(--buttoms-color), 0.7) !important;
     color: rgba(var(--white-color), 1) !important;
     transition: 0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
     border-radius: 14px;
     border: none;
 }
 
-.b-link_button:hover {
+.b-link_button:hover, {
     background-color: rgba(var(--hover-buttoms-2), 1) !important;
     color: white !important;
     border: none !important;
@@ -362,15 +347,6 @@ textarea {
     border-radius: 6px;
 }
 
-.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .trigger,
-.b-db_entry-variant-list_item > .info .b-user_rate .b-add_to_list .option {
-    max-width: 200px;
-}
-
-.b-catalog_entry-tooltip .b-add_to_list {
-    min-width: 225px;
-}
-
 /* надпись красным "Удалить из списка" */
 .b-add_to_list .expanded-options .remove-trigger .text {
     color: #ffa09e;
@@ -381,51 +357,22 @@ textarea {
 }
 
 /* жанр, ссылка на него */
-.tags > *,
-.line .b-tag,
+.tags .b-anime_status_tag,
 .tags .b-tag,
+.line .b-tag,
+.line .tag,
 .b-forums .reload,
 .p-animes-show .other-names,
 .p-mangas-show .other-names,
 .p-ranobe-show .other-names {
-    position: relative;
-    padding: 0 1px;
+    padding: 1px 12px !important;
     margin: 2px !important;
+    color: rgba(var(--bright-color), 1) !important;
+    background: rgba(var(--bright-color), 0.15) !important;
     transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s !important;
+        min-height 0s !important;
     border: none !important;
     border-radius: 10px;
-}
-
-.tags > [class*="_status_tag"], .tags > * {
-    padding: 0 1px;
-}
-
-.tags > [class*="_status_tag"]:not([data-text]), .tags > .b-tag {
-    padding: 2px 9px;
-}
-
-.p-dashboards-show .v2 .db-update .tags {
-    height: 50px;
-}
-
-.tags > .tag-link,
-.line .b-tag,
-.b-forums .reload,
-.p-animes-show .other-names,
-.p-mangas-show .other-names,
-.p-ranobe-show .other-names {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2px 12px !important;
-}
-
-.p-animes-show .other-names,
-.p-mangas-show .other-names,
-.p-ranobe-show .other-names {
-    background: rgba(var(--block-color), 0.6) !important;
 }
 
 .tags .b-anime_status_tag:hover,
@@ -436,10 +383,11 @@ textarea {
 .p-animes-show .other-names:hover,
 .p-mangas-show .other-names:hover,
 .p-ranobe-show .other-names:hover,
-a.b-anime_status_tag.studio:hover:before {
+a.b-anime_status_tag.studio:hover {
     background-color: rgba(var(--hover-buttoms-2), 1) !important;
     color: white !important;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
+    margin: 2px !important;
     border: none !important;
 }
 
@@ -450,7 +398,7 @@ a.b-anime_status_tag.studio:hover:before {
     color: rgba(var(--bright-color), 1) !important;
     background: rgba(var(--block-color), 0.6) !important;
     transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s !important;
+        min-height 0s !important;
     border: none !important;
     border-radius: 10px;
     display: inline-block;
@@ -478,7 +426,7 @@ a.b-anime_status_tag.studio:hover:before {
     color: rgba(var(--bright-color), 1) !important;
     background: rgba(var(--block-color), 0.6) !important;
     transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s !important;
+        min-height 0s !important;
     border: none !important;
     border-radius: 10px;
     text-align: center;
@@ -529,25 +477,25 @@ a.b-anime_status_tag.studio:hover:before {
 .bar.simple .bar.s3 {
     background: rgba(var(--small-rating), 1);
     transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
 }
 
 .bar.simple .bar.s2 {
     background: rgba(var(--average-rating), 1);
     transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
 }
 
 .bar.simple .bar.s1 {
     background: rgba(var(--high-rating), 1);
     transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
 }
 
 .bar.simple .bar.s0 {
     background: rgba(var(--very-high-rating), 1);
     transition: 0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
 }
 
 .bar.simple .bar {
@@ -574,11 +522,9 @@ a .title span {
     color: rgba(var(--white-color), 1);
     transition: 0.2s all;
 }
-
 a:hover .title span {
     color: rgba(var(--hover-color), 1) !important;
 }
-
 .p-dashboards-show .v2 .db-update .name,
 .b-comment > .inner .name-date .name,
 .b-topic > .inner header .name-date a.name,
@@ -589,16 +535,14 @@ a:hover .title span {
     position: relative;
     padding-top: 2px;
 }
-
 .p-dashboards-show .v2 .db-update .name,
 .b-comment > .inner .name-date .name,
 .b-comment > .inner header .name-date a.name,
 .b-topic > .inner header .name-date a.name,
 .b-dialog > .inner header .name-date a.name,
 .b-message > .inner header .name-date a.name {
-    font-size: 16px;
+    font-size: 15px;
 }
-
 .p-dashboards-show .v2 .db-update .name:hover,
 .b-comment > .inner .name-date .name:hover,
 .b-comments .comments-collapser:hover,
@@ -606,7 +550,6 @@ a:hover .title span {
 .p-user_rates-index .list-lines tr td .episodes_total {
     color: rgba(var(--hover-color), 1) !important;
 }
-
 .b-comment > .inner .name-date .name:hover,
 .b-comment > .inner header .name-date a.name:hover,
 .b-dialog > .inner header .name-date a.name:hover,
@@ -631,7 +574,7 @@ a:hover .title span {
     border: none !important;
     margin-top: 0;
     transition: 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s !important;
+        min-height 0s !important;
 }
 
 .p-animes-show .other-names.click-loader:hover,
@@ -652,7 +595,7 @@ a:hover .title span {
     border-radius: 10px;
     padding: 2px 11px;
     transition: 0.1s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s !important;
+        min-height 0s !important;
 }
 
 .p-animes-show .other-names.click-loader:hover:before,
@@ -674,7 +617,7 @@ a:hover .title span {
     color: rgba(var(--dark-color), 1);
     border: none;
     transition: 0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
     border-radius: 14px;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.05) !important;
 }
@@ -801,7 +744,7 @@ a:hover .title span {
 }
 
 .p-user_rates-index .list-lines tr.editable {
-    transition: 0.1s ease-out, -webkit-0 .1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, min-height 0s;
+    transition: 0.1s ease-out, -webkit-0.1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, min-height 0s;
 }
 
 /* оценки справа в аниме */
@@ -914,9 +857,9 @@ a.start.b-button,
     color: rgba(var(--light-color), 1) !important;
     background-color: rgba(var(--block-color), 0.5);
     border-radius: 10px !important;
-    transition: 0.3s ease-out, -webkit-0 .3s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
-    border: none!important;
+    transition: 0.3s ease-out, -webkit-0.3s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+        min-height 0s;
+    border: none;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -938,21 +881,6 @@ a.start.b-button:hover,
     color: #e4e4e4 !important;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
     opacity: 1;
-}
-
-.b-shiki_editor-v2 .hide {
-    padding: 7px 12px;
-    line-height: 1;
-    font-family: "Comfortaa", sans-serif;
-    color: rgba(var(--light-color), 1) !important;
-    border-radius: 10px !important;
-    transition: 0.3s ease-out, -webkit-0 .3s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
-    border: none!important;
-    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
-}
-.b-shiki_editor-v2 .hide:hover {
-    color: rgba(var(--hover-color), 1) !important;
 }
 
 .b-shiki_editor footer input[type="submit"],
@@ -1033,8 +961,8 @@ input {
     line-height: normal !important;
     margin: 0 0 0 2px;
     padding: 0 7px;
-    transition: 0.2s ease-out, -webkit-0 .2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+    transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+        min-height 0s;
 }
 
 .p-user_rates-index .stat-categories .category:hover {
@@ -1051,8 +979,8 @@ input {
 /* справа выборы фильтров в списке аниме */
 .b-block_list li {
     color: rgba(var(--light-color), 1);
-    transition: 0.1s ease-out, -webkit-0 .1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+    transition: 0.1s ease-out, -webkit-0.1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+        min-height 0s;
     font-family: "Comfortaa", sans-serif;
 }
 
@@ -1161,8 +1089,8 @@ tr.user_rate.selectable.editable:after {
 
 .p-user_rates-index .list-lines .selectable,
 .p-userlist_comparer .comparer table .selectable {
-    transition: 0.15s ease, -webkit-0 .15s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+    transition: 0.15s ease, -webkit-0.15s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+        min-height 0s;
 }
 
 .p-userlist_comparer .comparer table .exact-same,
@@ -1203,7 +1131,7 @@ tr.user_rate.selectable.editable:after {
     color: rgba(var(--bright-color), 1);
     border: none;
     padding: 0 8px 0 8px;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
 .b-js-link:hover {
@@ -1222,8 +1150,8 @@ tr.user_rate.selectable.editable:after {
 .p-profiles .profile-head .c-brief header h1.aliases::after,
 .p-profiles .profile-head .c-brief header .notice a {
     color: rgba(var(--light-color), 1) !important;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s,
-    text-shadow 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s,
+        text-shadow 0s;
 }
 
 .p-profiles .profile-head .c-brief header .notice span:after {
@@ -1244,11 +1172,11 @@ tr.user_rate.selectable.editable:after {
     border: 2px dashed rgba(165, 170, 230, 0.2);
     border-radius: 6px;
     padding: 0 6px;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
 .b-spoiler {
-    transition: 0.5s ease, -webkit-0 .5s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.5s ease, -webkit-0.5s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
 .b-spoiler label:hover {
@@ -1352,7 +1280,7 @@ textarea {
 .b-user.named_avatar .name {
     color: rgba(var(--white-color), 1);
     transition: 1s ease-out, -webkit-1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
     text-decoration: none !important;
     margin: auto;
 }
@@ -1370,7 +1298,7 @@ textarea {
 
 .b-clubs-menu .admin .b-user {
     transition: 1s ease-out, -webkit-1s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+        min-height 0s;
     text-decoration: none !important;
 }
 
@@ -1409,7 +1337,7 @@ textarea {
 }
 
 .c-actions .new_comment:before {
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     color: rgba(var(--bright-color), 1);
 }
 
@@ -1419,7 +1347,7 @@ textarea {
 }
 
 .c-actions .new_review:before {
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     color: rgba(var(--bright-color), 1);
 }
 
@@ -1429,7 +1357,7 @@ textarea {
 
 .c-actions .fav-add:before {
     color: rgba(var(--bright-color), 1);
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
 .c-actions .fav-add:hover:before {
@@ -1437,7 +1365,7 @@ textarea {
 }
 
 .c-actions .edit:before {
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     color: rgba(var(--bright-color), 1);
 }
 
@@ -1647,7 +1575,7 @@ header.head a.edit,
     margin-top: 0;
 }
 
-.p-user_history-index .history-page .history-interval p .destroy,
+.b-user_history-line .destroy,
 .buttons .item-reply,
 .buttons .item-moderation,
 .buttons .item-edit,
@@ -1899,8 +1827,8 @@ header.head a.misc {
     padding: 5px 50px;
     border-radius: 14px;
     color: rgba(var(--light-color), 1);
-    transition: 0.2s ease-out, -webkit-0 .2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+    transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+        min-height 0s;
     margin: 8px;
     pointer-events: auto;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
@@ -1913,6 +1841,12 @@ header.head a.misc:hover {
     background-color: rgba(var(--hover-buttoms-2), 0.6);
     color: #e4e4e4 !important;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* надпись коллекция на зеленом */
+.b-anime_status_tag.collection:before {
+    background-color: #265e2b;
+    border: 1px solid #122113;
 }
 
 .b-collection-topic > .inner .status-line .collection-size,
@@ -2051,12 +1985,12 @@ time {
     color: rgba(var(--hover-color), 1);
 }
 
-.p-user_history-index .history-page .history-interval p a:hover {
+.b-user_history-line a:hover {
     color: rgba(var(--hover-color), 1) !important;
     font-weight: bold;
 }
 
-.p-user_history-index .history-page .history-interval p a {
+.b-user_history-line a {
     color: rgba(var(--white-color), 1);
     font-weight: bold;
 }
@@ -2066,7 +2000,7 @@ body.localized_names-ru .name-ru:hover {
     text-decoration: none !important;
 }
 
-.p-user_history-index .history-page .history-interval p .date {
+.b-user_history-line .date {
     color: rgba(var(--dark-color), 1) !important;
 }
 
@@ -2122,7 +2056,6 @@ body.localized_names-ru .name-ru:hover {
     background: #263238;
     color: #fff;
 }
-
 .b-code-v2:before {
     background-color: #556571;
     -webkit-border-radius: 0 0 0 10px;
@@ -2133,13 +2066,11 @@ body.localized_names-ru .name-ru:hover {
     right: 0;
     top: 0;
 }
-
 code.b-code_inline {
     background-color: #263238b5;
     border: 1px solid #263238b5;
     color: #ff678e;
 }
-
 .tooltip-inner .close {
     color: rgba(var(--bright-color), 1);
     background: none;
@@ -2254,8 +2185,8 @@ code.b-code_inline {
     color: rgba(var(--hover-color), 1);
 }
 
-.quoteable:before {
-    color: rgba(var(--bright-color), 1)!important;
+.b-quote .quoteable:before {
+    color: rgba(var(--bright-color), 1);
 }
 
 .b-bb_codes-examples .example span {
@@ -2266,13 +2197,11 @@ code.b-code_inline {
 .b-image .marker,
 .b-video .name {
     color: rgba(var(--light-color), 1);
+    background: rgba(var(--block-color), 0.8);
     padding: 2px 2px 0 0;
     line-height: 12px;
-    margin-left: 0;
-    margin-bottom: 0;
-    bottom: 0;
-    border-radius: 8px 0 0 0 !important;
-    right: 0;
+    margin-left: 3px;
+    margin-bottom: 3px;
 }
 
 .b-bb_codes-examples .result a:hover {
@@ -2309,8 +2238,8 @@ code.b-code_inline {
     background: rgba(var(--shadows-color), 0.15);
     border-radius: 10px;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s,
-    background 0.2s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s,
+        background 0.2s;
 }
 
 body.localized_names-ru .name-ru {
@@ -2325,14 +2254,14 @@ body.localized_names-ru .name-ru {
 .p-topics .l-menu .clubs .entry {
     margin-bottom: 0;
     padding: 0 3px 0;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s,
-    background 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s,
+        background 0s;
     border-top: none;
     text-decoration: none !important;
 }
 
 body.localized_names-ru .name-ru:before {
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
 .p-profiles .profile-head .c-history .entry img {
@@ -2377,7 +2306,7 @@ body.localized_names-ru .name-ru:before {
     border-radius: 13px;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
     background: rgba(var(--block-color), 0.6);
-    transition: 0.3s ease, -webkit-0 .3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.3s ease, -webkit-0.3s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     font-size: 14px;
     color: rgba(var(--dark-color), 1);
     height: 28px;
@@ -2423,7 +2352,7 @@ body.localized_names-ru .name-ru:before {
     height: 8px;
     border-radius: 50%;
     font-size: 0;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
 .headline > a:hover:before,
@@ -2432,14 +2361,13 @@ body.localized_names-ru .name-ru:before {
     color: rgba(var(--hover-color), 1) !important;
     background: linear-gradient(270deg, rgba(var(--hover-color), 1), rgba(var(--hover-color), 0.3));
 }
-
 .headline > a,
 .midheadline > a,
 .subheadline > a,
 .p-topics .l-menu .sticky-topics .topic {
     color: rgba(var(--dark-color), 1);
-    transition: 0.2s ease, -webkit-0 .2s ease, margin 0s, padding 0s, opacity 0s, color 0.2s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,
-    border 0s, border-radius 0s, left 0s, right 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, margin 0s, padding 0s, opacity 0s, color 0.2s, font-size 0s, width 0s, height 0s, top 0s, bottom 0s,
+        border 0s, border-radius 0s, left 0s, right 0s, line-height 0s, min-height 0s;
 }
 
 .headline > a:hover,
@@ -2460,14 +2388,14 @@ body.localized_names-ru .name-ru:before {
 .profile-actions .ignore-add::before,
 .profile-actions .ignore-remove::before {
     color: rgba(var(--light-color), 0.6) !important;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     font-size: 24px !important;
 }
 
 .profile-actions .ignore-remove::before,
 .profile-actions .fav-remove::before {
     color: #ffc24eab !important;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     font-size: 24px !important;
 }
 
@@ -2487,8 +2415,8 @@ a.name {
 }
 
 .b-clubs.one-line .b-club {
-    transition: 0.2s ease-out, -webkit-0 .2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
-    min-height 0s;
+    transition: 0.2s ease-out, -webkit-0.2s ease-out, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s,
+        min-height 0s;
 }
 
 .bar.vertical {
@@ -2619,39 +2547,32 @@ img {
 .profile-actions .fav-remove::before,
 .profile-actions .ignore-add:before,
 .profile-actions .ignore-remove:before {
-    transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color .2s;
+    transition: 0s ease, -webkit-0s ease, transform 0.2s, ease color.2s;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
-
 .profile-actions .mail:before,
 .profile-actions .talk:before {
     content: "\f0e0";
 }
-
 .profile-actions .settings:before {
     content: "\f085";
 }
-
 .profile-actions .ban:before {
     content: "\f06a";
     line-height: 38px !important;
 }
-
 .profile-actions .fav-add::before {
     content: "\f234";
 }
-
 .profile-actions .fav-remove::before {
     content: "\f235";
 }
-
 .profile-actions .ignore-add:before {
     content: "\f2a8";
 }
-
 .profile-actions .ignore-remove:before {
     content: "\f25b";
 }
@@ -2675,15 +2596,12 @@ img {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
-
 .buttons .item-delete:before {
     content: "\f1f8";
 }
-
 .buttons .item-edit:before {
     content: "\f040";
 }
-
 .buttons .item-reply:before {
     content: "\f27a";
 }
@@ -2730,7 +2648,7 @@ img {
     padding: 9px 17px;
     font-size: 11px;
     box-shadow: 0 0 5px rgba(var(--shadows-color), 0.1);
-    transition: 0.1s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.1s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     color: rgba(var(--white-color), 1);
     border-radius: 19px;
 }
@@ -2757,7 +2675,7 @@ img {
 .club-actions .broadcast:before,
 .club-actions .edit-club:before,
 .club-actions .leave:before {
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     color: rgba(var(--bright-color), 1);
 }
 
@@ -2779,7 +2697,7 @@ img {
     background: rgba(var(--hover-color), 1);
     color: #f9f9f9;
     line-height: 41px;
-    transition: 0.5s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.5s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
     font-size: 19px;
     font-weight: bold;
     width: 37px;
@@ -2797,7 +2715,7 @@ img {
 
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
     color: rgba(var(--white-color), 1) !important;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover {
@@ -2848,7 +2766,7 @@ body#dashboards_show .l-page {
     color: rgba(var(--dark-color), 1);
     text-decoration: none !important;
     border-bottom: none;
-    transition: 0.2s ease, -webkit-0 .2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
+    transition: 0.2s ease, -webkit-0.2s ease, width 0s, margin 0s, padding 0s, font-size 0s, height 0s, top 0s, left 0s, line-height 0s, min-height 0s;
 }
 
 @media screen and (max-width: 1200px) {
@@ -2856,12 +2774,10 @@ body#dashboards_show .l-page {
         content: "★ ▬▬ ACHIEVEMENTS ▬▬ ★";
         font-size: 32px;
     }
-
     .p-achievements-index .cc-achievements .b-achievement,
     .p-achievements-index .cc-franchises-genres .c-genres .b-achievement {
         width: calc(300px - 36px);
     }
-
     .p-achievements-index .cc-achievements,
     .p-achievements-index .cc-franchises-genres .c-genres .cc-achievements,
     .c-franchises .cc {
@@ -2871,14 +2787,12 @@ body#dashboards_show .l-page {
         align-content: center;
         justify-content: center;
     }
-
     .b-achievement .c-about .title {
         height: 33px;
         line-height: 18px !important;
         display: table-cell;
         vertical-align: middle;
     }
-
     .p-achievements-index .c-franchises .b-badge {
         width: 280px;
         margin-right: 1% !important;
@@ -2887,7 +2801,6 @@ body#dashboards_show .l-page {
     body.p-achievements.p-profiles .b-list_switchers {
         margin-top: 2px !important;
     }
-
     .p-profiles-show .cc-favourites .c-column:nth-child(n + 9) {
         display: none;
     }
@@ -2898,29 +2811,23 @@ body#dashboards_show .l-page {
     .p-achievements-index .cc-franchises-genres .c-genres .b-achievement {
         width: calc(250px - 36px);
     }
-
     .p-achievements-index .cc-achievements .b-achievement .c-about .text {
         font-size: 11px;
     }
-
     .b-achievement .c-about {
         padding: 14px;
     }
-
     .b-achievement .c-about a.title {
         font-size: 12px;
     }
-
     .p-achievements-index .cc-achievements .b-achievement,
     .p-achievements-index .cc-franchises-genres .c-genres .b-achievement {
         min-height: 314px;
     }
-
     span.switcher.b-tooltipped.popularity,
     span.switcher.b-tooltipped.alphabet {
         width: 80px;
     }
-
     .b-list_switchers .switcher.popularity:before,
     .b-list_switchers .switcher.alphabet:before {
         content: "===";
@@ -2934,38 +2841,30 @@ body#dashboards_show .l-page {
     .p-achievements-index .cc-franchises-genres .c-genres .b-achievement {
         width: calc(200px - 36px);
     }
-
     .p-achievements-index .cc-achievements .b-achievement .c-about .text {
         font-size: 11px;
     }
-
     .b-achievement .c-about {
         padding: 12px;
     }
-
     .b-achievement .c-about a.title {
         font-size: 12px;
     }
-
     .b-achievement .c-about .hint {
         font-size: 10px;
     }
-
     .b-achievement .c-about .percent {
         float: right;
         font-size: 12px;
     }
-
     .p-achievements-index .cc-achievements .b-achievement,
     .p-achievements-index .cc-franchises-genres .c-genres .b-achievement {
         min-height: 314px;
     }
-
     span.switcher.b-tooltipped.popularity,
     span.switcher.b-tooltipped.alphabet {
         width: 30px;
     }
-
     .b-list_switchers .switcher.popularity:before,
     .b-list_switchers .switcher.alphabet:before {
         content: "";
@@ -2980,37 +2879,32 @@ body#dashboards_show .l-page {
         width: 100%;
         max-width: 300px;
     }
-
     body.p-achievements.p-profiles .block.m0:before {
         content: "★ ACHIEVEMENTS ★";
         font-size: 32px;
     }
-
     .p-achievements-index .cc-achievements .b-achievement,
     .p-achievements-index .cc-franchises-genres .c-genres .b-achievement {
         min-height: 274px;
     }
-
     span.switcher.b-tooltipped.popularity,
     span.switcher.b-tooltipped.alphabet {
         width: 30px;
     }
-
     .b-list_switchers .switcher.popularity:before,
     .b-list_switchers .switcher.alphabet:before {
         content: "";
         font: bold 20px "Comfortaa" !important;
         width: 50px;
     }
-
     .p-achievements-index .c-franchises .b-badge {
         margin: 6px !important;
     }
-
     .p-achievements-index .c-franchises .b-badge[data-progress="100"]:after {
         background: linear-gradient(135deg, transparent 280px, #483d1c 0);
     }
 }
+
 
 
 .b-spoiler_block > div,
@@ -3018,11 +2912,9 @@ body#dashboards_show .l-page {
     background-color: rgba(var(--block-color), 0.3);
     border-left: 4px solid rgba(var(--light-color), 0.3);
 }
-
 .b-spoiler_block > div {
     display: flow-root;
 }
-
 .b-spoiler_block > span {
     color: rgba(var(--light-color), 1) !important;
     background-color: rgba(var(--block-color), 0);
@@ -3038,104 +2930,57 @@ body#dashboards_show .l-page {
     border: 2px solid rgba(var(--light-color), 0.2) !important;
     text-transform: lowercase;
 }
-
 .b-spoiler_block.is-opened > span {
     border-radius: 9px 9px 0 0;
     border-left: 4px solid rgba(var(--light-color), 0.2) !important;
     border-right: 3px solid rgba(var(--light-color), 0.2) !important;
 }
-
 .b-spoiler_block > span:active {
     background-color: rgba(var(--hover-buttoms-2), 0.6);
 }
-
 .b-spoiler_inline:not(.is-opened) {
     background-color: rgba(var(--block-color), 1);
 }
-
 h2,
 h3,
 h4 {
     color: rgba(var(--white-color), 0.9);
 }
-
 h2 + hr,
 h4 + hr,
 h3 + hr,
 h1 + hr {
     background-image: linear-gradient(to right, rgba(var(--light-color), 0.4), transparent);
 }
-
 p {
     color: rgba(var(--light-color), 1);
 }
-
 .menubar {
     background: none !important;
+
     padding: 3px 0;
+
     border-radius: 12px 12px 0 0;
 }
-
-.menu_group:not(.menu_group-controls) {
-    overflow: hidden;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 36px;
+.menu-group {
+    background: rgba(var(--bright-color), 0.2) !important;
     margin: 1px 10px 1px 0;
+    border-radius: 9px;
     padding: 0 !important;
-    border-radius: 10px;
-    background: rgba(var(--block-color), 0.6);
-    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
 }
-
-.menu_group:not(.menu_group-controls) > button:hover {
-    background: rgba(var(--hover-buttoms-2), 0.6);
-    height: 100%;
-}
-
-.menu_group:not(.menu_group-controls):before {
-    display: none;
-}
-
 .menubar .icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: rgba(var(--light-color), 1) !important;
+    color: rgba(var(--white-color), 0.9) !important;
     padding: 5px;
     width: 30px;
     height: 30px;
 }
-
 .menu-group:before {
     content: none !important;
 }
-
-.menu_group.menu_group-controls .icon {
-    transition: 0.2s ease;
-}
-.menu_group.menu_group-controls .icon.is-button:hover {
-    background-color: rgba(var(--hover-buttoms-2), 0.6);
-    color: #e4e4e4 !important;
-}
-.menu_group.menu_group-controls .icon.is-button.is-active {
-    color: rgba(var(--hover-color), 1)!important;
-    background: none;
-}
-
-.shade {
-    background: rgba(var(--menu-back), 0.4)!important;
-}
-.popup-content {
-    border-radius: 12px;
-    background: rgba(var(--menu-back), 1)!important;
-    box-shadow:0 2px 6px 2px rgb(0 0 0 / 30%)
-}
-.b-tip>[data-popper-arrow]:before {
-    background: rgba(var(--menu-back), 1)!important;
-}
-
 .ProseMirror {
     background-color: rgba(var(--block-color), 0.4);
     border: none;
@@ -3144,7 +2989,6 @@ p {
     padding: 7px 10px;
     box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
 }
-
 @media screen and (min-width: 1024px) {
     .b-spoiler_block > span:hover {
         background-color: rgba(var(--hover-buttoms-2), 0.6);
@@ -3156,15 +3000,12 @@ p {
 .p-animes .c-about .watch-online > a.kind > span {
     display: none;
 }
-
 .p-animes .c-about .watch-online .b-link_button > span {
     display: none;
 }
-
 .p-animes .c-about .watch-online .b-link_button {
     display: block;
 }
-
 .p-animes .c-about .watch-online .b-link_button:after {
     display: block;
     content: attr(title);
@@ -3173,39 +3014,33 @@ p {
     color: rgba(var(--light-color), 1);
     line-height: 1.5;
 }
-
 .p-animes[data-locale="en"] .c-about .watch-online > a.kind:before {
     display: block;
     font-size: 15px;
     font-weight: 600;
     content: "Watch Online";
 }
-
 .p-animes[data-locale="ru"] .c-about .watch-online > a.kind:before {
     display: block;
     font-size: 15px;
     font-weight: 600;
     content: "Смотреть Онлайн";
 }
-
 .p-animes[data-locale="en"] .c-about .watch-online .b-link_button:before {
     display: block;
     font-size: 15px;
     font-weight: 600;
     content: "Смотреть Онлайн";
 }
-
 .p-animes[data-locale="ru"] .c-about .watch-online .b-link_button:before {
     display: block;
     font-size: 15px;
     font-weight: 600;
     content: "Смотреть Онлайн";
 }
-
 .p-animes .c-about .watch-online > a.kind:before {
     color: rgb(var(--white-color));
 }
-
 .p-animes .c-about .watch-online > a.kind {
     background-color: rgb(var(--buttoms-color), 0.7);
     border-radius: 15px;
@@ -3219,16 +3054,13 @@ p {
     font-family: var(--font-alt);
     line-height: 1.3;
 }
-
 .p-animes .c-about .watch-online > a.kind:hover {
     background-color: rgb(var(--hover-buttoms-2));
     color: #fff !important;
 }
-
 .p-animes .c-about .watch-online > a.kind + a.kind {
     margin-top: 3px;
 }
-
 .watch-online a {
     padding: 8px 20px 6px !important;
 }
@@ -3237,9 +3069,8 @@ p {
 .p-dashboards-show .v2 .db-updates {
     overflow: hidden;
 }
-
 /*на Телефоне_контент вылизал фикс > Test*/
 .p-dashboards-show .v2 .db-updates .inner,
-.p-dashboards-show .v2 .db-updates .inner > .db-update {
+.p-dashboards-show .v2 .db-updates .inner>.db-update {
     margin-bottom: 0;
 }

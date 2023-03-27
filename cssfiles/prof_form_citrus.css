@@ -3,8 +3,8 @@
 		width: 100%;
   }
 	.p-profiles-show .cc-friends .b-user, .p-profiles-show .cc-friends .b-user:last-child  {
-		width: 21%;
-		margin: auto 0% !important;
+		width: 21%; 
+		margin: auto 0% !important; 
   }
 	.p-profiles .profile-head .c-brief .avatar img	{
 		border-radius: 50%;
@@ -12,39 +12,39 @@
   }
 	.x1000 > .l-page div .profile-head .c-info .c-lists-info, .p-profiles .profile-head .c-info .c-lists-info  {
 		z-index: 2 ;
-		width: 100%;
-		margin: auto;
+		width: 100%; 
+		margin: auto; 
 		height: 110px;
-		line-height: 200px;
+		line-height: 200px; 
 		transform: scale(1);
   }
 	.p-profiles .profile-head .c-brief header.head .misc span  {
 		background: rgba(var(--block-color), 0.7);
-		padding: 4.4px 13px;
-	    border-radius: 15px 15px 0 0;
+		padding: 4px 13px;
+	    border-radius: 15px;
         box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2) !important;
   }
 	.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate  {
 		margin-left: -3px;
   }
 	body#profiles_show .l-page  {
-		margin-top: 400px;
+		margin-top: 400px;  
   }
 	body#profiles_show .profile-head  {
-		top: -385px;
-		border-radius: 9px;
+		top: -385px; 
+		border-radius: 9px; 
   }
 	.p-profiles .profile-head  {
 		overflow: visible;
 		margin: -15px 0px 10px;
 		position: relative;
-		height: 385px;
+		height: 385px; 
   }
 	.x1000 > .l-page div .profile-head  {
-		height: 385px;
+		height: 385px; 
   }
 	body#profiles_show .profile-content  {
-		margin-top: -385px;
+		margin-top: -385px;  
   }
 	.p-profiles .profile-head .c-history, .p-profiles .profile-head .c-history.x2, .p-profiles .profile-head .c-history.x3  {
 		background: none ;
@@ -52,50 +52,50 @@
 		padding: 0px 5px 0px;
 		position: absolute;
 		right: 15px ;
-		top: 395px;
+		top: 395px; 
 		z-index: 2;
   }
 	.p-profiles .profile-head .c-brief  {
 		margin-bottom: 0;
 		position: absolute;
-		left: 0;
+		left: 0; 
 		bottom: 0 ;
-		width: 100%;
-		height: 110px;
+		width: 100%; 
+		height: 110px; 
 		padding: 0 15px;
   }
 	.p-profiles .profile-head .c-brief .avatar  {
-		margin: -30px 30px 30px 0;
+		margin: -30px 30px 30px 0; 
 		margin-top: -170px !important ;
 		text-align: center ;
 		max-width: 100% ;
-		width: 100%;
-		float: none !important;
+		width: 100%; 
+		float: none !important; 
   }
 	.p-profiles .profile-head .c-brief header  {
-		text-align: center;
-		margin-top: -15px!important;
+		text-align: center; 
+		margin-top: -15px!important; 
   }
-	.p-profiles .profile-head .c-brief header {
+	.p-profiles .profile-head .c-brief header { 
 		padding: 14px 0 0;
   }
-	.p-profiles .profile-head .c-info .c-additionals {
+	.p-profiles .profile-head .c-info .c-additionals { 
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		width: 100%;
 		margin: 0 auto;
-		margin-bottom: 29px!important;
+		margin-bottom: 29px!important; 
 		text-align: center;
 		font-size: 12px;
   }
-	.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+	.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar { 
 		margin-bottom: 15px;
-		background: transparent;
+		background: transparent; 
 		border-radius: 5%;
 		padding: 0px 10px 10px;
 		vertical-align: middle;
-		display: inline-block;
+		display: inline-block; 
   }
 	.p-profiles-show.x1200 .profile-content .c-left, .p-profiles-show.x1000 .profile-content .c-left  {
 		width: 49% ;
@@ -116,11 +116,11 @@
 		display: none;
   }
 	.cc-2.block  {
-		display: inline-block;
+		display: inline-block; 
 		width: 100% ;
   }
 	.profile-content > .cc-2 .c-column .cc-2a.m30  {
-		min-height: 230px;
+		min-height: 230px; 
 		position: absolute;
 		top: 0;
 		right: 25%;
@@ -131,7 +131,7 @@
 		width: 100%;
   }
 	.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child  {
-		margin-top: 10px;
+		margin-top: 10px; 
 	}
 	.p-profiles-show.x1200 .profile-content .c-right, .p-profiles-show.x1000 .profile-content .c-right  {
 		width: 100%!important ;
@@ -148,7 +148,7 @@
 		margin-bottom: 10px!important;
 		float: none!important;
   }
-	.p-profiles-show.x1200 .profile-content .c-right .cc-2a>.c-column, .p-profiles-show.x1000 .profile-content .c-right .cc-2a>.c-column {
+	.p-profiles-show.x1200 .profile-content .c-right .cc-2a>.c-column, .p-profiles-show.x1000 .profile-content .c-right .cc-2a>.c-column {  
 		box-sizing: border-box;
 		position: relative;
 		width: 100%;
@@ -164,21 +164,21 @@
 		bottom: 0 ;
 		left: 0 ;
 		width: 100% ;
-		margin: 0 auto;
+		margin: 0 auto; 
 		margin-bottom: 29px!important ;
 		text-align: center ;
 		font-size: 12px ;
   }
 	.p-profiles .profile-head  {
-		background-image: none;
+		background-image: none; 
 		background-color: transparent ;
-		background-size: cover;
-		background-position: center;
+		background-size: cover; 
+		background-position: center;  
 		background-repeat: no-repeat;
 		box-shadow: none;
   }
-	.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove {
-		margin-left: 0;
+	.profile-actions .mail, .profile-actions .talk, .profile-actions .fav-remove, .profile-actions .ban, .profile-actions .fav-add, .profile-actions .settings, .profile-actions .ignore-add, .profile-actions .ignore-remove { 
+		margin-left: 0; 
 		padding: 10px 10px 5px;
 		border-radius: 3px;
 		transition: 0.3s ease;
@@ -187,7 +187,7 @@
 		color: rgba(var(--hover_color), 1);
   }
 	.profile-actions .mail::before, .profile-actions .talk::before, .profile-actions .fav-remove::before, .profile-actions .ban::before, .profile-actions .fav-add::before, .profile-actions .settings::before .profile-actions .ignore-add::before, .profile-actions .ignore-remove::before {
-		font-size: 20px;
+		font-size: 20px; 
   }
 	.p-profiles .profile-head .c-brief header h1  {
 		margin-top: -13px;
@@ -195,7 +195,7 @@
 	.b-stats_bar a.title, .b-stats_bar .title  {
 		line-height: 40px;
   }
-	.b-stats_bar.manga .compatibility a:before, .b-stats_bar.anime .compatibility a:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before {
+	.b-stats_bar.manga .compatibility a:before, .b-stats_bar.anime .compatibility a:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.weak:before, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text.zero:before, .b-stats_bar .compatibility .text.high:before, .b-stats_bar .compatibility .text.moderate:before, .b-stats_bar .compatibility .text.full:before { 
 		font-size: 24px;
 		line-height: 40px;
   }
@@ -208,21 +208,21 @@
 		margin: 0 auto;
 		margin-bottom: 29px!important ;
 		text-align: center;
-		font-size: 12px;
+		font-size: 12px; 
   }
 	.b-stats_bar .stat_names  {
 		font-size: 12px;
-		height: 30px;
+		height: 30px; 
   }
 	.p-profiles .profile-head .c-info .c-additionals div a  {
 		color: rgba(var(--light_color), 1), !important ;
 		transition: 0.3s ease ;
 }
 	.p-profiles .profile-head .c-info .c-additionals, .p-profiles .profile-head .c-brief header .notice  {
-		text-shadow: 1px -1px 0px rgba(var(--nick-cover), 1), -1px 1px 0px rgba(var(--nick-cover), 1), -1px -1px 0px rgba(var(--nick-cover), 1), 1px 1px 0px rgba(var(--nick-cover), 1), 0px -1px 0px rgba(var(--nick-cover), 1), 0px 1px 0px rgba(var(--nick-cover), 1), 1px 0px 0px rgba(var(--nick-cover), 1), -1px 0px 0px rgba(var(--nick-cover), 1);
+		text-shadow: 1px -1px 0px rgba(var(--nick-cover), 1), -1px 1px 0px rgba(var(--nick-cover), 1), -1px -1px 0px rgba(var(--nick-cover), 1), 1px 1px 0px rgba(var(--nick-cover), 1), 0px -1px 0px rgba(var(--nick-cover), 1), 0px 1px 0px rgba(var(--nick-cover), 1), 1px 0px 0px rgba(var(--nick-cover), 1), -1px 0px 0px rgba(var(--nick-cover), 1); 
   }
 }
-
+  
   @media screen and (min-width: 1200px) {
     .p-profiles .profile-head .c-info .c-lists-info, .x1000 > .l-page div .profile-head .c-info .c-lists-info {
       width: 28%;
@@ -1101,7 +1101,7 @@ position: absolute;
     left: 0;
     background: linear-gradient(0deg, rgba(var(--dark-color), var(--hundred)), rgba(var(--dark-color), 0.3));
     }
-
+	  
     .profile-content .cc-2a.m30 .subheadline>a:hover:before, body#profiles_show .subheadline.m13 > a:hover:before {
       background:  rgba(var(--hover-color), var(--hundred));
     }
@@ -1118,18 +1118,20 @@ position: absolute;
       padding: 0px 0px 0px 4px;
     }
     .p-profiles .profile-head .c-brief header.head .misc {
-        top: auto;
-        bottom: 4px;
-        left: 0;
-        width: 100%;
-        color:  rgba(var(--hover-color), var(--hundred)) !important;
+      top: auto;
+      bottom: 18px;
+      left: 5px;
+      text-align: center;
+      width: 100%;
+      color:  rgba(var(--bright-color), var(--hundred)) !important;
+      opacity: 0.3;
     }
     .p-profiles-show .cc-friends .b-user, .p-profiles-show .cc-friends .b-user:last-child {
       width: 16%;
       margin: auto 0% !important;
     }
   }
-
+  
   @media screen and (min-width: 1530px) {
 	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
     justify-content: flex-start;
@@ -1183,26 +1185,22 @@ position: absolute;
       margin-bottom: 62px !important;
     }
     .p-profiles .profile-head .c-brief header.head .misc {
-        top: auto;
-        bottom: 4px;
-        left: 0;
-        width: 100%;
-        color:  rgba(var(--hover-color), var(--hundred)) !important;
+      top: auto;
+      bottom: 18px;
+      left: 0;
+      width: 100%;
     }
     body#profiles_show .activity .b-nothing_here {
       line-height: 99px !important;
     }
   }
-
+  
   @media screen and (min-width: 1830px) {
 	  body#profiles_show .profile-content .cc-2.block {
     margin-bottom: 30px;
     transition: margin 0s, padding 0s, width 0s, height 0s;
 }
-   .cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child {
-	 margin-top: -10px;  
-}
-   .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
+	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
     justify-content: center;
 }
     body#profiles_show .profile-head {
@@ -1242,7 +1240,7 @@ position: absolute;
     border-radius: 14px;
 	    box-sizing: content-box;
     }
-
+    
     .profile-head .subheadline.m13 {
       position: absolute;
     right: 4px;
@@ -1270,7 +1268,7 @@ position: absolute;
 
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
     }
 	  .p-profiles .profile-head .c-history .entry .title {
     padding-top: 3px;
@@ -1285,7 +1283,7 @@ position: absolute;
     margin-right: calc(40px + 1%);
     box-sizing: content-box;
 }
-
+    
     #profiles_show .subheadline.m13 > a {
       padding: 0px;
       font-size: 0px;
@@ -1312,9 +1310,9 @@ position: absolute;
       text-rendering: auto;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-
+      
       background: rgba(var(--dark-color), 0.15);
-
+      
     }
 	  #profiles_show .subheadline.m13:after {
     content: '\f187';
@@ -1416,7 +1414,7 @@ position: absolute;
     .p-profiles .profile-head .c-brief .avatar img {
       width: 180px;
 	  height: auto;
-
+	    
     }
     .p-profiles .profile-head .c-brief .avatar {
       margin-top: -236px !important;
@@ -1436,9 +1434,9 @@ position: absolute;
     }
     .p-profiles .cc-2a .c-column.m0 .subheadline {
       margin-bottom: 0px !important;
-
+	    
     }
-
+	  
     .p-profiles-show .profile-content .graph {
       height: 124px;
     }
@@ -1464,7 +1462,7 @@ position: absolute;
     }
     .p-profiles .profile-head .c-brief header.head .misc {
       top: auto;
-      bottom: 4px;
+      bottom: 0;
       left: 0;
       width: 100%;
       color:  rgba(var(--hover-color), var(--hundred)) !important;
@@ -1479,15 +1477,11 @@ position: absolute;
       background: rgba(var(--menu-back), 0.3);
     }
   }
-
-  @media screen and (min-width: 1200px) and (max-width: 1289px) {
+  
+  @media screen and (min-width: 1200px) and (max-width: 1290px) {
 	  .cc-2.block .headline > a, .cc-2.block .subheadline > a, .cc-2.block .subheadline, .block.achievements .subheadline, .block.achievements .subheadline > a {
     justify-content: center;
-	  }
-	.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child {
-		margin-top: -10px; 
-	  }
-
+}
     .p-profiles-show .lifetime {
       margin-bottom: 0px;
     }
@@ -1531,7 +1525,7 @@ position: absolute;
     border-radius: 14px;
 	    box-sizing: content-box;
     }
-
+    
     .profile-head .subheadline.m13 {
       position: absolute;
     right: 4px;
@@ -1558,7 +1552,7 @@ position: absolute;
       width: 100%;
 	     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
     }
 	  .p-profiles .profile-head .c-history .entry .title {
     padding-top: 3px;
@@ -1573,7 +1567,7 @@ position: absolute;
     margin-right: calc(30px + 1%);
     box-sizing: content-box;
 }
-
+    
     #profiles_show .subheadline.m13 > a {
       padding: 0px;
       font-size: 0px;
@@ -1600,9 +1594,9 @@ position: absolute;
       text-rendering: auto;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-
+      
       background: rgba(var(--dark-color), 0.15);
-
+      
     }
 	  #profiles_show .subheadline.m13:after {
     content: '\f187';
@@ -1676,7 +1670,7 @@ position: absolute;
     }
     .p-profiles-show.x1200 .profile-content .c-right, .p-profiles-show.x1000 .profile-content .c-right {
       z-index: 1;
-      margin-top: 18px;
+      top: 18px;
     }
     .profile-content > .cc-2 .c-column .cc-2a.m30 .cc-friends {
       display: inline-flex;
@@ -1742,7 +1736,7 @@ position: absolute;
     }
     .p-profiles .profile-head .c-brief header.head .misc {
       top: auto;
-      bottom: 4px;
+      bottom: 0;
       left: 0;
       width: 100%;
     }
@@ -1753,3 +1747,4 @@ position: absolute;
       border-radius: 10px;
     }
   }
+  
