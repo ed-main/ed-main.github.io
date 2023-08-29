@@ -78,11 +78,11 @@
   #profiles_show.x1200 .c-column.c-left {
     width: 550px !important;
     max-width: 550px;
-    left: 26rem;
+    left: calc(0% + 12%);
     top: -18rem;
   }
   #profiles_show .cc-2 .c-column .cc-2a.m30 {
-    left: 33rem;
+    left: calc(12% + 111px);
     top: -18rem;
     width: 320px;
   }
@@ -94,11 +94,11 @@
     width: 320px;
     max-width: 320px;
     top: -18rem;
-    left: 41.095rem;
+    left: calc(12% + 240px);
   }
   #profiles_show .c-info .c-lists-info,
   #profiles_show.x1000 > .l-page div .c-info .c-lists-info {
-    left: 47.484rem;
+    left: calc(12% + 341px);
     top: -18rem;
     width: calc(80% - 44.2%);
     max-width: 550px;
