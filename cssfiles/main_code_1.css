@@ -68,6 +68,8 @@ html {
 }
 
 body {
+    position: absolute;
+    inset: auto;
     min-height: 100%;
     width: 100vw;
     width: -moz-available;
