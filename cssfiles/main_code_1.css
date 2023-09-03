@@ -69,7 +69,7 @@ html {
 
 body {
     position: absolute;
-    inset: auto;
+    inset: 0 0 auto 0;
     min-height: 100%;
     width: 100vw;
     width: -moz-available;
