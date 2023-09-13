@@ -389,7 +389,8 @@ textarea {
 .b-forums .reload,
 .p-animes-show .other-names,
 .p-mangas-show .other-names,
-.p-ranobe-show .other-names {
+.p-ranobe-show .other-names,
+.p-mangas-show .more-info {
     position: relative;
     padding: 0 1px;
     margin: 2px !important;
@@ -416,7 +417,8 @@ textarea {
 .b-forums .reload,
 .p-animes-show .other-names,
 .p-mangas-show .other-names,
-.p-ranobe-show .other-names {
+.p-ranobe-show .other-names,
+.p-mangas-show .more-info {
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -426,6 +428,7 @@ textarea {
 
 .p-animes-show .other-names,
 .p-mangas-show .other-names,
+.p-mangas-show .more-info,
 .p-ranobe-show .other-names {
     background: rgba(var(--block-color), 0.6) !important;
 }
@@ -438,6 +441,7 @@ textarea {
 .p-animes-show .other-names:hover,
 .p-mangas-show .other-names:hover,
 .p-ranobe-show .other-names:hover,
+.p-mangas-show .more-info:hover,
 a.b-anime_status_tag.studio:hover:before {
     background-color: rgba(var(--hover-buttoms-2), 1) !important;
     color: white !important;
