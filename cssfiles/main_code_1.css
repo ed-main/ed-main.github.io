@@ -71,10 +71,9 @@ body {
     position: absolute;
     inset: 0 0 auto 0;
     min-height: 100%;
-    /*width: 100vw;*/
     width: -moz-available;
-    overflow: auto;
-    overflow: overlay;
+    overflow-x: hidden;
+    overflow-y: auto;
     color: rgba(var(--light-color), 1);
     background-image: none;
     background-size: cover !important;
