@@ -2973,6 +2973,7 @@
 
     .p-profiles .profile-head .c-history > * {
         display: inline-flex !important;
+        flex-wrap: wrap;
     }
 
     .c-history .subheadline {
@@ -5155,5 +5156,4 @@ div.Ssylki-anime:hover .Text-2 {
         width: calc(100% / 8 - 1 * 1%);
     }
 }
-
 /*------*/
