@@ -1213,9 +1213,6 @@
     }
 }
 
-@media screen and (max-width: 860px) {
-}
-
 @media screen and (max-width: 767px) {
     .l-top_menu-v2 .menu-icon,
     .l-top_menu-v2 .menu-dropdown > span {
@@ -1394,7 +1391,13 @@
         animation: animhist 5s ease-in-out infinite;
         animation-delay: 2s;
     }
-
+    .p-profiles .subheadline.m13 {
+        height: 28px;
+   }
+    .p-profiles .c-history > div {
+        height: 45px;
+        overflow: hidden;
+   }
     .b-stats_bar .stat_names {
         display: none;
     }
@@ -2967,7 +2970,7 @@
         width: calc(100% - 64px);
         margin-top: 0;
     }
-
+    
     .p-profiles .profile-head .c-history > * {
         display: inline-flex !important;
         flex-wrap: wrap;
@@ -2975,7 +2978,6 @@
     .c-history > div {
         width: 100%;
     }
-
     .c-history .subheadline {
         background: none !important;
         box-shadow: none !important;
@@ -5156,4 +5158,5 @@ div.Ssylki-anime:hover .Text-2 {
         width: calc(100% / 8 - 1 * 1%);
     }
 }
+
 /*------*/
