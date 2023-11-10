@@ -488,6 +488,9 @@
       border: 1px solid rgba(173, 173, 173, 0.2);
       height: 14px !important;
    }
+   .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .rate {
+      margin-left: 0;
+   }
    .b-stats_bar.anime .stat_name[data-type="planned"]:hover {
       color: #efecdb !important;
       border: 3px solid rgba(var(--hover-color), 0.7);
