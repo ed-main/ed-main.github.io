@@ -3138,7 +3138,7 @@ p {
 }
 
 .shade {
-    background: rgba(var(--menu-back), 0.4)!important;
+    background: rgba(var(--menu-back), 0)!important;
 }
 .popup-content {
     border-radius: 12px;
