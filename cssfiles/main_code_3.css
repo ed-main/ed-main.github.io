@@ -579,7 +579,7 @@ hr {
 }
 
 .b-shiki_editor footer .hide {
-    display: inline-block;
+    display: none;
     opacity: 0.6;
 }
 
