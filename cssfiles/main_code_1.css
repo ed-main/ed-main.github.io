@@ -1973,7 +1973,17 @@ header.head a.misc:hover {
     font-size: 14px;
     border: none !important;
 }
-
+/* Цвет кнопок тесктового редактора в состоянии hover */
+.buttons .editor-italic:hover:before,
+.buttons .editor-spoiler:hover:before,
+.buttons .editor-smiley:hover:before,
+.buttons .editor-quote:hover:before,
+.buttons .editor-image:hover:before,
+.buttons .editor-link:hover:before,
+.buttons .editor-strike:hover:before,
+.buttons .editor-underline:hover:before,
+.buttons .editor-bold:hover:before { color: rgba(var(--hover-color), 1); 
+}
 .buttons .editor-italic,
 .buttons .editor-spoiler,
 .buttons .editor-smiley,
