@@ -3266,3 +3266,7 @@ p {
 .p-dashboards-show .v2 .db-updates .inner > .db-update {
     margin-bottom: 0;
 }
+/*Новый тех ред > убрать кнопку Скрыть*/
+.b-shiki_editor-v2 footer .hide {
+    display: none!important;
+}
