@@ -3269,4 +3269,7 @@ p {
 /*Новый тех ред > убрать кнопку Скрыть*/
 .b-shiki_editor-v2 footer .hide {
     display: none!important;
+} /*Новый тех ред */
+ .p-topics-index .b-shiki_editor-v2 footer .hide {
+    display: inline-block!important;
 }
