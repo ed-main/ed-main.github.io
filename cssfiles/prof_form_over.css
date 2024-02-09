@@ -531,6 +531,10 @@ body.p-achievements.p-profiles.p-profiles .b-achievement img,
 body.p-achievements.p-profiles.p-profiles .b-badge img {
     image-rendering: -webkit-optimize-contrast;
   }
+body {
+    height: auto;
+    padding-bottom: 0px;
+  }
 }
 /*.about .b-catalog_entry,
   .about .b-catalog_entry:last-child {*/
