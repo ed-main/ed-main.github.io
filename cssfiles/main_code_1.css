@@ -71,6 +71,7 @@ html {
 body {
     height: auto;
     min-height: 100%;
+    padding-bottom: 1px;
     width: -moz-available;
     overflow-x: hidden;
     overflow-y: auto;
