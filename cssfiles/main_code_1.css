@@ -64,12 +64,12 @@ body {
 html {
     height: 100%;
     min-height: 100%;
+    overflow: visible;
     background-color: #151515;
 }
 
 body {
-    position: absolute;
-    inset: 0 0 auto 0;
+    height: 100%;
     min-height: 100%;
     width: -moz-available;
     overflow-x: hidden;
@@ -89,7 +89,7 @@ body:after {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: -1;
     background-repeat: no-repeat;
     background-position-x: center;
     -webkit-background-size: cover;
