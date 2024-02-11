@@ -8,7 +8,6 @@
     .global-search input *:before {
         transition: 0s all, background 0.2s, color 0.2s;
     }
-
     .menu-dropdown.profile .text {
         transition: none;
     }
@@ -30,7 +29,6 @@
     #profiles_show .cc-3 > .c-column {
         margin-bottom: 10px;
     }
-
     .l-top_menu-v2 .menu-dropdown.profile {
         margin-left: 14px;
     }
@@ -44,7 +42,6 @@
         background: rgba(var(--block-color), 0.7);
         box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.15);
     }
-
     .l-top_menu-v2 .submenu > a {
         border-radius: 20px;
         margin: 0 4px;
@@ -3311,7 +3308,7 @@
       width: 100%;
       box-shadow: 0 0 0 2px rgba(var(--block-color), 0.6);
       padding: 2px;
-      margin: 15px 0.65% 15px 0.65%;
+      margin: 15px 1% 15px 1%;
       transition: 0s ease-out, box-shadow 0.2s ease-out, transform 0.2s ease-out;
    }
    #profiles_show.p-profiles-show
@@ -3338,7 +3335,8 @@
    }
    #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
       width: 22%;
-      margin: 3px 2% 0 0;
+      margin: 3px 3.6% 0 0;
+      right: -3px; 
       transition: filter 0.25s ease-in-out; 
    }
    #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:hover {
