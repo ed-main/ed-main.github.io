@@ -35,13 +35,21 @@
     #profiles_show .profile-head .c-brief .avatar img { /* test */
         pointer-events: none;
     }
-       #profiles_show .b-achievement .c-image .inner a img,
-  #profiles_show .b-achievement .c-image .inner a .no-image,
-  .cc-franchises .b-badge img,
-  .cc-franchises .b-badge .no-image,
-  body#profiles_show.p-achievements.p-profiles.p-profiles .b-achievement img,
-  body#profiles_show.p-achievements.p-profiles.p-profiles .b-badge img {
-    image-rendering: initial!important;
+    #profiles_show .b-achievement .c-image .inner a img,
+    #profiles_show .b-achievement .c-image .inner a .no-image,
+    .cc-franchises .b-badge img,
+    .cc-franchises .b-badge .no-image,
+    body#profiles_show.p-achievements.p-profiles.p-profiles .b-achievement img,
+    body#profiles_show.p-achievements.p-profiles.p-profiles .b-badge img {
+        image-rendering: initial!important;
+    }
+    #profiles_show .achievements .cc-2 > .c-column:first-child .header,
+    #profiles_show .achievements .cc-2 > .c-column:nth-child(3) .header {
+        margin-left: -5px;
+    }
+    #profiles_show .achievements .cc-2 > .c-column:nth-child(2) .header,
+    #profiles_show .achievements .cc-2 > .c-column:nth-child(4) .header {
+        margin-right: -5px;
     } 
 }
 
