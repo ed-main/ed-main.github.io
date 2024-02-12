@@ -129,7 +129,7 @@
     font-size: 13px;
     color: #fff;
     z-index: 15;
-    transition: 0.4s ease-in-out, margin 0s, padding 0s,line-height 0s;
+    transition: 0.4s ease-in-out, margin 0s, padding 0s, line-height 0s;
   }
   #profiles_show .c-column.c-left::before {
     width: 110px;
@@ -244,7 +244,7 @@
     margin: 0;
     z-index: 4;
   }
-#profiles_show .profile-head .c-info .c-additionals {
+  #profiles_show .profile-head .c-info .c-additionals {
     display: inline-flex;
     position: relative;
     overflow: visible;
@@ -256,8 +256,9 @@
     font-size: 13px;
     background: none;
     z-index: 15;
-    text-shadow: 1px -1px 0px rgba(var(--nick-cover), 0.3), -1px 1px 0px rgba(var(--nick-cover), 0.3), -1px -1px 0px rgba(var(--nick-cover), 0.3), 1px 1px 0px rgba(var(--nick-cover), 0.3), 0px -1px 0px rgba(var(--nick-cover), 0.3), 0px 1px 0px rgba(var(--nick-cover), 0.3), 1px 0px 0px rgba(var(--nick-cover), 0.3), -1px 0px 0px rgba(var(--nick-cover), 0.3);
-}
+    text-shadow: 1px -1px 0px rgba(var(--nick-cover), 0.3), -1px 1px 0px rgba(var(--nick-cover), 0.3), -1px -1px 0px rgba(var(--nick-cover), 0.3), 1px 1px 0px rgba(var(--nick-cover), 0.3), 0px -1px 0px rgba(var(--nick-cover), 0.3),
+      0px 1px 0px rgba(var(--nick-cover), 0.3), 1px 0px 0px rgba(var(--nick-cover), 0.3), -1px 0px 0px rgba(var(--nick-cover), 0.3);
+  }
   #profiles_show .profile-head .c-info .c-additionals div a {
     font-size: 13px !important;
     color: rgba(var(--light-color), var(--hundred));
@@ -308,7 +309,7 @@
   #profiles_show .profile-head .c-info {
     position: static;
     overflow: visible;
-    width: auto; 
+    width: auto;
   }
   #profiles_show .profile-actions .fav-remove::before,
   #profiles_show .profile-actions .ignore-remove::before {
@@ -448,14 +449,14 @@
     will-change: transform;
     width: 50px;
   }
- .profile-actions .mail:hover::before,
- .profile-actions .talk:hover::before,
- .profile-actions .fav-remove:hover::before,
- .profile-actions .ban:hover::before,
- .profile-actions .fav-add:hover::before,
- .profile-actions .settings:hover::before,
- .profile-actions .ignore-add:hover::before,
- .profile-actions .ignore-remove:hover::before {
+  .profile-actions .mail:hover::before,
+  .profile-actions .talk:hover::before,
+  .profile-actions .fav-remove:hover::before,
+  .profile-actions .ban:hover::before,
+  .profile-actions .fav-add:hover::before,
+  .profile-actions .settings:hover::before,
+  .profile-actions .ignore-add:hover::before,
+  .profile-actions .ignore-remove:hover::before {
     transform: translateY(-0.5rem);
   }
   #profiles_show.x1200 .c-right,
@@ -486,18 +487,44 @@
     left: 0.3rem;
   }
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
-     margin: 3px 2% 0 0;
+    width: 100%;
+    right: 0;
+    padding-bottom: 12.065%;
+    margin: 3px 0.67% 0 0.67%;
   }
+  #profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement,
+  #profiles_show .achievements .c-column:nth-child(2) .cc-achievements .b-achievement,
   #profiles_show.p-profiles-show .achievements .cc-authors .b-achievement {
-     margin: 15px 0.65% 15px 0.65%;
+    margin-left: 0.65%;
+    margin-right: 0.65%;
+    inset: 0;
   }
-  /*#profiles_show .cc-2 > .c-column {
+  #profiles_show .achievements .header {
+    margin: 4px 15px;
+  }
+  #profiles_show .achievements .cc-2 > .c-column:first-child,
+  #profiles_show .achievements .cc-2 > .c-column:nth-child(2) {
     width: 50%;
+    margin: 0 0 8px;
+  }
+  #profiles_show .achievements .cc-2 > .c-column:nth-child(3),
+  #profiles_show .achievements .cc-2 > .c-column:nth-child(4) {
+    margin-left: 0;
+    width: 50%;
+    margin-bottom: -0.2%;
+  }
+  #profiles_show .cc-achievements,
+  #profiles_show .cc-franchises,
+  #profiles_show .achievements .cc-authors {
+    padding: 0 25px;
+  }
+
+  body#profiles_show .cc-franchises .b-badge img {
+    position: absolute;
     height: 100%;
-    margin-right: 0;
-    margin-bottom: 10px;
-    float: left;
-  }*/
+    width: 100%;
+    inset: 0;
+  }
   #profiles_show .b-topic {
     padding-left: 1%;
     padding-right: 1%;
@@ -530,14 +557,14 @@
     transition: none;
   }
   .b-achievement .c-image .inner a img,
-.b-achievement .c-image .inner a .no-image,
-.cc-franchises .b-badge img,
-.cc-franchises .b-badge .no-image,
-body.p-achievements.p-profiles.p-profiles .b-achievement img,
-body.p-achievements.p-profiles.p-profiles .b-badge img {
+  .b-achievement .c-image .inner a .no-image,
+  .cc-franchises .b-badge img,
+  .cc-franchises .b-badge .no-image,
+  body.p-achievements.p-profiles.p-profiles .b-achievement img,
+  body.p-achievements.p-profiles.p-profiles .b-badge img {
     image-rendering: -webkit-optimize-contrast;
   }
-body {
+  body {
     height: auto;
     padding-bottom: 0px;
   }
@@ -556,27 +583,23 @@ body {
   }
 }
 @media screen and (min-width: 1450px) {
-   .about .b-catalog_entry,
+  .about .b-catalog_entry,
   .about .b-catalog_entry:last-child {
     width: calc(100% / 10) !important;
   }
 }
 @media screen and (min-width: 1650px) {
-   .about .b-catalog_entry,
+  .about .b-catalog_entry,
   .about .b-catalog_entry:last-child {
     width: calc(100% / 11) !important;
   }
 }
 @media screen and (min-width: 1900px) {
-   .about .b-catalog_entry,
+  .about .b-catalog_entry,
   .about .b-catalog_entry:last-child {
     width: calc(100% / 12) !important;
   }
 }
-
-
-
-
 
 /*------*/
 @media screen and (min-width: 1500px) {
@@ -585,7 +608,7 @@ body {
     width: calc(100% / 5) !important;
   }
 }
- /*------*/
+/*------*/
 @media screen and (min-width: 1200px) {
   .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry,
   .about .Razmer-v2-row-1 .Animes_Mangas-1 .b-catalog_entry:last-child {
@@ -643,29 +666,27 @@ body {
   }
 }
 
-
-
 /*------*/
 @media screen and (min-width: 1300px) {
-    .Anime-v-0-1 {
-        width: calc(100% / 9 - 1 * 1%);
-    }
+  .Anime-v-0-1 {
+    width: calc(100% / 9 - 1 * 1%);
+  }
 }
 @media screen and (min-width: 1450px) {
-    .Anime-v-0-1 {
-        width: calc(100% / 10 - 1 * 1%);
-    }
+  .Anime-v-0-1 {
+    width: calc(100% / 10 - 1 * 1%);
+  }
 }
 @media screen and (min-width: 1600px) {
-    .Anime-v-0-1 {
-        width: calc(100% / 11 - 1 * 1%);
-        margin: 5px 0.37% 3.5rem 0.37%;
-    }
+  .Anime-v-0-1 {
+    width: calc(100% / 11 - 1 * 1%);
+    margin: 5px 0.37% 3.5rem 0.37%;
+  }
 }
 @media screen and (min-width: 1900px) {
-    .Anime-v-0-1 {
-        width: calc(100% / 12 - 1 * 1%);
-        margin: 5px 0.37% 3.5rem 0.37%;
-    }
+  .Anime-v-0-1 {
+    width: calc(100% / 12 - 1 * 1%);
+    margin: 5px 0.37% 3.5rem 0.37%;
+  }
 }
 /*------*/
