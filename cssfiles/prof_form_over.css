@@ -485,6 +485,12 @@
     z-index: 3;
     left: 0.3rem;
   }
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
+     margin: 3px 2% 0 0;
+  }
+  #profiles_show.p-profiles-show .achievements .cc-authors .b-achievement {
+     margin: 15px 0.65% 15px 0.65%;
+  }
   /*#profiles_show .cc-2 > .c-column {
     width: 50%;
     height: 100%;
