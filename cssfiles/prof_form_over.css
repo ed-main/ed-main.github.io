@@ -516,7 +516,7 @@
   #profiles_show .cc-achievements,
   #profiles_show .cc-franchises,
   #profiles_show .achievements .cc-authors {
-    padding: 0 25px;
+    padding: 0 5px;
   }
 
   body#profiles_show .cc-franchises .b-badge img {
