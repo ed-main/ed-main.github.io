@@ -3336,7 +3336,7 @@
    #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
       width: 22%;
       margin: 3px 3.6% 0 0;
-      right: -3px; 
+      right: -5.65px; 
       transition: filter 0.25s ease-in-out; 
    }
    #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:hover {
