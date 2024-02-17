@@ -50,6 +50,17 @@
     #profiles_show .achievements .cc-2 > .c-column:nth-child(2) .header,
     #profiles_show .achievements .cc-2 > .c-column:nth-child(4) .header {
         margin-right: -5px;
+    }
+    #profiles_show.p-profiles-show .achievements .cc-authors .b-achievement {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #profiles_show .achievements .c-column:nth-child(1) .cc-achievements .b-achievement,
+    #profiles_show .achievements .c-column:nth-child(2) .cc-achievements .b-achievement {
+        width: 23%;
+    }
+    #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge {
+        margin: 3px 1% 0 1%;
     } 
 }
 
