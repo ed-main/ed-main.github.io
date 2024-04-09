@@ -2644,14 +2644,21 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
     object-fit: cover;
     object-position: center;
 }
-
+/*Коллекции фикс ещё +*/
+.image-cutter.see-more.image-cutter::before {
+    padding-bottom: 39%;
+}
+/*почта-Назад-Вперёд → фикс на 100%*/
+.p-messages .b-postloader.collapsed {
+    width: 100%;
+    margin-top: 5px;
+}
 .cc-favourites {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
-
 .b-dialog .to_dialog:after, .to-review:after {
     font-size: 11px;
     padding: 3px 2px 2px 15px;
