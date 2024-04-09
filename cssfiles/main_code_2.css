@@ -2653,6 +2653,10 @@ body#profiles_edit .b-catalog_entry .cover .image-decor img {
     width: 100%;
     margin-top: 5px;
 }
+/*clubs-Назад-Вперёд → фикс на 100%*/
+.b-clubs.index .b-postloader {
+    width: 100%;
+}
 .cc-favourites {
     display: flex;
     flex-wrap: wrap;
